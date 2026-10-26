@@ -1,0 +1,152 @@
+{
+  "block": "0x190f965",
+  "observed_utc": "2026-10-26T17:30:33.564090+00:00",
+  "results": [
+    {
+      "label": "14 getMarketTokenAddress",
+      "address": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+      "signature": "getMarketTokenAddress(uint256)",
+      "args": [
+        14
+      ],
+      "block": "0x190f965",
+      "success": true,
+      "raw": "0x000000000000000000000000cccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "decoded": [
+        "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc"
+      ]
+    },
+    {
+      "label": "14 getMarketTotalWei",
+      "address": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+      "signature": "getMarketTotalWei(uint256)",
+      "args": [
+        14
+      ],
+      "block": "0x190f965",
+      "success": true,
+      "raw": "0x000000000000000000000000000000000000000000000000af51d0678bb169b700000000000000000000000000000000000000000000000163cf4bed84af92e4",
+      "decoded": [
+        12633107572894820791,
+        25638794687148954340
+      ]
+    },
+    {
+      "label": "14 getMarketMaxSupplyWei",
+      "address": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+      "signature": "getMarketMaxSupplyWei(uint256)",
+      "args": [
+        14
+      ],
+      "block": "0x190f965",
+      "success": true,
+      "raw": "0x00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001",
+      "decoded": [
+        true,
+        1
+      ]
+    },
+    {
+      "label": "14 getMarketMaxBorrowWei",
+      "address": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+      "signature": "getMarketMaxBorrowWei(uint256)",
+      "args": [
+        14
+      ],
+      "block": "0x190f965",
+      "success": true,
+      "raw": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001",
+      "decoded": [
+        false,
+        1
+      ]
+    },
+    {
+      "label": "14 getMarketIsClosing",
+      "address": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+      "signature": "getMarketIsClosing(uint256)",
+      "args": [
+        14
+      ],
+      "block": "0x190f965",
+      "success": true,
+      "raw": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "decoded": [
+        false
+      ]
+    },
+    {
+      "label": "15 getMarketTokenAddress",
+      "address": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+      "signature": "getMarketTokenAddress(uint256)",
+      "args": [
+        15
+      ],
+      "block": "0x190f965",
+      "success": true,
+      "raw": "0x00000000000000000000000088887be419578051ff9f4eb6c858a951921d8888",
+      "decoded": [
+        "0x88887be419578051ff9f4eb6c858a951921d8888"
+      ]
+    },
+    {
+      "label": "15 getMarketTotalWei",
+      "address": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+      "signature": "getMarketTotalWei(uint256)",
+      "args": [
+        15
+      ],
+      "block": "0x190f965",
+      "success": true,
+      "raw": "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000023f7f32b7ef7e855df6",
+      "decoded": [
+        0,
+        10616043432813892296182
+      ]
+    },
+    {
+      "label": "15 getMarketMaxSupplyWei",
+      "address": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+      "signature": "getMarketMaxSupplyWei(uint256)",
+      "args": [
+        15
+      ],
+      "block": "0x190f965",
+      "success": true,
+      "raw": "0x00000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001",
+      "decoded": [
+        true,
+        1
+      ]
+    },
+    {
+      "label": "15 getMarketMaxBorrowWei",
+      "address": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+      "signature": "getMarketMaxBorrowWei(uint256)",
+      "args": [
+        15
+      ],
+      "block": "0x190f965",
+      "success": true,
+      "raw": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "decoded": [
+        false,
+        0
+      ]
+    },
+    {
+      "label": "15 getMarketIsClosing",
+      "address": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+      "signature": "getMarketIsClosing(uint256)",
+      "args": [
+        15
+      ],
+      "block": "0x190f965",
+      "success": true,
+      "raw": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "decoded": [
+        true
+      ]
+    }
+  ]
+}

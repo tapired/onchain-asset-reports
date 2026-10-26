@@ -1,0 +1,56 @@
+{
+  "url": "https://rpc.tempo.xyz",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getBlockByNumber",
+    "params": [
+      "latest",
+      false
+    ]
+  },
+  "observed_utc": "2026-10-26T17:12:39.892266+00:00",
+  "http_status": 200,
+  "body": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+      "hash": "0x614a9f3ce7251e3bb66779fce69e56cc38a6c9a6d406eb14457031888a7b0943",
+      "mainBlockGeneralGasLimit": "0x1c9c380",
+      "sharedGasLimit": "0x0",
+      "timestampMillisPart": "0x364",
+      "parentHash": "0x0954bc629cf8aa26abc339e05508d4053853c1d666f952a442022fde066ed233",
+      "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+      "miner": "0xd09bd7e2f389181aafb39c2077d8fcd6853245d8",
+      "stateRoot": "0x7305d964c022ec609e28bc1c5f1a7c37460afdeb40d9595b23a9bc6c0daeac4f",
+      "transactionsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+      "receiptsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "difficulty": "0x0",
+      "number": "0x2be07fd",
+      "gasLimit": "0x1dcd6500",
+      "gasUsed": "0x0",
+      "timestamp": "0x6adf8a06",
+      "extraData": "0x",
+      "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "nonce": "0x0000000000000000",
+      "baseFeePerGas": "0x23c34600",
+      "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+      "blobGasUsed": "0x0",
+      "excessBlobGas": "0x0",
+      "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "consensusContext": {
+        "epoch": 2130,
+        "view": 318,
+        "parentView": 317,
+        "proposer": "0x2979a64f27d1acdbcafe6a01838c10b0cd174b3c642f851162ab194a45e302cd"
+      },
+      "size": "0x2a3",
+      "timestampMillis": "0x1a179332ad4",
+      "uncles": [],
+      "transactions": [],
+      "withdrawals": []
+    }
+  }
+}

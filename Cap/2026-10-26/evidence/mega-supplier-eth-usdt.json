@@ -1,0 +1,528 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/addresses/0x8a4aa69f694da05c042c2e59bb9a86f198361799/token-transfers?token=0xdac17f958d2ee523a2206206994597c13d831ec7",
+  "request": null,
+  "observed_utc": "2026-10-26T17:36:47.461549+00:00",
+  "http_status": 200,
+  "body": {
+    "items": [
+      {
+        "block_hash": "0xe6839257a2f31f587df57a1ad888c6d8d37c3b6254e7f9d4ac5fe05113e8bbc8",
+        "block_number": 25652321,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xf9861635BFC063ea3030e0d4F1069b56f39E6156",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1379,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-07-31T10:44:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8a4AA69F694Da05C042C2E59bb9a86F198361799",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Smart Account by Safe",
+                "ordinal": 0,
+                "slug": "smart-account-by-safe",
+                "tagType": "generic"
+              }
+            ]
+          },
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "circulating_market_cap": "182285489258.5963",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.998855",
+          "holders_count": "16940923",
+          "icon_url": "https://assets.coingecko.com/coins/images/325/small/Tether.png?1696501661",
+          "name": "Tether",
+          "reputation": "ok",
+          "symbol": "USDT",
+          "total_supply": "88301265725970534",
+          "type": "ERC-20",
+          "volume_24h": "45288209527.127975"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "2000000"
+        },
+        "transaction_hash": "0x2d099a88c79d81b7e2aa5240559f6f6714c195153b48cfed84dda46811c1ac03",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x81195a7551fa1f4f9340e8af5ee009ddb31cfa8368ecb79e7e34396a240e172f",
+        "block_number": 24754468,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xf8DfC8B715BEDDCba270E317676dbc3513288599",
+          "implementations": [
+            {
+              "address_hash": "0x3Fc8c2b6e4Ea901721aEF251C67bC7C2591a1e1F",
+              "name": null
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 288,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-03-28T07:07:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8a4AA69F694Da05C042C2E59bb9a86F198361799",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Smart Account by Safe",
+                "ordinal": 0,
+                "slug": "smart-account-by-safe",
+                "tagType": "generic"
+              }
+            ]
+          },
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "circulating_market_cap": "182285489258.5963",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.998855",
+          "holders_count": "16940923",
+          "icon_url": "https://assets.coingecko.com/coins/images/325/small/Tether.png?1696501661",
+          "name": "Tether",
+          "reputation": "ok",
+          "symbol": "USDT",
+          "total_supply": "88301265725970534",
+          "type": "ERC-20",
+          "volume_24h": "45288209527.127975"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "102"
+        },
+        "transaction_hash": "0xfa155c398cd4e036a5c53b2e5377576682a312c50686fec690b316d6d60e7411",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xf2bd567e518e2b60c5b024a1e4070af0ca05a39023f8b1bbb279c7cedb6a88a8",
+        "block_number": 24495559,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8a4AA69F694Da05C042C2E59bb9a86F198361799",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Smart Account by Safe",
+                "ordinal": 0,
+                "slug": "smart-account-by-safe",
+                "tagType": "generic"
+              }
+            ]
+          },
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 499,
+        "method": "0x6a761202",
+        "timestamp": "2026-02-20T04:05:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xf8DF0b22F4A098af758689Dd05AE5DB71aE58599",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "circulating_market_cap": "182285489258.5963",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.998855",
+          "holders_count": "16940923",
+          "icon_url": "https://assets.coingecko.com/coins/images/325/small/Tether.png?1696501661",
+          "name": "Tether",
+          "reputation": "ok",
+          "symbol": "USDT",
+          "total_supply": "88301265725970534",
+          "type": "ERC-20",
+          "volume_24h": "45288209527.127975"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "1025240000000"
+        },
+        "transaction_hash": "0x2859b5a3cf6ad1dec4e2876f5983e71915aa3e0c3bc8fc32db2b8054e44233a7",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xc10db27ace0a5b0ea0e7c01a55e90ac0ce0f40f07eb11fe59be90acfc9c9dc8b",
+        "block_number": 24477572,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x3b98B9e9Cb75C1cb1729Aab8f09Ced2936505E4f",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipUrl": "https://www.okx.com/"
+                },
+                "name": "OKX 217",
+                "ordinal": 10,
+                "slug": "okx-217",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Exchange",
+                "ordinal": 0,
+                "slug": "exchange",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address has been tagged based on hildobby compilation."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 290,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-02-17T15:53:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8a4AA69F694Da05C042C2E59bb9a86F198361799",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Smart Account by Safe",
+                "ordinal": 0,
+                "slug": "smart-account-by-safe",
+                "tagType": "generic"
+              }
+            ]
+          },
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "circulating_market_cap": "182285489258.5963",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.998855",
+          "holders_count": "16940923",
+          "icon_url": "https://assets.coingecko.com/coins/images/325/small/Tether.png?1696501661",
+          "name": "Tether",
+          "reputation": "ok",
+          "symbol": "USDT",
+          "total_supply": "88301265725970534",
+          "type": "ERC-20",
+          "volume_24h": "45288209527.127975"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "1025240000000"
+        },
+        "transaction_hash": "0x53a505c0fb81f8332adb8d698ed9ee8c60d3455e7b0e65f2625768dd4cbb6512",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xc9b49d4e982b41f62e18054d14e8f8a06fd5cbc3a2ba0f2f1c63e3b73ff16128",
+        "block_number": 24477318,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x8a4AA69F694Da05C042C2E59bb9a86F198361799",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Smart Account by Safe",
+                "ordinal": 0,
+                "slug": "smart-account-by-safe",
+                "tagType": "generic"
+              }
+            ]
+          },
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1003,
+        "method": "0x6a761202",
+        "timestamp": "2026-02-17T15:02:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xf8DF0b22F4A098af758689Dd05AE5DB71aE58599",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "circulating_market_cap": "182285489258.5963",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.998855",
+          "holders_count": "16940923",
+          "icon_url": "https://assets.coingecko.com/coins/images/325/small/Tether.png?1696501661",
+          "name": "Tether",
+          "reputation": "ok",
+          "symbol": "USDT",
+          "total_supply": "88301265725970534",
+          "type": "ERC-20",
+          "volume_24h": "45288209527.127975"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "10000000"
+        },
+        "transaction_hash": "0x379c457945fd45dbc9130fefdf3d191ac9fcf4f1df7bafa951a3749d27a0c02e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x5dfea68bb1653c1de569e169d6489f3ff609324d0eb3c8e682ec11ee2099c28e",
+        "block_number": 24477265,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x3b98B9e9Cb75C1cb1729Aab8f09Ced2936505E4f",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipUrl": "https://www.okx.com/"
+                },
+                "name": "OKX 217",
+                "ordinal": 10,
+                "slug": "okx-217",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Exchange",
+                "ordinal": 0,
+                "slug": "exchange",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address has been tagged based on hildobby compilation."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 514,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-02-17T14:51:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x8a4AA69F694Da05C042C2E59bb9a86F198361799",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Smart Account by Safe",
+                "ordinal": 0,
+                "slug": "smart-account-by-safe",
+                "tagType": "generic"
+              }
+            ]
+          },
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+          "circulating_market_cap": "182285489258.5963",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.998855",
+          "holders_count": "16940923",
+          "icon_url": "https://assets.coingecko.com/coins/images/325/small/Tether.png?1696501661",
+          "name": "Tether",
+          "reputation": "ok",
+          "symbol": "USDT",
+          "total_supply": "88301265725970534",
+          "type": "ERC-20",
+          "volume_24h": "45288209527.127975"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "10000000"
+        },
+        "transaction_hash": "0x02b3805a428697ca3350502beb95540ce4ff5c384f218e781d0dc2a1185d8297",
+        "type": "token_transfer"
+      }
+    ],
+    "next_page_params": null
+  }
+}

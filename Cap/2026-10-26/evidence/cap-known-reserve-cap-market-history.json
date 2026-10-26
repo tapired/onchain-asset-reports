@@ -1,0 +1,23 @@
+{
+  "url": "https://api.morpho.org/graphql",
+  "request": {
+    "query": "{marketTransactions(first:1000,where:{chainId_in:[1],userAddress_in:[\"0xcccc62962d17b8914c62d74ffb843d73b2a3cccc\", \"0x3ed6aa32c930253fc990de58ff882b9186cd0072\", \"0xbaed9839573d349e42dfbf23a8916e5ab9caf2e3\", \"0x8092c20351cf4048b464df2144dc8a4dd49ce71d\", \"0xbeef088055857739c12cd3765f20b7679def0f51\", \"0x8c106eedad96553e64287a5a6839c3cc78afa3d0\", \"0x2b9681015a1fa2225d1fc8ae40538d3d64c58290\"],marketUniqueKey_in:[\"0xfd039edc69eac5eaab4a10463fdbcaca75d6eddb1f0e00248d73fc977fb2554b\", \"0xf948456f472a1c22bbdf9df887311842e21fa2bb9b64658a2d017fa6bc2a689f\", \"0xf3bbae74a04e4ec22de4b1f2ea313290c0a50839c038eca27aa4e5e10325bf9c\", \"0xeb17955ea422baeddbfb0b8d8c9086c5be7a9cfdefb292119a102e981a30062e\", \"0xe7f998c0ff11ca2bf091d39b6a3cef1035733528187d520c1c47710c8f1acaeb\", \"0xe1fea9eb02bc317896351ecac1fc57c9ab58e06630d4510c6fa2cba1fcb0014a\", \"0xdbf4bc065d4e76f4505a523f2bba5e5ccdca94c16d67c3a6ff1dadbcbb26d4aa\", \"0xc8e32d7c6b217b0a620cd881549e9d66d9a4703c9473d1eee00d6033b4f839c5\", \"0xc3a8c2088e2474829088ed5496cc832fc0ecf582df34a14e353b607034d0376d\", \"0x944f5ebb33029e05ee338c2f4eb6ce0952f43a0524d5c8dd93d2e58a8dd8b55c\", \"0x9245300ba4a0a4e9ca6180714718a6bb72b2ebe141745fd476e0fcd2641135fe\", \"0x8abcf6d7bb7a4bd8720fef5fa27917ac50a88cf2bf1a97002f43fec3919a373c\", \"0x802ec6e878dc9fe6905b8a0a18962dcca10440a87fa2242fbf4a0461c7b0c789\", \"0x702b7ec7628de2622e51e1bb34a7e6ad9e95f3a25a2ed361e4ce621f23f5e642\", \"0x6b52b01a57cb5b6d4d22ad6025c87c387dfa2cc8e416e61b20eb4f8826b7a070\", \"0x5eaaebc81e9e27972ab458811d1b60828e8ab51ef6620f9b3918fd7e68eecec1\", \"0x54e42432a7c0309ba650080cab6fcff377034fd9de174bbd3a4b519186ffc0f8\", \"0x3b4a3f2c1f0f48330b4284a0595ed76a4add5bf153bab55aefea734b937076e7\", \"0x3845819ef4d8ad934bdb923d7112653adfa9efa19acffeafc3ff75043d301231\", \"0x354c1d720e5939819d37b07c63fadea3bdfef6a9fea3422c685adf8daf0132dd\", \"0x335e8e8f1324b1e43e16c5101f4db793fed10a6e63340bc4b3ad38106559e9d9\", \"0x2fb3713487c7812e7309935b034f40228841666f6b048faf31fd2110ae674f20\", \"0x226966874fecfb817a431ffb7458d0acb082579eb99b448e9ec98d9249e06341\", \"0x21181d33ac70b7290592338113e5af6e68c0e623ffaf932515727bb35f5690ef\", \"0x17b7b7b9b5907e2aa759661a1dc8749c43de5b2aa990ccc0bdfdbf1badb7dab3\", \"0x03f715ef1ae508ab3e1faf4dffdbf2a077d1f0ad10c5aad42cf4438d5e3328af\"]}){items{txHash timestamp blockNumber logIndex type user{address} market{marketId collateralAsset{symbol address} loanAsset{symbol address}} data{__typename ... on MarketTransactionTransferData{assets shares} ... on MarketTransactionCollateralTransferData{assets}}} pageInfo{count countTotal}}}"
+  },
+  "observed_utc": "2026-10-26T17:19:50.844699+00:00",
+  "http_status": 200,
+  "body": {
+    "data": {
+      "marketTransactions": {
+        "items": [],
+        "pageInfo": {
+          "count": 0,
+          "countTotal": 0
+        }
+      }
+    },
+    "extensions": {
+      "complexity": 235000,
+      "maximumComplexity": 1000000
+    }
+  }
+}

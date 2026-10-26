@@ -1,0 +1,188 @@
+{
+  "hash": "0xc84a543ad67d5142dd17eb68b93a37f3f9ffc0f1d8f628bcc00e0ddd7ccc8dd4",
+  "status": "0x1",
+  "block": 24618883,
+  "utc": "2026-03-09T09:00:35+00:00",
+  "from": "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d",
+  "to": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+  "logs": [
+    {
+      "logIndex": 327,
+      "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+      "event": "ReserveDataUpdated",
+      "params": {
+        "liquidityRate": 16282670603575801828158712,
+        "stableBorrowRate": 0,
+        "variableBorrowRate": 28046629141328947467091746,
+        "liquidityIndex": 1163909784383842216846678416,
+        "variableBorrowIndex": 1220619051150824338781975664,
+        "reserve": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      }
+    },
+    {
+      "logIndex": 328,
+      "address": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+      "event": "Transfer",
+      "params": {
+        "value": 9999899874313,
+        "from": "0x7d7f72d393f242da6e22d3b970491c06742984ff",
+        "to": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "logIndex": 329,
+      "address": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+      "event": "Burn",
+      "params": {
+        "netLpBurned": 9999899874313,
+        "netSyOut": 125687,
+        "netPtOut": 1163909784383842216846678416,
+        "receiverSy": "0x7d7f72d393f242da6e22d3b970491c06742984ff",
+        "receiverPt": "0x7d7f72d393f242da6e22d3b970491c06742984ff"
+      }
+    },
+    {
+      "logIndex": 330,
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "event": "Transfer",
+      "params": {
+        "value": 9999900000000,
+        "from": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+        "to": "0x7d7f72d393f242da6e22d3b970491c06742984ff"
+      }
+    },
+    {
+      "logIndex": 331,
+      "address": "0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2",
+      "event": "Withdraw",
+      "params": {
+        "amount": 9999900000000,
+        "reserve": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "user": "0x7d7f72d393f242da6e22d3b970491c06742984ff",
+        "to": "0x7d7f72d393f242da6e22d3b970491c06742984ff"
+      }
+    },
+    {
+      "logIndex": 332,
+      "address": "0x7d7f72d393f242da6e22d3b970491c06742984ff",
+      "event": "Transfer",
+      "params": {
+        "value": 9780218728870,
+        "from": "0x3ed6aa32c930253fc990de58ff882b9186cd0072",
+        "to": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "logIndex": 333,
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "event": "Transfer",
+      "params": {
+        "value": 9999900000000,
+        "from": "0x7d7f72d393f242da6e22d3b970491c06742984ff",
+        "to": "0x3ed6aa32c930253fc990de58ff882b9186cd0072"
+      }
+    },
+    {
+      "logIndex": 334,
+      "address": "0x7d7f72d393f242da6e22d3b970491c06742984ff",
+      "event": "Withdraw",
+      "params": {
+        "assets": 9999900000000,
+        "shares": 9780218728870,
+        "caller": "0x3ed6aa32c930253fc990de58ff882b9186cd0072",
+        "receiver": "0x3ed6aa32c930253fc990de58ff882b9186cd0072",
+        "owner": "0x3ed6aa32c930253fc990de58ff882b9186cd0072"
+      }
+    },
+    {
+      "logIndex": 335,
+      "address": "0x3ed6aa32c930253fc990de58ff882b9186cd0072",
+      "topics": [
+        "0x5e2b8821ad6e0e26207e0cb4d242d07eeb1cbb1cfd853e645bdcd27cc5484f95",
+        "0x0000000000000000000000007d7f72d393f242da6e22d3b970491c06742984ff"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000128ccd7583fb0000000000000000000000000000000000000000000000000000097484f8c4fb"
+    },
+    {
+      "logIndex": 336,
+      "address": "0x3ed6aa32c930253fc990de58ff882b9186cd0072",
+      "event": "Transfer",
+      "params": {
+        "value": 9775565331025,
+        "from": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+        "to": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "logIndex": 337,
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "event": "Transfer",
+      "params": {
+        "value": 9999900000000,
+        "from": "0x3ed6aa32c930253fc990de58ff882b9186cd0072",
+        "to": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc"
+      }
+    },
+    {
+      "logIndex": 338,
+      "address": "0x3ed6aa32c930253fc990de58ff882b9186cd0072",
+      "event": "Withdraw",
+      "params": {
+        "assets": 9999900000000,
+        "shares": 9775565331025,
+        "caller": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+        "receiver": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+        "owner": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc"
+      }
+    },
+    {
+      "logIndex": 339,
+      "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "event": "FractionalReserveDivested",
+      "params": {
+        "amount": 9999900000000,
+        "asset": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      }
+    },
+    {
+      "logIndex": 340,
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "event": "Transfer",
+      "params": {
+        "value": 9999900000000,
+        "from": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+        "to": "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d"
+      }
+    },
+    {
+      "logIndex": 341,
+      "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "event": "Borrow",
+      "params": {
+        "amount": 9999900000000,
+        "borrower": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+        "asset": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      }
+    },
+    {
+      "logIndex": 342,
+      "address": "0xfa8c6d0b95d9191b5a1d51c868da2bdfd6c04ff9",
+      "event": "Transfer",
+      "params": {
+        "value": 9999900033959,
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d"
+      }
+    },
+    {
+      "logIndex": 343,
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "event": "Borrow",
+      "params": {
+        "amount": 9999900000000,
+        "asset": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "agent": "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d"
+      }
+    }
+  ]
+}

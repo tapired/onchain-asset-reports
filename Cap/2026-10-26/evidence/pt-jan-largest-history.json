@@ -1,0 +1,330 @@
+{
+  "url": "https://api.morpho.org/graphql",
+  "request": {
+    "query": "{marketTransactions(first:1000,where:{chainId_in:[1],userAddress_in:[\"0x4dfeb30021a5bb94afe33a149050a264fabf4c58\"]}){items{txHash timestamp blockNumber logIndex type user{address} market{marketId collateralAsset{symbol address} loanAsset{symbol address}} data{__typename ... on MarketTransactionTransferData{assets shares} ... on MarketTransactionCollateralTransferData{assets}}} pageInfo{count countTotal}}}"
+  },
+  "observed_utc": "2026-10-26T17:19:50.843495+00:00",
+  "http_status": 200,
+  "body": {
+    "data": {
+      "marketTransactions": {
+        "items": [
+          {
+            "txHash": "0xb1fa784e0496e18d4d581290bcb33f91b9be31dea2e7fdb0a7b579b570e7c9d9",
+            "timestamp": 1764308231,
+            "blockNumber": 23895137,
+            "logIndex": 3568,
+            "type": "Repay",
+            "user": {
+              "address": "0x4Dfeb30021a5bb94aFE33a149050A264FAbf4C58"
+            },
+            "market": {
+              "marketId": "0x03f715ef1ae508ab3e1faf4dffdbf2a077d1f0ad10c5aad42cf4438d5e3328af",
+              "collateralAsset": {
+                "symbol": "PT-stcUSD-29JAN2026",
+                "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 999841960,
+              "shares": 977885114630459
+            }
+          },
+          {
+            "txHash": "0xbaa76f481b651ccbc03918209573182ae919670f0c1fbd6048f48ffb37c85827",
+            "timestamp": 1760916599,
+            "blockNumber": 23614966,
+            "logIndex": 37,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0x4Dfeb30021a5bb94aFE33a149050A264FAbf4C58"
+            },
+            "market": {
+              "marketId": "0x03f715ef1ae508ab3e1faf4dffdbf2a077d1f0ad10c5aad42cf4438d5e3328af",
+              "collateralAsset": {
+                "symbol": "PT-stcUSD-29JAN2026",
+                "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "1860938367972422909471"
+            }
+          },
+          {
+            "txHash": "0x66f3719d2095b3a425dd6bf81dabb1a76eb1f1770b2695905d666a7ed660122a",
+            "timestamp": 1760916335,
+            "blockNumber": 23614944,
+            "logIndex": 83,
+            "type": "Borrow",
+            "user": {
+              "address": "0x4Dfeb30021a5bb94aFE33a149050A264FAbf4C58"
+            },
+            "market": {
+              "marketId": "0x03f715ef1ae508ab3e1faf4dffdbf2a077d1f0ad10c5aad42cf4438d5e3328af",
+              "collateralAsset": {
+                "symbol": "PT-stcUSD-29JAN2026",
+                "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 1800000000,
+              "shares": 1780734281469757
+            }
+          },
+          {
+            "txHash": "0x66f3719d2095b3a425dd6bf81dabb1a76eb1f1770b2695905d666a7ed660122a",
+            "timestamp": 1760916335,
+            "blockNumber": 23614944,
+            "logIndex": 79,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0x4Dfeb30021a5bb94aFE33a149050A264FAbf4C58"
+            },
+            "market": {
+              "marketId": "0x03f715ef1ae508ab3e1faf4dffdbf2a077d1f0ad10c5aad42cf4438d5e3328af",
+              "collateralAsset": {
+                "symbol": "PT-stcUSD-29JAN2026",
+                "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "2067739008953590589798"
+            }
+          },
+          {
+            "txHash": "0x8dd3545e2b5ee3cb393eb3b7ad303eb60b7310969626b7e41c5144be6d805a77",
+            "timestamp": 1760916119,
+            "blockNumber": 23614926,
+            "logIndex": 99,
+            "type": "Borrow",
+            "user": {
+              "address": "0x4Dfeb30021a5bb94aFE33a149050A264FAbf4C58"
+            },
+            "market": {
+              "marketId": "0x03f715ef1ae508ab3e1faf4dffdbf2a077d1f0ad10c5aad42cf4438d5e3328af",
+              "collateralAsset": {
+                "symbol": "PT-stcUSD-29JAN2026",
+                "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 2000000000,
+              "shares": 1978595265627819
+            }
+          },
+          {
+            "txHash": "0x8dd3545e2b5ee3cb393eb3b7ad303eb60b7310969626b7e41c5144be6d805a77",
+            "timestamp": 1760916119,
+            "blockNumber": 23614926,
+            "logIndex": 95,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0x4Dfeb30021a5bb94aFE33a149050A264FAbf4C58"
+            },
+            "market": {
+              "marketId": "0x03f715ef1ae508ab3e1faf4dffdbf2a077d1f0ad10c5aad42cf4438d5e3328af",
+              "collateralAsset": {
+                "symbol": "PT-stcUSD-29JAN2026",
+                "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "2584715438076466198196"
+            }
+          },
+          {
+            "txHash": "0x80e48c3d257aa4e9ba9590584720bed61f77ced4926d79f555e29202a1a96eb9",
+            "timestamp": 1760915603,
+            "blockNumber": 23614883,
+            "logIndex": 144,
+            "type": "Borrow",
+            "user": {
+              "address": "0x4Dfeb30021a5bb94aFE33a149050A264FAbf4C58"
+            },
+            "market": {
+              "marketId": "0x03f715ef1ae508ab3e1faf4dffdbf2a077d1f0ad10c5aad42cf4438d5e3328af",
+              "collateralAsset": {
+                "symbol": "PT-stcUSD-29JAN2026",
+                "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 2500263012,
+              "shares": 2473509107957547
+            }
+          },
+          {
+            "txHash": "0x80e48c3d257aa4e9ba9590584720bed61f77ced4926d79f555e29202a1a96eb9",
+            "timestamp": 1760915603,
+            "blockNumber": 23614883,
+            "logIndex": 140,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0x4Dfeb30021a5bb94aFE33a149050A264FAbf4C58"
+            },
+            "market": {
+              "marketId": "0x03f715ef1ae508ab3e1faf4dffdbf2a077d1f0ad10c5aad42cf4438d5e3328af",
+              "collateralAsset": {
+                "symbol": "PT-stcUSD-29JAN2026",
+                "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "3049921500190583860977"
+            }
+          },
+          {
+            "txHash": "0xc88f52c70fbfc95f749a123960bf24328e4fa9e3d0d736cd6b35183a5114f0d9",
+            "timestamp": 1760915327,
+            "blockNumber": 23614861,
+            "logIndex": 157,
+            "type": "Borrow",
+            "user": {
+              "address": "0x4Dfeb30021a5bb94aFE33a149050A264FAbf4C58"
+            },
+            "market": {
+              "marketId": "0x03f715ef1ae508ab3e1faf4dffdbf2a077d1f0ad10c5aad42cf4438d5e3328af",
+              "collateralAsset": {
+                "symbol": "PT-stcUSD-29JAN2026",
+                "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 2950695308,
+              "shares": 2919124624032948
+            }
+          },
+          {
+            "txHash": "0xc88f52c70fbfc95f749a123960bf24328e4fa9e3d0d736cd6b35183a5114f0d9",
+            "timestamp": 1760915327,
+            "blockNumber": 23614861,
+            "logIndex": 153,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0x4Dfeb30021a5bb94aFE33a149050A264FAbf4C58"
+            },
+            "market": {
+              "marketId": "0x03f715ef1ae508ab3e1faf4dffdbf2a077d1f0ad10c5aad42cf4438d5e3328af",
+              "collateralAsset": {
+                "symbol": "PT-stcUSD-29JAN2026",
+                "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "3515236342739537933914"
+            }
+          },
+          {
+            "txHash": "0x495e9f0ecb207970122abc95cb50ad4218451b28102cdcfbe09a40cb75009f88",
+            "timestamp": 1760914775,
+            "blockNumber": 23614815,
+            "logIndex": 125,
+            "type": "Borrow",
+            "user": {
+              "address": "0x4Dfeb30021a5bb94aFE33a149050A264FAbf4C58"
+            },
+            "market": {
+              "marketId": "0x03f715ef1ae508ab3e1faf4dffdbf2a077d1f0ad10c5aad42cf4438d5e3328af",
+              "collateralAsset": {
+                "symbol": "PT-stcUSD-29JAN2026",
+                "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 1700000000,
+              "shares": 1681814508452274
+            }
+          },
+          {
+            "txHash": "0x495e9f0ecb207970122abc95cb50ad4218451b28102cdcfbe09a40cb75009f88",
+            "timestamp": 1760914775,
+            "blockNumber": 23614815,
+            "logIndex": 119,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0x4Dfeb30021a5bb94aFE33a149050A264FAbf4C58"
+            },
+            "market": {
+              "marketId": "0x03f715ef1ae508ab3e1faf4dffdbf2a077d1f0ad10c5aad42cf4438d5e3328af",
+              "collateralAsset": {
+                "symbol": "PT-stcUSD-29JAN2026",
+                "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "2067931480456077342940"
+            }
+          }
+        ],
+        "pageInfo": {
+          "count": 12,
+          "countTotal": 12
+        }
+      }
+    },
+    "extensions": {
+      "complexity": 235000,
+      "maximumComplexity": 1000000
+    }
+  }
+}

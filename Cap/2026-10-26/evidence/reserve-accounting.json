@@ -1,0 +1,210 @@
+{
+  "block": "0x190f965",
+  "observed_utc": "2026-10-26T17:08:19.959955+00:00",
+  "results": [
+    {
+      "label": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 totalSupplies",
+      "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "signature": "totalSupplies(address)",
+      "args": [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 0,
+        "result": "0x000000000000000000000000000000000000000000000000000045ec10f93f23"
+      },
+      "decoded": [
+        76880199368483
+      ]
+    },
+    {
+      "label": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 totalBorrows",
+      "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "signature": "totalBorrows(address)",
+      "args": [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000000000000000000000000000000032f4838c32b9"
+      },
+      "decoded": [
+        56025760412345
+      ]
+    },
+    {
+      "label": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 availableBalance",
+      "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "signature": "availableBalance(address)",
+      "args": [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": "0x000000000000000000000000000000000000000000000000000012f78d6d0c6a"
+      },
+      "decoded": [
+        20854438956138
+      ]
+    },
+    {
+      "label": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 loaned",
+      "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "signature": "loaned(address)",
+      "args": [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": "0x000000000000000000000000000000000000000000000000000012f78d338f9c"
+      },
+      "decoded": [
+        20854435188636
+      ]
+    },
+    {
+      "label": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 reserve",
+      "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "signature": "reserve(address)",
+      "args": [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 4,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 fractionalReserveVault",
+      "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "signature": "fractionalReserveVault(address)",
+      "args": [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 5,
+        "result": "0x0000000000000000000000003ed6aa32c930253fc990de58ff882b9186cd0072"
+      },
+      "decoded": [
+        "0x3ed6aa32c930253fc990de58ff882b9186cd0072"
+      ]
+    },
+    {
+      "label": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 claimableInterest",
+      "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "signature": "claimableInterest(address)",
+      "args": [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 6,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 symbol",
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "signature": "symbol()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 7,
+        "result": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000045553444300000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        "USDC"
+      ]
+    },
+    {
+      "label": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 decimals",
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "signature": "decimals()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 8,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000006"
+      },
+      "decoded": [
+        6
+      ]
+    },
+    {
+      "label": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 totalSupply",
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "signature": "totalSupply()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 9,
+        "result": "0x00000000000000000000000000000000000000000000000000a8d48254ebc030"
+      },
+      "decoded": [
+        47521452322963504
+      ]
+    },
+    {
+      "label": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 vault cash",
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "signature": "balanceOf(address)",
+      "args": [
+        "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 10,
+        "result": "0x00000000000000000000000000000000000000000000000000000000003d0900"
+      },
+      "decoded": [
+        4000000
+      ]
+    },
+    {
+      "label": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48 reserve data",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "reservesData(address)",
+      "args": [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 11,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000cccc62962d17b8914c62d74ffb843d73b2a3cccc000000000000000000000000fa8c6d0b95d9191b5a1d51c868da2bdfd6c04ff9000000000000000000000000a1a20abdc873cf291c22ce3c8968ec06277324d0000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005f5e100"
+      },
+      "decoded": [
+        0,
+        "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+        "0xfa8c6d0b95d9191b5a1d51c868da2bdfd6c04ff9",
+        "0xa1a20abdc873cf291c22ce3c8968ec06277324d0",
+        6,
+        false,
+        100000000
+      ]
+    }
+  ]
+}

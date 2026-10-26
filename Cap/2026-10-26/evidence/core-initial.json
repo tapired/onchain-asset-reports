@@ -1,0 +1,193 @@
+{
+  "block": "0x190f965",
+  "observed_utc": "2026-10-26T17:08:19.797853+00:00",
+  "results": [
+    {
+      "label": "cusd supply",
+      "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "signature": "totalSupply()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 0,
+        "result": "0x0000000000000000000000000000000000000000003f981930e62336999c568e"
+      },
+      "decoded": [
+        76880591033262142694119054
+      ]
+    },
+    {
+      "label": "assets",
+      "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "signature": "assets()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      },
+      "decoded": [
+        [
+          "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+        ]
+      ]
+    },
+    {
+      "label": "fractional vaults",
+      "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "signature": "fractionalReserveVaults()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000020000000000000000000000003ed6aa32c930253fc990de58ff882b9186cd0072000000000000000000000000b1c1c80fdbbde5b40264e1410550f3c864113bf8"
+      },
+      "decoded": [
+        [
+          "0x3ed6aa32c930253fc990de58ff882b9186cd0072",
+          "0xb1c1c80fdbbde5b40264e1410550f3c864113bf8"
+        ]
+      ]
+    },
+    {
+      "label": "stcusd supply",
+      "address": "0x88887be419578051ff9f4eb6c858a951921d8888",
+      "signature": "totalSupply()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": "0x00000000000000000000000000000000000000000039485c96f7fba675d75685"
+      },
+      "decoded": [
+        69250490083695375989298821
+      ]
+    },
+    {
+      "label": "stcusd assets",
+      "address": "0x88887be419578051ff9f4eb6c858a951921d8888",
+      "signature": "totalAssets()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 4,
+        "result": "0x0000000000000000000000000000000000000000003e46cb296c7bf655caa787"
+      },
+      "decoded": [
+        75287714143851798007031687
+      ]
+    },
+    {
+      "label": "stcusd pps",
+      "address": "0x88887be419578051ff9f4eb6c858a951921d8888",
+      "signature": "convertToAssets(uint256)",
+      "args": [
+        1000000000000000000
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 5,
+        "result": "0x0000000000000000000000000000000000000000000000000f167001fac98d04"
+      },
+      "decoded": [
+        1087179513861344516
+      ]
+    },
+    {
+      "label": "grace",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "grace()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 6,
+        "result": "0x000000000000000000000000000000000000000000000000000000000000a8c0"
+      },
+      "decoded": [
+        43200
+      ]
+    },
+    {
+      "label": "expiry",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "expiry()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 7,
+        "result": "0x000000000000000000000000000000000000000000000000000000000003f480"
+      },
+      "decoded": [
+        259200
+      ]
+    },
+    {
+      "label": "targetHealth",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "targetHealth()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 8,
+        "result": "0x00000000000000000000000000000000000000000409f9cbc7c4a04c22000000"
+      },
+      "decoded": [
+        1250000000000000000000000000
+      ]
+    },
+    {
+      "label": "bonusCap",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "bonusCap()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 9,
+        "result": "0x00000000000000000000000000000000000000000052b7d2dcc80cd2e4000000"
+      },
+      "decoded": [
+        100000000000000000000000000
+      ]
+    },
+    {
+      "label": "emergencyLiquidationThreshold",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "emergencyLiquidationThreshold()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 10,
+        "result": "0x000000000000000000000000000000000000000002e87669c308736a04000000"
+      },
+      "decoded": [
+        900000000000000000000000000
+      ]
+    },
+    {
+      "label": "reservesCount",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "reservesCount()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 11,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000001"
+      },
+      "decoded": [
+        1
+      ]
+    }
+  ]
+}

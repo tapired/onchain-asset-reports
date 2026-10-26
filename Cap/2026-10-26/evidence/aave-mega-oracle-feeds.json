@@ -1,0 +1,80 @@
+{
+  "block": "0x1cd6433",
+  "observed_utc": "2026-10-26T17:31:07.077711+00:00",
+  "results": [
+    {
+      "label": "0x9182acce3c6456955877c0bbe56107bc7239fe07 description",
+      "address": "0x9182acce3c6456955877c0bbe56107bc7239fe07",
+      "signature": "description()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": true,
+      "raw": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000f43617070656420555344432f5553440000000000000000000000000000000000",
+      "decoded": [
+        "Capped USDC/USD"
+      ]
+    },
+    {
+      "label": "0x9182acce3c6456955877c0bbe56107bc7239fe07 decimals",
+      "address": "0x9182acce3c6456955877c0bbe56107bc7239fe07",
+      "signature": "decimals()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": true,
+      "raw": "0x0000000000000000000000000000000000000000000000000000000000000008",
+      "decoded": [
+        8
+      ]
+    },
+    {
+      "label": "0x9182acce3c6456955877c0bbe56107bc7239fe07 latestRoundData",
+      "address": "0x9182acce3c6456955877c0bbe56107bc7239fe07",
+      "signature": "latestRoundData()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": false,
+      "raw": "0x",
+      "decoded": null
+    },
+    {
+      "label": "0x7055a15452b19d193fba6ec2ff6bf7b515cf577d description",
+      "address": "0x7055a15452b19d193fba6ec2ff6bf7b515cf577d",
+      "signature": "description()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": true,
+      "raw": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000001f5354434150555344202f204341505553442045786368616e6765205261746500",
+      "decoded": [
+        "STCAPUSD / CAPUSD Exchange Rate"
+      ]
+    },
+    {
+      "label": "0x7055a15452b19d193fba6ec2ff6bf7b515cf577d decimals",
+      "address": "0x7055a15452b19d193fba6ec2ff6bf7b515cf577d",
+      "signature": "decimals()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": true,
+      "raw": "0x0000000000000000000000000000000000000000000000000000000000000012",
+      "decoded": [
+        18
+      ]
+    },
+    {
+      "label": "0x7055a15452b19d193fba6ec2ff6bf7b515cf577d latestRoundData",
+      "address": "0x7055a15452b19d193fba6ec2ff6bf7b515cf577d",
+      "signature": "latestRoundData()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": true,
+      "raw": "0x000000000000000000000000000000000000000000000001000000000000013f0000000000000000000000000000000000000000000000000f15f1bcf56c04a8000000000000000000000000000000000000000000000000000000006ade6cb1000000000000000000000000000000000000000000000000000000006ade6cbe000000000000000000000000000000000000000000000001000000000000013f",
+      "decoded": [
+        18446744073709551935,
+        1087040678953485480,
+        1792961713,
+        1792961726,
+        18446744073709551935
+      ]
+    }
+  ]
+}

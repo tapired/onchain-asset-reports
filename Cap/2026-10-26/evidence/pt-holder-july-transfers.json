@@ -1,0 +1,70 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/addresses/0x444cc947a57f8fc6576abd19837b7df14c4c8e89/token-transfers?type=ERC-20&token=0x928fb6ed39100a92b2480f5cbb93453f98d9f4ce",
+  "request": null,
+  "observed_utc": "2026-10-26T17:12:53.275254+00:00",
+  "http_status": 200,
+  "body": {
+    "items": [
+      {
+        "block_hash": "0xbd77eb1e95595884d2997479ab0a751eb5cffed65d5543d919d9f971aacd0ec2",
+        "block_number": 24508330,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x9EaAedA23177B7168c55a3A0F937f67919733449",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PendleMarketV6",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 822,
+        "method": "0x9fa02c86",
+        "timestamp": "2026-02-21T22:49:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x444CC947a57f8fC6576abD19837b7df14C4c8e89",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x928FB6ED39100a92B2480f5cbB93453f98D9F4cE",
+          "circulating_market_cap": null,
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": null,
+          "holders_count": "71",
+          "icon_url": null,
+          "name": "PT cap USD 23JUL2026",
+          "reputation": "ok",
+          "symbol": "PT-cUSD-23JUL2026",
+          "total_supply": "68765789127286039827394",
+          "type": "ERC-20",
+          "volume_24h": null
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "35285470554389843990896"
+        },
+        "transaction_hash": "0xbd5979a8f203c66c38ba24ca162e0f638dd48ded7b10db887f7b64431fcb7acc",
+        "type": "token_transfer"
+      }
+    ],
+    "next_page_params": null
+  }
+}

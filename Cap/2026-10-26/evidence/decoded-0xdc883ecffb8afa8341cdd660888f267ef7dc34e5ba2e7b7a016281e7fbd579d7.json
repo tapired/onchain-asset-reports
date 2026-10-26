@@ -1,0 +1,30 @@
+{
+  "hash": "0xdc883ecffb8afa8341cdd660888f267ef7dc34e5ba2e7b7a016281e7fbd579d7",
+  "status": "0x1",
+  "block": 24454827,
+  "utc": "2026-02-14T11:47:35+00:00",
+  "from": "0xfa9ad1be10bb02fd70634ccec3264da9bf43de79",
+  "to": "0xdc74c3359c6412f6e9e208ed8dce609ece619b5e",
+  "transaction_fields_source": "eth_getTransactionByHash",
+  "logs": [
+    {
+      "logIndex": 860,
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "event": "Transfer",
+      "params": {
+        "value": 2000000000770,
+        "from": "0xdc74c3359c6412f6e9e208ed8dce609ece619b5e",
+        "to": "0x8a4aa69f694da05c042c2e59bb9a86f198361799"
+      }
+    },
+    {
+      "logIndex": 861,
+      "address": "0xdc74c3359c6412f6e9e208ed8dce609ece619b5e",
+      "topics": [
+        "0x442e715f626346e8c54381002da614f62bee8d27386535b2521ec8540898556e",
+        "0xfa33dc932de38bad3803524a3021d18c62394d45a460c63762c62ecf8a50703d"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ]
+}

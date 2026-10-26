@@ -1,0 +1,13 @@
+{
+  "url": "https://api-v2.pendle.finance/core/v1/1/markets?limit=1000",
+  "request": null,
+  "observed_utc": "2026-10-26T17:07:02.750777+00:00",
+  "http_status": 400,
+  "body": {
+    "message": [
+      "limit must not be greater than 100"
+    ],
+    "error": "Bad Request",
+    "statusCode": 400
+  }
+}

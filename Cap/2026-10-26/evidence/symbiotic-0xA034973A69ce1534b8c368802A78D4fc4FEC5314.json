@@ -1,0 +1,33 @@
+{
+  "url": "https://raw.githubusercontent.com/symbioticfi/metadata-mainnet/ab506ae68f7e165d460df21244ec3bbe0646e458/vaults/0xA034973A69ce1534b8c368802A78D4fc4FEC5314/info.json",
+  "request": null,
+  "observed_utc": "2026-10-26T17:12:38.165418+00:00",
+  "http_status": 200,
+  "body": {
+    "description": "Cap Test Vault delegating wstETH to the Cap Test Operator for Cap. For testing purposes only, do not use this vault for real money.",
+    "links": [
+      {
+        "name": "Website",
+        "type": "website",
+        "url": "https://cap.app"
+      },
+      {
+        "name": "Documentation",
+        "type": "docs",
+        "url": "https://docs.cap.app"
+      }
+    ],
+    "name": "Cap-Cap-wstETH",
+    "tags": [
+      "Cap",
+      "wstETH"
+    ],
+    "vaultType": "network-exclusive",
+    "rewards": [
+      {
+        "address": "0x2A3E7F5F113dC3BF6623ACf5095F816CEA48a698",
+        "type": "defaultStakingRewardsV2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,607 @@
+{
+  "hash": "0xea645d03e0e417d981c146facedcab29a2d76b26f2ec4db3351f6fe873380243",
+  "status": "0x1",
+  "block": 37580828,
+  "utc": "2026-07-17T21:27:19+00:00",
+  "from": "0x6655459bab7a5e99f2d61279316f6d0a465be784",
+  "to": "0xa8c5e23c9c0df2b6ff716486c6bbebb6661548c8",
+  "logs": [
+    {
+      "logIndex": 0,
+      "address": "0x88887be419578051ff9f4eb6c858a951921d8888",
+      "event": "Approval",
+      "params": {
+        "value": 1000000000000000000000000,
+        "owner": "0x6655459bab7a5e99f2d61279316f6d0a465be784",
+        "spender": "0x916aa175c36e845db45ff6ddb886ae437d403b61"
+      }
+    },
+    {
+      "logIndex": 1,
+      "address": "0x88887be419578051ff9f4eb6c858a951921d8888",
+      "event": "Transfer",
+      "params": {
+        "value": 18799014622000000000000,
+        "from": "0x6655459bab7a5e99f2d61279316f6d0a465be784",
+        "to": "0x916aa175c36e845db45ff6ddb886ae437d403b61"
+      }
+    },
+    {
+      "logIndex": 2,
+      "address": "0x88887be419578051ff9f4eb6c858a951921d8888",
+      "event": "Approval",
+      "params": {
+        "value": 115792089237316195423570985008687907853269984665640564039457584007913129639935,
+        "owner": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "spender": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc"
+      }
+    },
+    {
+      "logIndex": 3,
+      "address": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc",
+      "event": "SupplyCollateral",
+      "params": {
+        "assets": 18799014622000000000000,
+        "id": "0xea8f588be62079a1ad874bf7c7217166b323e0fe8ea3e59b584430ed1b859ace",
+        "caller": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "onBehalf": "0x6655459bab7a5e99f2d61279316f6d0a465be784"
+      }
+    },
+    {
+      "logIndex": 4,
+      "address": "0x88887be419578051ff9f4eb6c858a951921d8888",
+      "event": "Transfer",
+      "params": {
+        "value": 18799014622000000000000,
+        "from": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "to": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc"
+      }
+    },
+    {
+      "logIndex": 5,
+      "address": "0x4f708c0ae7ded3d74736594c2109c2e3c065b428",
+      "topics": [
+        "0x7120161a7b3d31251e01294ab351ef15a41b91659a36032e4641bb89b121e321",
+        "0xea8f588be62079a1ad874bf7c7217166b323e0fe8ea3e59b584430ed1b859ace"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000047c2dfea000000000000000000000000000000000000000000000000000000002bceded9"
+    },
+    {
+      "logIndex": 6,
+      "address": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc",
+      "event": "AccrueInterest",
+      "params": {
+        "prevBorrowRate": 1203953642,
+        "interest": 720509,
+        "feeShares": 0,
+        "id": "0xea8f588be62079a1ad874bf7c7217166b323e0fe8ea3e59b584430ed1b859ace"
+      }
+    },
+    {
+      "logIndex": 7,
+      "address": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc",
+      "event": "Borrow",
+      "params": {
+        "caller": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "assets": 17000000000,
+        "shares": 16943571846796631,
+        "id": "0xea8f588be62079a1ad874bf7c7217166b323e0fe8ea3e59b584430ed1b859ace",
+        "onBehalf": "0x6655459bab7a5e99f2d61279316f6d0a465be784",
+        "receiver": "0x916aa175c36e845db45ff6ddb886ae437d403b61"
+      }
+    },
+    {
+      "logIndex": 8,
+      "address": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+      "event": "Transfer",
+      "params": {
+        "value": 17000000000,
+        "from": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc",
+        "to": "0x916aa175c36e845db45ff6ddb886ae437d403b61"
+      }
+    },
+    {
+      "logIndex": 9,
+      "address": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+      "event": "Approval",
+      "params": {
+        "value": 115792089237316195423570985008687907853269984665640564039457584007913129639935,
+        "owner": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "spender": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc"
+      }
+    },
+    {
+      "logIndex": 10,
+      "address": "0x4f708c0ae7ded3d74736594c2109c2e3c065b428",
+      "topics": [
+        "0x7120161a7b3d31251e01294ab351ef15a41b91659a36032e4641bb89b121e321",
+        "0xcdaf57d98c2f75bffb8f0d3f7aa79bbacda4a479c47e316aab14af1ca6d85ffc"
+      ],
+      "data": "0x000000000000000000000000000000000000000000000000000000003be11f0b000000000000000000000000000000000000000000000000000000003c1b0e58"
+    },
+    {
+      "logIndex": 11,
+      "address": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc",
+      "event": "AccrueInterest",
+      "params": {
+        "prevBorrowRate": 1004609291,
+        "interest": 4924116,
+        "feeShares": 0,
+        "id": "0xcdaf57d98c2f75bffb8f0d3f7aa79bbacda4a479c47e316aab14af1ca6d85ffc"
+      }
+    },
+    {
+      "logIndex": 12,
+      "address": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc",
+      "event": "Repay",
+      "params": {
+        "assets": 6500000000,
+        "shares": 6210336194151885,
+        "id": "0xcdaf57d98c2f75bffb8f0d3f7aa79bbacda4a479c47e316aab14af1ca6d85ffc",
+        "caller": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "onBehalf": "0x6655459bab7a5e99f2d61279316f6d0a465be784"
+      }
+    },
+    {
+      "logIndex": 13,
+      "address": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+      "event": "Transfer",
+      "params": {
+        "value": 6500000000,
+        "from": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "to": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc"
+      }
+    },
+    {
+      "logIndex": 14,
+      "address": "0x6a31358e58b8692ce5317181ff3379a5766a7aba",
+      "topics": [
+        "0x4dec04e750ca11537cabcd8a9eab06494de08da3735bc8871cd41250e190bc04"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000009f8f4609ed0000000000000000000000000000000000000000000000000000009f8f65b7ce00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "logIndex": 15,
+      "address": "0x4f708c0ae7ded3d74736594c2109c2e3c065b428",
+      "topics": [
+        "0x7120161a7b3d31251e01294ab351ef15a41b91659a36032e4641bb89b121e321",
+        "0xcd2dc555dced7422a3144a4126286675449019366f83e9717be7c2deb3daae3e"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000020207ca10000000000000000000000000000000000000000000000000000000021bb58de"
+    },
+    {
+      "logIndex": 16,
+      "address": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc",
+      "event": "AccrueInterest",
+      "params": {
+        "prevBorrowRate": 538999969,
+        "interest": 7910038,
+        "feeShares": 0,
+        "id": "0xcd2dc555dced7422a3144a4126286675449019366f83e9717be7c2deb3daae3e"
+      }
+    },
+    {
+      "logIndex": 17,
+      "address": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc",
+      "event": "Withdraw",
+      "params": {
+        "caller": "0xafa6ce7b33dbea40189f195f4642287ae191e1f0",
+        "assets": 693456,
+        "shares": 680000889282,
+        "id": "0xcd2dc555dced7422a3144a4126286675449019366f83e9717be7c2deb3daae3e",
+        "onBehalf": "0xafa6ce7b33dbea40189f195f4642287ae191e1f0",
+        "receiver": "0xafa6ce7b33dbea40189f195f4642287ae191e1f0"
+      }
+    },
+    {
+      "logIndex": 18,
+      "address": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+      "event": "Transfer",
+      "params": {
+        "value": 693456,
+        "from": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc",
+        "to": "0xafa6ce7b33dbea40189f195f4642287ae191e1f0"
+      }
+    },
+    {
+      "logIndex": 19,
+      "address": "0xafa6ce7b33dbea40189f195f4642287ae191e1f0",
+      "topics": [
+        "0xc3505702fbdd1c334673aa66559f4546d749681c4d2509c99c07fabf01b3227f",
+        "0xcd2dc555dced7422a3144a4126286675449019366f83e9717be7c2deb3daae3e"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000006ff9279cc20000000000000000000000000000000000000000000000000000009e533621c2"
+    },
+    {
+      "logIndex": 20,
+      "address": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+      "event": "Transfer",
+      "params": {
+        "value": 693456,
+        "from": "0xafa6ce7b33dbea40189f195f4642287ae191e1f0",
+        "to": "0x6a31358e58b8692ce5317181ff3379a5766a7aba"
+      }
+    },
+    {
+      "logIndex": 21,
+      "address": "0x6a31358e58b8692ce5317181ff3379a5766a7aba",
+      "topics": [
+        "0xd602b36fb24934aef1bc2a658de029b486fa4c664a6e45de1f48e3fd1be25dd9",
+        "0x000000000000000000000000916aa175c36e845db45ff6ddb886ae437d403b61",
+        "0x000000000000000000000000afa6ce7b33dbea40189f195f4642287ae191e1f0"
+      ],
+      "data": "0x00000000000000000000000000000000000000000000000000000000000a94d0000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000ba464000000000000000000000000000000000000000000000000000000000000000363b9d4711b35eae7f5566743f3cd35dd9040b0eaba3549c23762dbed32b1af7cfc55861a04c1cef3a1cd5459e21ae8b3f015168285c27446b291c7b1eb5e7c2fac5fefc0f3d67263d41ecb9fcdbcea005c2f4bbf22831c3649556960a910c143"
+    },
+    {
+      "logIndex": 22,
+      "address": "0x6a31358e58b8692ce5317181ff3379a5766a7aba",
+      "event": "Transfer",
+      "params": {
+        "value": 686643324258436157,
+        "from": "0x6655459bab7a5e99f2d61279316f6d0a465be784",
+        "to": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "logIndex": 23,
+      "address": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+      "event": "Transfer",
+      "params": {
+        "value": 693456,
+        "from": "0x6a31358e58b8692ce5317181ff3379a5766a7aba",
+        "to": "0x916aa175c36e845db45ff6ddb886ae437d403b61"
+      }
+    },
+    {
+      "logIndex": 24,
+      "address": "0x6a31358e58b8692ce5317181ff3379a5766a7aba",
+      "event": "Withdraw",
+      "params": {
+        "assets": 693456,
+        "shares": 686643324258436157,
+        "caller": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "receiver": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "owner": "0x6655459bab7a5e99f2d61279316f6d0a465be784"
+      }
+    },
+    {
+      "logIndex": 25,
+      "address": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+      "event": "Approval",
+      "params": {
+        "value": 115792089237316195423570985008687907853269984665640564039457584007913129639935,
+        "owner": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "spender": "0xa2d38c8a3d810ebcf4c2075821c5ec8f976bb692"
+      }
+    },
+    {
+      "logIndex": 26,
+      "address": "0xa2d38c8a3d810ebcf4c2075821c5ec8f976bb692",
+      "topics": [
+        "0x4dec04e750ca11537cabcd8a9eab06494de08da3735bc8871cd41250e190bc04"
+      ],
+      "data": "0x000000000000000000000000000000000000000000000000000001574572ad690000000000000000000000000000000000000000000000000000015745879d5b00000000000000000000000000000000000000000000000001e5c92d024d605b0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "logIndex": 27,
+      "address": "0xa2d38c8a3d810ebcf4c2075821c5ec8f976bb692",
+      "event": "Transfer",
+      "params": {
+        "value": 136736558854004827,
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0x518c21dc88d9780c0a1be566433c571461a70149"
+      }
+    },
+    {
+      "logIndex": 28,
+      "address": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+      "event": "Transfer",
+      "params": {
+        "value": 10500693456,
+        "from": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "to": "0xa2d38c8a3d810ebcf4c2075821c5ec8f976bb692"
+      }
+    },
+    {
+      "logIndex": 29,
+      "address": "0xa2d38c8a3d810ebcf4c2075821c5ec8f976bb692",
+      "event": "Transfer",
+      "params": {
+        "value": 10464155907955509986649,
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0x6655459bab7a5e99f2d61279316f6d0a465be784"
+      }
+    },
+    {
+      "logIndex": 30,
+      "address": "0xa2d38c8a3d810ebcf4c2075821c5ec8f976bb692",
+      "event": "Deposit",
+      "params": {
+        "assets": 10500693456,
+        "shares": 10464155907955509986649,
+        "caller": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "owner": "0x6655459bab7a5e99f2d61279316f6d0a465be784"
+      }
+    },
+    {
+      "logIndex": 31,
+      "address": "0xa2d38c8a3d810ebcf4c2075821c5ec8f976bb692",
+      "topics": [
+        "0x4dec04e750ca11537cabcd8a9eab06494de08da3735bc8871cd41250e190bc04"
+      ],
+      "data": "0x00000000000000000000000000000000000000000000000000000159b76b7b2b00000000000000000000000000000000000000000000000000000159b76b7b2b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "logIndex": 32,
+      "address": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+      "event": "Transfer",
+      "params": {
+        "value": 10500693456,
+        "from": "0xa2d38c8a3d810ebcf4c2075821c5ec8f976bb692",
+        "to": "0xc0c223f72e906760e561125cc43926dca52668fb"
+      }
+    },
+    {
+      "logIndex": 33,
+      "address": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc",
+      "event": "Supply",
+      "params": {
+        "assets": 10500693456,
+        "shares": 10296948743899027,
+        "id": "0xcd2dc555dced7422a3144a4126286675449019366f83e9717be7c2deb3daae3e",
+        "caller": "0xc0c223f72e906760e561125cc43926dca52668fb",
+        "onBehalf": "0xc0c223f72e906760e561125cc43926dca52668fb"
+      }
+    },
+    {
+      "logIndex": 34,
+      "address": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+      "event": "Transfer",
+      "params": {
+        "value": 10500693456,
+        "from": "0xc0c223f72e906760e561125cc43926dca52668fb",
+        "to": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc"
+      }
+    },
+    {
+      "logIndex": 35,
+      "address": "0xc0c223f72e906760e561125cc43926dca52668fb",
+      "topics": [
+        "0x67bd2993814767565e883edd1e76edf105cdd33766384ca8495e53562e20bea7",
+        "0xcd2dc555dced7422a3144a4126286675449019366f83e9717be7c2deb3daae3e"
+      ],
+      "data": "0x000000000000000000000000000000000000000000000000000000ad6da1d8db0000000000000000000000000000000000000000000000000024950534268793"
+    },
+    {
+      "logIndex": 36,
+      "address": "0xa2d38c8a3d810ebcf4c2075821c5ec8f976bb692",
+      "topics": [
+        "0x2bc7948a96a066968d2a58aaf46eb0b305aa166b1d1951d2f7ef0919746b8c2a",
+        "0x000000000000000000000000916aa175c36e845db45ff6ddb886ae437d403b61",
+        "0x000000000000000000000000c0c223f72e906760e561125cc43926dca52668fb"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000271e3ddd000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000271eae6ca000000000000000000000000000000000000000000000000000000000000000334defbb4478d540d61a0f19f53bf21b69ccfe3c8ecb6371f53c84ec54a17337afc55861a04c1cef3a1cd5459e21ae8b3f015168285c27446b291c7b1eb5e7c2f5c6d2538de41d2f9ff51736fb1e1a0554201d9e83379f778c3d6e3aa398861fc"
+    },
+    {
+      "logIndex": 37,
+      "address": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+      "event": "Approval",
+      "params": {
+        "value": 0,
+        "owner": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "spender": "0xa2d38c8a3d810ebcf4c2075821c5ec8f976bb692"
+      }
+    },
+    {
+      "logIndex": 38,
+      "address": "0x2dca96907fde857dd3d816880a0df407eeb2d2f2",
+      "event": "Approval",
+      "params": {
+        "value": 115792089237316195423570985008687907853269984665640564039457584007913129639935,
+        "owner": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "spender": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc"
+      }
+    },
+    {
+      "logIndex": 39,
+      "address": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc",
+      "event": "FlashLoan",
+      "params": {
+        "assets": 20000000000,
+        "caller": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "token": "0x2dca96907fde857dd3d816880a0df407eeb2d2f2"
+      }
+    },
+    {
+      "logIndex": 40,
+      "address": "0x2dca96907fde857dd3d816880a0df407eeb2d2f2",
+      "event": "Transfer",
+      "params": {
+        "value": 20000000000,
+        "from": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc",
+        "to": "0x916aa175c36e845db45ff6ddb886ae437d403b61"
+      }
+    },
+    {
+      "logIndex": 41,
+      "address": "0x2dca96907fde857dd3d816880a0df407eeb2d2f2",
+      "event": "Approval",
+      "params": {
+        "value": 115792089237316195423570985008687907853269984665640564039457584007913129639935,
+        "owner": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "spender": "0x4284d4f9f4d61ea57b8f0943547c7c19c5b9b249"
+      }
+    },
+    {
+      "logIndex": 42,
+      "address": "0x4284d4f9f4d61ea57b8f0943547c7c19c5b9b249",
+      "topics": [
+        "0x4dec04e750ca11537cabcd8a9eab06494de08da3735bc8871cd41250e190bc04"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000003538096adb00000000000000000000000000000000000000000000000000000035381ddbcf00000000000000000000000000000000000000000000000001da50006737e0c70000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "logIndex": 43,
+      "address": "0x4284d4f9f4d61ea57b8f0943547c7c19c5b9b249",
+      "event": "Transfer",
+      "params": {
+        "value": 133507101622788295,
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0x518c21dc88d9780c0a1be566433c571461a70149"
+      }
+    },
+    {
+      "logIndex": 44,
+      "address": "0x2dca96907fde857dd3d816880a0df407eeb2d2f2",
+      "event": "Transfer",
+      "params": {
+        "value": 20000000000,
+        "from": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "to": "0x4284d4f9f4d61ea57b8f0943547c7c19c5b9b249"
+      }
+    },
+    {
+      "logIndex": 45,
+      "address": "0x4284d4f9f4d61ea57b8f0943547c7c19c5b9b249",
+      "event": "Transfer",
+      "params": {
+        "value": 19931936672482445940217,
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0x6655459bab7a5e99f2d61279316f6d0a465be784"
+      }
+    },
+    {
+      "logIndex": 46,
+      "address": "0x4284d4f9f4d61ea57b8f0943547c7c19c5b9b249",
+      "event": "Deposit",
+      "params": {
+        "assets": 20000000000,
+        "shares": 19931936672482445940217,
+        "caller": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "owner": "0x6655459bab7a5e99f2d61279316f6d0a465be784"
+      }
+    },
+    {
+      "logIndex": 47,
+      "address": "0x4284d4f9f4d61ea57b8f0943547c7c19c5b9b249",
+      "topics": [
+        "0x4dec04e750ca11537cabcd8a9eab06494de08da3735bc8871cd41250e190bc04"
+      ],
+      "data": "0x00000000000000000000000000000000000000000000000000000039e035a3cf00000000000000000000000000000000000000000000000000000039e035a3cf00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "logIndex": 48,
+      "address": "0x2dca96907fde857dd3d816880a0df407eeb2d2f2",
+      "event": "Transfer",
+      "params": {
+        "value": 20000000000,
+        "from": "0x4284d4f9f4d61ea57b8f0943547c7c19c5b9b249",
+        "to": "0xe8bbe0853271137501afa1097d523a614d1f9eec"
+      }
+    },
+    {
+      "logIndex": 49,
+      "address": "0x4f708c0ae7ded3d74736594c2109c2e3c065b428",
+      "topics": [
+        "0x7120161a7b3d31251e01294ab351ef15a41b91659a36032e4641bb89b121e321",
+        "0x6691cdcadd5d23ac68d2c1cf54dc97ab8242d2a888230de411094480252c2ed3"
+      ],
+      "data": "0x00000000000000000000000000000000000000000000000000000000a25c32f80000000000000000000000000000000000000000000000000000000028a08ed7"
+    },
+    {
+      "logIndex": 50,
+      "address": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc",
+      "event": "AccrueInterest",
+      "params": {
+        "prevBorrowRate": 2723951352,
+        "interest": 3940976,
+        "feeShares": 0,
+        "id": "0x6691cdcadd5d23ac68d2c1cf54dc97ab8242d2a888230de411094480252c2ed3"
+      }
+    },
+    {
+      "logIndex": 51,
+      "address": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc",
+      "event": "Supply",
+      "params": {
+        "assets": 20000000000,
+        "shares": 19189472851559856,
+        "id": "0x6691cdcadd5d23ac68d2c1cf54dc97ab8242d2a888230de411094480252c2ed3",
+        "caller": "0xe8bbe0853271137501afa1097d523a614d1f9eec",
+        "onBehalf": "0xe8bbe0853271137501afa1097d523a614d1f9eec"
+      }
+    },
+    {
+      "logIndex": 52,
+      "address": "0x2dca96907fde857dd3d816880a0df407eeb2d2f2",
+      "event": "Transfer",
+      "params": {
+        "value": 20000000000,
+        "from": "0xe8bbe0853271137501afa1097d523a614d1f9eec",
+        "to": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc"
+      }
+    },
+    {
+      "logIndex": 53,
+      "address": "0xe8bbe0853271137501afa1097d523a614d1f9eec",
+      "topics": [
+        "0x67bd2993814767565e883edd1e76edf105cdd33766384ca8495e53562e20bea7",
+        "0x6691cdcadd5d23ac68d2c1cf54dc97ab8242d2a888230de411094480252c2ed3"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000003819d4252800000000000000000000000000000000000000000000000000442cb950be85b0"
+    },
+    {
+      "logIndex": 54,
+      "address": "0x4284d4f9f4d61ea57b8f0943547c7c19c5b9b249",
+      "topics": [
+        "0x2bc7948a96a066968d2a58aaf46eb0b305aa166b1d1951d2f7ef0919746b8c2a",
+        "0x000000000000000000000000916aa175c36e845db45ff6ddb886ae437d403b61",
+        "0x000000000000000000000000e8bbe0853271137501afa1097d523a614d1f9eec"
+      ],
+      "data": "0x00000000000000000000000000000000000000000000000000000004a817c800000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000004a82b059a000000000000000000000000000000000000000000000000000000000000000341c0a2d296748aecd5a5fff3aa5edf3586f7c16cdc6c0affde7f33167ba07c89fec2a77c124478a81820439e2c0f6974a73ad59eee29ecd470cf697e64429a386a762e317446476b15eaced651093010f0b75147e4465037feeb65be2bd1aba1"
+    },
+    {
+      "logIndex": 55,
+      "address": "0x2dca96907fde857dd3d816880a0df407eeb2d2f2",
+      "event": "Approval",
+      "params": {
+        "value": 0,
+        "owner": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "spender": "0x4284d4f9f4d61ea57b8f0943547c7c19c5b9b249"
+      }
+    },
+    {
+      "logIndex": 56,
+      "address": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc",
+      "event": "Borrow",
+      "params": {
+        "caller": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "assets": 20000000000,
+        "shares": 19071215073043383,
+        "id": "0x6691cdcadd5d23ac68d2c1cf54dc97ab8242d2a888230de411094480252c2ed3",
+        "onBehalf": "0x6655459bab7a5e99f2d61279316f6d0a465be784",
+        "receiver": "0x916aa175c36e845db45ff6ddb886ae437d403b61"
+      }
+    },
+    {
+      "logIndex": 57,
+      "address": "0x2dca96907fde857dd3d816880a0df407eeb2d2f2",
+      "event": "Transfer",
+      "params": {
+        "value": 20000000000,
+        "from": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc",
+        "to": "0x916aa175c36e845db45ff6ddb886ae437d403b61"
+      }
+    },
+    {
+      "logIndex": 58,
+      "address": "0x2dca96907fde857dd3d816880a0df407eeb2d2f2",
+      "event": "Transfer",
+      "params": {
+        "value": 20000000000,
+        "from": "0x916aa175c36e845db45ff6ddb886ae437d403b61",
+        "to": "0xd50f2dfffd62f94ee4aed9ca05c61d0753268abc"
+      }
+    }
+  ]
+}

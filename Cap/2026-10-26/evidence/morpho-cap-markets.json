@@ -1,0 +1,2628 @@
+{
+  "url": "https://api.morpho.org/graphql",
+  "request": {
+    "query": "{markets(first:100,where:{search:\"cUSD\"}){items{marketId chain{id network} lltv listed creationBlockNumber collateralAsset{address symbol decimals} loanAsset{address symbol decimals} oracle{address type} irmAddress state{blockNumber timestamp supplyAssets borrowAssets liquidityAssets collateralAssets price supplyAssetsUsd borrowAssetsUsd utilization borrowApy} supplyingVaults{address name} supplyingVaultV2s{address name}} pageInfo{count countTotal}}}"
+  },
+  "observed_utc": "2026-10-26T17:07:01.405421+00:00",
+  "http_status": 200,
+  "body": {
+    "data": {
+      "markets": {
+        "items": [
+          {
+            "marketId": "0xfd039edc69eac5eaab4a10463fdbcaca75d6eddb1f0e00248d73fc977fb2554b",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24318062,
+            "collateralAsset": {
+              "address": "0x928FB6ED39100a92B2480f5cbB93453f98D9F4cE",
+              "symbol": "PT-cUSD-23JUL2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "symbol": "USDT",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x25b30502467639E8FA118451105269e9B9813DD2",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278244,
+              "timestamp": 1793034347,
+              "supplyAssets": 20784431258,
+              "borrowAssets": 18292919210,
+              "liquidityAssets": 2491512048,
+              "collateralAssets": "20507265054299246191849",
+              "price": "999991527726126415068540",
+              "supplyAssetsUsd": 20760.227037806795,
+              "borrowAssetsUsd": 18271.616445491352,
+              "utilization": 0.880126041599478,
+              "borrowApy": 0.14795623268862484
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xfc7ca3182f903c9a583094e3be3d6a13d021e7c650f20d9222855da97af8cf45",
+            "chain": {
+              "id": 4663,
+              "network": "Robinhood Chain"
+            },
+            "lltv": "385000000000000000",
+            "listed": false,
+            "creationBlockNumber": 83378489,
+            "collateralAsset": {
+              "address": "0xE2097616846f32CcB1665C7636181bE4cCE831A2",
+              "symbol": "cUSDG",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x07EBB29a38Fbcb41563817e5E19f2ceC619C90D2",
+              "symbol": "BUN",
+              "decimals": 18
+            },
+            "oracle": {
+              "address": "0xEc6A74E336C623D73c36A1eb1e2ab9a6341E2eD1",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x2BD3d5965B26B51814AC95127B2b80dD6CcC0fa1",
+            "state": {
+              "blockNumber": 98575038,
+              "timestamp": 1793034359,
+              "supplyAssets": "1000000000000000000",
+              "borrowAssets": 0,
+              "liquidityAssets": "1000000000000000000",
+              "collateralAssets": 0,
+              "price": null,
+              "supplyAssetsUsd": 0.039748371035711084,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.0008336206314984632
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xf948456f472a1c22bbdf9df887311842e21fa2bb9b64658a2d017fa6bc2a689f",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24190683,
+            "collateralAsset": {
+              "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33",
+              "symbol": "PT-stcUSD-29JAN2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "symbol": "USDT",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x8EEc7858d2E8cD3c8006C22CF768d402AFCF551e",
+              "type": "Unknown"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278244,
+              "timestamp": 1793034347,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "liquidityAssets": 0,
+              "collateralAssets": 0,
+              "price": "1000000000000000000000000",
+              "supplyAssetsUsd": 0,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xf7a4ee63e5d86e962455042964666afb52aad7131e2da35fe878cb237cc8d2f3",
+            "chain": {
+              "id": 4663,
+              "network": "Robinhood Chain"
+            },
+            "lltv": "385000000000000000",
+            "listed": false,
+            "creationBlockNumber": 83492153,
+            "collateralAsset": {
+              "address": "0xea602781E4c724B2Eccc19E83774Eb360F02A274",
+              "symbol": "cUSDG",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x020bfC650A365f8BB26819deAAbF3E21291018b4",
+              "symbol": "CASHCAT",
+              "decimals": 18
+            },
+            "oracle": {
+              "address": "0x6B1498B8C4f9E8dd9f44a50C2DEc8B6ae8E0cA18",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x2BD3d5965B26B51814AC95127B2b80dD6CcC0fa1",
+            "state": {
+              "blockNumber": 98575023,
+              "timestamp": 1793034357,
+              "supplyAssets": "9336152555621592148",
+              "borrowAssets": 0,
+              "liquidityAssets": "9336152555621592148",
+              "collateralAssets": 0,
+              "price": "11049100748090870750896203781057574060",
+              "supplyAssetsUsd": 0.8531199092724092,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.0008486803754030181
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xf3bbae74a04e4ec22de4b1f2ea313290c0a50839c038eca27aa4e5e10325bf9c",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24184830,
+            "collateralAsset": {
+              "address": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+              "symbol": "stcUSD",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "symbol": "USDT",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xa26D8Cd042E85c7F5483a2429B6F4D0211AfC689",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278244,
+              "timestamp": 1793034347,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "liquidityAssets": 0,
+              "collateralAssets": 0,
+              "price": "1086878603455944000000000",
+              "supplyAssetsUsd": 0,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xef225fee0f37d8827e2f6da31b85f1a4ae8ab0af45f856b85f487a97fdfecbea",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "945000000000000000",
+            "listed": false,
+            "creationBlockNumber": 23749727,
+            "collateralAsset": {
+              "address": "0xE74dD7525663193B5e5e596b581B5343735a585c",
+              "symbol": "USDCUSDU",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x0ab33fC1AFFB89AfF0187318adD2A6677e495c6f",
+              "type": "Unknown"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278244,
+              "timestamp": 1793034347,
+              "supplyAssets": 9805001,
+              "borrowAssets": 38,
+              "liquidityAssets": 9804963,
+              "collateralAssets": 0,
+              "price": "998726222125508824000000",
+              "supplyAssetsUsd": 9.798622588717018,
+              "borrowAssetsUsd": 3.797527999958865e-05,
+              "utilization": 3.875573291629e-06,
+              "borrowApy": 0.16043983908556766
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xeb17955ea422baeddbfb0b8d8c9086c5be7a9cfdefb292119a102e981a30062e",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": true,
+            "creationBlockNumber": 23235938,
+            "collateralAsset": {
+              "address": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+              "symbol": "stcUSD",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x8E3386B2f6084eB1B0988070c3d826995BD175c0",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278244,
+              "timestamp": 1793034347,
+              "supplyAssets": 4864151,
+              "borrowAssets": 4377738,
+              "liquidityAssets": 486413,
+              "collateralAssets": "9872753204547911802",
+              "price": "1087070936762174460589081",
+              "supplyAssetsUsd": 4.860986741717871,
+              "borrowAssetsUsd": 4.374890166179979,
+              "utilization": 0.9000004317300182,
+              "borrowApy": 0.040156997105496424
+            },
+            "supplyingVaults": [
+              {
+                "address": "0x62fE596d59fB077c2Df736dF212E0AFfb522dC78",
+                "name": "Clearstar USDC Reactor"
+              },
+              {
+                "address": "0x8eB67A509616cd6A7c1B3c8C21D48FF57df3d458",
+                "name": "Gauntlet USDC Core"
+              }
+            ],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xea8f588be62079a1ad874bf7c7217166b323e0fe8ea3e59b584430ed1b859ace",
+            "chain": {
+              "id": 747474,
+              "network": "Katana"
+            },
+            "lltv": "860000000000000000",
+            "listed": true,
+            "creationBlockNumber": 34527608,
+            "collateralAsset": {
+              "address": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+              "symbol": "stcUSD",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36",
+              "symbol": "vbUSDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x832AEC697F9031709281e29ACb4fB69b1E3A6f7a",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x4F708C0ae7deD3d74736594C2109C2E3c065B428",
+            "state": {
+              "blockNumber": 46291545,
+              "timestamp": 1793034356,
+              "supplyAssets": 70157824343,
+              "borrowAssets": 63107129241,
+              "liquidityAssets": 7050695102,
+              "collateralAssets": "89939323430000000000000",
+              "price": "1087299354976011643525425",
+              "supplyAssetsUsd": 70114.02824687188,
+              "borrowAssetsUsd": 63067.73454875447,
+              "utilization": 0.8995023695784905,
+              "borrowApy": 0.024711112566733917
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": [
+              {
+                "address": "0x6a31358E58B8692cE5317181ff3379A5766A7ABA",
+                "name": "Clearstar Core USDC"
+              },
+              {
+                "address": "0xA2d38c8A3D810EBcF4C2075821c5eC8F976bb692",
+                "name": "Yearn Degen USDC"
+              }
+            ]
+          },
+          {
+            "marketId": "0xe7f998c0ff11ca2bf091d39b6a3cef1035733528187d520c1c47710c8f1acaeb",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24318073,
+            "collateralAsset": {
+              "address": "0x928FB6ED39100a92B2480f5cbB93453f98D9F4cE",
+              "symbol": "PT-cUSD-23JUL2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+              "symbol": "AUSD",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x25b30502467639E8FA118451105269e9B9813DD2",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278244,
+              "timestamp": 1793034347,
+              "supplyAssets": 1023926,
+              "borrowAssets": 913162,
+              "liquidityAssets": 110764,
+              "collateralAssets": "4142183157616965632",
+              "price": "999991527726126415068540",
+              "supplyAssetsUsd": 1.0228062755403424,
+              "borrowAssetsUsd": 0.9121634026140271,
+              "utilization": 0.8918242138592046,
+              "borrowApy": 0.026979268879696375
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xe79e0d1f753be4cfb44b04d790d4f66d6b5ca34aa3b83d51f69f1ce50b98dd8e",
+            "chain": {
+              "id": 130,
+              "network": "Unichain"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 34136015,
+            "collateralAsset": {
+              "address": "0xB6168F597Cd37A232cb7CB94CD1786Be20eAD156",
+              "symbol": "PT-cUSD-29JAN2026-(ETH)",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x789662311eb8ecD800bc68C67C8786e313e6D39C",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x9a6061d51743B31D2c3Be75D83781Fa423f53F0E",
+            "state": {
+              "blockNumber": 62285997,
+              "timestamp": 1793034356,
+              "supplyAssets": 45797050,
+              "borrowAssets": 482003,
+              "liquidityAssets": 45315047,
+              "collateralAssets": "1010393000000000000",
+              "price": "1000000000000000000000000",
+              "supplyAssetsUsd": 45.76725781329371,
+              "borrowAssetsUsd": 0.48168944435899275,
+              "utilization": 0.010524760874335792,
+              "borrowApy": 0.0002588040872327113
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xe1fea9eb02bc317896351ecac1fc57c9ab58e06630d4510c6fa2cba1fcb0014a",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24197859,
+            "collateralAsset": {
+              "address": "0x545A490f9ab534AdF409A2E682bc4098f49952e3",
+              "symbol": "PT-cUSD-29JAN2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "symbol": "USDT",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xe9000e1441a1f377c746a781bFA921936a63E420",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278244,
+              "timestamp": 1793034347,
+              "supplyAssets": 3920135,
+              "borrowAssets": 5,
+              "liquidityAssets": 3920130,
+              "collateralAssets": 0,
+              "price": "1001345319417456279172259",
+              "supplyAssetsUsd": 3.915569861336869,
+              "borrowAssetsUsd": 4.994177319578113e-06,
+              "utilization": 1.275466278584e-06,
+              "borrowApy": 0.00025003229368056654
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xdf373ac3679d1c79ac3b7ba1700a79c65b5227b334cb5c26fae4a76c04b2cafe",
+            "chain": {
+              "id": 4217,
+              "network": "Tempo Mainnet"
+            },
+            "lltv": "770000000000000000",
+            "listed": false,
+            "creationBlockNumber": 17362944,
+            "collateralAsset": {
+              "address": "0x20C0000000000000000000000520792DcCccCccC",
+              "symbol": "cUSD",
+              "decimals": 6
+            },
+            "loanAsset": {
+              "address": "0x20C0000000000000000000000000000000000000",
+              "symbol": "pathUSD",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xc01F7511EdD9e0717C3B230a213910f04e0f8aff",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x112fd4042E442C3C12C67AD23587b0afe36eB74E",
+            "state": {
+              "blockNumber": 46007562,
+              "timestamp": 1793034347,
+              "supplyAssets": 2074608,
+              "borrowAssets": 1819936,
+              "liquidityAssets": 254672,
+              "collateralAssets": 2400000,
+              "price": "999663150000000000000000000000000000",
+              "supplyAssetsUsd": 2.0779310293377975,
+              "borrowAssetsUsd": 1.82285110527334,
+              "utilization": 0.8772433153636735,
+              "borrowApy": 0.0159094894740879
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xdf061750986561bca73adc899bd13079bb342d3792adc72768ad02b362d17973",
+            "chain": {
+              "id": 8453,
+              "network": "Base"
+            },
+            "lltv": "860000000000000000",
+            "listed": false,
+            "creationBlockNumber": 27448655,
+            "collateralAsset": {
+              "address": "0x83dB73EF5192de4B6a4c92bD0141Ba1a0Dc87c65",
+              "symbol": "cUSDO",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x5feDe9d65714907381A76AA9bF949219dD1c5023",
+              "symbol": "sAMM-USDC/cUSDO",
+              "decimals": 18
+            },
+            "oracle": {
+              "address": "0xa0C1316196189DfcD2fFa412936e1d07c18B8881",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x46415998764C29aB2a25CbeA6254146D50D22687",
+            "state": {
+              "blockNumber": 53122502,
+              "timestamp": 1793034351,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "liquidityAssets": 0,
+              "collateralAssets": 0,
+              "price": "1064879465264080499000000",
+              "supplyAssetsUsd": null,
+              "borrowAssetsUsd": null,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xdbf4bc065d4e76f4505a523f2bba5e5ccdca94c16d67c3a6ff1dadbcbb26d4aa",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": true,
+            "creationBlockNumber": 24184886,
+            "collateralAsset": {
+              "address": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+              "symbol": "stcUSD",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "symbol": "USDT",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x8C257cb4Ba8d5a78B3d82e2aAeC211700e94a814",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278244,
+              "timestamp": 1793034347,
+              "supplyAssets": 2411283,
+              "borrowAssets": 2411283,
+              "liquidityAssets": 0,
+              "collateralAssets": "6087145622079873582",
+              "price": "1088642203826142350607984",
+              "supplyAssetsUsd": 2.408474973936854,
+              "borrowAssetsUsd": 2.408474973936854,
+              "utilization": 1,
+              "borrowApy": 0.1062574837031574
+            },
+            "supplyingVaults": [
+              {
+                "address": "0x79FD640000F8563A866322483524a4b48f1Ed702",
+                "name": "Gauntlet USDT Frontier"
+              }
+            ],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xdbd4a96c854d2dc0f3b115f4f675cd3cc14cc317358b4f8e2442a8363b142eca",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 22474846,
+            "collateralAsset": {
+              "address": "0x699e04F98dE2Fc395a7dcBf36B48EC837A976490",
+              "symbol": "tacUSD",
+              "decimals": 6
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xf4374587C66D43DAfac255b0622a56f30026aD51",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278244,
+              "timestamp": 1793034347,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "liquidityAssets": 0,
+              "collateralAssets": 0,
+              "price": null,
+              "supplyAssetsUsd": 0,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xd53bf47b213c8432823931dd5294c9620981ad7f8681beb128eee3309a49160a",
+            "chain": {
+              "id": 4217,
+              "network": "Tempo Mainnet"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 18608890,
+            "collateralAsset": {
+              "address": "0x20c0000000000000000000008EE4fcFF88888888",
+              "symbol": "stcUSD",
+              "decimals": 6
+            },
+            "loanAsset": {
+              "address": "0x20C0000000000000000000000000000000000000",
+              "symbol": "pathUSD",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x662Ee9d68b84209063656F066Aa69be97C4B9E6b",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x112fd4042E442C3C12C67AD23587b0afe36eB74E",
+            "state": {
+              "blockNumber": 46007556,
+              "timestamp": 1793034344,
+              "supplyAssets": 201092,
+              "borrowAssets": 99093,
+              "liquidityAssets": 101999,
+              "collateralAssets": 1000000,
+              "price": "1086895204881497773000000000000000000",
+              "supplyAssetsUsd": 0.20141410162864326,
+              "borrowAssetsUsd": 0.09925172345338028,
+              "utilization": 0.4927744514948382,
+              "borrowApy": 0.000660863604526876
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xd1331c868bd2783784cd22046978bf365ae2c23ffd94625b0261db9aa8ae3561",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 22419056,
+            "collateralAsset": {
+              "address": "0x000000096CB3D4007fC2b79b935C4540C5c2d745",
+              "symbol": "jUSD",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0",
+              "symbol": "cUSDO",
+              "decimals": 18
+            },
+            "oracle": {
+              "address": "0x0D242F77aF3BF377C9A6ec35Ad9b68a8F770546a",
+              "type": "Unknown"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278244,
+              "timestamp": 1793034347,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "liquidityAssets": 0,
+              "collateralAssets": 0,
+              "price": "1000000000000000000000000000000000000",
+              "supplyAssetsUsd": 0,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xca9465f8ffdcd46a1f819317cecb15b62333f76d7e8add429af4e787f6790955",
+            "chain": {
+              "id": 4663,
+              "network": "Robinhood Chain"
+            },
+            "lltv": "385000000000000000",
+            "listed": false,
+            "creationBlockNumber": 83379016,
+            "collateralAsset": {
+              "address": "0xea602781E4c724B2Eccc19E83774Eb360F02A274",
+              "symbol": "cUSDG",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xe8ffd7e24187F72afB08d75B1bb13088A989a791",
+              "symbol": "DELTA",
+              "decimals": 18
+            },
+            "oracle": {
+              "address": "0xb9B758E254662A61FB56f297C98D393E76688B7f",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x2BD3d5965B26B51814AC95127B2b80dD6CcC0fa1",
+            "state": {
+              "blockNumber": 98574914,
+              "timestamp": 1793034346,
+              "supplyAssets": "86623166279554430900",
+              "borrowAssets": 0,
+              "liquidityAssets": "86623166279554430900",
+              "collateralAssets": 0,
+              "price": "89402129906939677738388283633673608289",
+              "supplyAssetsUsd": 0.9743971884221359,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.0008337064178038055
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xc8e32d7c6b217b0a620cd881549e9d66d9a4703c9473d1eee00d6033b4f839c5",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24286783,
+            "collateralAsset": {
+              "address": "0x928FB6ED39100a92B2480f5cbB93453f98D9F4cE",
+              "symbol": "PT-cUSD-23JUL2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x58BA947aCaF37B5155B452677Aedb581a24bBF40",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278243,
+              "timestamp": 1793034335,
+              "supplyAssets": 1330749,
+              "borrowAssets": 6890,
+              "liquidityAssets": 1323859,
+              "collateralAssets": "69925454739920740",
+              "price": "999723140000000000000000",
+              "supplyAssetsUsd": 1.3298833127413838,
+              "borrowAssetsUsd": 0.0068855178736096255,
+              "utilization": 0.005177535357907464,
+              "borrowApy": 0.0002543469386668823
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xc3a8c2088e2474829088ed5496cc832fc0ecf582df34a14e353b607034d0376d",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24185413,
+            "collateralAsset": {
+              "address": "0x545A490f9ab534AdF409A2E682bc4098f49952e3",
+              "symbol": "PT-cUSD-29JAN2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+              "symbol": "AUSD",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x29CE518f4449f1dEe2EAA6d32621987Dcc18e29d",
+              "type": "Unknown"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278243,
+              "timestamp": 1793034335,
+              "supplyAssets": 6641156,
+              "borrowAssets": 2728164,
+              "liquidityAssets": 3912992,
+              "collateralAssets": 5453626164661504,
+              "price": "1000000000000000000000000",
+              "supplyAssetsUsd": 6.633893497813707,
+              "borrowAssetsUsd": 2.725180589127772,
+              "utilization": 0.4107965540938957,
+              "borrowApy": 0.0005925059011165447
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xc0a2d21761551c5edb963147392f4b6b1136b749f320ea34ae7d06b364f8495e",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 22132382,
+            "collateralAsset": {
+              "address": "0x90455bd11Ce8a67C57d467e634Dc142b8e4105Aa",
+              "symbol": "cUSDOUSDC",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xb208bFDf2A129386d7f1617D8498a69d2553f949",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278243,
+              "timestamp": 1793034335,
+              "supplyAssets": 1000,
+              "borrowAssets": 0,
+              "liquidityAssets": 1000,
+              "collateralAssets": 0,
+              "price": null,
+              "supplyAssetsUsd": 0.0009993494736733853,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xbc81f138bfa9b05089a4e3d88ac6bc1367407b44680c22b83b95cdd98d3eed7c",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 22132368,
+            "collateralAsset": {
+              "address": "0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0",
+              "symbol": "cUSDO",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xb208bFDf2A129386d7f1617D8498a69d2553f949",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278243,
+              "timestamp": 1793034335,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "liquidityAssets": 0,
+              "collateralAssets": 0,
+              "price": null,
+              "supplyAssetsUsd": 0,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xb7086c0579d2496cd5bc34c22da7b418e5defa948e049f4ad64e19ca046b90c3",
+            "chain": {
+              "id": 4217,
+              "network": "Tempo Mainnet"
+            },
+            "lltv": "770000000000000000",
+            "listed": false,
+            "creationBlockNumber": 18584214,
+            "collateralAsset": {
+              "address": "0x20C0000000000000000000000520792DcCccCccC",
+              "symbol": "cUSD",
+              "decimals": 6
+            },
+            "loanAsset": {
+              "address": "0x20C0000000000000000000000000000000000000",
+              "symbol": "pathUSD",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x8ECD322b6876c57567d2Bc5b376B573Dd5fA5b3a",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x112fd4042E442C3C12C67AD23587b0afe36eB74E",
+            "state": {
+              "blockNumber": 46007535,
+              "timestamp": 1793034332,
+              "supplyAssets": 2582396,
+              "borrowAssets": 1,
+              "liquidityAssets": 2582395,
+              "collateralAssets": 0,
+              "price": "999663150000000000000000000000000000",
+              "supplyAssetsUsd": 2.5865323851242312,
+              "borrowAssetsUsd": 1.001601762519858e-06,
+              "utilization": 3.87237278868e-07,
+              "borrowApy": 0.00025003153662732635
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xa46c4c323e03210bf59573aec2f292e451ae8ec40d9be0415522e77db2e5d402",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 22477344,
+            "collateralAsset": {
+              "address": "0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755",
+              "symbol": "PT-cUSDO-19JUN2025",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "symbol": "USDT",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xf5A3555B42dF994d1a6d62379075E2d96Ef16f9C",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278242,
+              "timestamp": 1793034323,
+              "supplyAssets": 223298869,
+              "borrowAssets": 219314707,
+              "liquidityAssets": 3984162,
+              "collateralAssets": 105219463620096,
+              "price": "1000000000000000000000000",
+              "supplyAssetsUsd": 223.03882940944882,
+              "borrowAssetsUsd": 219.05930710986382,
+              "utilization": 0.9821577152726196,
+              "borrowApy": 1020.9449622174801
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0xa439cc66f4ecc474879d09c6eca51fa18e5474212165d211d64ddcfaa9fafc6d",
+            "chain": {
+              "id": 4663,
+              "network": "Robinhood Chain"
+            },
+            "lltv": "385000000000000000",
+            "listed": false,
+            "creationBlockNumber": 83492126,
+            "collateralAsset": {
+              "address": "0xea602781E4c724B2Eccc19E83774Eb360F02A274",
+              "symbol": "cUSDG",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x2E8c31162b855A2ffa90F6F8634643Ad6F111e18",
+              "symbol": "AI",
+              "decimals": 18
+            },
+            "oracle": {
+              "address": "0x14880F884Cff86C7480B511f634773269c3f3415",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x2BD3d5965B26B51814AC95127B2b80dD6CcC0fa1",
+            "state": {
+              "blockNumber": 98574837,
+              "timestamp": 1793034338,
+              "supplyAssets": "11541851111188692600",
+              "borrowAssets": 0,
+              "liquidityAssets": "11541851111188692600",
+              "collateralAssets": 0,
+              "price": null,
+              "supplyAssetsUsd": 0.6823383525738572,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.0008487024377752864
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x99f294c452edc091c988688d501dca78a06ba559065c242b19653452e6affc7a",
+            "chain": {
+              "id": 8453,
+              "network": "Base"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 27448496,
+            "collateralAsset": {
+              "address": "0x83dB73EF5192de4B6a4c92bD0141Ba1a0Dc87c65",
+              "symbol": "cUSDO",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xa0C1316196189DfcD2fFa412936e1d07c18B8881",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x46415998764C29aB2a25CbeA6254146D50D22687",
+            "state": {
+              "blockNumber": 53122494,
+              "timestamp": 1793034335,
+              "supplyAssets": 20195680,
+              "borrowAssets": 7104116,
+              "liquidityAssets": 13091564,
+              "collateralAssets": "75166708445802422274",
+              "price": "1064879465264080499000000",
+              "supplyAssetsUsd": 20.182542178476115,
+              "borrowAssetsUsd": 7.099494585514676,
+              "utilization": 0.3517641396575901,
+              "borrowApy": 0.07451856428218918
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x97670b09989b5a2cc1547800b3265f177d06a3fcaf646a10af23476bf59d3b59",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "625000000000000000",
+            "listed": false,
+            "creationBlockNumber": 25086985,
+            "collateralAsset": {
+              "address": "0xe30f0B62E8Ae5ce2934151146dAe5651c2288C84",
+              "symbol": "CUSD",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xC4D461889F3ae06e97118342862251241AC24dDC",
+              "symbol": "MAYA",
+              "decimals": 18
+            },
+            "oracle": {
+              "address": "0xfd73C872EB04eebeACeA478F8Ca6Cb628144d2f6",
+              "type": "Unknown"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278242,
+              "timestamp": 1793034323,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "liquidityAssets": 0,
+              "collateralAssets": 0,
+              "price": null,
+              "supplyAssetsUsd": null,
+              "borrowAssetsUsd": null,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x944f5ebb33029e05ee338c2f4eb6ce0952f43a0524d5c8dd93d2e58a8dd8b55c",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24185350,
+            "collateralAsset": {
+              "address": "0x545A490f9ab534AdF409A2E682bc4098f49952e3",
+              "symbol": "PT-cUSD-29JAN2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "symbol": "USDT",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x74DE78a994EA17535c60d0bd3C72465dAad75039",
+              "type": "Unknown"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278242,
+              "timestamp": 1793034323,
+              "supplyAssets": 3918314,
+              "borrowAssets": 8,
+              "liquidityAssets": 3918306,
+              "collateralAssets": 0,
+              "price": "1000000000000000000000000",
+              "supplyAssetsUsd": 3.9137509819570786,
+              "borrowAssetsUsd": 7.990683711324979e-06,
+              "utilization": 2.041694463486e-06,
+              "borrowApy": 0.0002500329245582671
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x9245300ba4a0a4e9ca6180714718a6bb72b2ebe141745fd476e0fcd2641135fe",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 23235672,
+            "collateralAsset": {
+              "address": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+              "symbol": "stcUSD",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xb1E92b4e1E546B02a0f07500e68bE1380Cb694A1",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278242,
+              "timestamp": 1793034323,
+              "supplyAssets": 1001006,
+              "borrowAssets": 0,
+              "liquidityAssets": 1001006,
+              "collateralAssets": 0,
+              "price": "1087179608718512304000000",
+              "supplyAssetsUsd": 1.000354819243901,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x8de388b612be75250b019d345afb1cf333ad8d655dc0984c8e6ba708a1255a5b",
+            "chain": {
+              "id": 8453,
+              "network": "Base"
+            },
+            "lltv": "860000000000000000",
+            "listed": false,
+            "creationBlockNumber": 27454383,
+            "collateralAsset": {
+              "address": "0x5feDe9d65714907381A76AA9bF949219dD1c5023",
+              "symbol": "sAMM-USDC/cUSDO",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xa0C1316196189DfcD2fFa412936e1d07c18B8881",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x46415998764C29aB2a25CbeA6254146D50D22687",
+            "state": {
+              "blockNumber": 53122493,
+              "timestamp": 1793034333,
+              "supplyAssets": 1000,
+              "borrowAssets": 0,
+              "liquidityAssets": 1000,
+              "collateralAssets": 0,
+              "price": "1064879465264080499000000",
+              "supplyAssetsUsd": 0.0009993494736733853,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x8abcf6d7bb7a4bd8720fef5fa27917ac50a88cf2bf1a97002f43fec3919a373c",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "860000000000000000",
+            "listed": false,
+            "creationBlockNumber": 23235534,
+            "collateralAsset": {
+              "address": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+              "symbol": "stcUSD",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xb1E92b4e1E546B02a0f07500e68bE1380Cb694A1",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278242,
+              "timestamp": 1793034323,
+              "supplyAssets": 90001000,
+              "borrowAssets": 0,
+              "liquidityAssets": 90001000,
+              "collateralAssets": 0,
+              "price": "1087179608718512304000000",
+              "supplyAssetsUsd": 89.94245198007836,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x8a71a66ac828c2b6d4f8accce5859aba0822b502f3833bec4aff09479affffdb",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 22681404,
+            "collateralAsset": {
+              "address": "0xB10DA2F9147f9cf2B8826877Cd0c95c18A0f42dc",
+              "symbol": "PT-cUSDO-20NOV2025",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x0dF910a47452B995F545D66eb135f38D0FbB142E",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278242,
+              "timestamp": 1793034323,
+              "supplyAssets": 3870530247,
+              "borrowAssets": 712247,
+              "liquidityAssets": 3869818000,
+              "collateralAssets": "55634425292853056030",
+              "price": "1000000000000000000000000",
+              "supplyAssetsUsd": 3868.0123651763683,
+              "borrowAssetsUsd": 0.7117836645754476,
+              "utilization": 0.000184017939286756,
+              "borrowApy": 0.00025018461911291906
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x87a686cc100aabe917f8e1ad58140a1b63f0edbb9650a32c0526718dc610b2d5",
+            "chain": {
+              "id": 130,
+              "network": "Unichain"
+            },
+            "lltv": "915000000000000000",
+            "listed": true,
+            "creationBlockNumber": 38351580,
+            "collateralAsset": {
+              "address": "0x9d9874e867b877dD0a3F1EafB8bb1Bc54eeCc682",
+              "symbol": "PT-cUSD-23JUL2026-(ETH)",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x078D782b760474a361dDA0AF3839290b0EF57AD6",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x20B383DaB3CAA5F34b4A0417225b0FEf83449782",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x9a6061d51743B31D2c3Be75D83781Fa423f53F0E",
+            "state": {
+              "blockNumber": 62285973,
+              "timestamp": 1793034332,
+              "supplyAssets": 11802764,
+              "borrowAssets": 10868160,
+              "liquidityAssets": 934604,
+              "collateralAssets": "13322316566630509048",
+              "price": "1000000000000000000000000",
+              "supplyAssetsUsd": 11.79508599129118,
+              "borrowAssetsUsd": 10.861089975798139,
+              "utilization": 0.9208148193084263,
+              "borrowApy": 0.6274469873667594
+            },
+            "supplyingVaults": [
+              {
+                "address": "0x38f4f3B6533de0023b9DCd04b02F93d36ad1F9f9",
+                "name": "Gauntlet USDC"
+              }
+            ],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x823542f629eabe0912688a9fdeea092c3e656d6fa1e490c45631f9e98b7e5f3f",
+            "chain": {
+              "id": 143,
+              "network": "Monad"
+            },
+            "lltv": "860000000000000000",
+            "listed": true,
+            "creationBlockNumber": 88110509,
+            "collateralAsset": {
+              "address": "0x58ba69b289De313E66A13B7D1F822Fc98b970554",
+              "symbol": "naccUSDC",
+              "decimals": 6
+            },
+            "loanAsset": {
+              "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+              "symbol": "AUSD",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xe3Ee1EDAD92431Dd44Fa4d7fc4059F0a83ba5eA3",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x09475a3D6eA8c314c592b1a3799bDE044E2F400F",
+            "state": {
+              "blockNumber": 116810713,
+              "timestamp": 1793034332,
+              "supplyAssets": 1888581944556,
+              "borrowAssets": 1704596332674,
+              "liquidityAssets": 183985611882,
+              "collateralAssets": 2300000000000,
+              "price": "1067327000000000000000000000000000000",
+              "supplyAssetsUsd": 1886516.6669896652,
+              "borrowAssetsUsd": 1702732.2544031702,
+              "utilization": 0.9025800217923536,
+              "borrowApy": 0.08526112688141553
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": [
+              {
+                "address": "0xbe3E6d3F857812B4731677C88288D4F3afF8E9a1",
+                "name": "Clearstar Accountable AUSD"
+              }
+            ]
+          },
+          {
+            "marketId": "0x802ec6e878dc9fe6905b8a0a18962dcca10440a87fa2242fbf4a0461c7b0c789",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 23287226,
+            "collateralAsset": {
+              "address": "0x545A490f9ab534AdF409A2E682bc4098f49952e3",
+              "symbol": "PT-cUSD-29JAN2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xE1a701F28a95ECC49d671dc477f66A61Ac976f47",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278242,
+              "timestamp": 1793034323,
+              "supplyAssets": 217869176,
+              "borrowAssets": 7040300,
+              "liquidityAssets": 210828876,
+              "collateralAssets": "585690707126804150198",
+              "price": "999723140000000000000000",
+              "supplyAssetsUsd": 217.72744636525417,
+              "borrowAssetsUsd": 7.035720099502735,
+              "utilization": 0.03231434629375933,
+              "borrowApy": 0.1246766754675227
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x7fd694cd13880ce994c61e8f8991ce0c9e321e3d50f548dd62a1b6e610d29f32",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 22872105,
+            "collateralAsset": {
+              "address": "0xB10DA2F9147f9cf2B8826877Cd0c95c18A0f42dc",
+              "symbol": "PT-cUSDO-20NOV2025",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "symbol": "USDT",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xB9B803F4613bA39f5faeE45419b05A0a83068179",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278242,
+              "timestamp": 1793034323,
+              "supplyAssets": 1026521,
+              "borrowAssets": 461,
+              "liquidityAssets": 1026060,
+              "collateralAssets": 5431092746129976,
+              "price": "1000000000000000000000000",
+              "supplyAssetsUsd": 1.0253255792541287,
+              "borrowAssetsUsd": 0.000460463148865102,
+              "utilization": 0.000449089692271273,
+              "borrowApy": 0.0002504055525416331
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x7aae9136d142aa7ec2a3ad155fb42489ed7ed93a74c589eb1643916ae19f0833",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 22173252,
+            "collateralAsset": {
+              "address": "0x90455bd11Ce8a67C57d467e634Dc142b8e4105Aa",
+              "symbol": "cUSDOUSDC",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x04d1ACfEB737E10fb5e849222Be17aA8855c54E6",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278242,
+              "timestamp": 1793034323,
+              "supplyAssets": 2810516670,
+              "borrowAssets": 66770644,
+              "liquidityAssets": 2743746026,
+              "collateralAssets": "130209426195043578546",
+              "price": "1000000000000000000000000",
+              "supplyAssetsUsd": 2808.6883549147756,
+              "borrowAssetsUsd": 66.727207938233,
+              "utilization": 0.023757426779468273,
+              "borrowApy": 0.0002698342265953237
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x765426eb40a5c2e706dd80eb2f52876b5cd9bce738de28095ac12cafa32da78e",
+            "chain": {
+              "id": 4663,
+              "network": "Robinhood Chain"
+            },
+            "lltv": "385000000000000000",
+            "listed": false,
+            "creationBlockNumber": 83379048,
+            "collateralAsset": {
+              "address": "0xea602781E4c724B2Eccc19E83774Eb360F02A274",
+              "symbol": "cUSDG",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x56910D4409F3a0C78C64DD8D0545FF0705389870",
+              "symbol": "Index",
+              "decimals": 18
+            },
+            "oracle": {
+              "address": "0x6Ae7E61074DfE75275384F00662f78bb2B7E9d7E",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x2BD3d5965B26B51814AC95127B2b80dD6CcC0fa1",
+            "state": {
+              "blockNumber": 98574735,
+              "timestamp": 1793034328,
+              "supplyAssets": "85085008539941375823",
+              "borrowAssets": "84336700982896920305",
+              "liquidityAssets": "748307557044455518",
+              "collateralAssets": "4647556055957473625",
+              "price": "194825747978432868994176682597049095958",
+              "supplyAssetsUsd": 0.44455266043468566,
+              "borrowAssetsUsd": 0.4406428986444952,
+              "utilization": 0.9912051773880568,
+              "borrowApy": 1.1262419871700584
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x702b7ec7628de2622e51e1bb34a7e6ad9e95f3a25a2ed361e4ce621f23f5e642",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": true,
+            "creationBlockNumber": 24317984,
+            "collateralAsset": {
+              "address": "0x928FB6ED39100a92B2480f5cbB93453f98D9F4cE",
+              "symbol": "PT-cUSD-23JUL2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x25b30502467639E8FA118451105269e9B9813DD2",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278242,
+              "timestamp": 1793034323,
+              "supplyAssets": 2284317,
+              "borrowAssets": 1912320,
+              "liquidityAssets": 371997,
+              "collateralAssets": "4923786400184753996",
+              "price": "999991527726126415068540",
+              "supplyAssetsUsd": 2.282830991653167,
+              "borrowAssetsUsd": 1.9110759854950883,
+              "utilization": 0.8371517613361018,
+              "borrowApy": 3.875815984997069
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": [
+              {
+                "address": "0x093272C07700d3cA5301C3Bf9B3A392624179E2F",
+                "name": "Hyperithm USDC Apex"
+              },
+              {
+                "address": "0xB885F6d448dA7E2C642Ec31190B629E40E87B069",
+                "name": "Yearn OG USDC"
+              },
+              {
+                "address": "0xD5cCe260E7a755DDf0Fb9cdF06443d593AaeaA13",
+                "name": "KPK USDC Yield"
+              }
+            ]
+          },
+          {
+            "marketId": "0x6b52b01a57cb5b6d4d22ad6025c87c387dfa2cc8e416e61b20eb4f8826b7a070",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24182723,
+            "collateralAsset": {
+              "address": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+              "symbol": "stcUSD",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "symbol": "USDT",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xb1a30794bB7B5D6D10Acc7A59aF664100ca77Cf1",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278241,
+              "timestamp": 1793034311,
+              "supplyAssets": 3992485,
+              "borrowAssets": 10,
+              "liquidityAssets": 3992475,
+              "collateralAssets": 0,
+              "price": "1088642212556383838501887",
+              "supplyAssetsUsd": 3.987835607151164,
+              "borrowAssetsUsd": 9.988354639156225e-06,
+              "utilization": 2.504705715863e-06,
+              "borrowApy": 0.0002500333030848876
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x5eaaebc81e9e27972ab458811d1b60828e8ab51ef6620f9b3918fd7e68eecec1",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": true,
+            "creationBlockNumber": 24319122,
+            "collateralAsset": {
+              "address": "0x2d3C279E5FcDF5b793c0a75ed90738D7369B0b83",
+              "symbol": "PT-stcUSD-23JUL2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "symbol": "USDT",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x11aEFbf08bAB2b3f3141c2CC4749A638c4c3b674",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278241,
+              "timestamp": 1793034311,
+              "supplyAssets": 1317541,
+              "borrowAssets": 1042208,
+              "liquidityAssets": 275333,
+              "collateralAssets": "10181630174306207002",
+              "price": "999991527726126415068540",
+              "supplyAssetsUsd": 1.3160066759628533,
+              "borrowAssetsUsd": 1.0409943111765732,
+              "utilization": 0.7910250990291763,
+              "borrowApy": 0.0030910132442224236
+            },
+            "supplyingVaults": [
+              {
+                "address": "0xA0804346780b4c2e3bE118ac957D1DB82F9d7484",
+                "name": "Smokehouse USDT"
+              }
+            ],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x5b347b3dcfed096f09040cd30a174ae354ecc0a35c996493b8fa490d6d3e79d7",
+            "chain": {
+              "id": 8453,
+              "network": "Base"
+            },
+            "lltv": "860000000000000000",
+            "listed": false,
+            "creationBlockNumber": 27490753,
+            "collateralAsset": {
+              "address": "0x5feDe9d65714907381A76AA9bF949219dD1c5023",
+              "symbol": "sAMM-USDC/cUSDO",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x4e0175f63BcCdF4A2eEb22d4c98ebaD4438ff6f9",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x46415998764C29aB2a25CbeA6254146D50D22687",
+            "state": {
+              "blockNumber": 53122487,
+              "timestamp": 1793034321,
+              "supplyAssets": 2611910,
+              "borrowAssets": 1139974,
+              "liquidityAssets": 1471936,
+              "collateralAssets": 24186782612806,
+              "price": "2049224903097999416025363000000",
+              "supplyAssetsUsd": 2.6102108837822517,
+              "borrowAssetsUsd": 1.139232416901344,
+              "utilization": 0.436452251417545,
+              "borrowApy": 0.22949380498298214
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x54e42432a7c0309ba650080cab6fcff377034fd9de174bbd3a4b519186ffc0f8",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24319128,
+            "collateralAsset": {
+              "address": "0x2d3C279E5FcDF5b793c0a75ed90738D7369B0b83",
+              "symbol": "PT-stcUSD-23JUL2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+              "symbol": "AUSD",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x11aEFbf08bAB2b3f3141c2CC4749A638c4c3b674",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278241,
+              "timestamp": 1793034311,
+              "supplyAssets": 2159108,
+              "borrowAssets": 1,
+              "liquidityAssets": 2159107,
+              "collateralAssets": 0,
+              "price": "999991527726126415068540",
+              "supplyAssetsUsd": 2.1567468859755077,
+              "borrowAssetsUsd": 9.989064400555727e-07,
+              "utilization": 4.63154228505e-07,
+              "borrowApy": 0.0020374512306374454
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x457b54a03c6bba984470d5687ec6df7967c0168bdc0052315713bfd287cd576c",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 22331766,
+            "collateralAsset": {
+              "address": "0x933B9FfEE0Ad3Ef8E4DBb52688ea905826D73755",
+              "symbol": "PT-cUSDO-19JUN2025",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x506f0CF6150677b91519639215Dc0b7f8d190D0A",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278241,
+              "timestamp": 1793034311,
+              "supplyAssets": 1030363,
+              "borrowAssets": 731937,
+              "liquidityAssets": 298426,
+              "collateralAssets": "30146863322109307077",
+              "price": "999999405579246945831957",
+              "supplyAssetsUsd": 1.0296927217425302,
+              "borrowAssetsUsd": 0.7314608557120766,
+              "utilization": 0.7103680935747887,
+              "borrowApy": 0.0008423279158695614
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x4212ddead99e2a680fc2e7fe0ea4c00dba16c37cb1f46d36b3d9fde14874ac37",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "625000000000000000",
+            "listed": false,
+            "creationBlockNumber": 25086845,
+            "collateralAsset": {
+              "address": "0xC4D461889F3ae06e97118342862251241AC24dDC",
+              "symbol": "MAYA",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xe30f0B62E8Ae5ce2934151146dAe5651c2288C84",
+              "symbol": "CUSD",
+              "decimals": 18
+            },
+            "oracle": {
+              "address": "0xF3689Aa19e70dcDe1A1c534751C5a05796775A5c",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278241,
+              "timestamp": 1793034311,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "liquidityAssets": 0,
+              "collateralAssets": 0,
+              "price": "100026770819135202801054",
+              "supplyAssetsUsd": null,
+              "borrowAssetsUsd": null,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x3b4a3f2c1f0f48330b4284a0595ed76a4add5bf153bab55aefea734b937076e7",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24190696,
+            "collateralAsset": {
+              "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33",
+              "symbol": "PT-stcUSD-29JAN2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+              "symbol": "AUSD",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x57C4Af82eC8f4f30e4e1b5E68Cd13f8A5A306049",
+              "type": "Unknown"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278240,
+              "timestamp": 1793034299,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "liquidityAssets": 0,
+              "collateralAssets": 0,
+              "price": "1000000000000000000000000",
+              "supplyAssetsUsd": 0,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x38785725d460f135af5c796c1c517cfb65fcb0e9fa42fa7f1278b36f798a959d",
+            "chain": {
+              "id": 4663,
+              "network": "Robinhood Chain"
+            },
+            "lltv": "385000000000000000",
+            "listed": false,
+            "creationBlockNumber": 83378538,
+            "collateralAsset": {
+              "address": "0xea602781E4c724B2Eccc19E83774Eb360F02A274",
+              "symbol": "cUSDG",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x51250B135174Ca09450EC01c4afF73CF69DBb590",
+              "symbol": "NOVAAI",
+              "decimals": 18
+            },
+            "oracle": {
+              "address": "0x5BE6b080C63b8B255036276492F3Ef3Ab9687BC1",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x2BD3d5965B26B51814AC95127B2b80dD6CcC0fa1",
+            "state": {
+              "blockNumber": 98574591,
+              "timestamp": 1793034313,
+              "supplyAssets": "2245085270646373485",
+              "borrowAssets": 0,
+              "liquidityAssets": "2245085270646373485",
+              "collateralAssets": 0,
+              "price": null,
+              "supplyAssetsUsd": null,
+              "borrowAssetsUsd": null,
+              "utilization": 0,
+              "borrowApy": 0.0008336859338766592
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x3845819ef4d8ad934bdb923d7112653adfa9efa19acffeafc3ff75043d301231",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24197888,
+            "collateralAsset": {
+              "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33",
+              "symbol": "PT-stcUSD-29JAN2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+              "symbol": "AUSD",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x486A6B92c4fb03571a624f258349a012bA083d96",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278240,
+              "timestamp": 1793034299,
+              "supplyAssets": 1008944,
+              "borrowAssets": 0,
+              "liquidityAssets": 1008944,
+              "collateralAssets": 0,
+              "price": "999723140000000000000000",
+              "supplyAssetsUsd": 1.0078406592554299,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x354c1d720e5939819d37b07c63fadea3bdfef6a9fea3422c685adf8daf0132dd",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24286759,
+            "collateralAsset": {
+              "address": "0x2d3C279E5FcDF5b793c0a75ed90738D7369B0b83",
+              "symbol": "PT-stcUSD-23JUL2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xA69760E3b8EA0A59eFaf22178690216597315b73",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278240,
+              "timestamp": 1793034299,
+              "supplyAssets": 1001000,
+              "borrowAssets": 0,
+              "liquidityAssets": 1001000,
+              "collateralAssets": "1400000000000000000",
+              "price": "999723139999999999000276",
+              "supplyAssetsUsd": 1.0003488231470585,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x335e8e8f1324b1e43e16c5101f4db793fed10a6e63340bc4b3ad38106559e9d9",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24197867,
+            "collateralAsset": {
+              "address": "0x545A490f9ab534AdF409A2E682bc4098f49952e3",
+              "symbol": "PT-cUSD-29JAN2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+              "symbol": "AUSD",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x332C4cB17b1a11a29bc903D2E49752b2e6a60474",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278240,
+              "timestamp": 1793034299,
+              "supplyAssets": 1008954,
+              "borrowAssets": 0,
+              "liquidityAssets": 1008954,
+              "collateralAssets": 0,
+              "price": "999723140000000000000000",
+              "supplyAssetsUsd": 1.0078506483198304,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x2fb3713487c7812e7309935b034f40228841666f6b048faf31fd2110ae674f20",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24319115,
+            "collateralAsset": {
+              "address": "0x2d3C279E5FcDF5b793c0a75ed90738D7369B0b83",
+              "symbol": "PT-stcUSD-23JUL2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x11aEFbf08bAB2b3f3141c2CC4749A638c4c3b674",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278240,
+              "timestamp": 1793034299,
+              "supplyAssets": 2023188,
+              "borrowAssets": 1027108,
+              "liquidityAssets": 996080,
+              "collateralAssets": "4143611984188655005",
+              "price": "999991527726126415068540",
+              "supplyAssetsUsd": 2.021871862942309,
+              "borrowAssetsUsd": 1.0264398392057235,
+              "utilization": 0.5076680960938875,
+              "borrowApy": 0.0006732832550546926
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x2c10e050eb191f3e6ab9475a442d8d8b6a13e82dad7a9110475f4d22392a1a0c",
+            "chain": {
+              "id": 8453,
+              "network": "Base"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 29450393,
+            "collateralAsset": {
+              "address": "0x1155d1731B495BF22f016e13cAfb6aFA53BD8a28",
+              "symbol": "PT-cUSDO-15JUL2025",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x478964dddB1880B125B8031522acE00Eb7a32652",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x46415998764C29aB2a25CbeA6254146D50D22687",
+            "state": {
+              "blockNumber": 53122481,
+              "timestamp": 1793034309,
+              "supplyAssets": 15003869,
+              "borrowAssets": 106956,
+              "liquidityAssets": 14896913,
+              "collateralAssets": "105266087810059629",
+              "price": "1044525120517070898544643",
+              "supplyAssetsUsd": 14.994108588214422,
+              "borrowAssetsUsd": 0.1068864223062106,
+              "utilization": 0.007128561306420363,
+              "borrowApy": 0.0002559731919959347
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x29995aaf4d8f4fce6214f1251935de91ef097b64f37837a9e393c21955b243b3",
+            "chain": {
+              "id": 4663,
+              "network": "Robinhood Chain"
+            },
+            "lltv": "385000000000000000",
+            "listed": false,
+            "creationBlockNumber": 83378984,
+            "collateralAsset": {
+              "address": "0xea602781E4c724B2Eccc19E83774Eb360F02A274",
+              "symbol": "cUSDG",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x0339f5459FC690aC85F1782e15782A151b4A9E1b",
+              "symbol": "WALLET",
+              "decimals": 18
+            },
+            "oracle": {
+              "address": "0xec33c58058c0a53e12C9654EAC244B54FA467ee0",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x2BD3d5965B26B51814AC95127B2b80dD6CcC0fa1",
+            "state": {
+              "blockNumber": 98574560,
+              "timestamp": 1793034310,
+              "supplyAssets": "51133075563387140701",
+              "borrowAssets": 0,
+              "liquidityAssets": "51133075563387140701",
+              "collateralAssets": 0,
+              "price": "52613409177856233306046043535484901425",
+              "supplyAssetsUsd": null,
+              "borrowAssetsUsd": null,
+              "utilization": 0,
+              "borrowApy": 0.0008337486797133718
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x233941d731a189fb2b3944f7d3363182202c9202b6e7b308afce49faa809e1e1",
+            "chain": {
+              "id": 42161,
+              "network": "Arbitrum One"
+            },
+            "lltv": 0,
+            "listed": false,
+            "creationBlockNumber": 390581189,
+            "collateralAsset": null,
+            "loanAsset": {
+              "address": "0xa60643c90A542A95026C0F1dbdB0615fF42019Cf",
+              "symbol": "MCUSDC",
+              "decimals": 18
+            },
+            "oracle": null,
+            "irmAddress": "0x0000000000000000000000000000000000000000",
+            "state": {
+              "blockNumber": 518500790,
+              "timestamp": 1793034307,
+              "supplyAssets": "5010088362026618102",
+              "borrowAssets": 0,
+              "liquidityAssets": "5010088362026618102",
+              "collateralAssets": null,
+              "price": null,
+              "supplyAssetsUsd": null,
+              "borrowAssetsUsd": null,
+              "utilization": 0,
+              "borrowApy": 0
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x228eb4c7d01b0471de75b9b8548ba6fddd96a007a91cc50661a64ad52251ff81",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 23828318,
+            "collateralAsset": {
+              "address": "0x67aEeEd39C1675e0Df93Ad8BaB543b17992d433B",
+              "symbol": "PT-cUSDO-28MAY2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x831607731C1dA3697d752d0f40c1cF0968F14fEb",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278240,
+              "timestamp": 1793034299,
+              "supplyAssets": 620376,
+              "borrowAssets": 563866,
+              "liquidityAssets": 56510,
+              "collateralAssets": "1031517796605866215",
+              "price": "1000176951306225097344222",
+              "supplyAssetsUsd": 0.6199724290796002,
+              "borrowAssetsUsd": 0.5634991903223171,
+              "utilization": 0.9089100803383754,
+              "borrowApy": 0.19446915944223392
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x226966874fecfb817a431ffb7458d0acb082579eb99b448e9ec98d9249e06341",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24197880,
+            "collateralAsset": {
+              "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33",
+              "symbol": "PT-stcUSD-29JAN2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+              "symbol": "USDT",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xC028F1530fAAD8d23e465a0DB8F383fFe11dC53b",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278240,
+              "timestamp": 1793034299,
+              "supplyAssets": 3919252,
+              "borrowAssets": 5,
+              "liquidityAssets": 3919247,
+              "collateralAssets": 0,
+              "price": "1001345319417456279172259",
+              "supplyAssetsUsd": 3.9146878896222317,
+              "borrowAssetsUsd": 4.994177319578113e-06,
+              "utilization": 1.275753638704e-06,
+              "borrowApy": 0.00025003229368056654
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x21181d33ac70b7290592338113e5af6e68c0e623ffaf932515727bb35f5690ef",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24184629,
+            "collateralAsset": {
+              "address": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+              "symbol": "stcUSD",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+              "symbol": "AUSD",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x67c5d1f448E624BEC01C31335fA22829155fB9Ce",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278240,
+              "timestamp": 1793034299,
+              "supplyAssets": 35661143,
+              "borrowAssets": 35660143,
+              "liquidityAssets": 1000,
+              "collateralAssets": "3836584105654472704",
+              "price": "1181632254829756292727384",
+              "supplyAssetsUsd": 35.62214540244271,
+              "borrowAssetsUsd": 35.62114649600265,
+              "utilization": 0.999971958274024,
+              "borrowApy": 2974.946731318028
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x17b7b7b9b5907e2aa759661a1dc8749c43de5b2aa990ccc0bdfdbf1badb7dab3",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 24184778,
+            "collateralAsset": {
+              "address": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+              "symbol": "stcUSD",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a",
+              "symbol": "AUSD",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xa26D8Cd042E85c7F5483a2429B6F4D0211AfC689",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278240,
+              "timestamp": 1793034299,
+              "supplyAssets": 1822217,
+              "borrowAssets": 0,
+              "liquidityAssets": 1822217,
+              "collateralAssets": 0,
+              "price": "1086878603455944000000000",
+              "supplyAssetsUsd": 1.8202242964787458,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.00203726665357631
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x15f30b939b8590be30aa22cd8d6367cf90a0ae460ce7f644ddbf58b8442e619a",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 22132258,
+            "collateralAsset": {
+              "address": "0xaD55aebc9b8c03FC43cd9f62260391c13c23e7c0",
+              "symbol": "cUSDO",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x26Be0B9fDAF2855428DEee155b195eE802144ACD",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278240,
+              "timestamp": 1793034299,
+              "supplyAssets": 12011,
+              "borrowAssets": 10,
+              "liquidityAssets": 12001,
+              "collateralAssets": "1000000000000000000",
+              "price": "1064879632986000000000000",
+              "supplyAssetsUsd": 0.012003186528291031,
+              "borrowAssetsUsd": 9.993494736733854e-06,
+              "utilization": 0.000832570144034634,
+              "borrowApy": 0.0002507252184427782
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x102b539c1fca960e604bc71858e4e179dc2b07e1452ab0a3f8571dd6dcffb63f",
+            "chain": {
+              "id": 4663,
+              "network": "Robinhood Chain"
+            },
+            "lltv": "385000000000000000",
+            "listed": false,
+            "creationBlockNumber": 83492179,
+            "collateralAsset": {
+              "address": "0xea602781E4c724B2Eccc19E83774Eb360F02A274",
+              "symbol": "cUSDG",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0x39dBED3a2bd333467115dE45665cC57F813C4571",
+              "symbol": "PONS",
+              "decimals": 18
+            },
+            "oracle": {
+              "address": "0x9A452556A21D01D2050eb3F8ef832170e0F05DeA",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x2BD3d5965B26B51814AC95127B2b80dD6CcC0fa1",
+            "state": {
+              "blockNumber": 98574498,
+              "timestamp": 1793034304,
+              "supplyAssets": "2941874543517991718",
+              "borrowAssets": 0,
+              "liquidityAssets": "2941874543517991718",
+              "collateralAssets": 0,
+              "price": "4115245228254321166306986916250036340",
+              "supplyAssetsUsd": 0.7206997487097967,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.0008487530960138798
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x0e71562603ba2985c1b0fe104ef276335b68066c960fcbd39b2c2332be19edd8",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 22168191,
+            "collateralAsset": {
+              "address": "0x90455bd11Ce8a67C57d467e634Dc142b8e4105Aa",
+              "symbol": "cUSDOUSDC",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x2A36a54C7c00215D86Caf9a283A44817D3390A2A",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278240,
+              "timestamp": 1793034299,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "liquidityAssets": 0,
+              "collateralAssets": 0,
+              "price": null,
+              "supplyAssetsUsd": 0,
+              "borrowAssetsUsd": 0,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x0a9d7d7deb2be40cf027b87f3bb4a4776095be5d1a9d8d64253e8f9f4f64fa85",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 22872045,
+            "collateralAsset": {
+              "address": "0xB10DA2F9147f9cf2B8826877Cd0c95c18A0f42dc",
+              "symbol": "PT-cUSDO-20NOV2025",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0804346780b4c2e3bE118ac957D1DB82F9d7484",
+              "symbol": "bbqUSDT",
+              "decimals": 18
+            },
+            "oracle": {
+              "address": "0xEc5333619ce2AE075e5FffF1A4F9540f81f2F041",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278240,
+              "timestamp": 1793034299,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "liquidityAssets": 0,
+              "collateralAssets": 0,
+              "price": "910413085461960305643516886055129026",
+              "supplyAssetsUsd": null,
+              "borrowAssetsUsd": null,
+              "utilization": 0,
+              "borrowApy": 0.00025003122118847645
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x03f715ef1ae508ab3e1faf4dffdbf2a077d1f0ad10c5aad42cf4438d5e3328af",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 23241484,
+            "collateralAsset": {
+              "address": "0xC3c7E5E277d31CD24a3Ac4cC9af3B6770F30eA33",
+              "symbol": "PT-stcUSD-29JAN2026",
+              "decimals": 18
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0xC86CfE9dE224bf0A14Ea83949591a54467BE647D",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278240,
+              "timestamp": 1793034299,
+              "supplyAssets": 12607989642,
+              "borrowAssets": 11267038705,
+              "liquidityAssets": 1340950937,
+              "collateralAssets": "15519102133060569247606",
+              "price": "999900042315486454863871",
+              "supplyAssetsUsd": 12599.787812812194,
+              "borrowAssetsUsd": 11259.709199699411,
+              "utilization": 0.8936427634320863,
+              "borrowApy": 0.1495494541806935
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          },
+          {
+            "marketId": "0x03157b7411956c938c497a28d3d2efdc2761a6f659a0397b29285766f7b9bc0c",
+            "chain": {
+              "id": 1,
+              "network": "Ethereum"
+            },
+            "lltv": "915000000000000000",
+            "listed": false,
+            "creationBlockNumber": 22475187,
+            "collateralAsset": {
+              "address": "0x699e04F98dE2Fc395a7dcBf36B48EC837A976490",
+              "symbol": "tacUSD",
+              "decimals": 6
+            },
+            "loanAsset": {
+              "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+              "symbol": "USDC",
+              "decimals": 6
+            },
+            "oracle": {
+              "address": "0x2bE2Ed266AcE03009bf613F9100420FD2F56be75",
+              "type": "ChainlinkOracleV2"
+            },
+            "irmAddress": "0x870aC11D48B15DB9a138Cf899d20F13F79Ba00BC",
+            "state": {
+              "blockNumber": 26278240,
+              "timestamp": 1793034299,
+              "supplyAssets": 1037970064,
+              "borrowAssets": 541019159,
+              "liquidityAssets": 496950905,
+              "collateralAssets": 692918506,
+              "price": null,
+              "supplyAssetsUsd": 1037.2948371471302,
+              "borrowAssetsUsd": 540.6672117938675,
+              "utilization": 0.5212280948788519,
+              "borrowApy": 0.00068459093810727
+            },
+            "supplyingVaults": [],
+            "supplyingVaultV2s": []
+          }
+        ],
+        "pageInfo": {
+          "count": 64,
+          "countTotal": 64
+        }
+      }
+    },
+    "extensions": {
+      "complexity": 239500,
+      "maximumComplexity": 1000000
+    }
+  }
+}

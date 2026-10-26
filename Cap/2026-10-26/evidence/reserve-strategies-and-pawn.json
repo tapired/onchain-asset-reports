@@ -1,0 +1,481 @@
+{
+  "block": "0x190f965",
+  "observed_utc": "2026-10-26T17:10:21.187077+00:00",
+  "results": [
+    {
+      "label": "0x7d7f72d393f242da6e22d3b970491c06742984ff strategy book",
+      "address": "0x3ed6aa32c930253fc990de58ff882b9186cd0072",
+      "signature": "strategies(address)",
+      "args": [
+        "0x7d7f72d393f242da6e22d3b970491c06742984ff"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 0,
+        "result": "0x00000000000000000000000000000000000000000000000000000000686d1e2f000000000000000000000000000000000000000000000000000000006adf4c3b000000000000000000000000000000000000000000000000000012e036e4ab4800000000000000000000000000000000000000000000000000002d79883d2000"
+      },
+      "decoded": [
+        1751981615,
+        1793018939,
+        20754202929992,
+        50000000000000
+      ]
+    },
+    {
+      "label": "0x7d7f72d393f242da6e22d3b970491c06742984ff name",
+      "address": "0x7d7f72d393f242da6e22d3b970491c06742984ff",
+      "signature": "name()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000013416176652056332055534443204c656e64657200000000000000000000000000"
+      },
+      "decoded": [
+        "Aave V3 USDC Lender"
+      ]
+    },
+    {
+      "label": "0x7d7f72d393f242da6e22d3b970491c06742984ff totalAssets",
+      "address": "0x7d7f72d393f242da6e22d3b970491c06742984ff",
+      "signature": "totalAssets()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": "0x000000000000000000000000000000000000000000000000000012e036e4ab48"
+      },
+      "decoded": [
+        20754202929992
+      ]
+    },
+    {
+      "label": "0x7d7f72d393f242da6e22d3b970491c06742984ff asset",
+      "address": "0x7d7f72d393f242da6e22d3b970491c06742984ff",
+      "signature": "asset()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      },
+      "decoded": [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ]
+    },
+    {
+      "label": "0x9939009295ead3c67259af3b93c284079ffe931e strategy book",
+      "address": "0x3ed6aa32c930253fc990de58ff882b9186cd0072",
+      "signature": "strategies(address)",
+      "args": [
+        "0x9939009295ead3c67259af3b93c284079ffe931e"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 4,
+        "result": "0x000000000000000000000000000000000000000000000000000000006abd2e0f000000000000000000000000000000000000000000000000000000006adf4c3b00000000000000000000000000000000000000000000000000000017564ee45500000000000000000000000000000000000000000000000000000da475abf000"
+      },
+      "decoded": [
+        1790782991,
+        1793018939,
+        100232258645,
+        15000000000000
+      ]
+    },
+    {
+      "label": "0x9939009295ead3c67259af3b93c284079ffe931e name",
+      "address": "0x9939009295ead3c67259af3b93c284079ffe931e",
+      "signature": "name()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 5,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000f4f6e646f486f6c64657220555344430000000000000000000000000000000000"
+      },
+      "decoded": [
+        "OndoHolder USDC"
+      ]
+    },
+    {
+      "label": "0x9939009295ead3c67259af3b93c284079ffe931e totalAssets",
+      "address": "0x9939009295ead3c67259af3b93c284079ffe931e",
+      "signature": "totalAssets()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 6,
+        "result": "0x00000000000000000000000000000000000000000000000000000017564ee455"
+      },
+      "decoded": [
+        100232258645
+      ]
+    },
+    {
+      "label": "0x9939009295ead3c67259af3b93c284079ffe931e asset",
+      "address": "0x9939009295ead3c67259af3b93c284079ffe931e",
+      "signature": "asset()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 7,
+        "result": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      },
+      "decoded": [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ]
+    },
+    {
+      "label": "0xbaed9839573d349e42dfbf23a8916e5ab9caf2e3 strategy book",
+      "address": "0x3ed6aa32c930253fc990de58ff882b9186cd0072",
+      "signature": "strategies(address)",
+      "args": [
+        "0xbaed9839573d349e42dfbf23a8916e5ab9caf2e3"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 8,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "0xbaed9839573d349e42dfbf23a8916e5ab9caf2e3 name",
+      "address": "0xbaed9839573d349e42dfbf23a8916e5ab9caf2e3",
+      "signature": "name()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 9,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002a4d6f7270686f20537465616b686f757365205072696d6520496e7374616e7420436f6d706f756e64657200000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        "Morpho Steakhouse Prime Instant Compounder"
+      ]
+    },
+    {
+      "label": "0xbaed9839573d349e42dfbf23a8916e5ab9caf2e3 totalAssets",
+      "address": "0xbaed9839573d349e42dfbf23a8916e5ab9caf2e3",
+      "signature": "totalAssets()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 10,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xbaed9839573d349e42dfbf23a8916e5ab9caf2e3 asset",
+      "address": "0xbaed9839573d349e42dfbf23a8916e5ab9caf2e3",
+      "signature": "asset()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 11,
+        "result": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      },
+      "decoded": [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ]
+    },
+    {
+      "label": "0x8092c20351cf4048b464df2144dc8a4dd49ce71d strategy book",
+      "address": "0x3ed6aa32c930253fc990de58ff882b9186cd0072",
+      "signature": "strategies(address)",
+      "args": [
+        "0x8092c20351cf4048b464df2144dc8a4dd49ce71d"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 12,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "0x8092c20351cf4048b464df2144dc8a4dd49ce71d name",
+      "address": "0x8092c20351cf4048b464df2144dc8a4dd49ce71d",
+      "signature": "name()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 13,
+        "result": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000254d6f7270686f204761756e746c65742055534443205072696d6520436f6d706f756e646572000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        "Morpho Gauntlet USDC Prime Compounder"
+      ]
+    },
+    {
+      "label": "0x8092c20351cf4048b464df2144dc8a4dd49ce71d totalAssets",
+      "address": "0x8092c20351cf4048b464df2144dc8a4dd49ce71d",
+      "signature": "totalAssets()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 14,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x8092c20351cf4048b464df2144dc8a4dd49ce71d asset",
+      "address": "0x8092c20351cf4048b464df2144dc8a4dd49ce71d",
+      "signature": "asset()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 15,
+        "result": "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      },
+      "decoded": [
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ]
+    },
+    {
+      "label": "Pawn BORROWER",
+      "address": "0xe63a2abc24cd9538398d825a4bfe5778d25687df",
+      "signature": "BORROWER()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 16,
+        "result": "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986"
+      },
+      "decoded": [
+        "0xd362efc75ef1879f37a900823495f402cfdb0986"
+      ]
+    },
+    {
+      "label": "Pawn COLLATERAL_ASSET",
+      "address": "0xe63a2abc24cd9538398d825a4bfe5778d25687df",
+      "signature": "COLLATERAL_ASSET()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 17,
+        "result": "0x00000000000000000000000088887be419578051ff9f4eb6c858a951921d8888"
+      },
+      "decoded": [
+        "0x88887be419578051ff9f4eb6c858a951921d8888"
+      ]
+    },
+    {
+      "label": "Pawn ORACLE",
+      "address": "0xe63a2abc24cd9538398d825a4bfe5778d25687df",
+      "signature": "ORACLE()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 18,
+        "result": "0x0000000000000000000000008e3386b2f6084eb1b0988070c3d826995bd175c0"
+      },
+      "decoded": [
+        "0x8e3386b2f6084eb1b0988070c3d826995bd175c0"
+      ]
+    },
+    {
+      "label": "Pawn LLTV",
+      "address": "0xe63a2abc24cd9538398d825a4bfe5778d25687df",
+      "signature": "LLTV()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 19,
+        "result": "0x0000000000000000000000000000000000000000000000000cb2bba6f17b8000"
+      },
+      "decoded": [
+        915000000000000000
+      ]
+    },
+    {
+      "label": "Pawn totalCollateral",
+      "address": "0xe63a2abc24cd9538398d825a4bfe5778d25687df",
+      "signature": "totalCollateral()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 20,
+        "result": "0x0000000000000000000000000000000000000000000549c1f51ee889de2def49"
+      },
+      "decoded": [
+        6392939735739323346972489
+      ]
+    },
+    {
+      "label": "Pawn rate",
+      "address": "0xe63a2abc24cd9538398d825a4bfe5778d25687df",
+      "signature": "rate()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 21,
+        "result": "0x00000000000000000000000000000000000000000000000000000000000001c2"
+      },
+      "decoded": [
+        450
+      ]
+    },
+    {
+      "label": "Pawn open",
+      "address": "0xe63a2abc24cd9538398d825a4bfe5778d25687df",
+      "signature": "open()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 22,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        false
+      ]
+    },
+    {
+      "label": "Pawn paused",
+      "address": "0xe63a2abc24cd9538398d825a4bfe5778d25687df",
+      "signature": "paused()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 23,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        false
+      ]
+    },
+    {
+      "label": "Pawn CALL_DURATION",
+      "address": "0xe63a2abc24cd9538398d825a4bfe5778d25687df",
+      "signature": "CALL_DURATION()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 24,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000093a80"
+      },
+      "decoded": [
+        604800
+      ]
+    },
+    {
+      "label": "Pawn callDeadline",
+      "address": "0xe63a2abc24cd9538398d825a4bfe5778d25687df",
+      "signature": "callDeadline()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 25,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "Pawn calledDebt",
+      "address": "0xe63a2abc24cd9538398d825a4bfe5778d25687df",
+      "signature": "calledDebt()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 26,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "yvUSDC name",
+      "address": "0xbe53a109b494e5c9f97b9cd39fe969be68bf6204",
+      "signature": "name()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 27,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000d555344432d3120795661756c7400000000000000000000000000000000000000"
+      },
+      "decoded": [
+        "USDC-1 yVault"
+      ]
+    },
+    {
+      "label": "yvUSDC assets",
+      "address": "0xbe53a109b494e5c9f97b9cd39fe969be68bf6204",
+      "signature": "totalAssets()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 28,
+        "result": "0x000000000000000000000000000000000000000000000000000010d4a56abaa1"
+      },
+      "decoded": [
+        18505494346401
+      ]
+    },
+    {
+      "label": "yvUSDC pawn strategy",
+      "address": "0xbe53a109b494e5c9f97b9cd39fe969be68bf6204",
+      "signature": "strategies(address)",
+      "args": [
+        "0xe63a2abc24cd9538398d825a4bfe5778d25687df"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 29,
+        "result": "0x000000000000000000000000000000000000000000000000000000006a3ea433000000000000000000000000000000000000000000000000000000006ac334b70000000000000000000000000000000000000000000000000000057de76d9901000000000000000000000000000000000000000000000000000009184e72a000"
+      },
+      "decoded": [
+        1782490163,
+        1791177911,
+        6038311770369,
+        10000000000000
+      ]
+    }
+  ]
+}

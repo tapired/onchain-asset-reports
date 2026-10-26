@@ -1,0 +1,94 @@
+{
+  "url": "https://api.morpho.org/graphql",
+  "request": {
+    "query": "{vaultV2ByAddress(address:\"0xA2d38c8A3D810EBcF4C2075821c5eC8F976bb692\",chainId:747474){address name totalAssets adapters{items{address type assets vault{address name} ... on MorphoMarketV1Adapter{positions{items{market{marketId} state{supplyAssets}}}}}}}}"
+  },
+  "observed_utc": "2026-10-26T17:13:10.296144+00:00",
+  "http_status": 200,
+  "body": {
+    "data": {
+      "vaultV2ByAddress": {
+        "address": "0xA2d38c8A3D810EBcF4C2075821c5eC8F976bb692",
+        "name": "Yearn Degen USDC",
+        "totalAssets": 1158969036589,
+        "adapters": {
+          "items": [
+            {
+              "address": "0xc0C223F72e906760e561125cc43926DcA52668fb",
+              "type": "MorphoMarketV1",
+              "assets": 1158969036589,
+              "vault": {
+                "address": "0xA2d38c8A3D810EBcF4C2075821c5eC8F976bb692",
+                "name": "Yearn Degen USDC"
+              },
+              "positions": {
+                "items": [
+                  {
+                    "market": {
+                      "marketId": "0x2fb14719030835b8e0a39a1461b384ad6a9c8392550197a7c857cf9fcbd6c534"
+                    },
+                    "state": {
+                      "supplyAssets": 332550303289
+                    }
+                  },
+                  {
+                    "market": {
+                      "marketId": "0xbd48214a2f12e951da20ad0b8fd83b611c693b5bbaa280b68ba4075678f2a138"
+                    },
+                    "state": {
+                      "supplyAssets": 0
+                    }
+                  },
+                  {
+                    "market": {
+                      "marketId": "0x9f24e1fc2d1779d1e741327e109de381321e2ed862f295221043ceac2576b76e"
+                    },
+                    "state": {
+                      "supplyAssets": 730943170425
+                    }
+                  },
+                  {
+                    "market": {
+                      "marketId": "0xf7fc5cc82200ddf8f23188ddbd6727eda2c8bc41863e91fb767bbc6e4f71890e"
+                    },
+                    "state": {
+                      "supplyAssets": 0
+                    }
+                  },
+                  {
+                    "market": {
+                      "marketId": "0xea8f588be62079a1ad874bf7c7217166b323e0fe8ea3e59b584430ed1b859ace"
+                    },
+                    "state": {
+                      "supplyAssets": 0
+                    }
+                  },
+                  {
+                    "market": {
+                      "marketId": "0x913c787d438ca1dab5f5485c2d2d6e2aa2dfee47a5f02edd11331ad25b219dcf"
+                    },
+                    "state": {
+                      "supplyAssets": 0
+                    }
+                  },
+                  {
+                    "market": {
+                      "marketId": "0xcd2dc555dced7422a3144a4126286675449019366f83e9717be7c2deb3daae3e"
+                    },
+                    "state": {
+                      "supplyAssets": 95475562875
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "extensions": {
+      "complexity": 557540,
+      "maximumComplexity": 1000000
+    }
+  }
+}

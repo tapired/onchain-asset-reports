@@ -1,0 +1,136 @@
+{
+  "url": "https://api.morpho.org/graphql",
+  "request": {
+    "query": "{marketPositions(first:1000,where:{marketUniqueKey_in:[\"0xea8f588be62079a1ad874bf7c7217166b323e0fe8ea3e59b584430ed1b859ace\"],chainId_in:[747474]}){items{user{address} healthFactor state{timestamp collateral supplyAssets borrowAssets borrowShares supplyShares}} pageInfo{count countTotal}}}"
+  },
+  "observed_utc": "2026-10-26T17:09:58.196623+00:00",
+  "http_status": 200,
+  "body": {
+    "data": {
+      "marketPositions": {
+        "items": [
+          {
+            "user": {
+              "address": "0xaFA6ce7b33dBEA40189f195F4642287AE191E1F0"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 70157218075,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": "69432015016966131"
+            }
+          },
+          {
+            "user": {
+              "address": "0x50B75d586929Ab2F75dC15f07E1B921b7C4Ba8fA"
+            },
+            "healthFactor": 1.711020857418802,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": "1000000000000000000",
+              "supplyAssets": 505222,
+              "borrowAssets": 546425,
+              "borrowShares": 540000000000,
+              "supplyShares": 500000000000
+            }
+          },
+          {
+            "user": {
+              "address": "0x000000000000000000000000000000000000dEaD"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 101044,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 100000000000
+            }
+          },
+          {
+            "user": {
+              "address": "0xc0C223F72e906760e561125cc43926DcA52668fb"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 926618
+            }
+          },
+          {
+            "user": {
+              "address": "0x1a90D8F5a0A09D11b651835bBB25BfED7a4E6478"
+            },
+            "healthFactor": 1.0736678291809962,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": "305095302000000000000",
+              "supplyAssets": 0,
+              "borrowAssets": 265675462,
+              "borrowShares": 262551330023850,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x5609AFAd5BD9187b4A19E62e6b1F6bc522501F50"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x6655459bAb7a5e99f2d61279316f6d0a465Be784"
+            },
+            "healthFactor": 1.3335596769746725,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": "89633228128000000000000",
+              "supplyAssets": 0,
+              "borrowAssets": 62840907353,
+              "borrowShares": "62101948254643951",
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xd480BB579F61edF044D0e86e33cb72310c816D6a"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          }
+        ],
+        "pageInfo": {
+          "count": 8,
+          "countTotal": 8
+        }
+      }
+    },
+    "extensions": {
+      "complexity": 145000,
+      "maximumComplexity": 1000000
+    }
+  }
+}

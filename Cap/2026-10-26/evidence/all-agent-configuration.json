@@ -1,0 +1,4540 @@
+{
+  "block": "0x190f965",
+  "observed_utc": "2026-10-26T17:10:20.976342+00:00",
+  "results": [
+    {
+      "label": "0xc1ab5a9593e6e1662a9a44f84df4f31fc8a76b52 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0xc1ab5a9593e6e1662a9a44f84df4f31fc8a76b52"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 0,
+        "error": {
+          "code": 3,
+          "message": "execution reverted",
+          "data": "0x"
+        }
+      },
+      "decoded": null
+    },
+    {
+      "label": "0xc1ab5a9593e6e1662a9a44f84df4f31fc8a76b52 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0xc1ab5a9593e6e1662a9a44f84df4f31fc8a76b52"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000008c9140fe6650e56a0a07e86455d745f8f7843b6d"
+      },
+      "decoded": [
+        "0x8c9140fe6650e56a0a07e86455d745f8f7843b6d"
+      ]
+    },
+    {
+      "label": "0xc1ab5a9593e6e1662a9a44f84df4f31fc8a76b52 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0xc1ab5a9593e6e1662a9a44f84df4f31fc8a76b52"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xc1ab5a9593e6e1662a9a44f84df4f31fc8a76b52 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0xc1ab5a9593e6e1662a9a44f84df4f31fc8a76b52"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xc1ab5a9593e6e1662a9a44f84df4f31fc8a76b52 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0xc1ab5a9593e6e1662a9a44f84df4f31fc8a76b52",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 4,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xc1ab5a9593e6e1662a9a44f84df4f31fc8a76b52 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0xc1ab5a9593e6e1662a9a44f84df4f31fc8a76b52"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 5,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x77df7b5abf875894ffb1443fd2840b603d3ac1da collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x77df7b5abf875894ffb1443fd2840b603d3ac1da"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 6,
+        "result": "0x0000000000000000000000007f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      },
+      "decoded": [
+        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      ]
+    },
+    {
+      "label": "0x77df7b5abf875894ffb1443fd2840b603d3ac1da networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x77df7b5abf875894ffb1443fd2840b603d3ac1da"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 7,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x77df7b5abf875894ffb1443fd2840b603d3ac1da ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x77df7b5abf875894ffb1443fd2840b603d3ac1da"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 8,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x77df7b5abf875894ffb1443fd2840b603d3ac1da liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x77df7b5abf875894ffb1443fd2840b603d3ac1da"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 9,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x77df7b5abf875894ffb1443fd2840b603d3ac1da debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x77df7b5abf875894ffb1443fd2840b603d3ac1da",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 10,
+        "result": "0x000000000000000000000000000000000000000000000000000000001f139190"
+      },
+      "decoded": [
+        521376144
+      ]
+    },
+    {
+      "label": "0x77df7b5abf875894ffb1443fd2840b603d3ac1da liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x77df7b5abf875894ffb1443fd2840b603d3ac1da"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 11,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x151039298262fad60c28277d5332873f44f46151 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x151039298262fad60c28277d5332873f44f46151"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 12,
+        "result": "0x0000000000000000000000002260fac5e5542a773aa44fbcfedf7c193bc2c599"
+      },
+      "decoded": [
+        "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+      ]
+    },
+    {
+      "label": "0x151039298262fad60c28277d5332873f44f46151 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x151039298262fad60c28277d5332873f44f46151"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 13,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x151039298262fad60c28277d5332873f44f46151 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x151039298262fad60c28277d5332873f44f46151"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 14,
+        "result": "0x000000000000000000000000000000000000000001f04ef12cb04cf158000000"
+      },
+      "decoded": [
+        600000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x151039298262fad60c28277d5332873f44f46151 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x151039298262fad60c28277d5332873f44f46151"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 15,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x151039298262fad60c28277d5332873f44f46151 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x151039298262fad60c28277d5332873f44f46151",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 16,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x151039298262fad60c28277d5332873f44f46151 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x151039298262fad60c28277d5332873f44f46151"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 17,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x10e7fea8b043d5e3bd49e5028b4651d67f8f6b9f collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x10e7fea8b043d5e3bd49e5028b4651d67f8f6b9f"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 18,
+        "result": "0x0000000000000000000000007f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      },
+      "decoded": [
+        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      ]
+    },
+    {
+      "label": "0x10e7fea8b043d5e3bd49e5028b4651d67f8f6b9f networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x10e7fea8b043d5e3bd49e5028b4651d67f8f6b9f"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 19,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x10e7fea8b043d5e3bd49e5028b4651d67f8f6b9f ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x10e7fea8b043d5e3bd49e5028b4651d67f8f6b9f"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 20,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x10e7fea8b043d5e3bd49e5028b4651d67f8f6b9f liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x10e7fea8b043d5e3bd49e5028b4651d67f8f6b9f"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 21,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x10e7fea8b043d5e3bd49e5028b4651d67f8f6b9f debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x10e7fea8b043d5e3bd49e5028b4651d67f8f6b9f",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 22,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x10e7fea8b043d5e3bd49e5028b4651d67f8f6b9f liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x10e7fea8b043d5e3bd49e5028b4651d67f8f6b9f"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 23,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x6e27837dcd6bccf9484594066de2e89dea209b28 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x6e27837dcd6bccf9484594066de2e89dea209b28"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 24,
+        "result": "0x0000000000000000000000007f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      },
+      "decoded": [
+        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      ]
+    },
+    {
+      "label": "0x6e27837dcd6bccf9484594066de2e89dea209b28 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x6e27837dcd6bccf9484594066de2e89dea209b28"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 25,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x6e27837dcd6bccf9484594066de2e89dea209b28 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x6e27837dcd6bccf9484594066de2e89dea209b28"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 26,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x6e27837dcd6bccf9484594066de2e89dea209b28 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x6e27837dcd6bccf9484594066de2e89dea209b28"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 27,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x6e27837dcd6bccf9484594066de2e89dea209b28 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x6e27837dcd6bccf9484594066de2e89dea209b28",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 28,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x6e27837dcd6bccf9484594066de2e89dea209b28 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x6e27837dcd6bccf9484594066de2e89dea209b28"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 29,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x8085f146525e8a20b98187eb64ad46f79f0d8ef6 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x8085f146525e8a20b98187eb64ad46f79f0d8ef6"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 30,
+        "result": "0x0000000000000000000000002260fac5e5542a773aa44fbcfedf7c193bc2c599"
+      },
+      "decoded": [
+        "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
+      ]
+    },
+    {
+      "label": "0x8085f146525e8a20b98187eb64ad46f79f0d8ef6 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x8085f146525e8a20b98187eb64ad46f79f0d8ef6"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 31,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x8085f146525e8a20b98187eb64ad46f79f0d8ef6 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x8085f146525e8a20b98187eb64ad46f79f0d8ef6"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 32,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x8085f146525e8a20b98187eb64ad46f79f0d8ef6 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x8085f146525e8a20b98187eb64ad46f79f0d8ef6"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 33,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x8085f146525e8a20b98187eb64ad46f79f0d8ef6 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x8085f146525e8a20b98187eb64ad46f79f0d8ef6",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 34,
+        "result": "0x00000000000000000000000000000000000000000000000000000000069abab2"
+      },
+      "decoded": [
+        110803634
+      ]
+    },
+    {
+      "label": "0x8085f146525e8a20b98187eb64ad46f79f0d8ef6 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x8085f146525e8a20b98187eb64ad46f79f0d8ef6"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 0,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x89718378c3e5e97eede85728d43fc4ce3ef18774 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x89718378c3e5e97eede85728d43fc4ce3ef18774"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000007f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      },
+      "decoded": [
+        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      ]
+    },
+    {
+      "label": "0x89718378c3e5e97eede85728d43fc4ce3ef18774 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x89718378c3e5e97eede85728d43fc4ce3ef18774"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x89718378c3e5e97eede85728d43fc4ce3ef18774 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x89718378c3e5e97eede85728d43fc4ce3ef18774"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x89718378c3e5e97eede85728d43fc4ce3ef18774 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x89718378c3e5e97eede85728d43fc4ce3ef18774"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 4,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x89718378c3e5e97eede85728d43fc4ce3ef18774 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x89718378c3e5e97eede85728d43fc4ce3ef18774",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 5,
+        "result": "0x00000000000000000000000000000000000000000000000000000000069a1193"
+      },
+      "decoded": [
+        110760339
+      ]
+    },
+    {
+      "label": "0x89718378c3e5e97eede85728d43fc4ce3ef18774 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x89718378c3e5e97eede85728d43fc4ce3ef18774"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 6,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x83355d6adbfcaa7b6e81e7ebc31393744ada0ff9 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x83355d6adbfcaa7b6e81e7ebc31393744ada0ff9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 7,
+        "result": "0x0000000000000000000000007f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      },
+      "decoded": [
+        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      ]
+    },
+    {
+      "label": "0x83355d6adbfcaa7b6e81e7ebc31393744ada0ff9 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x83355d6adbfcaa7b6e81e7ebc31393744ada0ff9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 8,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x83355d6adbfcaa7b6e81e7ebc31393744ada0ff9 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x83355d6adbfcaa7b6e81e7ebc31393744ada0ff9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 9,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x83355d6adbfcaa7b6e81e7ebc31393744ada0ff9 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x83355d6adbfcaa7b6e81e7ebc31393744ada0ff9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 10,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x83355d6adbfcaa7b6e81e7ebc31393744ada0ff9 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x83355d6adbfcaa7b6e81e7ebc31393744ada0ff9",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 11,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x83355d6adbfcaa7b6e81e7ebc31393744ada0ff9 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x83355d6adbfcaa7b6e81e7ebc31393744ada0ff9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 12,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x1391bcf14ec26efe3780bd787061fd932a8b4134 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x1391bcf14ec26efe3780bd787061fd932a8b4134"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 13,
+        "result": "0x0000000000000000000000008236a87084f8b84306f72007f36f2618a5634494"
+      },
+      "decoded": [
+        "0x8236a87084f8b84306f72007f36f2618a5634494"
+      ]
+    },
+    {
+      "label": "0x1391bcf14ec26efe3780bd787061fd932a8b4134 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x1391bcf14ec26efe3780bd787061fd932a8b4134"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 14,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x1391bcf14ec26efe3780bd787061fd932a8b4134 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x1391bcf14ec26efe3780bd787061fd932a8b4134"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 15,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x1391bcf14ec26efe3780bd787061fd932a8b4134 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x1391bcf14ec26efe3780bd787061fd932a8b4134"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 16,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x1391bcf14ec26efe3780bd787061fd932a8b4134 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x1391bcf14ec26efe3780bd787061fd932a8b4134",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 17,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x1391bcf14ec26efe3780bd787061fd932a8b4134 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x1391bcf14ec26efe3780bd787061fd932a8b4134"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 18,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xfb3bd022d5dacf95ee28a6b07825d4ff9c5b3814 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0xfb3bd022d5dacf95ee28a6b07825d4ff9c5b3814"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 19,
+        "result": "0x0000000000000000000000007f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      },
+      "decoded": [
+        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      ]
+    },
+    {
+      "label": "0xfb3bd022d5dacf95ee28a6b07825d4ff9c5b3814 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0xfb3bd022d5dacf95ee28a6b07825d4ff9c5b3814"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 20,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0xfb3bd022d5dacf95ee28a6b07825d4ff9c5b3814 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0xfb3bd022d5dacf95ee28a6b07825d4ff9c5b3814"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 21,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xfb3bd022d5dacf95ee28a6b07825d4ff9c5b3814 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0xfb3bd022d5dacf95ee28a6b07825d4ff9c5b3814"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 22,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xfb3bd022d5dacf95ee28a6b07825d4ff9c5b3814 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0xfb3bd022d5dacf95ee28a6b07825d4ff9c5b3814",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 23,
+        "result": "0x00000000000000000000000000000000000000000000000000000070ee547040"
+      },
+      "decoded": [
+        485034848320
+      ]
+    },
+    {
+      "label": "0xfb3bd022d5dacf95ee28a6b07825d4ff9c5b3814 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0xfb3bd022d5dacf95ee28a6b07825d4ff9c5b3814"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 24,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xa61f7f64f4e4b8e919dccfbe0dc5aa903e2c0cca collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0xa61f7f64f4e4b8e919dccfbe0dc5aa903e2c0cca"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 25,
+        "result": "0x0000000000000000000000007f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      },
+      "decoded": [
+        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      ]
+    },
+    {
+      "label": "0xa61f7f64f4e4b8e919dccfbe0dc5aa903e2c0cca networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0xa61f7f64f4e4b8e919dccfbe0dc5aa903e2c0cca"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 26,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0xa61f7f64f4e4b8e919dccfbe0dc5aa903e2c0cca ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0xa61f7f64f4e4b8e919dccfbe0dc5aa903e2c0cca"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 27,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xa61f7f64f4e4b8e919dccfbe0dc5aa903e2c0cca liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0xa61f7f64f4e4b8e919dccfbe0dc5aa903e2c0cca"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 28,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xa61f7f64f4e4b8e919dccfbe0dc5aa903e2c0cca debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0xa61f7f64f4e4b8e919dccfbe0dc5aa903e2c0cca",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 29,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xa61f7f64f4e4b8e919dccfbe0dc5aa903e2c0cca liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0xa61f7f64f4e4b8e919dccfbe0dc5aa903e2c0cca"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 30,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x4cd7c473985ca1399810536e0482df1e4e0672d6 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x4cd7c473985ca1399810536e0482df1e4e0672d6"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 31,
+        "result": "0x0000000000000000000000007f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      },
+      "decoded": [
+        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      ]
+    },
+    {
+      "label": "0x4cd7c473985ca1399810536e0482df1e4e0672d6 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x4cd7c473985ca1399810536e0482df1e4e0672d6"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 32,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x4cd7c473985ca1399810536e0482df1e4e0672d6 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x4cd7c473985ca1399810536e0482df1e4e0672d6"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 33,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x4cd7c473985ca1399810536e0482df1e4e0672d6 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x4cd7c473985ca1399810536e0482df1e4e0672d6"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 34,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x4cd7c473985ca1399810536e0482df1e4e0672d6 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x4cd7c473985ca1399810536e0482df1e4e0672d6",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 0,
+        "result": "0x0000000000000000000000000000000000000000000000000000046465bf740f"
+      },
+      "decoded": [
+        4829250286607
+      ]
+    },
+    {
+      "label": "0x4cd7c473985ca1399810536e0482df1e4e0672d6 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x4cd7c473985ca1399810536e0482df1e4e0672d6"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xd32147536a86d0ff48ca6fac028180ae8f39b84d collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0xd32147536a86d0ff48ca6fac028180ae8f39b84d"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": "0x000000000000000000000000856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+      },
+      "decoded": [
+        "0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+      ]
+    },
+    {
+      "label": "0xd32147536a86d0ff48ca6fac028180ae8f39b84d networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0xd32147536a86d0ff48ca6fac028180ae8f39b84d"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": "0x000000000000000000000000e65c3eccd18879e103dbc96d854e376ced4cc7dd"
+      },
+      "decoded": [
+        "0xe65c3eccd18879e103dbc96d854e376ced4cc7dd"
+      ]
+    },
+    {
+      "label": "0xd32147536a86d0ff48ca6fac028180ae8f39b84d ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0xd32147536a86d0ff48ca6fac028180ae8f39b84d"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 4,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xd32147536a86d0ff48ca6fac028180ae8f39b84d liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0xd32147536a86d0ff48ca6fac028180ae8f39b84d"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 5,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xd32147536a86d0ff48ca6fac028180ae8f39b84d debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0xd32147536a86d0ff48ca6fac028180ae8f39b84d",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 6,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xd32147536a86d0ff48ca6fac028180ae8f39b84d liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0xd32147536a86d0ff48ca6fac028180ae8f39b84d"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 7,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x670d254d23f4b9413e02bb98a87163fd27a5a9c9 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x670d254d23f4b9413e02bb98a87163fd27a5a9c9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 8,
+        "result": "0x0000000000000000000000007f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      },
+      "decoded": [
+        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      ]
+    },
+    {
+      "label": "0x670d254d23f4b9413e02bb98a87163fd27a5a9c9 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x670d254d23f4b9413e02bb98a87163fd27a5a9c9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 9,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x670d254d23f4b9413e02bb98a87163fd27a5a9c9 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x670d254d23f4b9413e02bb98a87163fd27a5a9c9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 10,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x670d254d23f4b9413e02bb98a87163fd27a5a9c9 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x670d254d23f4b9413e02bb98a87163fd27a5a9c9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 11,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x670d254d23f4b9413e02bb98a87163fd27a5a9c9 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x670d254d23f4b9413e02bb98a87163fd27a5a9c9",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 12,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x670d254d23f4b9413e02bb98a87163fd27a5a9c9 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x670d254d23f4b9413e02bb98a87163fd27a5a9c9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 13,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xe76f8b47db23789c08e3d761af0f74c403db8bb9 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0xe76f8b47db23789c08e3d761af0f74c403db8bb9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 14,
+        "result": "0x000000000000000000000000004e9c3ef86bc1ca1f0bb5c7662861ee93350568"
+      },
+      "decoded": [
+        "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568"
+      ]
+    },
+    {
+      "label": "0xe76f8b47db23789c08e3d761af0f74c403db8bb9 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0xe76f8b47db23789c08e3d761af0f74c403db8bb9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 15,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0xe76f8b47db23789c08e3d761af0f74c403db8bb9 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0xe76f8b47db23789c08e3d761af0f74c403db8bb9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 16,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xe76f8b47db23789c08e3d761af0f74c403db8bb9 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0xe76f8b47db23789c08e3d761af0f74c403db8bb9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 17,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xe76f8b47db23789c08e3d761af0f74c403db8bb9 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0xe76f8b47db23789c08e3d761af0f74c403db8bb9",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 18,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xe76f8b47db23789c08e3d761af0f74c403db8bb9 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0xe76f8b47db23789c08e3d761af0f74c403db8bb9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 19,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x88d09e8f4f889a9dca4fcb4de18b3af5856d8d4b collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x88d09e8f4f889a9dca4fcb4de18b3af5856d8d4b"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 20,
+        "result": "0x0000000000000000000000007f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      },
+      "decoded": [
+        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      ]
+    },
+    {
+      "label": "0x88d09e8f4f889a9dca4fcb4de18b3af5856d8d4b networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x88d09e8f4f889a9dca4fcb4de18b3af5856d8d4b"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 21,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x88d09e8f4f889a9dca4fcb4de18b3af5856d8d4b ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x88d09e8f4f889a9dca4fcb4de18b3af5856d8d4b"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 22,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x88d09e8f4f889a9dca4fcb4de18b3af5856d8d4b liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x88d09e8f4f889a9dca4fcb4de18b3af5856d8d4b"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 23,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x88d09e8f4f889a9dca4fcb4de18b3af5856d8d4b debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x88d09e8f4f889a9dca4fcb4de18b3af5856d8d4b",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 24,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x88d09e8f4f889a9dca4fcb4de18b3af5856d8d4b liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x88d09e8f4f889a9dca4fcb4de18b3af5856d8d4b"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 25,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xf932130fabb5a2383c054a4c8eac59cf1ced570c collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0xf932130fabb5a2383c054a4c8eac59cf1ced570c"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 26,
+        "result": "0x0000000000000000000000007f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      },
+      "decoded": [
+        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      ]
+    },
+    {
+      "label": "0xf932130fabb5a2383c054a4c8eac59cf1ced570c networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0xf932130fabb5a2383c054a4c8eac59cf1ced570c"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 27,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0xf932130fabb5a2383c054a4c8eac59cf1ced570c ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0xf932130fabb5a2383c054a4c8eac59cf1ced570c"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 28,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xf932130fabb5a2383c054a4c8eac59cf1ced570c liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0xf932130fabb5a2383c054a4c8eac59cf1ced570c"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 29,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xf932130fabb5a2383c054a4c8eac59cf1ced570c debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0xf932130fabb5a2383c054a4c8eac59cf1ced570c",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 30,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xf932130fabb5a2383c054a4c8eac59cf1ced570c liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0xf932130fabb5a2383c054a4c8eac59cf1ced570c"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 31,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 32,
+        "result": "0x000000000000000000000000cd5fe23c85820f7b72d0926fc9b05b43e359b7ee"
+      },
+      "decoded": [
+        "0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee"
+      ]
+    },
+    {
+      "label": "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 33,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 34,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 0,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000000000000000000000000000000004e080e07839"
+      },
+      "decoded": [
+        5362281379897
+      ]
+    },
+    {
+      "label": "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xd418224ae3c510b645112fd9275ccfd50f996ee4 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0xd418224ae3c510b645112fd9275ccfd50f996ee4"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": "0x000000000000000000000000004e9c3ef86bc1ca1f0bb5c7662861ee93350568"
+      },
+      "decoded": [
+        "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568"
+      ]
+    },
+    {
+      "label": "0xd418224ae3c510b645112fd9275ccfd50f996ee4 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0xd418224ae3c510b645112fd9275ccfd50f996ee4"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 4,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0xd418224ae3c510b645112fd9275ccfd50f996ee4 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0xd418224ae3c510b645112fd9275ccfd50f996ee4"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 5,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xd418224ae3c510b645112fd9275ccfd50f996ee4 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0xd418224ae3c510b645112fd9275ccfd50f996ee4"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 6,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xd418224ae3c510b645112fd9275ccfd50f996ee4 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0xd418224ae3c510b645112fd9275ccfd50f996ee4",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 7,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xd418224ae3c510b645112fd9275ccfd50f996ee4 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0xd418224ae3c510b645112fd9275ccfd50f996ee4"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 8,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x5f33ff3027c4763d36e6f4f7c20ee72f700a5d34 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x5f33ff3027c4763d36e6f4f7c20ee72f700a5d34"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 9,
+        "result": "0x000000000000000000000000856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+      },
+      "decoded": [
+        "0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+      ]
+    },
+    {
+      "label": "0x5f33ff3027c4763d36e6f4f7c20ee72f700a5d34 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x5f33ff3027c4763d36e6f4f7c20ee72f700a5d34"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 10,
+        "result": "0x000000000000000000000000e65c3eccd18879e103dbc96d854e376ced4cc7dd"
+      },
+      "decoded": [
+        "0xe65c3eccd18879e103dbc96d854e376ced4cc7dd"
+      ]
+    },
+    {
+      "label": "0x5f33ff3027c4763d36e6f4f7c20ee72f700a5d34 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x5f33ff3027c4763d36e6f4f7c20ee72f700a5d34"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 11,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x5f33ff3027c4763d36e6f4f7c20ee72f700a5d34 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x5f33ff3027c4763d36e6f4f7c20ee72f700a5d34"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 12,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x5f33ff3027c4763d36e6f4f7c20ee72f700a5d34 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x5f33ff3027c4763d36e6f4f7c20ee72f700a5d34",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 13,
+        "result": "0x0000000000000000000000000000000000000000000000000000003837e6ae19"
+      },
+      "decoded": [
+        241456033305
+      ]
+    },
+    {
+      "label": "0x5f33ff3027c4763d36e6f4f7c20ee72f700a5d34 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x5f33ff3027c4763d36e6f4f7c20ee72f700a5d34"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 14,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x53df43d7f5de0b80d64f54648aed460eb8f74b2c collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x53df43d7f5de0b80d64f54648aed460eb8f74b2c"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 15,
+        "result": "0x000000000000000000000000856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+      },
+      "decoded": [
+        "0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+      ]
+    },
+    {
+      "label": "0x53df43d7f5de0b80d64f54648aed460eb8f74b2c networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x53df43d7f5de0b80d64f54648aed460eb8f74b2c"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 16,
+        "result": "0x000000000000000000000000e65c3eccd18879e103dbc96d854e376ced4cc7dd"
+      },
+      "decoded": [
+        "0xe65c3eccd18879e103dbc96d854e376ced4cc7dd"
+      ]
+    },
+    {
+      "label": "0x53df43d7f5de0b80d64f54648aed460eb8f74b2c ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x53df43d7f5de0b80d64f54648aed460eb8f74b2c"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 17,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x53df43d7f5de0b80d64f54648aed460eb8f74b2c liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x53df43d7f5de0b80d64f54648aed460eb8f74b2c"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 18,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x53df43d7f5de0b80d64f54648aed460eb8f74b2c debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x53df43d7f5de0b80d64f54648aed460eb8f74b2c",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 19,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x53df43d7f5de0b80d64f54648aed460eb8f74b2c liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x53df43d7f5de0b80d64f54648aed460eb8f74b2c"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 20,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x6b82ffdfbc3dc0d0e394a0930229ba98eac43a46 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x6b82ffdfbc3dc0d0e394a0930229ba98eac43a46"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 21,
+        "result": "0x000000000000000000000000cf62f905562626cfcdd2261162a51fd02fc9c5b6"
+      },
+      "decoded": [
+        "0xcf62f905562626cfcdd2261162a51fd02fc9c5b6"
+      ]
+    },
+    {
+      "label": "0x6b82ffdfbc3dc0d0e394a0930229ba98eac43a46 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x6b82ffdfbc3dc0d0e394a0930229ba98eac43a46"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 22,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x6b82ffdfbc3dc0d0e394a0930229ba98eac43a46 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x6b82ffdfbc3dc0d0e394a0930229ba98eac43a46"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 23,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x6b82ffdfbc3dc0d0e394a0930229ba98eac43a46 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x6b82ffdfbc3dc0d0e394a0930229ba98eac43a46"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 24,
+        "result": "0x000000000000000000000000000000000000000002bf1a8054a46d0092000000"
+      },
+      "decoded": [
+        850000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x6b82ffdfbc3dc0d0e394a0930229ba98eac43a46 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x6b82ffdfbc3dc0d0e394a0930229ba98eac43a46",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 25,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x6b82ffdfbc3dc0d0e394a0930229ba98eac43a46 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x6b82ffdfbc3dc0d0e394a0930229ba98eac43a46"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 26,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x2bd06ccbbf36973447bedc14149c47a13e466ca9 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x2bd06ccbbf36973447bedc14149c47a13e466ca9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 27,
+        "result": "0x000000000000000000000000004e9c3ef86bc1ca1f0bb5c7662861ee93350568"
+      },
+      "decoded": [
+        "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568"
+      ]
+    },
+    {
+      "label": "0x2bd06ccbbf36973447bedc14149c47a13e466ca9 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x2bd06ccbbf36973447bedc14149c47a13e466ca9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 28,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x2bd06ccbbf36973447bedc14149c47a13e466ca9 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x2bd06ccbbf36973447bedc14149c47a13e466ca9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 29,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x2bd06ccbbf36973447bedc14149c47a13e466ca9 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x2bd06ccbbf36973447bedc14149c47a13e466ca9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 30,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x2bd06ccbbf36973447bedc14149c47a13e466ca9 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x2bd06ccbbf36973447bedc14149c47a13e466ca9",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 31,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x2bd06ccbbf36973447bedc14149c47a13e466ca9 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x2bd06ccbbf36973447bedc14149c47a13e466ca9"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 32,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x20a9c004de10d372ff021752083c8cc8996550c1 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x20a9c004de10d372ff021752083c8cc8996550c1"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 33,
+        "result": "0x000000000000000000000000004e9c3ef86bc1ca1f0bb5c7662861ee93350568"
+      },
+      "decoded": [
+        "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568"
+      ]
+    },
+    {
+      "label": "0x20a9c004de10d372ff021752083c8cc8996550c1 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x20a9c004de10d372ff021752083c8cc8996550c1"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 34,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x20a9c004de10d372ff021752083c8cc8996550c1 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x20a9c004de10d372ff021752083c8cc8996550c1"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 0,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x20a9c004de10d372ff021752083c8cc8996550c1 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x20a9c004de10d372ff021752083c8cc8996550c1"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x20a9c004de10d372ff021752083c8cc8996550c1 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x20a9c004de10d372ff021752083c8cc8996550c1",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x20a9c004de10d372ff021752083c8cc8996550c1 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x20a9c004de10d372ff021752083c8cc8996550c1"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x89ffc736225bbfaa18ac20a846203cdbe7cc67d6 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x89ffc736225bbfaa18ac20a846203cdbe7cc67d6"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 4,
+        "result": "0x000000000000000000000000856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+      },
+      "decoded": [
+        "0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+      ]
+    },
+    {
+      "label": "0x89ffc736225bbfaa18ac20a846203cdbe7cc67d6 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x89ffc736225bbfaa18ac20a846203cdbe7cc67d6"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 5,
+        "result": "0x000000000000000000000000e65c3eccd18879e103dbc96d854e376ced4cc7dd"
+      },
+      "decoded": [
+        "0xe65c3eccd18879e103dbc96d854e376ced4cc7dd"
+      ]
+    },
+    {
+      "label": "0x89ffc736225bbfaa18ac20a846203cdbe7cc67d6 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x89ffc736225bbfaa18ac20a846203cdbe7cc67d6"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 6,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x89ffc736225bbfaa18ac20a846203cdbe7cc67d6 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x89ffc736225bbfaa18ac20a846203cdbe7cc67d6"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 7,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x89ffc736225bbfaa18ac20a846203cdbe7cc67d6 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x89ffc736225bbfaa18ac20a846203cdbe7cc67d6",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 8,
+        "result": "0x00000000000000000000000000000000000000000000000000000019324e74b5"
+      },
+      "decoded": [
+        108218184885
+      ]
+    },
+    {
+      "label": "0x89ffc736225bbfaa18ac20a846203cdbe7cc67d6 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x89ffc736225bbfaa18ac20a846203cdbe7cc67d6"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 9,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x67b1153dc2ead7d45668edbd8baf11a839a9136e collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x67b1153dc2ead7d45668edbd8baf11a839a9136e"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 10,
+        "result": "0x000000000000000000000000856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+      },
+      "decoded": [
+        "0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+      ]
+    },
+    {
+      "label": "0x67b1153dc2ead7d45668edbd8baf11a839a9136e networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x67b1153dc2ead7d45668edbd8baf11a839a9136e"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 11,
+        "result": "0x000000000000000000000000e65c3eccd18879e103dbc96d854e376ced4cc7dd"
+      },
+      "decoded": [
+        "0xe65c3eccd18879e103dbc96d854e376ced4cc7dd"
+      ]
+    },
+    {
+      "label": "0x67b1153dc2ead7d45668edbd8baf11a839a9136e ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x67b1153dc2ead7d45668edbd8baf11a839a9136e"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 12,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x67b1153dc2ead7d45668edbd8baf11a839a9136e liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x67b1153dc2ead7d45668edbd8baf11a839a9136e"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 13,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x67b1153dc2ead7d45668edbd8baf11a839a9136e debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x67b1153dc2ead7d45668edbd8baf11a839a9136e",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 14,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x67b1153dc2ead7d45668edbd8baf11a839a9136e liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x67b1153dc2ead7d45668edbd8baf11a839a9136e"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 15,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x76d266dfd3754f090488ae12f6bd115cd7e77ebd collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x76d266dfd3754f090488ae12f6bd115cd7e77ebd"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 16,
+        "result": "0x0000000000000000000000007f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      },
+      "decoded": [
+        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      ]
+    },
+    {
+      "label": "0x76d266dfd3754f090488ae12f6bd115cd7e77ebd networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x76d266dfd3754f090488ae12f6bd115cd7e77ebd"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 17,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x76d266dfd3754f090488ae12f6bd115cd7e77ebd ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x76d266dfd3754f090488ae12f6bd115cd7e77ebd"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 18,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x76d266dfd3754f090488ae12f6bd115cd7e77ebd liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x76d266dfd3754f090488ae12f6bd115cd7e77ebd"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 19,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x76d266dfd3754f090488ae12f6bd115cd7e77ebd debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x76d266dfd3754f090488ae12f6bd115cd7e77ebd",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 20,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x76d266dfd3754f090488ae12f6bd115cd7e77ebd liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x76d266dfd3754f090488ae12f6bd115cd7e77ebd"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 21,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x69a6af78fc45f654a1b5feebc22c1fee88df8a8f collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x69a6af78fc45f654a1b5feebc22c1fee88df8a8f"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 22,
+        "result": "0x000000000000000000000000856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+      },
+      "decoded": [
+        "0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+      ]
+    },
+    {
+      "label": "0x69a6af78fc45f654a1b5feebc22c1fee88df8a8f networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x69a6af78fc45f654a1b5feebc22c1fee88df8a8f"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 23,
+        "result": "0x000000000000000000000000e65c3eccd18879e103dbc96d854e376ced4cc7dd"
+      },
+      "decoded": [
+        "0xe65c3eccd18879e103dbc96d854e376ced4cc7dd"
+      ]
+    },
+    {
+      "label": "0x69a6af78fc45f654a1b5feebc22c1fee88df8a8f ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x69a6af78fc45f654a1b5feebc22c1fee88df8a8f"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 24,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x69a6af78fc45f654a1b5feebc22c1fee88df8a8f liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x69a6af78fc45f654a1b5feebc22c1fee88df8a8f"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 25,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x69a6af78fc45f654a1b5feebc22c1fee88df8a8f debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x69a6af78fc45f654a1b5feebc22c1fee88df8a8f",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 26,
+        "result": "0x00000000000000000000000000000000000000000000000000000032fb760274"
+      },
+      "decoded": [
+        218967179892
+      ]
+    },
+    {
+      "label": "0x69a6af78fc45f654a1b5feebc22c1fee88df8a8f liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x69a6af78fc45f654a1b5feebc22c1fee88df8a8f"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 27,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x7f2165014a477f6aba532000d8088ed64dd1eba1 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x7f2165014a477f6aba532000d8088ed64dd1eba1"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 28,
+        "result": "0x0000000000000000000000007f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      },
+      "decoded": [
+        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      ]
+    },
+    {
+      "label": "0x7f2165014a477f6aba532000d8088ed64dd1eba1 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x7f2165014a477f6aba532000d8088ed64dd1eba1"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 29,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x7f2165014a477f6aba532000d8088ed64dd1eba1 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x7f2165014a477f6aba532000d8088ed64dd1eba1"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 30,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x7f2165014a477f6aba532000d8088ed64dd1eba1 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x7f2165014a477f6aba532000d8088ed64dd1eba1"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 31,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x7f2165014a477f6aba532000d8088ed64dd1eba1 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x7f2165014a477f6aba532000d8088ed64dd1eba1",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 32,
+        "result": "0x000000000000000000000000000000000000000000000000000007b6d18c936d"
+      },
+      "decoded": [
+        8481781093229
+      ]
+    },
+    {
+      "label": "0x7f2165014a477f6aba532000d8088ed64dd1eba1 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x7f2165014a477f6aba532000d8088ed64dd1eba1"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 33,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xbafa91d22c093e42e28d7be417e38244e4153f78 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0xbafa91d22c093e42e28d7be417e38244e4153f78"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 34,
+        "result": "0x000000000000000000000000004e9c3ef86bc1ca1f0bb5c7662861ee93350568"
+      },
+      "decoded": [
+        "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568"
+      ]
+    },
+    {
+      "label": "0xbafa91d22c093e42e28d7be417e38244e4153f78 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0xbafa91d22c093e42e28d7be417e38244e4153f78"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 0,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0xbafa91d22c093e42e28d7be417e38244e4153f78 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0xbafa91d22c093e42e28d7be417e38244e4153f78"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xbafa91d22c093e42e28d7be417e38244e4153f78 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0xbafa91d22c093e42e28d7be417e38244e4153f78"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xbafa91d22c093e42e28d7be417e38244e4153f78 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0xbafa91d22c093e42e28d7be417e38244e4153f78",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xbafa91d22c093e42e28d7be417e38244e4153f78 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0xbafa91d22c093e42e28d7be417e38244e4153f78"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 4,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x00b6acf0fd8d742a0dbe75048dea85cbf5cb2efe collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x00b6acf0fd8d742a0dbe75048dea85cbf5cb2efe"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 5,
+        "result": "0x000000000000000000000000856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+      },
+      "decoded": [
+        "0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+      ]
+    },
+    {
+      "label": "0x00b6acf0fd8d742a0dbe75048dea85cbf5cb2efe networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x00b6acf0fd8d742a0dbe75048dea85cbf5cb2efe"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 6,
+        "result": "0x000000000000000000000000e65c3eccd18879e103dbc96d854e376ced4cc7dd"
+      },
+      "decoded": [
+        "0xe65c3eccd18879e103dbc96d854e376ced4cc7dd"
+      ]
+    },
+    {
+      "label": "0x00b6acf0fd8d742a0dbe75048dea85cbf5cb2efe ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x00b6acf0fd8d742a0dbe75048dea85cbf5cb2efe"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 7,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x00b6acf0fd8d742a0dbe75048dea85cbf5cb2efe liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x00b6acf0fd8d742a0dbe75048dea85cbf5cb2efe"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 8,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x00b6acf0fd8d742a0dbe75048dea85cbf5cb2efe debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x00b6acf0fd8d742a0dbe75048dea85cbf5cb2efe",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 9,
+        "result": "0x0000000000000000000000000000000000000000000000000000000ce805d07c"
+      },
+      "decoded": [
+        55432302716
+      ]
+    },
+    {
+      "label": "0x00b6acf0fd8d742a0dbe75048dea85cbf5cb2efe liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x00b6acf0fd8d742a0dbe75048dea85cbf5cb2efe"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 10,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x4d7b27e0f5d85e41870fe7e680c347bc943231af collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x4d7b27e0f5d85e41870fe7e680c347bc943231af"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 11,
+        "result": "0x000000000000000000000000856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+      },
+      "decoded": [
+        "0x856c4efb76c1d1ae02e20ceb03a2a6a08b0b8dc3"
+      ]
+    },
+    {
+      "label": "0x4d7b27e0f5d85e41870fe7e680c347bc943231af networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x4d7b27e0f5d85e41870fe7e680c347bc943231af"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 12,
+        "result": "0x000000000000000000000000e65c3eccd18879e103dbc96d854e376ced4cc7dd"
+      },
+      "decoded": [
+        "0xe65c3eccd18879e103dbc96d854e376ced4cc7dd"
+      ]
+    },
+    {
+      "label": "0x4d7b27e0f5d85e41870fe7e680c347bc943231af ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x4d7b27e0f5d85e41870fe7e680c347bc943231af"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 13,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x4d7b27e0f5d85e41870fe7e680c347bc943231af liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x4d7b27e0f5d85e41870fe7e680c347bc943231af"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 14,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x4d7b27e0f5d85e41870fe7e680c347bc943231af debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x4d7b27e0f5d85e41870fe7e680c347bc943231af",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 15,
+        "result": "0x00000000000000000000000000000000000000000000000000000033148a9c77"
+      },
+      "decoded": [
+        219387960439
+      ]
+    },
+    {
+      "label": "0x4d7b27e0f5d85e41870fe7e680c347bc943231af liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x4d7b27e0f5d85e41870fe7e680c347bc943231af"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 16,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xdebecd97c5e91463472cd4396250efe1cb33c21e collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0xdebecd97c5e91463472cd4396250efe1cb33c21e"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 17,
+        "result": "0x000000000000000000000000004e9c3ef86bc1ca1f0bb5c7662861ee93350568"
+      },
+      "decoded": [
+        "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568"
+      ]
+    },
+    {
+      "label": "0xdebecd97c5e91463472cd4396250efe1cb33c21e networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0xdebecd97c5e91463472cd4396250efe1cb33c21e"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 18,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0xdebecd97c5e91463472cd4396250efe1cb33c21e ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0xdebecd97c5e91463472cd4396250efe1cb33c21e"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 19,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xdebecd97c5e91463472cd4396250efe1cb33c21e liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0xdebecd97c5e91463472cd4396250efe1cb33c21e"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 20,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xdebecd97c5e91463472cd4396250efe1cb33c21e debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0xdebecd97c5e91463472cd4396250efe1cb33c21e",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 21,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xdebecd97c5e91463472cd4396250efe1cb33c21e liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0xdebecd97c5e91463472cd4396250efe1cb33c21e"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 22,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xa5c5d09a2ac3460deaa5510cbb74f85bcd1f254e collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0xa5c5d09a2ac3460deaa5510cbb74f85bcd1f254e"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 23,
+        "result": "0x0000000000000000000000007a56e1c57c7475ccf742a1832b028f0456652f97"
+      },
+      "decoded": [
+        "0x7a56e1c57c7475ccf742a1832b028f0456652f97"
+      ]
+    },
+    {
+      "label": "0xa5c5d09a2ac3460deaa5510cbb74f85bcd1f254e networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0xa5c5d09a2ac3460deaa5510cbb74f85bcd1f254e"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 24,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0xa5c5d09a2ac3460deaa5510cbb74f85bcd1f254e ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0xa5c5d09a2ac3460deaa5510cbb74f85bcd1f254e"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 25,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xa5c5d09a2ac3460deaa5510cbb74f85bcd1f254e liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0xa5c5d09a2ac3460deaa5510cbb74f85bcd1f254e"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 26,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xa5c5d09a2ac3460deaa5510cbb74f85bcd1f254e debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0xa5c5d09a2ac3460deaa5510cbb74f85bcd1f254e",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 27,
+        "result": "0x0000000000000000000000000000000000000000000000000000011ada15d993"
+      },
+      "decoded": [
+        1214839642515
+      ]
+    },
+    {
+      "label": "0xa5c5d09a2ac3460deaa5510cbb74f85bcd1f254e liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0xa5c5d09a2ac3460deaa5510cbb74f85bcd1f254e"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 28,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x653d5c6cef72822e7c409ecb5c46c5c2858e5f2a collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x653d5c6cef72822e7c409ecb5c46c5c2858e5f2a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 29,
+        "result": "0x0000000000000000000000008236a87084f8b84306f72007f36f2618a5634494"
+      },
+      "decoded": [
+        "0x8236a87084f8b84306f72007f36f2618a5634494"
+      ]
+    },
+    {
+      "label": "0x653d5c6cef72822e7c409ecb5c46c5c2858e5f2a networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x653d5c6cef72822e7c409ecb5c46c5c2858e5f2a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 30,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x653d5c6cef72822e7c409ecb5c46c5c2858e5f2a ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x653d5c6cef72822e7c409ecb5c46c5c2858e5f2a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 31,
+        "result": "0x000000000000000000000000000000000000000001f04ef12cb04cf158000000"
+      },
+      "decoded": [
+        600000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x653d5c6cef72822e7c409ecb5c46c5c2858e5f2a liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x653d5c6cef72822e7c409ecb5c46c5c2858e5f2a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 32,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x653d5c6cef72822e7c409ecb5c46c5c2858e5f2a debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x653d5c6cef72822e7c409ecb5c46c5c2858e5f2a",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 33,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x653d5c6cef72822e7c409ecb5c46c5c2858e5f2a liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x653d5c6cef72822e7c409ecb5c46c5c2858e5f2a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 34,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x9f878a84e6f55607501160b92536c6d40109ec3a collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x9f878a84e6f55607501160b92536c6d40109ec3a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 0,
+        "result": "0x000000000000000000000000cf62f905562626cfcdd2261162a51fd02fc9c5b6"
+      },
+      "decoded": [
+        "0xcf62f905562626cfcdd2261162a51fd02fc9c5b6"
+      ]
+    },
+    {
+      "label": "0x9f878a84e6f55607501160b92536c6d40109ec3a networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x9f878a84e6f55607501160b92536c6d40109ec3a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x9f878a84e6f55607501160b92536c6d40109ec3a ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x9f878a84e6f55607501160b92536c6d40109ec3a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x9f878a84e6f55607501160b92536c6d40109ec3a liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x9f878a84e6f55607501160b92536c6d40109ec3a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": "0x000000000000000000000000000000000000000002bf1a8054a46d0092000000"
+      },
+      "decoded": [
+        850000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x9f878a84e6f55607501160b92536c6d40109ec3a debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x9f878a84e6f55607501160b92536c6d40109ec3a",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 4,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x9f878a84e6f55607501160b92536c6d40109ec3a liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x9f878a84e6f55607501160b92536c6d40109ec3a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 5,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x624c31fdfb9ccbaf182a3c503cf245bca671b860 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x624c31fdfb9ccbaf182a3c503cf245bca671b860"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 6,
+        "result": "0x0000000000000000000000007a56e1c57c7475ccf742a1832b028f0456652f97"
+      },
+      "decoded": [
+        "0x7a56e1c57c7475ccf742a1832b028f0456652f97"
+      ]
+    },
+    {
+      "label": "0x624c31fdfb9ccbaf182a3c503cf245bca671b860 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x624c31fdfb9ccbaf182a3c503cf245bca671b860"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 7,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x624c31fdfb9ccbaf182a3c503cf245bca671b860 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x624c31fdfb9ccbaf182a3c503cf245bca671b860"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 8,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x624c31fdfb9ccbaf182a3c503cf245bca671b860 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x624c31fdfb9ccbaf182a3c503cf245bca671b860"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 9,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x624c31fdfb9ccbaf182a3c503cf245bca671b860 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x624c31fdfb9ccbaf182a3c503cf245bca671b860",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 10,
+        "result": "0x00000000000000000000000000000000000000000000000000000236113b6ba9"
+      },
+      "decoded": [
+        2431240596393
+      ]
+    },
+    {
+      "label": "0x624c31fdfb9ccbaf182a3c503cf245bca671b860 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x624c31fdfb9ccbaf182a3c503cf245bca671b860"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 11,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x0d35d950fdb0741f11c4384dad15a07edb26e21a collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x0d35d950fdb0741f11c4384dad15a07edb26e21a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 12,
+        "result": "0x0000000000000000000000008236a87084f8b84306f72007f36f2618a5634494"
+      },
+      "decoded": [
+        "0x8236a87084f8b84306f72007f36f2618a5634494"
+      ]
+    },
+    {
+      "label": "0x0d35d950fdb0741f11c4384dad15a07edb26e21a networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x0d35d950fdb0741f11c4384dad15a07edb26e21a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 13,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x0d35d950fdb0741f11c4384dad15a07edb26e21a ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x0d35d950fdb0741f11c4384dad15a07edb26e21a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 14,
+        "result": "0x000000000000000000000000000000000000000001f04ef12cb04cf158000000"
+      },
+      "decoded": [
+        600000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x0d35d950fdb0741f11c4384dad15a07edb26e21a liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x0d35d950fdb0741f11c4384dad15a07edb26e21a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 15,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x0d35d950fdb0741f11c4384dad15a07edb26e21a debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x0d35d950fdb0741f11c4384dad15a07edb26e21a",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 16,
+        "result": "0x00000000000000000000000000000000000000000000000000001a514f149c6f"
+      },
+      "decoded": [
+        28936521423983
+      ]
+    },
+    {
+      "label": "0x0d35d950fdb0741f11c4384dad15a07edb26e21a liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x0d35d950fdb0741f11c4384dad15a07edb26e21a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 17,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xe916c5046ac2a29db3d6442f0b6a4b7ce2d80f2c collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0xe916c5046ac2a29db3d6442f0b6a4b7ce2d80f2c"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 18,
+        "result": "0x0000000000000000000000007f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      },
+      "decoded": [
+        "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0"
+      ]
+    },
+    {
+      "label": "0xe916c5046ac2a29db3d6442f0b6a4b7ce2d80f2c networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0xe916c5046ac2a29db3d6442f0b6a4b7ce2d80f2c"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 19,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0xe916c5046ac2a29db3d6442f0b6a4b7ce2d80f2c ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0xe916c5046ac2a29db3d6442f0b6a4b7ce2d80f2c"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 20,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xe916c5046ac2a29db3d6442f0b6a4b7ce2d80f2c liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0xe916c5046ac2a29db3d6442f0b6a4b7ce2d80f2c"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 21,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xe916c5046ac2a29db3d6442f0b6a4b7ce2d80f2c debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0xe916c5046ac2a29db3d6442f0b6a4b7ce2d80f2c",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 22,
+        "result": "0x00000000000000000000000000000000000000000000000000000032e7d332b4"
+      },
+      "decoded": [
+        218637742772
+      ]
+    },
+    {
+      "label": "0xe916c5046ac2a29db3d6442f0b6a4b7ce2d80f2c liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0xe916c5046ac2a29db3d6442f0b6a4b7ce2d80f2c"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 23,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x6f349c02cdbfca93b315b026ecd7b0416c46d5e8 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x6f349c02cdbfca93b315b026ecd7b0416c46d5e8"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 24,
+        "result": "0x000000000000000000000000c26a6fa2c37b38e549a4a1807543801db684f99c"
+      },
+      "decoded": [
+        "0xc26a6fa2c37b38e549a4a1807543801db684f99c"
+      ]
+    },
+    {
+      "label": "0x6f349c02cdbfca93b315b026ecd7b0416c46d5e8 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x6f349c02cdbfca93b315b026ecd7b0416c46d5e8"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 25,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x6f349c02cdbfca93b315b026ecd7b0416c46d5e8 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x6f349c02cdbfca93b315b026ecd7b0416c46d5e8"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 26,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x6f349c02cdbfca93b315b026ecd7b0416c46d5e8 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x6f349c02cdbfca93b315b026ecd7b0416c46d5e8"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 27,
+        "result": "0x000000000000000000000000000000000000000002bf1a8054a46d0092000000"
+      },
+      "decoded": [
+        850000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x6f349c02cdbfca93b315b026ecd7b0416c46d5e8 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x6f349c02cdbfca93b315b026ecd7b0416c46d5e8",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 28,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x6f349c02cdbfca93b315b026ecd7b0416c46d5e8 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x6f349c02cdbfca93b315b026ecd7b0416c46d5e8"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 29,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0xacaaf5aac016257bf305640fc7d7239648a0d34a collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0xacaaf5aac016257bf305640fc7d7239648a0d34a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 30,
+        "result": "0x000000000000000000000000004e9c3ef86bc1ca1f0bb5c7662861ee93350568"
+      },
+      "decoded": [
+        "0x004e9c3ef86bc1ca1f0bb5c7662861ee93350568"
+      ]
+    },
+    {
+      "label": "0xacaaf5aac016257bf305640fc7d7239648a0d34a networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0xacaaf5aac016257bf305640fc7d7239648a0d34a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 31,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0xacaaf5aac016257bf305640fc7d7239648a0d34a ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0xacaaf5aac016257bf305640fc7d7239648a0d34a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 32,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xacaaf5aac016257bf305640fc7d7239648a0d34a liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0xacaaf5aac016257bf305640fc7d7239648a0d34a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 33,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0xacaaf5aac016257bf305640fc7d7239648a0d34a debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0xacaaf5aac016257bf305640fc7d7239648a0d34a",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 34,
+        "result": "0x000000000000000000000000000000000000000000000000000002b7864a8f44"
+      },
+      "decoded": [
+        2987255304004
+      ]
+    },
+    {
+      "label": "0xacaaf5aac016257bf305640fc7d7239648a0d34a liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0xacaaf5aac016257bf305640fc7d7239648a0d34a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 0,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x616cc67ef3feea3a584ccd100a975763dc7f9f42 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x616cc67ef3feea3a584ccd100a975763dc7f9f42"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000002103e845c5e135493bb6c2a4f0b8651956ea8682"
+      },
+      "decoded": [
+        "0x2103e845c5e135493bb6c2a4f0b8651956ea8682"
+      ]
+    },
+    {
+      "label": "0x616cc67ef3feea3a584ccd100a975763dc7f9f42 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x616cc67ef3feea3a584ccd100a975763dc7f9f42"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x616cc67ef3feea3a584ccd100a975763dc7f9f42 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x616cc67ef3feea3a584ccd100a975763dc7f9f42"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": "0x00000000000000000000000000000000000000000219aada9b14535aca000000"
+      },
+      "decoded": [
+        650000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x616cc67ef3feea3a584ccd100a975763dc7f9f42 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x616cc67ef3feea3a584ccd100a975763dc7f9f42"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 4,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x616cc67ef3feea3a584ccd100a975763dc7f9f42 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x616cc67ef3feea3a584ccd100a975763dc7f9f42",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 5,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x616cc67ef3feea3a584ccd100a975763dc7f9f42 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x616cc67ef3feea3a584ccd100a975763dc7f9f42"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 6,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x8603f4d1f0c33d41a9012f22876db8e0858caec5 collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x8603f4d1f0c33d41a9012f22876db8e0858caec5"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 7,
+        "result": "0x0000000000000000000000000520930f21b14cafac7a27b102487bee7138a017"
+      },
+      "decoded": [
+        "0x0520930f21b14cafac7a27b102487bee7138a017"
+      ]
+    },
+    {
+      "label": "0x8603f4d1f0c33d41a9012f22876db8e0858caec5 networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x8603f4d1f0c33d41a9012f22876db8e0858caec5"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 8,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x8603f4d1f0c33d41a9012f22876db8e0858caec5 ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x8603f4d1f0c33d41a9012f22876db8e0858caec5"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 9,
+        "result": "0x0000000000000000000000000000000000000000019d971e4fe8401e74000000"
+      },
+      "decoded": [
+        500000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x8603f4d1f0c33d41a9012f22876db8e0858caec5 liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x8603f4d1f0c33d41a9012f22876db8e0858caec5"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 10,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x8603f4d1f0c33d41a9012f22876db8e0858caec5 debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x8603f4d1f0c33d41a9012f22876db8e0858caec5",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 11,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x8603f4d1f0c33d41a9012f22876db8e0858caec5 liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x8603f4d1f0c33d41a9012f22876db8e0858caec5"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 12,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x3403070f6e7266757595348f3c3df2c763cd673a collateral",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "collateral(address)",
+      "args": [
+        "0x3403070f6e7266757595348f3c3df2c763cd673a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 13,
+        "result": "0x000000000000000000000000cbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+      },
+      "decoded": [
+        "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+      ]
+    },
+    {
+      "label": "0x3403070f6e7266757595348f3c3df2c763cd673a networks",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "networks(address)",
+      "args": [
+        "0x3403070f6e7266757595348f3c3df2c763cd673a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 14,
+        "result": "0x00000000000000000000000009a3976d8d63728d20dcdfee1e531c206ba91225"
+      },
+      "decoded": [
+        "0x09a3976d8d63728d20dcdfee1e531c206ba91225"
+      ]
+    },
+    {
+      "label": "0x3403070f6e7266757595348f3c3df2c763cd673a ltv",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "ltv(address)",
+      "args": [
+        "0x3403070f6e7266757595348f3c3df2c763cd673a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 15,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    },
+    {
+      "label": "0x3403070f6e7266757595348f3c3df2c763cd673a liquidationThreshold",
+      "address": "0xf3e3eae671000612ce3fd15e1019154c1a4d693f",
+      "signature": "liquidationThreshold(address)",
+      "args": [
+        "0x3403070f6e7266757595348f3c3df2c763cd673a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 16,
+        "result": "0x00000000000000000000000000000000000000000295be96e640669720000000"
+      },
+      "decoded": [
+        800000000000000000000000000
+      ]
+    },
+    {
+      "label": "0x3403070f6e7266757595348f3c3df2c763cd673a debt",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "debt(address,address)",
+      "args": [
+        "0x3403070f6e7266757595348f3c3df2c763cd673a",
+        "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 17,
+        "result": "0x00000000000000000000000000000000000000000000000000000046acb5b601"
+      },
+      "decoded": [
+        303545300481
+      ]
+    },
+    {
+      "label": "0x3403070f6e7266757595348f3c3df2c763cd673a liquidationStart",
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "signature": "liquidationStart(address)",
+      "args": [
+        "0x3403070f6e7266757595348f3c3df2c763cd673a"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 18,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        0
+      ]
+    }
+  ]
+}

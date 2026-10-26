@@ -1,0 +1,69 @@
+{
+  "url": "https://ethereum-rpc.publicnode.com",
+  "request": [
+    {
+      "jsonrpc": "2.0",
+      "id": 0,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x97f478562cfc6e4c88b125bac83f2ad83a203d8e",
+          "data": "0xa0e67e2b"
+        },
+        "0x17f76d7"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xb8fc49402df3ee4f8587268fb89fda4d621a8793",
+          "data": "0xa0e67e2b"
+        },
+        "0x17f76d7"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x80a216738e4e49b262deae6beb6578bdf164c2ea",
+          "data": "0xa0e67e2b"
+        },
+        "0x17f76d7"
+      ]
+    }
+  ],
+  "observed_utc": "2026-10-26T17:25:58.892206+00:00",
+  "http_status": 403,
+  "body": [
+    {
+      "jsonrpc": "2.0",
+      "error": {
+        "code": -32602,
+        "message": "Archive requests require a personal token. Get one at: https://www.allnodes.com/publicnode"
+      },
+      "id": 0
+    },
+    {
+      "jsonrpc": "2.0",
+      "error": {
+        "code": -32602,
+        "message": "Archive requests require a personal token. Get one at: https://www.allnodes.com/publicnode"
+      },
+      "id": 2
+    },
+    {
+      "jsonrpc": "2.0",
+      "error": {
+        "code": -32602,
+        "message": "Archive requests require a personal token. Get one at: https://www.allnodes.com/publicnode"
+      },
+      "id": 1
+    }
+  ]
+}

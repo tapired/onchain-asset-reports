@@ -1,0 +1,151 @@
+{
+  "url": "https://scan.layerzero-api.com/v1/messages/tx/0x96ef39f00b23abd25606a681525719d5aedb2ea37d77b3d4243bde9a0c9702c0",
+  "request": null,
+  "observed_utc": "2026-10-26T17:35:52.595996+00:00",
+  "http_status": 200,
+  "body": {
+    "data": [
+      {
+        "pathway": {
+          "srcEid": 30101,
+          "dstEid": 30398,
+          "sender": {
+            "address": "0xec2af1c8b110a61fd9c3fa6a554a031ca9943926",
+            "id": "megaeth",
+            "name": "MegaETH",
+            "chain": "ethereum"
+          },
+          "receiver": {
+            "address": "0xfafddbb3fc7688494971a79cc65dca3ef82079e7",
+            "id": "megaeth",
+            "name": "MegaETH",
+            "chain": "megaeth"
+          },
+          "id": "30101-30398-0xec2af1c8b110a61fd9c3fa6a554a031ca9943926-0xfafddbb3fc7688494971a79cc65dca3ef82079e7",
+          "nonce": 58
+        },
+        "source": {
+          "status": "SUCCEEDED",
+          "tx": {
+            "txHash": "0x50303f8ff60086ea9c6bb4c0f332289fc261ba27afb03ad1cdd9f2a5f6d5410c",
+            "blockHash": "0x3e9129f12124f55a15a8e98f55f806a26b028186ed21d7be6712a3fb49096a9f",
+            "blockNumber": "24454906",
+            "blockTimestamp": 1771070603,
+            "from": "0xfa9ad1be10bb02fd70634ccec3264da9bf43de79",
+            "payload": "0x0000000000000000000000008a4aa69f694da05c042c2e59bb9a86f1983617990000048c272c0990",
+            "readinessTimestamp": 1771070783,
+            "options": {
+              "lzReceive": {
+                "gas": "200000",
+                "value": "0"
+              },
+              "ordered": false
+            }
+          }
+        },
+        "destination": {
+          "nativeDrop": {
+            "status": "N/A"
+          },
+          "lzCompose": {
+            "status": "N/A"
+          },
+          "tx": {
+            "txHash": "0x96ef39f00b23abd25606a681525719d5aedb2ea37d77b3d4243bde9a0c9702c0",
+            "blockHash": "0x1a4cf9c2bab798d7ff0d40c043fc969c201f35ba9c991a7362cdc761c2ae1442",
+            "blockNumber": 8273804,
+            "blockTimestamp": 1771070815
+          },
+          "status": "SUCCEEDED"
+        },
+        "verification": {
+          "dvn": {
+            "dvns": {
+              "0x282b3386571f7f794450d5789911a9804fa346b4": {
+                "txHash": "0xc3f51ed589fe202fd21f7b3103a5cb4512f789e9b1b5774bc34e95f508804965",
+                "blockHash": "0xb6d38ba25519d9a824c50cdd89fcd2445f5ef33e80127a92c5d7434369c8cf11",
+                "blockNumber": 8273780,
+                "blockTimestamp": 1771070791,
+                "proof": {
+                  "packetHeader": "0x01000000000000003a00007595000000000000000000000000ec2af1c8b110a61fd9c3fa6a554a031ca9943926000076be000000000000000000000000fafddbb3fc7688494971a79cc65dca3ef82079e7",
+                  "payloadHash": "0x163abe9ba030891dc44ea6cba3237d3b91877419baa3e95a01439ad7b3ef5429"
+                },
+                "optional": false,
+                "status": "SUCCEEDED"
+              },
+              "0xeede111103535e473451311e26c3e6660b0f77e1": {
+                "txHash": "0x3b9c6c276eeadbce61a04a64f6f8d29a08122f3231becf7ab8207806cf534f9a",
+                "blockHash": "0xb6d38ba25519d9a824c50cdd89fcd2445f5ef33e80127a92c5d7434369c8cf11",
+                "blockNumber": 8273780,
+                "blockTimestamp": 1771070791,
+                "proof": {
+                  "packetHeader": "0x01000000000000003a00007595000000000000000000000000ec2af1c8b110a61fd9c3fa6a554a031ca9943926000076be000000000000000000000000fafddbb3fc7688494971a79cc65dca3ef82079e7",
+                  "payloadHash": "0x163abe9ba030891dc44ea6cba3237d3b91877419baa3e95a01439ad7b3ef5429"
+                },
+                "optional": false,
+                "status": "SUCCEEDED"
+              }
+            },
+            "status": "SUCCEEDED"
+          },
+          "sealer": {
+            "tx": {
+              "txHash": "0xf9f8426d50561d36bee53e147b0f127db3601fd568d373f8dc19f0bf0950ee1f",
+              "blockHash": "0x185639c588fc3b9584210621b67ed7452f755d13eee6674fb8041d33936dc324",
+              "blockNumber": 8273783,
+              "blockTimestamp": 1771070794
+            },
+            "status": "SUCCEEDED"
+          }
+        },
+        "guid": "0xc728c59c83f08465a555e953a7d17a97fb8173a84b56c629fc219331453d9f46",
+        "config": {
+          "error": false,
+          "receiveLibrary": "0xe1844c5D63a9543023008D332Bd3d2e6f1FE1043",
+          "sendLibrary": "0xbB2Ea70C9E858123480642Cf96acbcCE1372dCe1",
+          "inboundConfig": {
+            "confirmations": 15,
+            "requiredDVNCount": 2,
+            "optionalDVNCount": 0,
+            "optionalDVNThreshold": 0,
+            "requiredDVNs": [
+              "0x282b3386571f7f794450d5789911a9804fa346b4",
+              "0xeede111103535e473451311e26c3e6660b0f77e1"
+            ],
+            "requiredDVNNames": [
+              "LayerZero Labs",
+              "Nethermind"
+            ],
+            "optionalDVNs": [],
+            "optionalDVNNames": []
+          },
+          "outboundConfig": {
+            "confirmations": 15,
+            "requiredDVNCount": 2,
+            "optionalDVNCount": 0,
+            "optionalDVNThreshold": 0,
+            "requiredDVNs": [
+              "0x589dedbd617e0cbcb916a9223f4d1300c294236b",
+              "0xa59ba433ac34d2927232918ef5b2eaafcf130ba5"
+            ],
+            "requiredDVNNames": [
+              "LayerZero Labs",
+              "Nethermind"
+            ],
+            "optionalDVNs": [],
+            "optionalDVNNames": [],
+            "executor": "0x173272739Bd7Aa6e4e214714048a9fE699453059"
+          },
+          "ulnSendVersion": "V302",
+          "ulnReceiveVersion": "V302"
+        },
+        "status": {
+          "name": "DELIVERED",
+          "message": "Executor transaction confirmed"
+        },
+        "created": "2026-02-14T12:03:48.000Z",
+        "updated": "2026-02-14T12:07:02.000Z"
+      }
+    ]
+  }
+}

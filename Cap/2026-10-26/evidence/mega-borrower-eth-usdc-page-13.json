@@ -1,0 +1,3766 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/addresses/0x64471d103a7f77262529383d53bdd28b260b1ae8/token-transfers?type=ERC-20&token=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48&index=148&token=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48&block_number=25345722",
+  "request": null,
+  "observed_utc": "2026-10-26T17:30:17.332693+00:00",
+  "http_status": 200,
+  "body": {
+    "items": [
+      {
+        "block_hash": "0xfccf98ddd5d2c75b5d780cfd6530726afb375163d3842bab3428cbb2d17494ad",
+        "block_number": 25345679,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 122,
+        "method": "0xee3e210b",
+        "timestamp": "2026-06-18T16:35:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x68215B6533c47ff9f7125aC95adf00fE4a62f79e",
+          "implementations": [
+            {
+              "address_hash": "0x9EB507147b99D3Cde32A53Bd5cd12bDEEaC26E5c",
+              "name": "ATokenInstance"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "InitializableImmutableAdminUpgradeabilityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "179628139034"
+        },
+        "transaction_hash": "0x7227152f0d33279c5b6267b5f9aa08f18b370d526c134c3951e7ac5ee027f29f",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x39f8d140c928c83e3d9193eab1320fa0eb39adae7f342a4aa50f92c02c7f65a2",
+        "block_number": 25342814,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho-aave-app"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 916,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-18T07:00:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "23094360"
+        },
+        "transaction_hash": "0x212d0240dd0396bb906caa5a24471434518d1d872272dc3251ce71c2b4a7f165",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x39f8d140c928c83e3d9193eab1320fa0eb39adae7f342a4aa50f92c02c7f65a2",
+        "block_number": 25342814,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 908,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-18T07:00:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho-aave-app"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "3861958239357"
+        },
+        "transaction_hash": "0x212d0240dd0396bb906caa5a24471434518d1d872272dc3251ce71c2b4a7f165",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x7f6dad836bf1efe8f848bb6f580a1a8b1ce67dee22485e75dd4a7daf81934b63",
+        "block_number": 25338254,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 554,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-17T15:46:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xb0BF070E1B56Edb6Aaa251D5d5E0f8c431699a9a",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "0"
+        },
+        "transaction_hash": "0x9a591236c5bb090e6e15de45c08b866e4609b703a665cb71fa255f99ec6e48da",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xd11c00150f7b4c553e6fb5f3d90adcec2ac56c30878442c610ddac645bb272c4",
+        "block_number": 25338237,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 811,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-17T15:42:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xb0BfAe583BF0514b679DFEa8CfB109Adaa479a9a",
+          "implementations": [
+            {
+              "address_hash": "0xeCAD547E905892Ff19D162Ca57b91f0fEcF78469",
+              "name": null
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "0"
+        },
+        "transaction_hash": "0xfef9bad0c65301cb632cafd14d77421b918d42243eccb3337f45b9c40f2da2f4",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa33d10c87872dc5eb382e55ef01f39c77019d9394f8d8a4ff4ff24888c47e771",
+        "block_number": 25338048,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB0BF4dae6d256FC53f3DBF5f5695376a47559a9A",
+          "implementations": [
+            {
+              "address_hash": "0x27DbD0e71b85700E29994d6D3a51F2e32442AA61",
+              "name": null
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 260,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-17T15:05:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "700"
+        },
+        "transaction_hash": "0x029f4b8433d0fa39d3910c2338add6dda5d81d7f7c5861509fe3b2ce3dc3661e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x3fb7cb22549064c82711e0338783b06c44948f2f82b70991dc3184b84ed9c81e",
+        "block_number": 25338045,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x55FE002aefF02F77364de339a1292923A15844B8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Circle"
+                },
+                "name": "Circle: Hot Wallet",
+                "ordinal": 10,
+                "slug": "circle-hot-wallet",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "HOT WALLET",
+                "ordinal": 0,
+                "slug": "hot-wallet",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Centre",
+                "ordinal": 0,
+                "slug": "centre",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 205,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-17T15:04:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "4064740050000"
+        },
+        "transaction_hash": "0x25ad2143864138b5f1a36a74824f6615705a9467caebdc6e2e9e126eb0a8527a",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xf3268a2a04f495b9ed5f77af5cc084d87a9f1370ac2f0055f3d0265111bd002e",
+        "block_number": 25337144,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 716,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-17T12:03:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xb0BF070E1B56Edb6Aaa251D5d5E0f8c431699a9a",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "0"
+        },
+        "transaction_hash": "0x343b071b1dddb9b6815c1701251032ca79b7246029f31be7da46fa4f291b0e64",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x0f887c3382a5ebf4bfce5212256d0c5aaf9033f814ab5be2c723a0750a2ce96b",
+        "block_number": 25337123,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB0BF4dae6d256FC53f3DBF5f5695376a47559a9A",
+          "implementations": [
+            {
+              "address_hash": "0x27DbD0e71b85700E29994d6D3a51F2e32442AA61",
+              "name": null
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 691,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-17T11:59:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "187"
+        },
+        "transaction_hash": "0x9ef18a388938828a0fe24bc586f6152276c481878bff05cd4a1aff4b639b2875",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x1a0f1e7c420d92f4c162a9d99a963c90756dcf318d99dd92a3c6db980a06a9fa",
+        "block_number": 25337114,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1041,
+        "method": "0x23b872dd",
+        "timestamp": "2026-06-17T11:57:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xb0Be01aB05E2cf2A644C492bEffdc5b62B8e849a",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "0"
+        },
+        "transaction_hash": "0x806ff2976a9b90df41c1f51ecfe8b2284ec991777c85af88b2a2343b3a0edc27",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x1a0f1e7c420d92f4c162a9d99a963c90756dcf318d99dd92a3c6db980a06a9fa",
+        "block_number": 25337114,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xb0bAf4F2b09F9B9410D25cfBdB833c7655b22a9a",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1032,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-17T11:57:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "700"
+        },
+        "transaction_hash": "0x2abda118971f0950227e98290fda06633b1bc4824a5a58e9cf245091496d552b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x9a17f153f5d00a0e4f59bfae8178f9eac81d7d3b7c3ecd0d06574343491050b7",
+        "block_number": 25337110,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 444,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-17T11:56:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xb0BfdC336537730Ad2C44083C0F7c545AAc79A9a",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "70000000210"
+        },
+        "transaction_hash": "0x11704e7eb9afa75c78dade853751accff6c1b4a708d8760e290bea678b23d0c5",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x6a6769e85aacc0c1921d8b49a430abc81bea78dfe2716a256723c88aaf8b4d21",
+        "block_number": 25337010,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 262,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-17T11:36:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "70000000000"
+        },
+        "transaction_hash": "0x70f5b97f612809416c7fd61f7fa519ba0c541ba9636a1ffeaefd4ed32036218d",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x9e044fa5886e79f0e39737fbe68a849ef52c5f6edf15aae5c8854cc24ea96f35",
+        "block_number": 25331991,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 829,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-16T18:50:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x68A0e49e5065551d598b2B5b9eD562205A68F7CA",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "0"
+        },
+        "transaction_hash": "0x2c7d9b3d9bfeb1faafa4aaafbbc00b8916410051eaa645a543a5042407402b60",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x9e044fa5886e79f0e39737fbe68a849ef52c5f6edf15aae5c8854cc24ea96f35",
+        "block_number": 25331991,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 677,
+        "method": "0xee3e210b",
+        "timestamp": "2026-06-16T18:50:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x68215B6533c47ff9f7125aC95adf00fE4a62f79e",
+          "implementations": [
+            {
+              "address_hash": "0x9EB507147b99D3Cde32A53Bd5cd12bDEEaC26E5c",
+              "name": "ATokenInstance"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "InitializableImmutableAdminUpgradeabilityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "3724546324527"
+        },
+        "transaction_hash": "0xe7f7a929c57520069c85d51d48468a20a247728bbf814a519cc1866667e3820c",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x19935c833c5ef9d29df86a68323982214d5ea5ba7c99588a003c58e2dd5619db",
+        "block_number": 25331976,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 2006,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-16T18:47:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x68a073eFd3C8D0fAc63f9564d3Cb17102f8907ca",
+          "implementations": [
+            {
+              "address_hash": "0xeCAD547E905892Ff19D162Ca57b91f0fEcF78469",
+              "name": null
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "0"
+        },
+        "transaction_hash": "0xd428885f84356dc674b7ee57a6a162b11073fcdf5c6c1ba7ed5813ad99fda9b3",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x19935c833c5ef9d29df86a68323982214d5ea5ba7c99588a003c58e2dd5619db",
+        "block_number": 25331976,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xE6d06A4a8b6d29736C88FD93582eC7C7443EDAC8",
+          "implementations": [
+            {
+              "address_hash": "0x27DbD0e71b85700E29994d6D3a51F2e32442AA61",
+              "name": null
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1827,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-16T18:47:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "210"
+        },
+        "transaction_hash": "0x1b249f92cfff221e31a53710f0eefda3211bbbb8101151825f9b38f81f9b8d16",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xebd5238cb05e9bc5d3b596b223b0aa9fa6b256852f93fa5997226d9697cd798e",
+        "block_number": 25331967,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xE6D1FA593EE8d62B72A49D505092238A0F44BAC8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 370,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-16T18:45:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "372"
+        },
+        "transaction_hash": "0x63a0e26d83df98469e511adad27584310f3222ee0ce7a9c533f42a870d6b3887",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xdbaf8a97dc68cae5e0b7e841ce3eb96514d9bde0b23c0c6e0ea40a6c8de2b9ef",
+        "block_number": 25331964,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xe6D0CA9844F4c079E6e732f396EF3b9F98a2DAc8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 507,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-16T18:45:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "3724546324155"
+        },
+        "transaction_hash": "0x91dc5dcc1775778f79c91da36e403c86189e89ea3e18a8810ecedb68e59bf1d3",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x209768382da3ae3f05d51659661c0d5b5093455cd7afacf763252dad5b1385cf",
+        "block_number": 25330467,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 351,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-16T13:45:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho-aave-app"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "2915456550000"
+        },
+        "transaction_hash": "0xd6b4ccf79ac6cdbe3579562f3c5feb407937407dcaf94e99d2f68e854926e5a5",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x0c8ecde6f633ce570a3d6645e1672577e403f406d4f728014003358347bbcaa5",
+        "block_number": 25330462,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 518,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-16T13:44:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x68A0e49e5065551d598b2B5b9eD562205A68F7CA",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "0"
+        },
+        "transaction_hash": "0xb5a87e697ff09d41b4b1ebb3753971025c4ffb541b62320f81aa3047bf73e5a1",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xee894d8c620f95a96972be7ded187da343a96883b6c495c08e106ecfcdaba3cc",
+        "block_number": 25330446,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1176,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-16T13:41:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x68a073eFd3C8D0fAc63f9564d3Cb17102f8907ca",
+          "implementations": [
+            {
+              "address_hash": "0xeCAD547E905892Ff19D162Ca57b91f0fEcF78469",
+              "name": null
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "0"
+        },
+        "transaction_hash": "0x275eec17d3f9218a597702e44e1becceceb98d0bd8662175eb646f2e6af280e0",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x053d84139d33fe85f3ab76f1de68a9d106a18684f238415b815cf23737fb0ebe",
+        "block_number": 25330437,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x55FE002aefF02F77364de339a1292923A15844B8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Circle"
+                },
+                "name": "Circle: Hot Wallet",
+                "ordinal": 10,
+                "slug": "circle-hot-wallet",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "HOT WALLET",
+                "ordinal": 0,
+                "slug": "hot-wallet",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Centre",
+                "ordinal": 0,
+                "slug": "centre",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 59,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-16T13:39:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "2915456550000"
+        },
+        "transaction_hash": "0x41a435bbdf6fcbee9c7bd5f69e64c10179b58a37a1faed9b95ee079867b8f87e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xafcd441cdb9ba72beaf94654ce29a8e6b9118ab80b6c963d2902b1aa96e3796e",
+        "block_number": 25329974,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1080,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-16T12:06:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho-aave-app"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "999484381936"
+        },
+        "transaction_hash": "0xdb1ae991ae6f18e16aa9bf4e3dcb28295e4f87acca1fa9dca10c849b7683775d",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x2a5d2087a9995a345f032360a845ca807b60ab28dfcc36cc5fce47ceaa31cb60",
+        "block_number": 25329948,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x9008D19f58AAbD9eD0D60971565AA8510560ab41",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "CoW Protocol",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x3370d2d146360737876986ca06e966ed74c55b5702395e672919b96d7f303cc3",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Contract of CoW's Protocol Gnosis Protocol V2 Settlement",
+                  "tooltipUrl": "https://cowswap.exchange/",
+                  "verifiedDomains": [
+                    "app.ploutos.money",
+                    "app.shapeshift.com",
+                    "private.shapeshift.com",
+                    "houdiniswap.com",
+                    "v4.houdiniswap.com",
+                    "swap.cow.fi",
+                    "app.aave.com",
+                    "oku.trade"
+                  ]
+                },
+                "name": "GP V2 Settlement",
+                "ordinal": 10,
+                "slug": "gp-v2-settlement-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "CoW Swap",
+                  "appID": "cow-swap"
+                },
+                "name": "CoW Protocol",
+                "ordinal": 0,
+                "slug": "cow-protocol",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "CoW Swap",
+                  "appID": "cow-swap",
+                  "appLogoURL": "https://blockscout-content.s3.amazonaws.com/cow-action-btn.svg",
+                  "bgColor": "#052B65",
+                  "textColor": "#FFFFFF"
+                },
+                "name": "CoW Swap",
+                "ordinal": 0,
+                "slug": "cow-swap",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "GPv2Settlement",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 265,
+        "method": "0x13d79a0b",
+        "timestamp": "2026-06-16T12:01:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "999484381936"
+        },
+        "transaction_hash": "0x6aa3300a0ec678b15d64a4cd7bd410ec1dbb4663c892d9180fa2d0e6c4f25398",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x5ed2eced20aeed2b13e4499047457eb34b5286f54229112a00ac1cfdea947ab9",
+        "block_number": 25325186,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 231,
+        "method": "0xee3e210b",
+        "timestamp": "2026-06-15T20:06:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x68215B6533c47ff9f7125aC95adf00fE4a62f79e",
+          "implementations": [
+            {
+              "address_hash": "0x9EB507147b99D3Cde32A53Bd5cd12bDEEaC26E5c",
+              "name": "ATokenInstance"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "InitializableImmutableAdminUpgradeabilityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "1051711073882"
+        },
+        "transaction_hash": "0x7af99271f293807550dc1a21c705c90bacc834cf5e49dd6e3d85c4f4c0cd41f0",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x9a105cbba273ac35559fc9ca62757f80dc458f1f95257a8e4f69fe0e235326a4",
+        "block_number": 25325174,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x68215B6533c47ff9f7125aC95adf00fE4a62f79e",
+          "implementations": [
+            {
+              "address_hash": "0x9EB507147b99D3Cde32A53Bd5cd12bDEEaC26E5c",
+              "name": "ATokenInstance"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "InitializableImmutableAdminUpgradeabilityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 332,
+        "method": "0x69328dec",
+        "timestamp": "2026-06-15T20:04:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "7303200966"
+        },
+        "transaction_hash": "0xd0794f8d078e2223ce741a224b82170239854acb1422a5f527ad5c834a4a38c0",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x492f09074b11382fd8b43d3a146c815fa9f66e2584f2c5325d01879266ffd199",
+        "block_number": 25325160,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 337,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-15T20:01:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho-aave-app"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "1000000000000"
+        },
+        "transaction_hash": "0x52441cefd787976d5bbe5fdb9e4d6b2b64b0246614799bf3c9be69f89227045d",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x1e44cb585b0c6a76bd4a072a5e6f757a3da8cc5da6b18eac82eb0bee68325da6",
+        "block_number": 25325141,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x9008D19f58AAbD9eD0D60971565AA8510560ab41",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "CoW Protocol",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x3370d2d146360737876986ca06e966ed74c55b5702395e672919b96d7f303cc3",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Contract of CoW's Protocol Gnosis Protocol V2 Settlement",
+                  "tooltipUrl": "https://cowswap.exchange/",
+                  "verifiedDomains": [
+                    "app.ploutos.money",
+                    "app.shapeshift.com",
+                    "private.shapeshift.com",
+                    "houdiniswap.com",
+                    "v4.houdiniswap.com",
+                    "swap.cow.fi",
+                    "app.aave.com",
+                    "oku.trade"
+                  ]
+                },
+                "name": "GP V2 Settlement",
+                "ordinal": 10,
+                "slug": "gp-v2-settlement-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "CoW Swap",
+                  "appID": "cow-swap"
+                },
+                "name": "CoW Protocol",
+                "ordinal": 0,
+                "slug": "cow-protocol",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "CoW Swap",
+                  "appID": "cow-swap",
+                  "appLogoURL": "https://blockscout-content.s3.amazonaws.com/cow-action-btn.svg",
+                  "bgColor": "#052B65",
+                  "textColor": "#FFFFFF"
+                },
+                "name": "CoW Swap",
+                "ordinal": 0,
+                "slug": "cow-swap",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "GPv2Settlement",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 89,
+        "method": "0x13d79a0b",
+        "timestamp": "2026-06-15T19:57:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "999706717685"
+        },
+        "transaction_hash": "0xfcfbbcad4f3973b05365d78e2dc8bbf422248e1103b06d4c1d1728eead777dc0",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x04d6137fb5b6b0a4d62bd898015b92011c8e4944fac977badd135290e7c3b3ec",
+        "block_number": 25325135,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x9008D19f58AAbD9eD0D60971565AA8510560ab41",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "CoW Protocol",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x3370d2d146360737876986ca06e966ed74c55b5702395e672919b96d7f303cc3",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Contract of CoW's Protocol Gnosis Protocol V2 Settlement",
+                  "tooltipUrl": "https://cowswap.exchange/",
+                  "verifiedDomains": [
+                    "app.ploutos.money",
+                    "app.shapeshift.com",
+                    "private.shapeshift.com",
+                    "houdiniswap.com",
+                    "v4.houdiniswap.com",
+                    "swap.cow.fi",
+                    "app.aave.com",
+                    "oku.trade"
+                  ]
+                },
+                "name": "GP V2 Settlement",
+                "ordinal": 10,
+                "slug": "gp-v2-settlement-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEX",
+                "ordinal": 0,
+                "slug": "dex",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "CoW Swap",
+                  "appID": "cow-swap"
+                },
+                "name": "CoW Protocol",
+                "ordinal": 0,
+                "slug": "cow-protocol",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "CoW Swap",
+                  "appID": "cow-swap",
+                  "appLogoURL": "https://blockscout-content.s3.amazonaws.com/cow-action-btn.svg",
+                  "bgColor": "#052B65",
+                  "textColor": "#FFFFFF"
+                },
+                "name": "CoW Swap",
+                "ordinal": 0,
+                "slug": "cow-swap",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "GPv2Settlement",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 265,
+        "method": "0x13d79a0b",
+        "timestamp": "2026-06-15T19:56:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "999709738441"
+        },
+        "transaction_hash": "0x526c34b8d2a9a235f398d111040aa32ca6f989604310776632ead74f90e8aac5",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa39d030e4a404f8d2cbaa37d7d5871564e5cc4c541d8bc78ed1e769139e4ac00",
+        "block_number": 25325094,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x68215B6533c47ff9f7125aC95adf00fE4a62f79e",
+          "implementations": [
+            {
+              "address_hash": "0x9EB507147b99D3Cde32A53Bd5cd12bDEEaC26E5c",
+              "name": "ATokenInstance"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "InitializableImmutableAdminUpgradeabilityProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 383,
+        "method": "0x69328dec",
+        "timestamp": "2026-06-15T19:48:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "44991416790"
+        },
+        "transaction_hash": "0x5e469d63d4ac33d260803f1cb9fb76dd33c3857cc108f4fdbe899e07e798aff4",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x2fdf99e2469a72b95b256a29047060a9259551f85a79cea834832bc0830660f1",
+        "block_number": 25281233,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 275,
+        "method": "0xee3e210b",
+        "timestamp": "2026-06-09T17:01:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c",
+          "implementations": [
+            {
+              "address_hash": "0xadC45Df3cf1584624C97338BEF33363BF5b97AdA",
+              "name": "ATokenInstance"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Aave v3 USDC contract address",
+                  "tooltipUrl": "https://aave.com/"
+                },
+                "name": "Aave: USDC V3",
+                "ordinal": 10,
+                "slug": "aave-usdc-v3",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "AUSDC",
+                "ordinal": 0,
+                "slug": "ausdc",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Aave",
+                  "appID": "aave"
+                },
+                "name": "Aave",
+                "ordinal": 0,
+                "slug": "aave",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Aave v3 USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "1050000000000"
+        },
+        "transaction_hash": "0xe1326f63ebd4a7a798faa2984c50adedf0a7688952a122b13797af75fc8ebe88",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x0a15557ea5d4f7ea59c111670c14c5560ffc799c02b052be613ec932b6fd64d3",
+        "block_number": 25281229,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 217,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-09T17:00:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "1050000000000"
+        },
+        "transaction_hash": "0x41292a233055d2f52efdc23fb1b41cdd2ab848916cf96b28564b6bfbd27a87f7",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x22ab06c8db0e9fac76b78dfaf06c96559f4fb79cc4643c078fcc0d4c28bf3da7",
+        "block_number": 25281200,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 267,
+        "method": "0xee3e210b",
+        "timestamp": "2026-06-09T16:55:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c",
+          "implementations": [
+            {
+              "address_hash": "0xadC45Df3cf1584624C97338BEF33363BF5b97AdA",
+              "name": "ATokenInstance"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Aave v3 USDC contract address",
+                  "tooltipUrl": "https://aave.com/"
+                },
+                "name": "Aave: USDC V3",
+                "ordinal": 10,
+                "slug": "aave-usdc-v3",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "AUSDC",
+                "ordinal": 0,
+                "slug": "ausdc",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Aave",
+                  "appID": "aave"
+                },
+                "name": "Aave",
+                "ordinal": 0,
+                "slug": "aave",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Aave v3 USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "2000000002520"
+        },
+        "transaction_hash": "0x7a24b5729990c7c53a232ce6bd6fb5241c31670f7d53956fe92c17521e254ed7",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x95bda5a4a52660f887eccd9b0bbea84e248127b73996db0e2acea456231061c1",
+        "block_number": 25281194,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 409,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-09T16:53:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "2000000000000"
+        },
+        "transaction_hash": "0x83ab5c95b076211324a4fd24000ac66fc2cadc132ccc41c7d341177d17049481",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xbf2b0f107c6aecb80319d4950bfc03ad9256f1a2feecc8d532bc34e29107939a",
+        "block_number": 25247728,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x50B855571318cd98C007f429BB5Eee22cafcaB41",
+          "implementations": [
+            {
+              "address_hash": "0x27DbD0e71b85700E29994d6D3a51F2e32442AA61",
+              "name": null
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1489,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-05T00:53:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "210"
+        },
+        "transaction_hash": "0x9109fc45d46d27c46c6a811f49f70ff133262dec008fd817d13281009be0c7d2",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x14647c1a28e2c7502dff1142439e3ac77bef5a8ab57ebc3c64fde7c7f15aadee",
+        "block_number": 25247718,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x50b24b5B902386aBf7202f58890C38Eaa0b1aB41",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 323,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-05T00:51:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "2100"
+        },
+        "transaction_hash": "0x373b46e81473bf531c61ba489c25f6fc9be7e1d411a0cb644e8baee1a91d8acf",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x0f365bda723449a788013301b100c63693efbb4030042e8062ee98f3a025e239",
+        "block_number": 25240329,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1421,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-04T00:05:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x50B8EE3c1Bc6309ceeF6e8a4A2759ebBda0baB41",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "0"
+        },
+        "transaction_hash": "0xe3c1cf180281a45d523190253e1b689cf04e6b033e6d96866daa29f48811c494",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xeb999995d67f4529e6909a06766a20a1a309ab8107be8cdabc6d3c8df3e1d295",
+        "block_number": 25238769,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x50B855571318cd98C007f429BB5Eee22cafcaB41",
+          "implementations": [
+            {
+              "address_hash": "0x27DbD0e71b85700E29994d6D3a51F2e32442AA61",
+              "name": null
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 404,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-03T18:51:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "210"
+        },
+        "transaction_hash": "0x4835444049588e728062e357aedcc0b0bed02fa7bae445ad50dda4c290f6dd69",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xebe5b12075d692ec0f40c65556b721da6fb8ffdcb861b1c2fd9dc04d01019385",
+        "block_number": 25238765,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 554,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-03T18:50:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x50B82f42D51D875b1bfdd946ad27AeE2a6b1AB41",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "2100000000000"
+        },
+        "transaction_hash": "0x56c218be8677bef6880ac2b4f0c1528e4b2ee29f6f87fd9f56ea6d6d31bca601",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x0a7a1f506a2d3111af4f89a30573a2b3268dc319e435aa96c5497b9fa0ce263b",
+        "block_number": 25238744,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 300,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-03T18:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "2100000000000"
+        },
+        "transaction_hash": "0x8f2d0ab45ed45581342edc6734ca0e527b7e1fbc779e69a8490e90f6aa26bf89",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x79358e09125ed5da9796492a5754726787ca45ee20a36fdb5d46549938522592",
+        "block_number": 25230681,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 825,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-02T15:45:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x50B82f42D51D875b1bfdd946ad27AeE2a6b1AB41",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "3000000000000"
+        },
+        "transaction_hash": "0x79dba40b3eedbeb2f54ecbca974375ed5a1ed4c1f6eb471af218caceffa0a92f",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x8f7ea249a209c7faffe2c156ee53c3936e5996793bf55dcc45dba0f30ff0ba02",
+        "block_number": 25230670,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 451,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-02T15:43:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "3000000000000"
+        },
+        "transaction_hash": "0xec49d6d8df933791cc5a7fa5d9f20bd15c0b9262989a4d491822aee67122996a",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xba4e059bb96f7dbaecf0fbd7cd3540f2d6f3bdfa9de18e5ce59a7d04283907f8",
+        "block_number": 25228949,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 358,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-02T09:57:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho-aave-app"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "4628652866297"
+        },
+        "transaction_hash": "0xffce48d26b5d87bf1921b679a11a5c1c5d35ce39cf4358107658adf4d8426233",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xbee6c81c4438f8a863c4a08a8d0fbae349a01440b1efb1fd8276125213f98b04",
+        "block_number": 25228496,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 706,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-02T08:26:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x50B8EE3c1Bc6309ceeF6e8a4A2759ebBda0baB41",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "0"
+        },
+        "transaction_hash": "0xc8df6b32c2233ab04944a67ffabf3de77334e5cf8518fa63c8770f4d8163e338",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x23124bc6e4725a1e9d543b1835b940a157a58341285edd39d7601aabf30ca7f1",
+        "block_number": 25228466,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x50B855571318cd98C007f429BB5Eee22cafcaB41",
+          "implementations": [
+            {
+              "address_hash": "0x27DbD0e71b85700E29994d6D3a51F2e32442AA61",
+              "name": null
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 221,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-02T08:20:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "500"
+        },
+        "transaction_hash": "0xd4b56b8760a1bd1724d4213e1a71a23ff382e9df3b7a1f48007223a266d464af",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xe6fcca8a89dcdd3ab61faf7c4d96f8bb89baccba325b4cbe2c733d83a7b76599",
+        "block_number": 25228462,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 119,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-06-02T08:19:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x50B82f42D51D875b1bfdd946ad27AeE2a6b1AB41",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "50000000000"
+        },
+        "transaction_hash": "0xfb0906aa673fe2c6f7e5c398a34b3697d8b8b59191ca1bc063ff2509bda3d1cd",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xb0f16f32c493fbf8126810c4db4bdb62864ccb8dd613009fabaaf486bc710960",
+        "block_number": 25228294,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x17E9Ab2992dfecBe779a06A92a6cDB9fE6aEeEf3",
+          "implementations": [
+            {
+              "address_hash": "0xBBA97a1ca6D4966870CBE9F032Ae9c6E6546d2ee",
+              "name": "IdleCreditVault"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "TransparentUpgradeableProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 351,
+        "method": "claimWithdrawRequest",
+        "timestamp": "2026-06-02T07:45:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "4678652865797"
+        },
+        "transaction_hash": "0x04f3881ebf6cd11a53a758870d790a2cff87fd68927a1c6201212002bb39d819",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xd51baec5eb4d6439db80ce616214b1aa6d6dc23e4a89be141a368eb4c87e5904",
+        "block_number": 25201478,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 273,
+        "method": "0x374f435d",
+        "timestamp": "2026-05-29T13:59:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho-aave-app"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "2100000000000"
+        },
+        "transaction_hash": "0x74d9c6257bec53181965c6edee6438ffb498e69e2a8bd44ec62021cf363121d5",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x0a6264c923533f0f45d6d40080b3d508f768e6f91554419e40d60bc81439fe22",
+        "block_number": 25201470,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 612,
+        "method": "registerAccount",
+        "timestamp": "2026-05-29T13:58:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x90c8CdbcEADe18D35ba71B66a8D423DB1bFA1376",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ImmutableBeaconProxy",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71051612047.05159",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999395",
+          "holders_count": "9532285",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47539537099896560",
+          "type": "ERC-20",
+          "volume_24h": "11574048259.569653"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "50000000000"
+        },
+        "transaction_hash": "0xb2dd5bda1a8db1663d96168d4fcc90cae473fb76ea35e87efd4e0d04ff8edef1",
+        "type": "token_transfer"
+      }
+    ],
+    "next_page_params": {
+      "index": 612,
+      "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "block_number": 25201470
+    }
+  }
+}

@@ -1,0 +1,4808 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/addresses/0x64471d103a7f77262529383d53bdd28b260b1ae8/token-transfers?type=ERC-20&token=0x88887be419578051ff9f4eb6c858a951921d8888",
+  "request": null,
+  "observed_utc": "2026-10-26T17:31:34.732100+00:00",
+  "http_status": 200,
+  "body": {
+    "items": [
+      {
+        "block_hash": "0x0eb73bfa5c832e7a4d00737be7791262c37da0374411d93fa4f745a9090d478f",
+        "block_number": 26221176,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0000000000000000000000000000000000000000",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Null: 0x000...000",
+                "ordinal": 10,
+                "slug": "null-0x000000",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "main_entity": "Genesis"
+                },
+                "name": "Null Address",
+                "ordinal": 10,
+                "slug": "null-address",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Metamask User",
+                "ordinal": 0,
+                "slug": "metamask-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Imtoken User",
+                "ordinal": 0,
+                "slug": "imtoken-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Coinbase",
+                "ordinal": 0,
+                "slug": "coinbase",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "info": [
+                    "Blocked By USDT"
+                  ],
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Genesis",
+                "ordinal": 0,
+                "slug": "genesis",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Miner",
+                "ordinal": 0,
+                "slug": "miner",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Burn",
+                "ordinal": 0,
+                "slug": "burn",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address is commonly used by projects to burn tokens (reducing total supply) or mint tokens (increasing total supply)."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {},
+                "name": "Null",
+                "ordinal": 0,
+                "slug": "null",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 764,
+        "method": "0x6e553f65",
+        "timestamp": "2026-10-18T18:15:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "2096138303366820363888865"
+        },
+        "transaction_hash": "0xd33b30fe3dd4377cc845600ab7aa1fcc88909e8dbfd14e443c923ae2df1fef9a",
+        "type": "token_minting"
+      },
+      {
+        "block_hash": "0x8ce9fc46aa4844023880d13181e58d44cb9a1b227c85d633700401e9d9867d8c",
+        "block_number": 26163365,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x983AEAaA0d0426839158435C43725EA7F45d4137",
+          "implementations": [
+            {
+              "address_hash": "0x168f23cc84e59Ad4Ff22EB82D4BABFfFE8689e65",
+              "name": "OFTLockboxUpgradeable"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 198,
+        "method": "0xcfc32570",
+        "timestamp": "2026-10-10T16:55:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "3499659585254000000000000"
+        },
+        "transaction_hash": "0x157145223e396e738d9db57559fede82a30513d14d4bcb2a3c9233d4f6eba922",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x524e39f21207a989c206a053b670811ee7c898a7eb2c82f27dcff0e2284ea6c1",
+        "block_number": 26163332,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x983AEAaA0d0426839158435C43725EA7F45d4137",
+          "implementations": [
+            {
+              "address_hash": "0x168f23cc84e59Ad4Ff22EB82D4BABFfFE8689e65",
+              "name": "OFTLockboxUpgradeable"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 356,
+        "method": "0xcfc32570",
+        "timestamp": "2026-10-10T16:49:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "99980000000000000000"
+        },
+        "transaction_hash": "0x935eb6eb557edf33631c69c94f83288ad8fa042c07f0e60e61f0dc9c10e7c726",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x6c1a3b1f47e0b8029286a905e856969f97a07ae6e13c131d53a7f708f867495a",
+        "block_number": 26133805,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x983AEAaA0d0426839158435C43725EA7F45d4137",
+          "implementations": [
+            {
+              "address_hash": "0x168f23cc84e59Ad4Ff22EB82D4BABFfFE8689e65",
+              "name": "OFTLockboxUpgradeable"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 67,
+        "method": "0xcfc32570",
+        "timestamp": "2026-10-06T14:03:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "9998000000000000000"
+        },
+        "transaction_hash": "0x74847fc7b50daa5d7b2acdcc0234030dd250471309a589b4564b9a787af6dc87",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x352b2dcf89b09ecfc317944509224ad8c59b6f07e853b7b4e373854adf8ff643",
+        "block_number": 26098771,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 307,
+        "method": "0xba087652",
+        "timestamp": "2026-10-01T16:50:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0000000000000000000000000000000000000000",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Null: 0x000...000",
+                "ordinal": 10,
+                "slug": "null-0x000000",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "main_entity": "Genesis"
+                },
+                "name": "Null Address",
+                "ordinal": 10,
+                "slug": "null-address",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Metamask User",
+                "ordinal": 0,
+                "slug": "metamask-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Imtoken User",
+                "ordinal": 0,
+                "slug": "imtoken-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Coinbase",
+                "ordinal": 0,
+                "slug": "coinbase",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "info": [
+                    "Blocked By USDT"
+                  ],
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Genesis",
+                "ordinal": 0,
+                "slug": "genesis",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Miner",
+                "ordinal": 0,
+                "slug": "miner",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Burn",
+                "ordinal": 0,
+                "slug": "burn",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address is commonly used by projects to burn tokens (reducing total supply) or mint tokens (increasing total supply)."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {},
+                "name": "Null",
+                "ordinal": 0,
+                "slug": "null",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "4921768332654068647665289"
+        },
+        "transaction_hash": "0x3e02876479a046569637597474ae01c7bad42109f51c943ca7d43eafa7d83505",
+        "type": "token_burning"
+      },
+      {
+        "block_hash": "0x3892f28e5a040275eb27a40b6cbd51eb336901a0afb4709e75d8361d5872b2c9",
+        "block_number": 26098698,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 240,
+        "method": "0xba087652",
+        "timestamp": "2026-10-01T16:35:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0000000000000000000000000000000000000000",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Null: 0x000...000",
+                "ordinal": 10,
+                "slug": "null-0x000000",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "main_entity": "Genesis"
+                },
+                "name": "Null Address",
+                "ordinal": 10,
+                "slug": "null-address",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Metamask User",
+                "ordinal": 0,
+                "slug": "metamask-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Imtoken User",
+                "ordinal": 0,
+                "slug": "imtoken-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Coinbase",
+                "ordinal": 0,
+                "slug": "coinbase",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "info": [
+                    "Blocked By USDT"
+                  ],
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Genesis",
+                "ordinal": 0,
+                "slug": "genesis",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Miner",
+                "ordinal": 0,
+                "slug": "miner",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Burn",
+                "ordinal": 0,
+                "slug": "burn",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address is commonly used by projects to burn tokens (reducing total supply) or mint tokens (increasing total supply)."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {},
+                "name": "Null",
+                "ordinal": 0,
+                "slug": "null",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "5000000000000000000000000"
+        },
+        "transaction_hash": "0xc7b2815a761797033f02b5570c5c8eccc240f1f38a1047f6e62d589d0d6dee87",
+        "type": "token_burning"
+      },
+      {
+        "block_hash": "0x37763db2775a2c7f940ada55c7b4df21e40e5bcebfe28a058390c648756f2871",
+        "block_number": 26096428,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 431,
+        "method": "0xba087652",
+        "timestamp": "2026-10-01T08:59:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0000000000000000000000000000000000000000",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Null: 0x000...000",
+                "ordinal": 10,
+                "slug": "null-0x000000",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "main_entity": "Genesis"
+                },
+                "name": "Null Address",
+                "ordinal": 10,
+                "slug": "null-address",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Metamask User",
+                "ordinal": 0,
+                "slug": "metamask-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Imtoken User",
+                "ordinal": 0,
+                "slug": "imtoken-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Coinbase",
+                "ordinal": 0,
+                "slug": "coinbase",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "info": [
+                    "Blocked By USDT"
+                  ],
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Genesis",
+                "ordinal": 0,
+                "slug": "genesis",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Miner",
+                "ordinal": 0,
+                "slug": "miner",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Burn",
+                "ordinal": 0,
+                "slug": "burn",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address is commonly used by projects to burn tokens (reducing total supply) or mint tokens (increasing total supply)."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {},
+                "name": "Null",
+                "ordinal": 0,
+                "slug": "null",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "5000000000000000000000000"
+        },
+        "transaction_hash": "0x4e543bca67b8df1ab0d93302da2e19d0265dc2b91136ea2e363c3dac21ebd9d4",
+        "type": "token_burning"
+      },
+      {
+        "block_hash": "0x2ed34bdc09bbcacf82cee25b9c45738755b1a925fbe059f5990fe1cd6e7146f0",
+        "block_number": 26046712,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 271,
+        "method": "0xba087652",
+        "timestamp": "2026-09-24T10:26:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0000000000000000000000000000000000000000",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Null: 0x000...000",
+                "ordinal": 10,
+                "slug": "null-0x000000",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "main_entity": "Genesis"
+                },
+                "name": "Null Address",
+                "ordinal": 10,
+                "slug": "null-address",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Metamask User",
+                "ordinal": 0,
+                "slug": "metamask-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Imtoken User",
+                "ordinal": 0,
+                "slug": "imtoken-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Coinbase",
+                "ordinal": 0,
+                "slug": "coinbase",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "info": [
+                    "Blocked By USDT"
+                  ],
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Genesis",
+                "ordinal": 0,
+                "slug": "genesis",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Miner",
+                "ordinal": 0,
+                "slug": "miner",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Burn",
+                "ordinal": 0,
+                "slug": "burn",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address is commonly used by projects to burn tokens (reducing total supply) or mint tokens (increasing total supply)."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {},
+                "name": "Null",
+                "ordinal": 0,
+                "slug": "null",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "250000000000000000000000"
+        },
+        "transaction_hash": "0xf2b784dd187c1d2eebb172d078987f9d6d654a613cd28e1273a044ef4fd59c99",
+        "type": "token_burning"
+      },
+      {
+        "block_hash": "0x4d02a3ed778092b8c7e1fc55e4465285ae8c117d2b8f29a44c876e1921c9083a",
+        "block_number": 26039027,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 522,
+        "method": "0xba087652",
+        "timestamp": "2026-09-23T08:36:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0000000000000000000000000000000000000000",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Null: 0x000...000",
+                "ordinal": 10,
+                "slug": "null-0x000000",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "main_entity": "Genesis"
+                },
+                "name": "Null Address",
+                "ordinal": 10,
+                "slug": "null-address",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Metamask User",
+                "ordinal": 0,
+                "slug": "metamask-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Imtoken User",
+                "ordinal": 0,
+                "slug": "imtoken-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Coinbase",
+                "ordinal": 0,
+                "slug": "coinbase",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "info": [
+                    "Blocked By USDT"
+                  ],
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Genesis",
+                "ordinal": 0,
+                "slug": "genesis",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Miner",
+                "ordinal": 0,
+                "slug": "miner",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Burn",
+                "ordinal": 0,
+                "slug": "burn",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address is commonly used by projects to burn tokens (reducing total supply) or mint tokens (increasing total supply)."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {},
+                "name": "Null",
+                "ordinal": 0,
+                "slug": "null",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "2200000000000000000000000"
+        },
+        "transaction_hash": "0xe5879f8764f19c3150af1108eae4b85fa65474d9798d88817635df9f943a49b5",
+        "type": "token_burning"
+      },
+      {
+        "block_hash": "0x68933c4fdc43946b523e1251901621333add7622c82fceedb2a4806722fcef15",
+        "block_number": 26035558,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 311,
+        "method": "0xba087652",
+        "timestamp": "2026-09-22T20:57:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0000000000000000000000000000000000000000",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Null: 0x000...000",
+                "ordinal": 10,
+                "slug": "null-0x000000",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "main_entity": "Genesis"
+                },
+                "name": "Null Address",
+                "ordinal": 10,
+                "slug": "null-address",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Metamask User",
+                "ordinal": 0,
+                "slug": "metamask-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Imtoken User",
+                "ordinal": 0,
+                "slug": "imtoken-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Coinbase",
+                "ordinal": 0,
+                "slug": "coinbase",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "info": [
+                    "Blocked By USDT"
+                  ],
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Genesis",
+                "ordinal": 0,
+                "slug": "genesis",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Miner",
+                "ordinal": 0,
+                "slug": "miner",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Burn",
+                "ordinal": 0,
+                "slug": "burn",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address is commonly used by projects to burn tokens (reducing total supply) or mint tokens (increasing total supply)."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {},
+                "name": "Null",
+                "ordinal": 0,
+                "slug": "null",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "200000000000000000000000"
+        },
+        "transaction_hash": "0x657b2250d1002b2b2b7ac233debf60ac08148fe1f3b30c9162b711444e1b6514",
+        "type": "token_burning"
+      },
+      {
+        "block_hash": "0x7a47342532ed8b23133f2900f111e74b452e9dbc74561b6d23203368babfb681",
+        "block_number": 25989231,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x983AEAaA0d0426839158435C43725EA7F45d4137",
+          "implementations": [
+            {
+              "address_hash": "0x168f23cc84e59Ad4Ff22EB82D4BABFfFE8689e65",
+              "name": "OFTLockboxUpgradeable"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 277,
+        "method": "0xcfc32570",
+        "timestamp": "2026-09-16T09:46:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "14997768732654000000000000"
+        },
+        "transaction_hash": "0x3c29b23bae4e55ba085373121a44167bf865b30bf153d79d3a4a90e6287fd284",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xba3ccf6301d1647b882099dbd617b89db6040deeb1563462c4d78bc895f47951",
+        "block_number": 25989067,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x983AEAaA0d0426839158435C43725EA7F45d4137",
+          "implementations": [
+            {
+              "address_hash": "0x168f23cc84e59Ad4Ff22EB82D4BABFfFE8689e65",
+              "name": "OFTLockboxUpgradeable"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 644,
+        "method": "0xcfc32570",
+        "timestamp": "2026-09-16T09:13:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "999800000000000000000"
+        },
+        "transaction_hash": "0xa4271d25bf3f7b3b148257bfce9acbc047d2ad31c61848a091fce1eca607bcb3",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xe0db919381f2c9cdd91fd8896facce61feffa025b7d4ca90541b9456e14ac361",
+        "block_number": 25981868,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 53,
+        "method": "0xba087652",
+        "timestamp": "2026-09-15T09:07:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0000000000000000000000000000000000000000",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Null: 0x000...000",
+                "ordinal": 10,
+                "slug": "null-0x000000",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "main_entity": "Genesis"
+                },
+                "name": "Null Address",
+                "ordinal": 10,
+                "slug": "null-address",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Metamask User",
+                "ordinal": 0,
+                "slug": "metamask-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Imtoken User",
+                "ordinal": 0,
+                "slug": "imtoken-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Coinbase",
+                "ordinal": 0,
+                "slug": "coinbase",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "info": [
+                    "Blocked By USDT"
+                  ],
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Genesis",
+                "ordinal": 0,
+                "slug": "genesis",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Miner",
+                "ordinal": 0,
+                "slug": "miner",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Burn",
+                "ordinal": 0,
+                "slug": "burn",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address is commonly used by projects to burn tokens (reducing total supply) or mint tokens (increasing total supply)."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {},
+                "name": "Null",
+                "ordinal": 0,
+                "slug": "null",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "232000000000000000000000"
+        },
+        "transaction_hash": "0x2912c59656ca3a6e5e454bc8af964a2e78c07c732624661d35d8b27abaddc903",
+        "type": "token_burning"
+      },
+      {
+        "block_hash": "0x2b34f7233c75dfa7dca7981c2589a58eeffa8f05e71fde9e7b6684af0af716c1",
+        "block_number": 25925831,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x983AEAaA0d0426839158435C43725EA7F45d4137",
+          "implementations": [
+            {
+              "address_hash": "0x168f23cc84e59Ad4Ff22EB82D4BABFfFE8689e65",
+              "name": "OFTLockboxUpgradeable"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 377,
+        "method": "0xcfc32570",
+        "timestamp": "2026-09-07T13:39:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "999800000000000000000"
+        },
+        "transaction_hash": "0xbdb11660b90038d616a9c9fd72f1279c64afa3d58f6feaab17c1d16b31611447",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x37512a0134a772710256d7b1bd921e36d002185841ebe92fc90b31440d21358d",
+        "block_number": 25794795,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 367,
+        "method": "0xba087652",
+        "timestamp": "2026-08-20T07:19:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0000000000000000000000000000000000000000",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Null: 0x000...000",
+                "ordinal": 10,
+                "slug": "null-0x000000",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "main_entity": "Genesis"
+                },
+                "name": "Null Address",
+                "ordinal": 10,
+                "slug": "null-address",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Metamask User",
+                "ordinal": 0,
+                "slug": "metamask-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Imtoken User",
+                "ordinal": 0,
+                "slug": "imtoken-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Coinbase",
+                "ordinal": 0,
+                "slug": "coinbase",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "info": [
+                    "Blocked By USDT"
+                  ],
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Genesis",
+                "ordinal": 0,
+                "slug": "genesis",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Miner",
+                "ordinal": 0,
+                "slug": "miner",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Burn",
+                "ordinal": 0,
+                "slug": "burn",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address is commonly used by projects to burn tokens (reducing total supply) or mint tokens (increasing total supply)."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {},
+                "name": "Null",
+                "ordinal": 0,
+                "slug": "null",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "70000000000000000000000"
+        },
+        "transaction_hash": "0xab5c2185bac5e95c3b5d8b2c7f4a1cc831f2611e6a8a823116aac089a5e35162",
+        "type": "token_burning"
+      },
+      {
+        "block_hash": "0xc1a514266c771a965e532e61c61c3c865b163fa832b7eca5fc2c5d0b7c493ebb",
+        "block_number": 25637433,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 407,
+        "method": "0xba087652",
+        "timestamp": "2026-07-29T08:56:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0000000000000000000000000000000000000000",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Null: 0x000...000",
+                "ordinal": 10,
+                "slug": "null-0x000000",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "main_entity": "Genesis"
+                },
+                "name": "Null Address",
+                "ordinal": 10,
+                "slug": "null-address",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Metamask User",
+                "ordinal": 0,
+                "slug": "metamask-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Imtoken User",
+                "ordinal": 0,
+                "slug": "imtoken-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Coinbase",
+                "ordinal": 0,
+                "slug": "coinbase",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "info": [
+                    "Blocked By USDT"
+                  ],
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Genesis",
+                "ordinal": 0,
+                "slug": "genesis",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Miner",
+                "ordinal": 0,
+                "slug": "miner",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Burn",
+                "ordinal": 0,
+                "slug": "burn",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address is commonly used by projects to burn tokens (reducing total supply) or mint tokens (increasing total supply)."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {},
+                "name": "Null",
+                "ordinal": 0,
+                "slug": "null",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "270000000000000000000000"
+        },
+        "transaction_hash": "0xbc877b6e6c2c232f6eb09f894342042053c74d030fe2808a9dbe98355c9bc924",
+        "type": "token_burning"
+      },
+      {
+        "block_hash": "0xaaef6507f40ecb8d70627de3854b89f859266513d1e4f2916aa3e1fbeda67c4f",
+        "block_number": 25601436,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 307,
+        "method": "0xba087652",
+        "timestamp": "2026-07-24T08:35:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0000000000000000000000000000000000000000",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Null: 0x000...000",
+                "ordinal": 10,
+                "slug": "null-0x000000",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "main_entity": "Genesis"
+                },
+                "name": "Null Address",
+                "ordinal": 10,
+                "slug": "null-address",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Metamask User",
+                "ordinal": 0,
+                "slug": "metamask-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Imtoken User",
+                "ordinal": 0,
+                "slug": "imtoken-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Coinbase",
+                "ordinal": 0,
+                "slug": "coinbase",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "info": [
+                    "Blocked By USDT"
+                  ],
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Genesis",
+                "ordinal": 0,
+                "slug": "genesis",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Miner",
+                "ordinal": 0,
+                "slug": "miner",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Burn",
+                "ordinal": 0,
+                "slug": "burn",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address is commonly used by projects to burn tokens (reducing total supply) or mint tokens (increasing total supply)."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {},
+                "name": "Null",
+                "ordinal": 0,
+                "slug": "null",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "56000000000000000000000"
+        },
+        "transaction_hash": "0x0d48df3412e3f17d537b9c6bdbc449f09228e9a397fea539dafc3a2a4f8ce391",
+        "type": "token_burning"
+      },
+      {
+        "block_hash": "0x38361554a28830479b0a03a7e2c8b4018f4173593408b42d09a915a0dfb61b96",
+        "block_number": 25539066,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 462,
+        "method": "0x374f435d",
+        "timestamp": "2026-07-15T15:51:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "3200000000000000000000000"
+        },
+        "transaction_hash": "0xa7cf797d6920e21507022bc16a576b6dda1f28832ff9e55e7c002c427fbaf3fd",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xbc411319036f0d2c227c3efe911e377f550d3777526da4827bba69f45c8bf6f2",
+        "block_number": 25525528,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xAcdDAC6C77318B615f7F6fB9bb67c6833e9c05f1",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "LZMultiCall",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 142,
+        "method": "0x571d3dc7",
+        "timestamp": "2026-07-13T18:34:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "68647665289"
+        },
+        "transaction_hash": "0x19871effac7d83ddd24e5dd4bb795afe65678dd0d162c53a6a328da0b2411ed1",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xbc411319036f0d2c227c3efe911e377f550d3777526da4827bba69f45c8bf6f2",
+        "block_number": 25525528,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 135,
+        "method": "0x571d3dc7",
+        "timestamp": "2026-07-13T18:34:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xAcdDAC6C77318B615f7F6fB9bb67c6833e9c05f1",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "LZMultiCall",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "5668471279139068647665289"
+        },
+        "transaction_hash": "0x19871effac7d83ddd24e5dd4bb795afe65678dd0d162c53a6a328da0b2411ed1",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xef432c34a3b49f28000a2f69338c21652569c60ccf2ca0b098fe8b50111b2791",
+        "block_number": 25525478,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 402,
+        "method": "0x374f435d",
+        "timestamp": "2026-07-13T18:24:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "4000000000000000000000000"
+        },
+        "transaction_hash": "0x31e2416b79464dc892f8dc6200781a9a3a3c6c3b34570eca10a2f716345a40bd",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa7979ab7ac9983be7554d26fe28704e5b485cb3aa66ca80054ded013fb86bfdb",
+        "block_number": 25525463,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 701,
+        "method": "0x374f435d",
+        "timestamp": "2026-07-13T18:21:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "1668471279139068647665289"
+        },
+        "transaction_hash": "0xf39302966c9708e1be1d15ac147c5102584e11ce550e5ced15c072f8e5e367c1",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xf8b6e2c3c2521ec0eadb0be39637285e5a409549ee0e335f7212a19f86a81165",
+        "block_number": 25495123,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 311,
+        "method": "0x374f435d",
+        "timestamp": "2026-07-09T12:48:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "4000000000000000000000000"
+        },
+        "transaction_hash": "0xa4b7a99c077b32393586e548008b36da7c1b2073015214f322dae97f57f4fdfe",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x431e0578b9295d03c9363c0a6b725679ab39071529bc29fda8eeeca966ee1488",
+        "block_number": 25495006,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 382,
+        "method": "0x374f435d",
+        "timestamp": "2026-07-09T12:24:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "4000000000000000000000000"
+        },
+        "transaction_hash": "0xa1afd27360b325d24b886cfce8e8c4cd5bff499dad42069235c292cf03061c61",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xff76aae9abd19985240eddbbcc7fe06f1a64e564fc288288106e1acabb839d22",
+        "block_number": 25490626,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 630,
+        "method": "0x571d3dc7",
+        "timestamp": "2026-07-08T21:45:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xAcdDAC6C77318B615f7F6fB9bb67c6833e9c05f1",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "LZMultiCall",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "3200000000000000000000000"
+        },
+        "transaction_hash": "0x7728a1a25c2aae4c603560c4163d81662c11aac6a493fd3a08ba0ccd7c2a639a",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x1c67fd09e3a047b3a88f87cdaad3afbf88044b3ac80e553643863da14b075a53",
+        "block_number": 25490590,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 322,
+        "method": "0x374f435d",
+        "timestamp": "2026-07-08T21:38:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "3200000000000000000000000"
+        },
+        "transaction_hash": "0x53698c676d60a67508965c01c2dd593070c51dd437028c5f22bd32371a5b2a53",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x862da010d21cefccc80d38c3e2baf862e8a4cdf2c9f58d1e703b470079c35e9e",
+        "block_number": 25490338,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 401,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-07-08T20:48:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xe6D0CA9844F4c079E6e732f396EF3b9F98a2DAc8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "4300000000000000000000000"
+        },
+        "transaction_hash": "0x9bb70aa9f4751a8f7e21a16e8f27b0dfdc4ef4d986c2fd2125873b88e2956222",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xb12d9990defc623f3f677e86febf2db250e4516dc3a919aab59802acbedb58d0",
+        "block_number": 25490331,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 509,
+        "method": "0x374f435d",
+        "timestamp": "2026-07-08T20:46:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "4300000000000000000000000"
+        },
+        "transaction_hash": "0x59499bb5e92c5d1d3c5483e9558071d1e4fff35f81b18f700c35aa308293fd87",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x261537b96d95804487089a12adc580fb504fb2533391c02adaae0dd42136e751",
+        "block_number": 25490282,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 718,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-07-08T20:36:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xe6D0CA9844F4c079E6e732f396EF3b9F98a2DAc8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "8000000000000000000000000"
+        },
+        "transaction_hash": "0x124bcfd96cfd54ccebe15bac9bd20dccc58e79ab5ed99c9d28d21c0e92423d84",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x77036ee24b8e6c8af45302f199944c5db4aa270a753f964e0c8d2a88917c875e",
+        "block_number": 25490278,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 275,
+        "method": "0x374f435d",
+        "timestamp": "2026-07-08T20:36:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "4500000000000000000000000"
+        },
+        "transaction_hash": "0x58b8ca09843fd8cf8e58b8543ec5a23dadb2acdac089080a557bd9f5881d51bd",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xf275996c2270838980d365ce3fa1e5953a0ca21dcc70d67d0d614356dfd384e6",
+        "block_number": 25490272,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 495,
+        "method": "0x374f435d",
+        "timestamp": "2026-07-08T20:34:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "3500000000000000000000000"
+        },
+        "transaction_hash": "0x1683c3565dfd28e2d55bcee6e8420478029ab5b32c5967c6c2b86b6b2f02754a",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x4c5b05afc6c52a0276b550125b134c6187cfc55075f9ed1fad49ac3100a68e5c",
+        "block_number": 25490249,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 744,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-07-08T20:30:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xe6D0CA9844F4c079E6e732f396EF3b9F98a2DAc8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "4000000000000000000000000"
+        },
+        "transaction_hash": "0xcbf0518850ebcec49ec441f5136d9557a77420e45723d076fe8c060bbbc4e34e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xef767aee5f4150c62f42aaf5ca38fd3328b90a6eb9e09822979660be343e8986",
+        "block_number": 25490233,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 863,
+        "method": "0x374f435d",
+        "timestamp": "2026-07-08T20:26:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "4000000000000000000000000"
+        },
+        "transaction_hash": "0x638814de2b270b672df4b675fe4b6b793b87546d1f4c5450eec7e5c297acd27a",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x5ed069c1d598b5d42cdb68bbdc60b1c8e52aeb1afc1561cba56ea1243b102b50",
+        "block_number": 25432633,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 372,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-30T19:38:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "1900000000000000000000000"
+        },
+        "transaction_hash": "0x40ead4cfe00abee5ddd489837d258080c369c51f3599a84bb557160162caf6b9",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xe8cccd1d2d3c358a2875949b6446a8c9461309e8838d0096e4f768a4ed69dac6",
+        "block_number": 25432608,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 271,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-30T19:33:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "1900000000000000000000000"
+        },
+        "transaction_hash": "0x48ae8a253e6e71a7a214cbd48c4c9f88236977e032b646ca44ccd9f374b92607",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x2c9a60c02e22aa0857152ad7dd98fe6f7d7d285caa4a28b4ec75937fccf25bb2",
+        "block_number": 25431657,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 86,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-30T16:22:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "3000000000000000000000000"
+        },
+        "transaction_hash": "0xdb80f8ae535993c6b33185a30f3b762541bf0e0273c2c334eaa2f6a82812acca",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xad874c736c87a72eb0080f43b932270b3e3d51549d5a78db2e90881fd0451903",
+        "block_number": 25431652,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 144,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-30T16:21:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "3000000000000000000000000"
+        },
+        "transaction_hash": "0x1fd7ebdd0957c0e869a2962c05995abbd302015447e7e76463af328d0de97945",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xaebe5354fbe2f3f4eef9430b57001c50a6b0c77792b282ee767170c7ad258d33",
+        "block_number": 25404235,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 756,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-26T20:36:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "3000000000000000000000000"
+        },
+        "transaction_hash": "0x893f11e4facd2a709cb22c5cf65dff26c35e449e74f46741e3761a6f1e995400",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x9c06b0bce920a44d3fca9bc4ee65d61cf96d8af1390639bf36884d18c8184537",
+        "block_number": 25404229,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 62,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-26T20:34:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "3000000000000000000000000"
+        },
+        "transaction_hash": "0x9dd4cfa4d3afdc7df1897a19466a64f3ee32fb220b1c7e7a18dd09baf3c4d390",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x05fc014d6da1846b7e521e7d9d5047391b8e8f13e1c63e845535afb32a9e9cd7",
+        "block_number": 25400501,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 536,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-26T08:06:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "2000000000000000000000000"
+        },
+        "transaction_hash": "0x1f503ff136ee700da0bf3bbf0aa6e61bbed6e24f1f24c6aea90a26013e439659",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x628d2c204fde13df4f0e7dbebec562c3abb2fbcb5c72521f7c9b8a521f360c01",
+        "block_number": 25400487,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 360,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-26T08:03:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "2000000000000000000000000"
+        },
+        "transaction_hash": "0xee34f24b44a1cf8957d9c2c2a33f81a0014d43d54cf25614bddfcc01eee2d529",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xfea94e8ac1f7d03af4980ddc177295ebfd778294833439f6e16349fe1495d56f",
+        "block_number": 25397047,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 523,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-25T20:32:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "3368471279139068647665289"
+        },
+        "transaction_hash": "0xd8eeced74daa59dcfb4a2b6d6285c4425b04c52e2f79bf60c40ea7a3a332f4fb",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x7331d9457109b6b259feab1ce6fe4d4c20c28ff70eac199c9b8ae4358c530fd9",
+        "block_number": 25345722,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 131,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-18T16:44:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "6000000000000000000000000"
+        },
+        "transaction_hash": "0x91ee7dd93ceb2c38991368044bfdc216b4b4e1fa3b5a829d9f242650acde074f",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x39f8d140c928c83e3d9193eab1320fa0eb39adae7f342a4aa50f92c02c7f65a2",
+        "block_number": 25342814,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 915,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-18T07:00:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "9368471279139068647665289"
+        },
+        "transaction_hash": "0x212d0240dd0396bb906caa5a24471434518d1d872272dc3251ce71c2b4a7f165",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xe0f33e80732bec9289b139037b189361e34626cbbaab4000eb60e18da9f7d0fb",
+        "block_number": 25329932,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 295,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-16T11:58:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "1900000000000000000000000"
+        },
+        "transaction_hash": "0x42c37dc06addde99c10326db343c62446baa8eecbab67a50007b88b1e7301194",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x9d13d6b1c3e485e8841359655f3256e61fe22274781f1abd0e12c921d8230255",
+        "block_number": 25329925,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 38,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-16T11:56:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "1900000000000000000000000"
+        },
+        "transaction_hash": "0x480abf0d2b8a153f9fbb758cfaa78186b48a60e07d27b576e74bbee564b6857e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xb9bc50f1840740d437a5b3c9dfaf2f2a6b983cdeaf6460bfeab173fb235b5c73",
+        "block_number": 25325119,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 174,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-15T19:53:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "1000000000000000000000000"
+        },
+        "transaction_hash": "0xdf211a1f6c6d1c3a17dd7afe4fcbaad5b0bf56373aacbdc9e8033d4aeebdf474",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x199059ddec86b829bd8ea8dcd2b3398dce061c34802cef376499b135f3c188d1",
+        "block_number": 25325111,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 649,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-15T19:51:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "1000000000000000000000000"
+        },
+        "transaction_hash": "0xa1e9b262e09eb059e7f09425b4c633ede5f67d2603e2744737c0a66523f26682",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x62a029aaf67bb991b8ba216e18ccf3868a2cc80f63dc961ff24dec6b20d868da",
+        "block_number": 25281249,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 299,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-09T17:04:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4A6c312ec70E8747a587EE860a0353cd42Be0aE0",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Ethereum General Adapter1",
+                "ordinal": 10,
+                "slug": "morpho-ethereum-general-adapter1",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "EthereumGeneralAdapter1",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "2000000000000000000000000"
+        },
+        "transaction_hash": "0xc4720eb70d404398bfe9704aab99386df3460afc115c0cbfc4b27567ac40265d",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x5dec98690158b633d060c1e0889a19a9049bf81f3e29bbdd5abb3ed734a386cf",
+        "block_number": 25281241,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 384,
+        "method": "0x374f435d",
+        "timestamp": "2026-06-09T17:03:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x64471d103A7f77262529383D53Bdd28b260B1aE8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73723147.92451985",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250457633410922760356981",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "2000000000000000000000000"
+        },
+        "transaction_hash": "0xb00c88e2ae8e74520d2afd1cf6531a1ea87b9fb725a3082a2a3c618673a0916b",
+        "type": "token_transfer"
+      }
+    ],
+    "next_page_params": {
+      "index": 384,
+      "token": "0x88887be419578051ff9f4eb6c858a951921d8888",
+      "block_number": 25281241
+    }
+  }
+}

@@ -1,0 +1,2852 @@
+{
+  "url": "https://api.morpho.org/graphql",
+  "request": {
+    "query": "{marketPositions(first:1000,where:{marketUniqueKey_in:[\"0x03f715ef1ae508ab3e1faf4dffdbf2a077d1f0ad10c5aad42cf4438d5e3328af\"],chainId_in:[1]}){items{user{address} healthFactor state{timestamp collateral supplyAssets borrowAssets borrowShares supplyShares}} pageInfo{count countTotal}}}"
+  },
+  "observed_utc": "2026-10-26T17:09:58.201236+00:00",
+  "http_status": 200,
+  "body": {
+    "data": {
+      "marketPositions": {
+        "items": [
+          {
+            "user": {
+              "address": "0xf7C04A39e47C7ea9D6888F9389eA85846e22aE1a"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 7268006350,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 6500543696967787
+            }
+          },
+          {
+            "user": {
+              "address": "0x72c3943dcbadf4725FE1E079F4B4eC17163c22aF"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 2052662874,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 1835912637656181
+            }
+          },
+          {
+            "user": {
+              "address": "0x9A23657EBA76190E3bD4162179BFA3a80D673aC7"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 1846063592,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 1651129136515976
+            }
+          },
+          {
+            "user": {
+              "address": "0x8D1b878509562Fe8C097536e6E8DA5Bdeed05D1b"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 1027445921,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 918953119651602
+            }
+          },
+          {
+            "user": {
+              "address": "0x1d9aD9Cd3fBb8e38A834399F54c70122C12e317C"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 411444817,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 367998442379797
+            }
+          },
+          {
+            "user": {
+              "address": "0xB47f11484e19f1914D32fd393b17671221C10F1F"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 1118061,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 1000000000000
+            }
+          },
+          {
+            "user": {
+              "address": "0xEfa911756a790E0f9E806189dFA97E3fC96fB096"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 645806,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 577613068294
+            }
+          },
+          {
+            "user": {
+              "address": "0xd6973D0D7Db64f6e9525CaFdCd392E5DFacf9ABC"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 346821,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 310198959986
+            }
+          },
+          {
+            "user": {
+              "address": "0x50B82f42D51D875b1bfdd946ad27AeE2a6b1AB41"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 215969,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 193164559048
+            }
+          },
+          {
+            "user": {
+              "address": "0x2De1Cad133Ab0Abd2fA93fed9F5d96feB7249B5b"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 38306,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 34261463638
+            }
+          },
+          {
+            "user": {
+              "address": "0x000000000000000000000000000000000000dEaD"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 1118,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 1000000000
+            }
+          },
+          {
+            "user": {
+              "address": "0x2A52bf79E63296c08e2853b194ab43b92972897A"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 1,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 1098288
+            }
+          },
+          {
+            "user": {
+              "address": "0x0B2d98BBF3E38Df1D1B7Be7343732E32e8B1F818"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 625770
+            }
+          },
+          {
+            "user": {
+              "address": "0x000001ac4e512d670c34feDf6c71cE2F49fb160a"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x00c04AE980A41825FCb505797d394090295B5813"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x018f8f5F52AAfF23FF838aE4637aFe22713FB428"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x01B0d1dD8302374403b5F6697BB4f5992F1C75a3"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x04459f770CdF84BbeDFA6ac95be668b80Bb27d38"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x05bAAD58A34b1FCbc04b291D7775Bf853815B2F1"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x07f78732555868eB50A220638eED1ac3A8eD43bB"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x089fa9741628c1A4576F5BA47E02D1180b581e36"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x0FBeABcaFCf817d47E10a7bCFC15ba194dbD4EEF"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x0be9f8dA1489DB28F5d772aEf37cF4b1C6bff7d1"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x0e25ecDD1d70F57FcEb053bfb84913581179cb7d"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x139a0D2E2630B28a08D962d096A62DA55B698193"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x15b406194bfC09a92A3fadc40E7091F61AD07c4C"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x178a2718884FD5D219f9bcbee77A9a20bB626A97"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x186C470e7078364f0CCA74d5c42CAC6A2D08761b"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x1B52AAC4f1e864018bAdd2cF58e181757F3B1EfB"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x1C480883b6766a68c31513Be7F7114B357C80F60"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x1a0C96eF4c775697D9ba9A99124dF73536Fd3866"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x1a98E044e66A216659065408dC4a9e75d61b125e"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x1b0D666D4651D9c38eBB95430fA6eE5c2b186ba1"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x1e013b50edD0d27900e6B5b3CB074BD1AA1f22ba"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x2013d2868c582613Cf73127A6DF0e64ca7Ee9D8f"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x20DCF7256d0C3Aa3703Bd192F0dFC06796aAf425"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x21Ed44C18C926c60092B1b2985E2c999421a5a69"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x223bd8ad71a182EBD13818b1deC827768F212ED3"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x22963f931baA98D5CE2A43AB7681a638a693F560"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x240D6ce8EDf36fDC534C920238512B9C0Ca96606"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x25aA4621A98B10AA9d8297c020c1E69Df51a1Db1"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x26AC9491a99a3eED15EC7CFe2F774b5C9Eb4138F"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x289C204B35859bFb924B9C0759A4FE80f610671c"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x29520Eb415C1B9b87074EbdD8a0a7D45F1f11bdf"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x29f45AA3c3A27bE81e29d2D748e92382B82F16ce"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x2ACbFb8806e24e8938cFc51eAc7b4838d969e80C"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x32BC5A5d9b0323c8ecCa77785C4EB83516CCa120"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x345e93f786e485B9f738B9A1A528c6EeF1C73C5f"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x35788A3ff568707e1567ce59047AE8aDcf7BdC93"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x35d8aD4cCe67814983953d66720a99f56158b177"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x37f57b784d440b3E915135A1c80bcbf57B2A8e5e"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x38e86E1dc073aF1E027fC7F69f7FAA33ccb70479"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x396F0e55fA33513441d556f84a6eA5c6Fd7d217B"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x3faa0d84C558FffaA006a7a292aC7f9294DA0a6E"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x416c4C9eaeF536BFa021f2459d3A801c6130fEc9"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x41db15f894D304AA2cae85f5D7a5994e4f1D3C12"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x428E0c8Fa5CA54E7C6C561140ebe2Cab5665a222"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x46F2dDf1241729aF7648da98E47891BB9Fbe54E4"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x46cE9AA8167Fa3E154395c25d19dB25DdFCfeab4"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x47Db3555C9BDDE9aeE94219667a35404A3ac37aF"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x482CeaFf3f256033777B20595e833345d766e4DA"
+            },
+            "healthFactor": 29.893326945516915,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": "3037890392088662601",
+              "supplyAssets": 0,
+              "borrowAssets": 92977,
+              "borrowShares": 81906215261,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x4BF1Cb25A734a3a3847F0Cb46D1664C8e29c4f90"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x4DC8a660406117574E351746e045B5b7F65ABd77"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x4Dfeb30021a5bb94aFE33a149050A264FAbf4C58"
+            },
+            "healthFactor": 1.2386034822681693,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": "15146482138388678835296",
+              "supplyAssets": 0,
+              "borrowAssets": 11188121169,
+              "borrowShares": "9855892672909886",
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x4e90Da1dDCD5B0Fb295b6A69251b5D04D5bCCA7a"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x50B73d52a00dD10fEef49a074657285515020320"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x529154C7d14dD6959085f8f4A493667E27D985AF"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x52a965C435CfFbc3EEbF9200550cC597F4E54029"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x5321d7296fe0e7Cae533a090DcDA6E00F0499df0"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x582A2F8d6190a2D1fCCf19E9DA83CCD9893fbFD0"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x5B4Ee328d1e568Bef9A3Ea35408f80FbBF04370D"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x5B8b9FA8e4145eE06025F642cAdB1B47e5F39F04"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x5Ce867Ff9d2bbB14b83DEC96A470566819c650ef"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x5d355B008de11CBCAf5ED4825672F2bB4A73953a"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x5fF970E09E0F80ED37570b36cB2f7bdDcf494F20"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x62fE596d59fB077c2Df736dF212E0AFfb522dC78"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x63103375659d0aa94E9f35dF15be01a3dd1ae9c0"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x633D74E10FF1F2f88e879ce054CBD1339b75B73C"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x6353c08470F451001CF40d0f12561408e8075bbD"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x64471d103A7f77262529383D53Bdd28b260B1aE8"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x6554874f13F5e953aEe06FF38B501CF233e8f438"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x65D02Bb13f515DD105Fb733E9E31f11A2F65e57f"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x662DD6980f2442e1Db4BA4ecC5518eed376005e4"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x669Af7BF32360Bb8722fce8B74D4881d1704A482"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x6701957aaA39e9352a42729Cc65436a4C945cB90"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x687f584fd1f4a4d9EB277c03A24Fe28f4b0675B7"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x6C26793c7F1e2785c09b460676e797b716f0Bc8E"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x6D7Ac63Aaa7bA8925dcB3E44BE6355261dCF688f"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x6ab645ffB20c5ab0D57C2fD218d4C3bd22273Cc9"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x6f64630A0c12c60813A80A215Fb9A31E52528820"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x7193794ec82f527Efb618Ac50C078D348eCBA4b6"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x726e9E074b5AD64f30F4E54f60492A3FC4378b21"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x750E9A7b449904f47B793B805dB469FA6e025E33"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x751cbE8243Db97184B3CF06950668277dd6491cF"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x777791C4d6DC2CE140D00D2828a7C93503c67777"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x77D7986bFA74c1877E0B6Aa4eA423E1DE5cbC6bD"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x79881B20a4199F7F140C1893A0667730EEE88347"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x7DD81cD7e5d4e3929C45B7308bE9569D0D87280E"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x7E5b9d19a8EC0029284451c7d76586aD61f57662"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x7F583a47e00701D257aC873C80eb5326FEC69E56"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x7a762915f1Ad6a20384b65310b06b5173d3496A3"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x7cB4b068E3294b0C365A8368B9798e5dB91ebEFE"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x80838e4274c07C9C68A9E652cB9e1778c3094Ad5"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x815f5BB257e88b67216a344C7C83a3eA4EE74748"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x8186106E9bd0600eAff035a57E2c58CdbaE368b0"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": "11234479295670687290",
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x8220E72Ae6F5cd06740Bd2875B7d8Bb1a952516F"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x8230cF5bC3De7f18889fABdB8e649B3c45ff3650"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x828c3D59c521F3a825AD901Fca97dBdF575D329E"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x8335459a89A17Ed8ed128aa98F9AF86802DACF30"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x8D3a67337c180D66448C314816036723047B38f8"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x8F21994745D88E11045c26d3D4bD519B5fed925D"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x8F25818ff64Be1abee91ABca70c306B33b602062"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x8a0a1B3ED096027Ef4d8f9886FF9e5af57274089"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x8b0e83203c7dA4621B866551C1E193A6595Dc299"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x8b3c1e421c5A2F571A0624E25c977Bd36CBaB199"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x8d10570D904489c01E867fC22020C5b2714B6c26"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x8db98764ada29B55a23F7A8cb07Be6F74F0D0e75"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x9178eBE0691593184c1D785a864B62a326cc3509"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x937e1B1C107C503E04096D6e2a4344121Ca53b21"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x93A5E04a7FAbE1bE3712b2dA8402da9aD82027c1"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x93b95d08318B0A3acE5848F6E6170e4C4BF6f4eC"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x94643e86aa5E38DDAc6c7791C1297f4E40cD96c1"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x9A1DfEaF8604911F2B829FF96e038C98dDe5DAdd"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x9A36197624F0BCf0954edA986259D9eF7d2b10d1"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x9B5E92fd227876b4C07a8c02367E2CB23c639DfA"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x9Cb4b7103a578f241af41A1d239F9231C52e777c"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x9aAa292c3c38C44f8EB99F718102B4614eCa2617"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x9cee3E6c10B8eA519786277c8263108630CEcef6"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x9e2F7B844AF189D47Ba7feef3399f26A8Ad1f59d"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": "37049900144034553668",
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0x9f09502a0B68EDbcCDFF5E6C59270Ad150def363"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xA12B0832e242aB3082fEB689669C185db7D50815"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xA319EC66E745F50468cC2aF637adaD7D37AA23bD"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xA4a9A246F6aB0C0a61a29EC3c11Ac34a66CC3Fd8"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xA4b3073cbf205F922DF5Cc4161055E61FB26411b"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xA74fB562304BF2678c2678E85ce536434b707C44"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xA7551d664Ae5578e4B6090bEeEBd4B4e7E5D1a56"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xA7aAE418EE1714642f46b577C5B6f6C8bCB561dC"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xAB7c847603043495B74d4e17084c3C6bC45342e5"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xAE5bdA97FcF4759D2dcf153cAdF06B8069c7Ed7a"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xAd096eF8Df2855e8E438d7FeeFf19F3984acA32D"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xB00bFfA8C3D00DFB70ef43Dae81a966638Dde8d7"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xB25CD9449aFed2Fb8bD55657B7040ce15465E6fe"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xB6d714bbD1d41faFf6dfc74b4eA0128A5cB99C27"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xB94c67Fc1Ef65F12c8eB64C14d5FeE3aaB908603"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xBEeFFF209270748ddd194831b3fa287a5386f5bC"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xBe70C64c06f54ee690Ac067DC5ca79Cc8720d5a3"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xC37729BB8dB44C4A18a247Ea1dB32b98C287508A"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xC754bcEb13D663cd7911028daA7d4efEC2B76d9D"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xCC7F981dAa1D6E550b28d4f958feB1D3efb384C2"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xCE80A1fC44Dc0989A8622c8c7d1d8272D513643C"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xCdaea3dde6cE5969aA1414A82A3A681cEd51Ce72"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xCe70aDa42CD9b1Ab3fC2CC34A1f1c9D9ad0F75C1"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xD6e9bC07ff0f468E36508f889d68455029eeB683"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xD9F0834E7Ca9B9262Df3189b850eBf9514027e82"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xD9aaB56dc272B65E833db566688475B83C83ee25"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xDE640Ee016B512479766400FE2b2eCA2293871c3"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xDdDCd66893097ba4Fb6086AeEa5c199245477C45"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xE50c1cD0f1BfFc351AA9b98794f770e0F0C81f46"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xE82E513b865EB719b53774847c4702957D94276c"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xEB74A1E540e9492d175c696Fb4C71ba864B0570a"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xF53EbDcae2631FC81cA4f5047accc6587B0bB8ec"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xF5fF310982D58Ddc813C541a64b8C4f3F5035E58"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xF9bdDd4A9b3A45f980e11fDDE96e16364dDBEc49"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xF9e7F0E4EBEc6E7BC53E2a7A3E6db2C1856265Ee"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xFbD96908A6E49f243561666D1e13d17Efa150cb1"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xa14885DBAE7bDdc3371fa030Bb81419741Efe61F"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xa6e5541025a8e3124EA5FF1c7f2EE778e9492e49"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": "214931633513125786246",
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xa84337Eee3F3685Ef18DF1B6f7039F01E970056B"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xaB9855975C6A7528092fCaef1Dec0C397fA05bbD"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xaac12f6b0d58C96bD1B55F317db70fBD642D8C6F"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xacdfEd6f8cF91AC89fE2266A3D21E9e5F7F6f3b1"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xad6452a9b8F10b0fE084C83c396ABAe96411C761"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xaebb8FDBD5E52F99630cEBB80D0a1c19892EB4C2"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xb0f05E4De970A1aaf77f8C2F823953a367504BA9"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xb224F69795A976f59f3e456B0c2ba9cFeeDb6278"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xb77Cb8F81A0f704E1E858EBa57C67c072ABBFCAD"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xbA55BDbF959DF826dA6c35487eB15FaD2164662d"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xbEEf390D2e65d6E43A67875106d4A48f700F2832"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xbeb69E7ac7f59BDb79b89fc94ED862c6B39F3C00"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xbed03239b3180534e374729c889Aee3B0D08c2cA"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xc0C4Ab1D389F9540A50D1188226D7384a68cE788"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xc0aDA8FC0F89b00946957D86A19AE74c1525d780"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xc197ad72936B7C558C96417f22041fE9e3c7043f"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xc295007e361c22b989F709274a0ff3680BeF0833"
+            },
+            "healthFactor": 60.4547536084989,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": "523663188255231530",
+              "supplyAssets": 0,
+              "borrowAssets": 7925,
+              "borrowShares": 6981491882,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xc2A119EA6De75e4B1451330321CB2474Eb8D82d4"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xc582F04d8a82795aa2Ff9c8bb4c1c889fe7b754e"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xcAeCE3b91dCf7bE7fBB47783A3E3772096cB8Db8"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xcbdc53d424D5a2e5fef1776997352f10212c9883"
+            },
+            "healthFactor": 0.9694280355533723,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 3749889385258367,
+              "supplyAssets": 0,
+              "borrowAssets": 3539,
+              "borrowShares": 3118447012,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xcd9F91A80bDd50A4cA580f3B76B470eFa8515095"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xd41830d88dfD08678b0B886E0122193d54b02Acc"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xd5dBb9e213545a4d8248d671BfCf6E5fa6E72fAF"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xd7583E3CF08bbcaB66F1242195227bBf9F865Fda"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xdC18aFF9dCD0500626773413d6d950B40Dd77986"
+            },
+            "healthFactor": 11180.915875792005,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": "1649808236947782164",
+              "supplyAssets": 0,
+              "borrowAssets": 135,
+              "borrowShares": 119761498,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xdf373C1945F7FF342Bf041Ec18029d19d37eFFBA"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xdf3e32f187fC25FCde0BDe1D7bbC459F9F4D3656"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xeA11b00e1BBd20b5AFBfe46D021305bf9eF89E4D"
+            },
+            "healthFactor": 1.2094875214904803,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": "104188870012382450444",
+              "supplyAssets": 0,
+              "borrowAssets": 78812956,
+              "borrowShares": 69428282609033,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xeABe1fE3338f670c499366683DE764e10A27edE9"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xf2b306410DbDCDc8cf00D9d8FF4f11036F6bC5C3"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xf3D611809055fcC84bfCe085f47D0513B49a00c1"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xf45f86940C37b01Eb9bF99512E6A33bBd657a95A"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xf49F68e16e582ff2571edDAc7e2A5Aa1742D0e5F"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          },
+          {
+            "user": {
+              "address": "0xf8992A1f4e302460Bd49a1646Ee315D810235212"
+            },
+            "healthFactor": null,
+            "state": {
+              "timestamp": 1793034599,
+              "collateral": 0,
+              "supplyAssets": 0,
+              "borrowAssets": 0,
+              "borrowShares": 0,
+              "supplyShares": 0
+            }
+          }
+        ],
+        "pageInfo": {
+          "count": 202,
+          "countTotal": 202
+        }
+      }
+    },
+    "extensions": {
+      "complexity": 145000,
+      "maximumComplexity": 1000000
+    }
+  }
+}

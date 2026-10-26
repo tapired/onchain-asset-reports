@@ -1,0 +1,39 @@
+{
+  "url": "https://mainnet.megaeth.com/rpc",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionByHash",
+    "params": [
+      "0x80b6a8279ff4f9b02e4aa52251bc32b0b213f574860e1587ac384e6c13bc0797"
+    ]
+  },
+  "observed_utc": "2026-10-26T17:30:12.520938+00:00",
+  "http_status": 200,
+  "body": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+      "type": "0x2",
+      "chainId": "0x10e6",
+      "nonce": "0x3",
+      "gas": "0xbb64b",
+      "maxFeePerGas": "0x1e8480",
+      "maxPriorityFeePerGas": "0x0",
+      "to": "0x7e324abc5de01d112afc03a584966ff199741c28",
+      "value": "0x0",
+      "accessList": [],
+      "input": "0xa415bcad000000000000000000000000fafddbb3fc7688494971a79cc65dca3ef82079e70000000000000000000000000000000000000000000c28d898c65e0b8b8000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000064471d103a7f77262529383d53bdd28b260b1ae8",
+      "r": "0x49149f9802d9734ec4b434bc766639f1be2510b28dbe4a9c8bf236fee2006375",
+      "s": "0x3e3486a0490d378269096caa3e2143789f7627c24900ccfa0495d5cc5f6a4331",
+      "yParity": "0x0",
+      "v": "0x0",
+      "hash": "0x80b6a8279ff4f9b02e4aa52251bc32b0b213f574860e1587ac384e6c13bc0797",
+      "blockHash": "0x94de8d5363e0ed146e56f7fc932ead2c9b961a0eea2cfa08d37394e787082a4f",
+      "blockNumber": "0x13c9716",
+      "transactionIndex": "0x9",
+      "from": "0x64471d103a7f77262529383d53bdd28b260b1ae8",
+      "gasPrice": "0xf4240"
+    }
+  }
+}

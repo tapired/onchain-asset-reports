@@ -1,0 +1,71 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/tokens/0xe63a2abc24cd9538398d825a4bfe5778d25687df/holders",
+  "request": null,
+  "observed_utc": "2026-10-26T17:09:20.150467+00:00",
+  "http_status": 200,
+  "body": {
+    "items": [
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xBe53A109B494E5c9f97b9Cd39Fe969BE68BF6204",
+          "implementations": [
+            {
+              "address_hash": "0x1ab62413e0cf2eBEb73da7D40C70E7202ae14467",
+              "name": "YearnV3Vault"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipUrl": "https://yearn.fi/v3"
+                },
+                "name": "Yearn: yvUSDC-1 Token",
+                "ordinal": 10,
+                "slug": "yearn-yvusdc1-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "DeFi",
+                "ordinal": 0,
+                "slug": "defi",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "yearn.finance",
+                  "appID": "yearn-finance"
+                },
+                "name": "yearn",
+                "ordinal": 0,
+                "slug": "yearn",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "USDC-1 yVault",
+          "private_tags": [],
+          "proxy_type": "eip1167",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token_id": null,
+        "value": "5970754359366"
+      }
+    ],
+    "next_page_params": null
+  }
+}

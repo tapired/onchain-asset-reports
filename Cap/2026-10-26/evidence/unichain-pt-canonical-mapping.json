@@ -1,0 +1,58 @@
+{
+  "block": "0x190f965",
+  "observed_utc": "2026-10-26T17:46:25.880850+00:00",
+  "results": [
+    {
+      "label": "0xb6168f597cd37a232cb7cb94cd1786be20ead156 ethereum PT",
+      "address": "0xd5599052632fb7fbcdcd9ff0b6f9b21e64ceed61",
+      "signature": "token()",
+      "args": [],
+      "block": "0x190f965",
+      "success": true,
+      "raw": "0x000000000000000000000000545a490f9ab534adf409a2e682bc4098f49952e3",
+      "decoded": [
+        "0x545a490f9ab534adf409a2e682bc4098f49952e3"
+      ]
+    },
+    {
+      "label": "0xb6168f597cd37a232cb7cb94cd1786be20ead156 reverse peer",
+      "address": "0xd5599052632fb7fbcdcd9ff0b6f9b21e64ceed61",
+      "signature": "peers(uint32)",
+      "args": [
+        30320
+      ],
+      "block": "0x190f965",
+      "success": true,
+      "raw": "0x000000000000000000000000b6168f597cd37a232cb7cb94cd1786be20ead156",
+      "decoded": [
+        1039539424192247688153616972634356428839997591894
+      ]
+    },
+    {
+      "label": "0x9d9874e867b877dd0a3f1eafb8bb1bc54eecc682 ethereum PT",
+      "address": "0x4788d84fe5265f2115dfd039dc4bd5474aeaf7b0",
+      "signature": "token()",
+      "args": [],
+      "block": "0x190f965",
+      "success": true,
+      "raw": "0x000000000000000000000000928fb6ed39100a92b2480f5cbb93453f98d9f4ce",
+      "decoded": [
+        "0x928fb6ed39100a92b2480f5cbb93453f98d9f4ce"
+      ]
+    },
+    {
+      "label": "0x9d9874e867b877dd0a3f1eafb8bb1bc54eecc682 reverse peer",
+      "address": "0x4788d84fe5265f2115dfd039dc4bd5474aeaf7b0",
+      "signature": "peers(uint32)",
+      "args": [
+        30320
+      ],
+      "block": "0x190f965",
+      "success": true,
+      "raw": "0x0000000000000000000000009d9874e867b877dd0a3f1eafb8bb1bc54eecc682",
+      "decoded": [
+        899711448398064967175606200598252645957526931074
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4021 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/addresses/0x7f2165014a477f6aba532000d8088ed64dd1eba1/token-transfers?type=ERC-20&token=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48&",
+  "request": null,
+  "observed_utc": "2026-10-26T17:22:51.234578+00:00",
+  "http_status": 200,
+  "body": {
+    "items": [
+      {
+        "block_hash": "0x737663469111b83045fcc66879aada5f578e2deff0b5a94072e2f4045f649586",
+        "block_number": 26043567,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xAdDFeC2814f8cadc2b40f1D3fA23f04e0df362da",
+          "implementations": [
+            {
+              "address_hash": "0x912518C2Bf97fa42291d40bA21FDEe1623c9f5A2",
+              "name": null
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 588,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-09-23T23:51:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "135"
+        },
+        "transaction_hash": "0xb2c798ecb8a7a3babc43be4b127c740c1eb012322066c1c56c64c09b8e7c26ad",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x3f9136e8de903734c860c15a54a880783d98200e4b3066211a1a2e132e25d855",
+        "block_number": 26043542,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 296,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-23T23:46:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xadDF8d3731B7cC1EA12a686619819667077662dA",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "135000000150"
+        },
+        "transaction_hash": "0x781ef80f577b29bd1b4281d93e6525a97060cbeb17a1baf61f39b45640aa375b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x405316453aa26845f170c3a12eb8c6baf602357ffc55f889954ae28691c54208",
+        "block_number": 26043519,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+          "implementations": [
+            {
+              "address_hash": "0xbDaa34082F1a1a3c32190a672bC9dd1b69791b97",
+              "name": "CapToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Stablecoin protocol with credible financial guarantees",
+                  "tooltipUrl": "https://cap.app/"
+                },
+                "name": "Cap: cUSD Token",
+                "ordinal": 10,
+                "slug": "cap-cusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CUSD",
+                "ordinal": 0,
+                "slug": "cusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "CAP",
+                "ordinal": 0,
+                "slug": "cap",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 860,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-23T23:41:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "135000000000"
+        },
+        "transaction_hash": "0xe465f2d4ff4fb09d8337a226ca15db5be5514084adba8b33f214e2b8b45cc16d",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xb271525b426bfcc638b1b674b8466433c69be87c8367441df45e2f6a27da19b2",
+        "block_number": 26013265,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 331,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-19T18:11:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xb3983cDdBa4B127960A4cDD531AB989264509e23",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "50000000000"
+        },
+        "transaction_hash": "0xf04919da549f8c09a9e35a2b5288a43a8b5a4621c059426baa19371772277fb0",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xb271525b426bfcc638b1b674b8466433c69be87c8367441df45e2f6a27da19b2",
+        "block_number": 26013265,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 330,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-19T18:11:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xadDF8d3731B7cC1EA12a686619819667077662dA",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "150000000000"
+        },
+        "transaction_hash": "0xf04919da549f8c09a9e35a2b5288a43a8b5a4621c059426baa19371772277fb0",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x3802d8dd2d387bb4f1753db7e7105c1955774300f46da71aa448d5b87bcbe748",
+        "block_number": 26013260,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+          "implementations": [
+            {
+              "address_hash": "0xbDaa34082F1a1a3c32190a672bC9dd1b69791b97",
+              "name": "CapToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Stablecoin protocol with credible financial guarantees",
+                  "tooltipUrl": "https://cap.app/"
+                },
+                "name": "Cap: cUSD Token",
+                "ordinal": 10,
+                "slug": "cap-cusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CUSD",
+                "ordinal": 0,
+                "slug": "cusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "CAP",
+                "ordinal": 0,
+                "slug": "cap",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 742,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-19T18:10:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "200000000000"
+        },
+        "transaction_hash": "0xabfee02890ec7072e0fbb4d360a7397a725041304c5ea1b535b38d02c7304fd2",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x2889203a84996e6c18c832170af30de79554ca2afe5bcd0f1599deedf94a5fe6",
+        "block_number": 25956021,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xadDF0E50e02cb97070Af4B1224fbefF51F1aE0dA",
+          "implementations": [
+            {
+              "address_hash": "0x67b743F3642f7cc863c823c6708708d039F65bE2",
+              "name": null
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1323,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-09-11T18:41:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "150"
+        },
+        "transaction_hash": "0xa0f61de12996da05974d7d986687a4ca2c86daab511f463f6b5e35a339e010ae",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xda393aa9e6b1018df5c23c877a549f82531fef7cc06cc8699e9c15dc9e4673a1",
+        "block_number": 25955651,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 766,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-11T17:27:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xadDF8d3731B7cC1EA12a686619819667077662dA",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "150000000000"
+        },
+        "transaction_hash": "0x6fec363c1f0e443449c541e0fed3cd6ddfd915b41078917e5dc8be9de56f62b0",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x48dc556e1333765dcbefdc702016ee08a3808b7a19e528c524f9ecf14574a99d",
+        "block_number": 25955523,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+          "implementations": [
+            {
+              "address_hash": "0xbDaa34082F1a1a3c32190a672bC9dd1b69791b97",
+              "name": "CapToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Stablecoin protocol with credible financial guarantees",
+                  "tooltipUrl": "https://cap.app/"
+                },
+                "name": "Cap: cUSD Token",
+                "ordinal": 10,
+                "slug": "cap-cusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CUSD",
+                "ordinal": 0,
+                "slug": "cusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "CAP",
+                "ordinal": 0,
+                "slug": "cap",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 178,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-11T17:01:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "150000000000"
+        },
+        "transaction_hash": "0x92cd2b72316d07b159cc998d252c5063e81ac7e2fdbd7c1d9d1dd4e97e82c8af",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x3ebbb9c39ebb1b34fdc9dbec27fa88aae564097e7fe4c72a0008437f8fff271a",
+        "block_number": 25905577,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 458,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-04T17:54:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xadDF8d3731B7cC1EA12a686619819667077662dA",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "27500000366"
+        },
+        "transaction_hash": "0xb6f7224b9aa8137e209c1c5bf349ead31d1b80cdfe823b417f90bf51ce59e7e4",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x833c7dd61aa657387a177f0ae4b71e894fab488b62d0ac7197f38167b092dbd3",
+        "block_number": 25901688,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+          "implementations": [
+            {
+              "address_hash": "0xbDaa34082F1a1a3c32190a672bC9dd1b69791b97",
+              "name": "CapToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Stablecoin protocol with credible financial guarantees",
+                  "tooltipUrl": "https://cap.app/"
+                },
+                "name": "Cap: cUSD Token",
+                "ordinal": 10,
+                "slug": "cap-cusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CUSD",
+                "ordinal": 0,
+                "slug": "cusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "CAP",
+                "ordinal": 0,
+                "slug": "cap",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 237,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-04T04:54:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "27500000000"
+        },
+        "transaction_hash": "0x8f81ff5bb4ac5f507eeda83824924f16696d5b88191840c17c1b692ce4c9c652",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x2af7914251097472c9599e1f8923c21a26270bc0ba3be7ae6da357570576c6fe",
+        "block_number": 25899392,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 981,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-09-03T21:12:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xaDDF1e50A7565a6C345aFfAF82779EBEA53562da",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "0"
+        },
+        "transaction_hash": "0x44155685badcb2645dd34f3dcd551bbda871a291dd1d81716fe16200027b55bb",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x5456e9101582a7dde06afd85edfc75bf120da3cb6850fb0bbce83f95248ffd0b",
+        "block_number": 25898037,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xadDF0E50e02cb97070Af4B1224fbefF51F1aE0dA",
+          "implementations": [
+            {
+              "address_hash": "0x67b743F3642f7cc863c823c6708708d039F65bE2",
+              "name": null
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1035,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-09-03T16:40:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "366"
+        },
+        "transaction_hash": "0x4c176c733019aab358596d4e85e71943b1831bc1929b70bb7a0ce37a4e25c761",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa0780490b9a44000617d97b785718f758d34e54c4c19d1371871766e76699f1d",
+        "block_number": 25897913,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1106,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-03T16:15:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xadDF8d3731B7cC1EA12a686619819667077662dA",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "366181950200"
+        },
+        "transaction_hash": "0x77c69e1d32777ad5e351aa15a7345f2c888a2a590dce6cfae8654705360c0aca",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xe67e712bc71af121d124912f673b36f2c6032cd0fdfe96d4b45fea2a09f225b3",
+        "block_number": 25897910,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+          "implementations": [
+            {
+              "address_hash": "0xbDaa34082F1a1a3c32190a672bC9dd1b69791b97",
+              "name": "CapToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Stablecoin protocol with credible financial guarantees",
+                  "tooltipUrl": "https://cap.app/"
+                },
+                "name": "Cap: cUSD Token",
+                "ordinal": 10,
+                "slug": "cap-cusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CUSD",
+                "ordinal": 0,
+                "slug": "cusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "CAP",
+                "ordinal": 0,
+                "slug": "cap",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 296,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-03T16:14:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "100000000000"
+        },
+        "transaction_hash": "0xe6f434a7d9b08c4a1046846e11b7453195180b0f37082d3fcc5fe5d679cc89b4",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa4e7e8f2d19faf2e6760e42613d279176fb9e208b682e9958b50933d438b3099",
+        "block_number": 25897768,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+          "implementations": [
+            {
+              "address_hash": "0xbDaa34082F1a1a3c32190a672bC9dd1b69791b97",
+              "name": "CapToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Stablecoin protocol with credible financial guarantees",
+                  "tooltipUrl": "https://cap.app/"
+                },
+                "name": "Cap: cUSD Token",
+                "ordinal": 10,
+                "slug": "cap-cusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CUSD",
+                "ordinal": 0,
+                "slug": "cusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "CAP",
+                "ordinal": 0,
+                "slug": "cap",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 918,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-03T15:46:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "257500000000"
+        },
+        "transaction_hash": "0x3285ea3487524835f913cd43a3f7c9472197a42863925f159970172b56696a9f",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x4115685ae021a77527b8847fe6f9c912e9519b7df8b884c82e4e6b8e083f593b",
+        "block_number": 25886755,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 333,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-02T02:56:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xadDF8d3731B7cC1EA12a686619819667077662dA",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "200000000000"
+        },
+        "transaction_hash": "0x659f1d9f9e30037b169f4ee82f83110e2ea609c0528b52b2bfdc62f18a466b42",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x4115685ae021a77527b8847fe6f9c912e9519b7df8b884c82e4e6b8e083f593b",
+        "block_number": 25886755,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 332,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-02T02:56:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xF1e0c4ce12ec0ad282A19851c59B43E8ffF9b1eD",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "15914650000"
+        },
+        "transaction_hash": "0x659f1d9f9e30037b169f4ee82f83110e2ea609c0528b52b2bfdc62f18a466b42",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x804a4c0d4a250bc614e82bcbe2525c9e99454e39e8fa7f64962612c8f4ae1282",
+        "block_number": 25886746,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+          "implementations": [
+            {
+              "address_hash": "0xbDaa34082F1a1a3c32190a672bC9dd1b69791b97",
+              "name": "CapToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Stablecoin protocol with credible financial guarantees",
+                  "tooltipUrl": "https://cap.app/"
+                },
+                "name": "Cap: cUSD Token",
+                "ordinal": 10,
+                "slug": "cap-cusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CUSD",
+                "ordinal": 0,
+                "slug": "cusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "CAP",
+                "ordinal": 0,
+                "slug": "cap",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 349,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-02T02:54:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "161000000000"
+        },
+        "transaction_hash": "0x768aa695fd0bb84f7b896b346e8c9daeafe5274b80f8dc95b6a897d6f12d6b59",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xfb20d2a7aa7617a473dbd009798f0926e3ede4378fa0ee2ab1cd166ad80f839e",
+        "block_number": 25880232,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xadDF0E50e02cb97070Af4B1224fbefF51F1aE0dA",
+          "implementations": [
+            {
+              "address_hash": "0x67b743F3642f7cc863c823c6708708d039F65bE2",
+              "name": null
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 280,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-09-01T05:06:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "200"
+        },
+        "transaction_hash": "0xf924c427e50ad146d95cd655b1c5597a507ff051008f2bc0508e246958f924a3",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x031dfb7d398549ee0ede30e3c7baf148655464c8b7a0d5b492f272c1de5247b7",
+        "block_number": 25880193,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 308,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-01T04:58:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xadDF8d3731B7cC1EA12a686619819667077662dA",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "200000000000"
+        },
+        "transaction_hash": "0xb34aefa50cf08f5d19269d254bb6e02d531db0d386d6274f608b7a4e07ea7ba5",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x051996b735a0e65b9b4e85c250e9c73f93d31c55ea57277c6c8b646ad26ac40b",
+        "block_number": 25880189,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+          "implementations": [
+            {
+              "address_hash": "0xbDaa34082F1a1a3c32190a672bC9dd1b69791b97",
+              "name": "CapToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Stablecoin protocol with credible financial guarantees",
+                  "tooltipUrl": "https://cap.app/"
+                },
+                "name": "Cap: cUSD Token",
+                "ordinal": 10,
+                "slug": "cap-cusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CUSD",
+                "ordinal": 0,
+                "slug": "cusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "CAP",
+                "ordinal": 0,
+                "slug": "cap",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 288,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-01T04:58:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x10b669cb8dfc26d7cf69fd3724e78e3f46c52afd3d2dc9dd2851c656e93ec808",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa5011eb23c3a034711ce1c1cba3387662dfcf5cfefb081a8173957c9c70dc95e",
+        "block_number": 25878743,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 411,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-01T00:07:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xadDF8d3731B7cC1EA12a686619819667077662dA",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "100000000000"
+        },
+        "transaction_hash": "0x6418c88d0e6e1e9805d5303320679ac0cba2a7c2cefaf0827d83f44c973eedd0",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa5011eb23c3a034711ce1c1cba3387662dfcf5cfefb081a8173957c9c70dc95e",
+        "block_number": 25878743,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 410,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-01T00:07:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xb3983cDdBa4B127960A4cDD531AB989264509e23",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "50000000000"
+        },
+        "transaction_hash": "0x6418c88d0e6e1e9805d5303320679ac0cba2a7c2cefaf0827d83f44c973eedd0",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa5011eb23c3a034711ce1c1cba3387662dfcf5cfefb081a8173957c9c70dc95e",
+        "block_number": 25878743,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 409,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-01T00:07:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xF1e0c4ce12ec0ad282A19851c59B43E8ffF9b1eD",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "700000000"
+        },
+        "transaction_hash": "0x6418c88d0e6e1e9805d5303320679ac0cba2a7c2cefaf0827d83f44c973eedd0",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa5011eb23c3a034711ce1c1cba3387662dfcf5cfefb081a8173957c9c70dc95e",
+        "block_number": 25878743,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 408,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-01T00:07:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4fda54C85e7DB9890a7E95b5faC4ff634ba608C8",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "36703400000"
+        },
+        "transaction_hash": "0x6418c88d0e6e1e9805d5303320679ac0cba2a7c2cefaf0827d83f44c973eedd0",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x264f63a409001121a2e2763721f4013f35b35b85293683882562c0850897bf16",
+        "block_number": 25878728,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+          "implementations": [
+            {
+              "address_hash": "0xbDaa34082F1a1a3c32190a672bC9dd1b69791b97",
+              "name": "CapToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Stablecoin protocol with credible financial guarantees",
+                  "tooltipUrl": "https://cap.app/"
+                },
+                "name": "Cap: cUSD Token",
+                "ordinal": 10,
+                "slug": "cap-cusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CUSD",
+                "ordinal": 0,
+                "slug": "cusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "CAP",
+                "ordinal": 0,
+                "slug": "cap",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 658,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-01T00:04:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "100000000000"
+        },
+        "transaction_hash": "0x4d41c301d64277a60d797e0aab55974a39e0e071378a249afbd300f9d70eae9e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xcf4dfed8a5d2202473772e8e79248ff4da29e0e56cd522bedc3c8eec4763d216",
+        "block_number": 25878716,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+          "implementations": [
+            {
+              "address_hash": "0xbDaa34082F1a1a3c32190a672bC9dd1b69791b97",
+              "name": "CapToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Stablecoin protocol with credible financial guarantees",
+                  "tooltipUrl": "https://cap.app/"
+                },
+                "name": "Cap: cUSD Token",
+                "ordinal": 10,
+                "slug": "cap-cusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CUSD",
+                "ordinal": 0,
+                "slug": "cusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "CAP",
+                "ordinal": 0,
+                "slug": "cap",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 314,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-01T00:02:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "100000000000"
+        },
+        "transaction_hash": "0x97a6f6a0d27608dd937538d126aa9ee0828578a88f62f1f69451c09dfdd63292",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x7e5e51b998037934ab3436aa1e67c81872db4d0efd592fce57b6cd9029199cb7",
+        "block_number": 25878708,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+          "implementations": [
+            {
+              "address_hash": "0xbDaa34082F1a1a3c32190a672bC9dd1b69791b97",
+              "name": "CapToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Stablecoin protocol with credible financial guarantees",
+                  "tooltipUrl": "https://cap.app/"
+                },
+                "name": "Cap: cUSD Token",
+                "ordinal": 10,
+                "slug": "cap-cusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CUSD",
+                "ordinal": 0,
+                "slug": "cusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "CAP",
+                "ordinal": 0,
+                "slug": "cap",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 689,
+        "method": "0x6a761202",
+        "timestamp": "2026-09-01T00:00:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "1000000000"
+        },
+        "transaction_hash": "0x054ffd2d6d475706de8ab2139c4df1ebf1c691d3d2d831e7a54280e1fb9ba271",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xa82244b601a67e02b50a7ea4e8c996df2774d4004663c918cd5620b682397ce8",
+        "block_number": 25878702,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 657,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-31T23:59:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "50000000000"
+        },
+        "transaction_hash": "0xac294491337ce4fab0148be066e0ba8eae8a422732e733f07e74ef922d39f05c",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xaadeb623df8941e7832b946895818a04bfb673f3885d721202fbf36d4abb0f75",
+        "block_number": 25878685,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xb3983cDdBa4B127960A4cDD531AB989264509e23",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 62,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-08-31T23:56:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "50000000000"
+        },
+        "transaction_hash": "0xb651e73f2c4a721661e5e20965b18ef7a680b9a4e370b8670237852254232be4",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x6f51398e689285d6bc158cdd545b2fdb1abd2ac976ef149b836ac1bc3994623d",
+        "block_number": 25871431,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 331,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-30T23:39:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xadDF8d3731B7cC1EA12a686619819667077662dA",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "71438191600"
+        },
+        "transaction_hash": "0xe90e0391adfd83be58059d9a6b8a1a130dcecd882d1bc53393816c96935a3247",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x3013ee86aac89a7b5f3ab9e161253e82e6ed2cdcf23a498d1cae24584b173da4",
+        "block_number": 25848204,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xadDF0E50e02cb97070Af4B1224fbefF51F1aE0dA",
+          "implementations": [
+            {
+              "address_hash": "0x67b743F3642f7cc863c823c6708708d039F65bE2",
+              "name": null
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 874,
+        "method": "0xa9059cbb",
+        "timestamp": "2026-08-27T17:57:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "550"
+        },
+        "transaction_hash": "0x72bed6246e64a34b174e2abefd167f0e355efbb69543a8930b6d2b6fe2a83c91",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xb8ee3089ce51f0de4e210371356c735a3b8666b5efd15dd9f95562a2cbaafeca",
+        "block_number": 25848014,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 370,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-27T17:19:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xadDF8d3731B7cC1EA12a686619819667077662dA",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "550000000000"
+        },
+        "transaction_hash": "0xea80725838d31fe0aec772d373706817826fa91154e34bebec15f62bfb9b4bf0",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xf0d0d3631796efba65b970f5da35e9d071eaa82f628a92817b693add118a435e",
+        "block_number": 25848005,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+          "implementations": [
+            {
+              "address_hash": "0xbDaa34082F1a1a3c32190a672bC9dd1b69791b97",
+              "name": "CapToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Stablecoin protocol with credible financial guarantees",
+                  "tooltipUrl": "https://cap.app/"
+                },
+                "name": "Cap: cUSD Token",
+                "ordinal": 10,
+                "slug": "cap-cusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CUSD",
+                "ordinal": 0,
+                "slug": "cusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "CAP",
+                "ordinal": 0,
+                "slug": "cap",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 790,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-27T17:17:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "500000000000"
+        },
+        "transaction_hash": "0xead1a2a4492f9a0cdc7e77e4927274632fd4b13de251e778e29c81a11b150d30",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xcf3c0212ac883188b476bf620e63f73341e1905df533a518fdcec5ca65bbf24f",
+        "block_number": 25836094,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 390,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-26T01:27:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x592EC9246963422f0F79A8914C5117A9F821FA90",
+          "implementations": [
+            {
+              "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+              "name": "EIP7702StatelessDeleGator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "3908900000"
+        },
+        "transaction_hash": "0x13bc3cacb27c4bafb5ad6ed51d786c423976ef4dd5da1e3d18c42994d1361a9d",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xca1abea5063b7c9a6785565ae3f049cc0eea17c809cd4144d238ec6097d29637",
+        "block_number": 25836086,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 497,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-26T01:25:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x592EC9246963422f0F79A8914C5117A9F821FA90",
+          "implementations": [
+            {
+              "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+              "name": "EIP7702StatelessDeleGator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "14000000000"
+        },
+        "transaction_hash": "0x186c9dc9472b7bf06618aa9d7e06c1ec2caa8defeb1095985e8f14c9ccb497e6",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x3d7149c624ecdd9a91bda123275ce104c23d30415789c1210343ba9d0f0ad3bf",
+        "block_number": 25836079,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 729,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-26T01:24:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x592EC9246963422f0F79A8914C5117A9F821FA90",
+          "implementations": [
+            {
+              "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+              "name": "EIP7702StatelessDeleGator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "14000000000"
+        },
+        "transaction_hash": "0xa03b63b64acc456ffaccb0494c28203b2fde99e5d6dfec441f5a9f028e01931a",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x472093ff44e415eaf504a127c8207567ec26f876b45615acaaebf4738d75181e",
+        "block_number": 25836071,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1380,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-26T01:22:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x592EC9246963422f0F79A8914C5117A9F821FA90",
+          "implementations": [
+            {
+              "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+              "name": "EIP7702StatelessDeleGator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "14000000000"
+        },
+        "transaction_hash": "0xff3955432beefb088e67534c148150197029ec5af6553e7ddbec72f9933f7729",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x45fbb1c68c612534d9abda169dfe097fb64a1f43c260a1a8e2a67a2df7415042",
+        "block_number": 25836061,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 256,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-26T01:20:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x592EC9246963422f0F79A8914C5117A9F821FA90",
+          "implementations": [
+            {
+              "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+              "name": "EIP7702StatelessDeleGator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "14000000000"
+        },
+        "transaction_hash": "0xdba1f39d7a9cb6141a21c9b46ccf6a6d735234de4c9357dbc80840501c0f269d",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xbd00f3392b65c4288df8d0871c209b3d9ac33e39486698d94d1a1be68b02d4a2",
+        "block_number": 25836051,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 355,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-26T01:18:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x592EC9246963422f0F79A8914C5117A9F821FA90",
+          "implementations": [
+            {
+              "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+              "name": "EIP7702StatelessDeleGator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "14000000000"
+        },
+        "transaction_hash": "0x56c6c87ccb591d31e9a7bf63e0a31cc81cec14079120e311087570c77d4a5c69",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x5055566602fd07b54b36d20b3a331a1114e6b90bd507759cf27244c1876301d4",
+        "block_number": 25836038,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 458,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-26T01:16:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x592EC9246963422f0F79A8914C5117A9F821FA90",
+          "implementations": [
+            {
+              "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+              "name": "EIP7702StatelessDeleGator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "14000000000"
+        },
+        "transaction_hash": "0x06fbaf82960a7ce257620ababedb2d4c6aedcbfa8cbdbe0c49019ead908d418e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xf00f3505bd66a3c4eda173bcbdb0c1a7e65a2900b0c340ac9385e33c6f6f95a4",
+        "block_number": 25836031,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 369,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-26T01:14:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x592EC9246963422f0F79A8914C5117A9F821FA90",
+          "implementations": [
+            {
+              "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+              "name": "EIP7702StatelessDeleGator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "7000000000"
+        },
+        "transaction_hash": "0xe449439fc974018dfde2937e0702288ad5e27fdc6ca9fa344ee2e90b6a368164",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xd40877aa5a18571f19b554a1edd26e905021db32e882243dd4238e54910536f2",
+        "block_number": 25836022,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 577,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-26T01:13:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x592EC9246963422f0F79A8914C5117A9F821FA90",
+          "implementations": [
+            {
+              "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+              "name": "EIP7702StatelessDeleGator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "7000000000"
+        },
+        "transaction_hash": "0xfce31688676a04d3530f3b0d61d3baaeb07ce76bcdd479a1df0c7ebf4d178e1b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xb8b8e6e37c7de544c83723cb0f61761cddf4ef16bb1bb13bd1edb6da3440d4bb",
+        "block_number": 25836001,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 76,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-26T01:08:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x592EC9246963422f0F79A8914C5117A9F821FA90",
+          "implementations": [
+            {
+              "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+              "name": "EIP7702StatelessDeleGator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "7000000000"
+        },
+        "transaction_hash": "0xdd927339257dfe7444647856ff034d617384749ba69796012ba9132c5eca16b5",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x88a015a29900fea40e1234264e626f7dc3c49eb258b42e7bdea1f9c8d9d924dd",
+        "block_number": 25835995,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 390,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-26T01:07:47.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x592EC9246963422f0F79A8914C5117A9F821FA90",
+          "implementations": [
+            {
+              "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+              "name": "EIP7702StatelessDeleGator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "7000000"
+        },
+        "transaction_hash": "0x51ff0e1f28c790a4108d1e7eef000ba0a0b77f11ce503335d57783bbf4c92ad4",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x2d8102b2dd305120ef86450f8dd198dd0c47e0f917b5a558a77e07b61a537c0c",
+        "block_number": 25827798,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 610,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-24T21:42:23.000000Z",
+        "to": {
+          "ens_domain_name": "0x15f3.eth",
+          "hash": "0x15f372C3f2cCd43750aDDd1E973FEfF596e65DE3",
+          "implementations": [
+            {
+              "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+              "name": "EIP7702StatelessDeleGator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "0x15f3.eth",
+                "ordinal": 10,
+                "slug": "0x15f3eth",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "115836560000"
+        },
+        "transaction_hash": "0x2ed94bd5100578de8028db327bcae6938b494de1e2d6955671b73ab2f3be7a56",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x34a0751cc7480f707397798ccc59d9b1d6e7526e2ff5f9808c006b85ae13d28e",
+        "block_number": 25827758,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 968,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-24T21:34:11.000000Z",
+        "to": {
+          "ens_domain_name": "0x15f3.eth",
+          "hash": "0x15f372C3f2cCd43750aDDd1E973FEfF596e65DE3",
+          "implementations": [
+            {
+              "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+              "name": "EIP7702StatelessDeleGator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "0x15f3.eth",
+                "ordinal": 10,
+                "slug": "0x15f3eth",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "102931900000"
+        },
+        "transaction_hash": "0xe6c81a242419276379058af6e3574693550b232a4d3a5a143ad0c8f5f948edaf",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x309af1b33ddef251634add1f5231022652ce4c84b81dd434b36197b6575b3ab7",
+        "block_number": 25827710,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 370,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-24T21:24:11.000000Z",
+        "to": {
+          "ens_domain_name": "0x15f3.eth",
+          "hash": "0x15f372C3f2cCd43750aDDd1E973FEfF596e65DE3",
+          "implementations": [
+            {
+              "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+              "name": "EIP7702StatelessDeleGator"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "0x15f3.eth",
+                "ordinal": 10,
+                "slug": "0x15f3eth",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "eip7702",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "102931380000"
+        },
+        "transaction_hash": "0x9ca75562dcc1adffd1497643bb31002f81f95dfbfb23ff93fef4d168cf77c127",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x8c9ae51817c94e210bead2809ed003fb4dcd69e9020866c039e915a38f59c1f5",
+        "block_number": 25827680,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+          "implementations": [
+            {
+              "address_hash": "0xbDaa34082F1a1a3c32190a672bC9dd1b69791b97",
+              "name": "CapToken"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipDescription": "Stablecoin protocol with credible financial guarantees",
+                  "tooltipUrl": "https://cap.app/"
+                },
+                "name": "Cap: cUSD Token",
+                "ordinal": 10,
+                "slug": "cap-cusd-token",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "CUSD",
+                "ordinal": 0,
+                "slug": "cusd",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "CAP",
+                "ordinal": 0,
+                "slug": "cap",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1312,
+        "method": "0x6a761202",
+        "timestamp": "2026-08-24T21:18:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x7F2165014A477f6ABA532000d8088Ed64dD1eBA1",
+          "implementations": [
+            {
+              "address_hash": "0x41675C099F32341bf84BFc5382aF534df5C7461a",
+              "name": "Safe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "SafeProxy",
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71049930906.81665",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999425",
+          "holders_count": "9532276",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47501214147998555",
+          "type": "ERC-20",
+          "volume_24h": "11514414799.88373"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "500000000000"
+        },
+        "transaction_hash": "0x5972709c1457c8c73816c044e09b4f567785cd3563be51ac148abbc1498b46b8",
+        "type": "token_transfer"
+      }
+    ],
+    "next_page_params": {
+      "index": 1312,
+      "token": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "block_number": 25827680
+    }
+  }
+}

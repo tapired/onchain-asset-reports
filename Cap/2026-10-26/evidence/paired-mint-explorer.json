@@ -1,0 +1,870 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/transactions/0xffa215a6e5b89dcea81f84b67a08cfc0acfded4075f035c6959f03c486d9cddd",
+  "request": null,
+  "observed_utc": "2026-10-26T17:18:42.950534+00:00",
+  "http_status": 200,
+  "body": {
+    "priority_fee": "28848450000000",
+    "raw_input": "0xd0f42385000000000000000000000000743d7b30661d65b41960bf6b5d1bb93cf7972a7300000000000000000000000046f963c52d5fa0ad2bd1199cbc6453f0d7b9e7bd0000000000000000000000000000000000000000000011e44f0cf0d9561141a10000000000000000000000000000000000000000000000000000000000000080000000000000000000000000cccc62962d17b8914c62d74ffb843d73b2a3cccc0000000000000000000000000000000000000000000011e5399bf93e9234984b000000000000000000000000cccc62962d17b8914c62d74ffb843d73b2a3cccc000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "is_pending_update": false,
+    "result": "success",
+    "hash": "0xffa215a6e5b89dcea81f84b67a08cfc0acfded4075f035c6959f03c486d9cddd",
+    "max_fee_per_gas": "297400000",
+    "revert_reason": null,
+    "confirmation_duration": [
+      0,
+      12000.0
+    ],
+    "transaction_burnt_fee": "23418059313768",
+    "type": 2,
+    "token_transfers_overflow": false,
+    "confirmations": 753848,
+    "position": 108,
+    "max_priority_fee_per_gas": "150000000",
+    "transaction_tag": null,
+    "created_contract": null,
+    "value": "0",
+    "from": {
+      "ens_domain_name": "drunklord.eth",
+      "hash": "0x743D7B30661d65B41960Bf6b5d1bB93CF7972A73",
+      "implementations": [],
+      "is_contract": false,
+      "is_scam": false,
+      "is_verified": false,
+      "metadata": {
+        "tags": [
+          {
+            "meta": {},
+            "name": "drunklord.eth",
+            "ordinal": 0,
+            "slug": "drunklordeth",
+            "tagType": "name"
+          }
+        ]
+      },
+      "name": null,
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "gas_used": "192323",
+    "status": "ok",
+    "to": {
+      "ens_domain_name": null,
+      "hash": "0x888888888889758F76e7103c6CbF23ABbF58F946",
+      "implementations": [],
+      "is_contract": true,
+      "is_scam": false,
+      "is_verified": true,
+      "metadata": {
+        "tags": [
+          {
+            "meta": {
+              "projectName": "Pendle",
+              "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "tagUrl": "https://scout-app.kleros.io/single-tags/0x3f9e32f22133edeeb54a26ee28e0628b24b37d92affb853ec1d52908f8e05d99",
+              "textColor": "#C163D4",
+              "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+              "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "tooltipDescription": "Pendle's official Router V4 contract on Ethereum Mainnet",
+              "tooltipUrl": "https://pendle.finance/",
+              "verifiedDomains": [
+                "app.pendle.finance",
+                "www.origami.finance"
+              ]
+            },
+            "name": "Router V4",
+            "ordinal": 10,
+            "slug": "router-v4-1",
+            "tagType": "name"
+          },
+          {
+            "meta": {},
+            "name": "Router",
+            "ordinal": 0,
+            "slug": "router",
+            "tagType": "generic"
+          },
+          {
+            "meta": {
+              "appActionButtonText": "Pendle",
+              "appID": "pendle"
+            },
+            "name": "Pendle",
+            "ordinal": 0,
+            "slug": "pendle",
+            "tagType": "protocol"
+          }
+        ]
+      },
+      "name": "PendleRouterV4",
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "authorization_list": [],
+    "method": "mintPyFromToken",
+    "fee": {
+      "type": "actual",
+      "value": "52266509313768"
+    },
+    "gas_limit": "331347",
+    "gas_price": "271764216",
+    "decoded_input": {
+      "method_call": "mintPyFromToken(address arg0, address arg1, uint256 arg2, (address,uint256,address,address,(uint8,address,bytes,bool)) arg3)",
+      "method_id": "d0f42385",
+      "parameters": [
+        {
+          "name": "arg0",
+          "type": "address",
+          "value": "0x743D7B30661d65B41960Bf6b5d1bB93CF7972A73"
+        },
+        {
+          "name": "arg1",
+          "type": "address",
+          "value": "0x46f963c52d5FA0Ad2bD1199CBC6453f0D7B9e7bD"
+        },
+        {
+          "name": "arg2",
+          "type": "uint256",
+          "value": "84491784050034705777057"
+        },
+        {
+          "name": "arg3",
+          "type": "(address,uint256,address,address,(uint8,address,bytes,bool))",
+          "value": [
+            "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+            "84508685787192144205899",
+            "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+            "0x0000000000000000000000000000000000000000",
+            [
+              "0",
+              "0x0000000000000000000000000000000000000000",
+              "0x",
+              "false"
+            ]
+          ]
+        }
+      ]
+    },
+    "fhe_operations_count": 0,
+    "token_transfers": [
+      {
+        "block_hash": "0x0c1c7c555290f808ad56c58e73fe1f0e923d68b5bb74a984842be99c9cbe54a3",
+        "block_number": 25524438,
+        "from": {
+          "ens_domain_name": "drunklord.eth",
+          "hash": "0x743D7B30661d65B41960Bf6b5d1bB93CF7972A73",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "drunklord.eth",
+                "ordinal": 0,
+                "slug": "drunklordeth",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 802,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x888888888889758F76e7103c6CbF23ABbF58F946",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Pendle",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x3f9e32f22133edeeb54a26ee28e0628b24b37d92affb853ec1d52908f8e05d99",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Pendle's official Router V4 contract on Ethereum Mainnet",
+                  "tooltipUrl": "https://pendle.finance/",
+                  "verifiedDomains": [
+                    "app.pendle.finance",
+                    "www.origami.finance"
+                  ]
+                },
+                "name": "Router V4",
+                "ordinal": 10,
+                "slug": "router-v4-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Router",
+                "ordinal": 0,
+                "slug": "router",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Pendle",
+                  "appID": "pendle"
+                },
+                "name": "Pendle",
+                "ordinal": 0,
+                "slug": "pendle",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PendleRouterV4",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+          "circulating_market_cap": "75315426.15570107",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "0.999723",
+          "holders_count": "1711",
+          "icon_url": "https://assets.coingecko.com/coins/images/68272/small/cUSD_ab_500%C3%97500.png?1755232868",
+          "name": "Cap USD",
+          "reputation": "ok",
+          "symbol": "CUSD",
+          "total_supply": "76880591033262142694119054",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "84508685787192144205899"
+        },
+        "transaction_hash": "0xffa215a6e5b89dcea81f84b67a08cfc0acfded4075f035c6959f03c486d9cddd",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x0c1c7c555290f808ad56c58e73fe1f0e923d68b5bb74a984842be99c9cbe54a3",
+        "block_number": 25524438,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x888888888889758F76e7103c6CbF23ABbF58F946",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Pendle",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x3f9e32f22133edeeb54a26ee28e0628b24b37d92affb853ec1d52908f8e05d99",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Pendle's official Router V4 contract on Ethereum Mainnet",
+                  "tooltipUrl": "https://pendle.finance/",
+                  "verifiedDomains": [
+                    "app.pendle.finance",
+                    "www.origami.finance"
+                  ]
+                },
+                "name": "Router V4",
+                "ordinal": 10,
+                "slug": "router-v4-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Router",
+                "ordinal": 0,
+                "slug": "router",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Pendle",
+                  "appID": "pendle"
+                },
+                "name": "Pendle",
+                "ordinal": 0,
+                "slug": "pendle",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "PendleRouterV4",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 803,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x3EAf6C8425b40c554099BEEd4DcB9f4601942fcb",
+          "implementations": [
+            {
+              "address_hash": "0xAe62098169bbc2e993d3fB6C76d42B9eE455E11E",
+              "name": "PendleERC20WithAdapterSY"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "TransparentUpgradeableProxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xcCcc62962d17b8914c62D74FfB843d73B2a3cccC",
+          "circulating_market_cap": "75315426.15570107",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "0.999723",
+          "holders_count": "1711",
+          "icon_url": "https://assets.coingecko.com/coins/images/68272/small/cUSD_ab_500%C3%97500.png?1755232868",
+          "name": "Cap USD",
+          "reputation": "ok",
+          "symbol": "CUSD",
+          "total_supply": "76880591033262142694119054",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "84508685787192144205899"
+        },
+        "transaction_hash": "0xffa215a6e5b89dcea81f84b67a08cfc0acfded4075f035c6959f03c486d9cddd",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x0c1c7c555290f808ad56c58e73fe1f0e923d68b5bb74a984842be99c9cbe54a3",
+        "block_number": 25524438,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0000000000000000000000000000000000000000",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Null: 0x000...000",
+                "ordinal": 10,
+                "slug": "null-0x000000",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "main_entity": "Genesis"
+                },
+                "name": "Null Address",
+                "ordinal": 10,
+                "slug": "null-address",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Metamask User",
+                "ordinal": 0,
+                "slug": "metamask-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Imtoken User",
+                "ordinal": 0,
+                "slug": "imtoken-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Coinbase",
+                "ordinal": 0,
+                "slug": "coinbase",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "info": [
+                    "Blocked By USDT"
+                  ],
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Genesis",
+                "ordinal": 0,
+                "slug": "genesis",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Miner",
+                "ordinal": 0,
+                "slug": "miner",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Burn",
+                "ordinal": 0,
+                "slug": "burn",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address is commonly used by projects to burn tokens (reducing total supply) or mint tokens (increasing total supply)."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {},
+                "name": "Null",
+                "ordinal": 0,
+                "slug": "null",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 804,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x46f963c52d5FA0Ad2bD1199CBC6453f0D7B9e7bD",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PendleYieldToken",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x3EAf6C8425b40c554099BEEd4DcB9f4601942fcb",
+          "circulating_market_cap": null,
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": null,
+          "holders_count": "20",
+          "icon_url": null,
+          "name": "SY cap USD",
+          "reputation": "ok",
+          "symbol": "SY-cUSD",
+          "total_supply": "83730152798701937963140",
+          "type": "ERC-20",
+          "volume_24h": null
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "84508685787192144205899"
+        },
+        "transaction_hash": "0xffa215a6e5b89dcea81f84b67a08cfc0acfded4075f035c6959f03c486d9cddd",
+        "type": "token_minting"
+      },
+      {
+        "block_hash": "0x0c1c7c555290f808ad56c58e73fe1f0e923d68b5bb74a984842be99c9cbe54a3",
+        "block_number": 25524438,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0000000000000000000000000000000000000000",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Null: 0x000...000",
+                "ordinal": 10,
+                "slug": "null-0x000000",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "main_entity": "Genesis"
+                },
+                "name": "Null Address",
+                "ordinal": 10,
+                "slug": "null-address",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Metamask User",
+                "ordinal": 0,
+                "slug": "metamask-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Imtoken User",
+                "ordinal": 0,
+                "slug": "imtoken-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Coinbase",
+                "ordinal": 0,
+                "slug": "coinbase",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "info": [
+                    "Blocked By USDT"
+                  ],
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Genesis",
+                "ordinal": 0,
+                "slug": "genesis",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Miner",
+                "ordinal": 0,
+                "slug": "miner",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Burn",
+                "ordinal": 0,
+                "slug": "burn",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address is commonly used by projects to burn tokens (reducing total supply) or mint tokens (increasing total supply)."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {},
+                "name": "Null",
+                "ordinal": 0,
+                "slug": "null",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 807,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": "drunklord.eth",
+          "hash": "0x743D7B30661d65B41960Bf6b5d1bB93CF7972A73",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "drunklord.eth",
+                "ordinal": 0,
+                "slug": "drunklordeth",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x46f963c52d5FA0Ad2bD1199CBC6453f0D7B9e7bD",
+          "circulating_market_cap": null,
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": null,
+          "holders_count": "237",
+          "icon_url": null,
+          "name": "YT cap USD 23JUL2026",
+          "reputation": "ok",
+          "symbol": "YT-cUSD-23JUL2026",
+          "total_supply": "2796703924244727886591343",
+          "type": "ERC-20",
+          "volume_24h": null
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "84508685787192144205899"
+        },
+        "transaction_hash": "0xffa215a6e5b89dcea81f84b67a08cfc0acfded4075f035c6959f03c486d9cddd",
+        "type": "token_minting"
+      },
+      {
+        "block_hash": "0x0c1c7c555290f808ad56c58e73fe1f0e923d68b5bb74a984842be99c9cbe54a3",
+        "block_number": 25524438,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0000000000000000000000000000000000000000",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "Null: 0x000...000",
+                "ordinal": 10,
+                "slug": "null-0x000000",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "main_entity": "Genesis"
+                },
+                "name": "Null Address",
+                "ordinal": 10,
+                "slug": "null-address",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "DEPOSIT ADDRESS",
+                "ordinal": 0,
+                "slug": "deposit-address",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Metamask User",
+                "ordinal": 0,
+                "slug": "metamask-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Imtoken User",
+                "ordinal": 0,
+                "slug": "imtoken-user",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Coinbase",
+                "ordinal": 0,
+                "slug": "coinbase",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "info": [
+                    "Blocked By USDT"
+                  ],
+                  "tooltipDescription": "Address blocked by a custodial stablecoin provider"
+                },
+                "name": "BLOCKED",
+                "ordinal": 0,
+                "slug": "blocked",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Genesis",
+                "ordinal": 0,
+                "slug": "genesis",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Miner",
+                "ordinal": 0,
+                "slug": "miner",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Burn",
+                "ordinal": 0,
+                "slug": "burn",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "alertStatus": "info",
+                  "data": "This address is commonly used by projects to burn tokens (reducing total supply) or mint tokens (increasing total supply)."
+                },
+                "name": "note_0",
+                "ordinal": 0,
+                "slug": "note0",
+                "tagType": "note"
+              },
+              {
+                "meta": {},
+                "name": "Null",
+                "ordinal": 0,
+                "slug": "null",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 808,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": "drunklord.eth",
+          "hash": "0x743D7B30661d65B41960Bf6b5d1bB93CF7972A73",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {},
+                "name": "drunklord.eth",
+                "ordinal": 0,
+                "slug": "drunklordeth",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x928FB6ED39100a92B2480f5cbB93453f98D9F4cE",
+          "circulating_market_cap": null,
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": null,
+          "holders_count": "71",
+          "icon_url": null,
+          "name": "PT cap USD 23JUL2026",
+          "reputation": "ok",
+          "symbol": "PT-cUSD-23JUL2026",
+          "total_supply": "68765789127286039827394",
+          "type": "ERC-20",
+          "volume_24h": null
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "84508685787192144205899"
+        },
+        "transaction_hash": "0xffa215a6e5b89dcea81f84b67a08cfc0acfded4075f035c6959f03c486d9cddd",
+        "type": "token_minting"
+      }
+    ],
+    "base_fee_per_gas": "121764216",
+    "timestamp": "2026-07-13T14:55:11.000000Z",
+    "nonce": 11684,
+    "historic_exchange_rate": "1774.0909253483635",
+    "transaction_types": [
+      "contract_call",
+      "token_transfer"
+    ],
+    "exchange_rate": "2329.99",
+    "block_number": 25524438,
+    "has_error_in_internal_transactions": false
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "url": "https://api.morpho.org/graphql",
+  "request": {
+    "query": "{vaultV2ByAddress(address:\"0x6a31358E58B8692cE5317181ff3379A5766A7ABA\",chainId:747474){address name totalAssets adapters{items{address type assets vault{address name} ... on MorphoMarketV1Adapter{positions{items{market{marketId} state{supplyAssets}}}}}}}}"
+  },
+  "observed_utc": "2026-10-26T17:13:10.081640+00:00",
+  "http_status": 200,
+  "body": {
+    "data": {
+      "vaultV2ByAddress": {
+        "address": "0x6a31358E58B8692cE5317181ff3379A5766A7ABA",
+        "name": "Clearstar Core USDC",
+        "totalAssets": 589479015034,
+        "adapters": {
+          "items": [
+            {
+              "address": "0xaFA6ce7b33dBEA40189f195F4642287AE191E1F0",
+              "type": "MorphoMarketV1",
+              "assets": 589479015034,
+              "vault": {
+                "address": "0x6a31358E58B8692cE5317181ff3379A5766A7ABA",
+                "name": "Clearstar Core USDC"
+              },
+              "positions": {
+                "items": [
+                  {
+                    "market": {
+                      "marketId": "0xea8f588be62079a1ad874bf7c7217166b323e0fe8ea3e59b584430ed1b859ace"
+                    },
+                    "state": {
+                      "supplyAssets": 70157224963
+                    }
+                  },
+                  {
+                    "market": {
+                      "marketId": "0x1d5c1b4562d31973ace7005cda499198175ed4df590e5c30d03b22f9c2233683"
+                    },
+                    "state": {
+                      "supplyAssets": 171771491998
+                    }
+                  },
+                  {
+                    "market": {
+                      "marketId": "0xcd2dc555dced7422a3144a4126286675449019366f83e9717be7c2deb3daae3e"
+                    },
+                    "state": {
+                      "supplyAssets": 149149881388
+                    }
+                  },
+                  {
+                    "market": {
+                      "marketId": "0x3a22063bd258f3f75e3135cac4ec53435dfa5b47b3d5173bb8fd5278e6c1b305"
+                    },
+                    "state": {
+                      "supplyAssets": 31781071527
+                    }
+                  },
+                  {
+                    "market": {
+                      "marketId": "0xcdaf57d98c2f75bffb8f0d3f7aa79bbacda4a479c47e316aab14af1ca6d85ffc"
+                    },
+                    "state": {
+                      "supplyAssets": 90960558994
+                    }
+                  },
+                  {
+                    "market": {
+                      "marketId": "0xa0cd6b9d1fcc6baded4f7f8f93697dbe7f24f6e1fc22602a625c7a80b8e8e6ef"
+                    },
+                    "state": {
+                      "supplyAssets": 22394546485
+                    }
+                  },
+                  {
+                    "market": {
+                      "marketId": "0x08f67ef41398456dbc5ff72d43c8b6f7917abfd01498a9fc6c89dabe6eb78b8c"
+                    },
+                    "state": {
+                      "supplyAssets": 36103164714
+                    }
+                  },
+                  {
+                    "market": {
+                      "marketId": "0x76e311d4b0e2e6ae88ad9bab18063452a6d39837d7104c430ff62457b91cb2cb"
+                    },
+                    "state": {
+                      "supplyAssets": 416942129
+                    }
+                  },
+                  {
+                    "market": {
+                      "marketId": "0x2fb14719030835b8e0a39a1461b384ad6a9c8392550197a7c857cf9fcbd6c534"
+                    },
+                    "state": {
+                      "supplyAssets": 16744132836
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    "extensions": {
+      "complexity": 557540,
+      "maximumComplexity": 1000000
+    }
+  }
+}

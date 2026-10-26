@@ -1,0 +1,3776 @@
+{
+  "url": "https://api.morpho.org/graphql",
+  "request": {
+    "query": "{marketTransactions(first:1000,where:{chainId_in:[1],userAddress_in:[\"0xa1d9769c9aa6e76651a9514e6e998767009e930e\"]}){items{txHash timestamp blockNumber logIndex type user{address} market{marketId collateralAsset{symbol address} loanAsset{symbol address}} data{__typename ... on MarketTransactionTransferData{assets shares} ... on MarketTransactionCollateralTransferData{assets}}} pageInfo{count countTotal}}}"
+  },
+  "observed_utc": "2026-10-26T17:19:50.839525+00:00",
+  "http_status": 200,
+  "body": {
+    "data": {
+      "marketTransactions": {
+        "items": [
+          {
+            "txHash": "0xa2c88f973e31a6840bf1f0067aee63d57d3c942e87e23217ca0969d9e59661a9",
+            "timestamp": 1792771151,
+            "blockNumber": 26256376,
+            "logIndex": 475,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 3000000000,
+              "shares": 2841311701119172
+            }
+          },
+          {
+            "txHash": "0xa027375f4d7e5d75553244831444ade69629a87ae716efd509a98a52f00c6668",
+            "timestamp": 1792771127,
+            "blockNumber": 26256374,
+            "logIndex": 197,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x4565ac05d38b19374ccbb04c17cca60ca9353cd41824f0803d0fc7704f60eaed",
+              "collateralAsset": {
+                "symbol": "reUSD",
+                "address": "0x5086bf358635B81D8C47C66d1C8b9E567Db70c72"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 212000000,
+              "shares": 190097242933213
+            }
+          },
+          {
+            "txHash": "0x0ff82aae1f7c56ddf1844eecc837937c3d1fc4882c18d61f9b922f935d7208b5",
+            "timestamp": 1792771127,
+            "blockNumber": 26256374,
+            "logIndex": 204,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x1e9d614631a7df0ec07fb05b2c8cb2491575fd1a63a33bf187a6afb295a4fc64",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-10DEC2026",
+                "address": "0xeCfaFdC7741323a945A163ed068B5a3C43483957"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 217000000,
+              "shares": 210587619999848
+            }
+          },
+          {
+            "txHash": "0x9203c84c2f251f7ae1bb7c9fb56845b2f66adf23fcbe218c5b5e4be64e9b2bb5",
+            "timestamp": 1792682639,
+            "blockNumber": 26249031,
+            "logIndex": 523,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 500000000,
+              "shares": 473704208374262
+            }
+          },
+          {
+            "txHash": "0xa3f8e3b23b3d54840cd1832e05690b40c0df174bc15d0dfcc9cb54e5041fb97d",
+            "timestamp": 1792681331,
+            "blockNumber": 26248923,
+            "logIndex": 230,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 5000000000,
+              "shares": 4737092224925137
+            }
+          },
+          {
+            "txHash": "0x572e495d3252e28188627855a17441cf4793baaa8aaf9128cf168e4a51feaed0",
+            "timestamp": 1792487243,
+            "blockNumber": 26232794,
+            "logIndex": 82,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 6300000000,
+              "shares": 5971816801934954
+            }
+          },
+          {
+            "txHash": "0xfaa72dba59015909fb9a82337f0bc94a3840e624d7f8d4e24cbbb7b802c82a09",
+            "timestamp": 1784334419,
+            "blockNumber": 25555993,
+            "logIndex": 57,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x4565ac05d38b19374ccbb04c17cca60ca9353cd41824f0803d0fc7704f60eaed",
+              "collateralAsset": {
+                "symbol": "reUSD",
+                "address": "0x5086bf358635B81D8C47C66d1C8b9E567Db70c72"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 21666507171,
+              "shares": "19758202337560151"
+            }
+          },
+          {
+            "txHash": "0xfaa72dba59015909fb9a82337f0bc94a3840e624d7f8d4e24cbbb7b802c82a09",
+            "timestamp": 1784334419,
+            "blockNumber": 25555993,
+            "logIndex": 53,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x4565ac05d38b19374ccbb04c17cca60ca9353cd41824f0803d0fc7704f60eaed",
+              "collateralAsset": {
+                "symbol": "reUSD",
+                "address": "0x5086bf358635B81D8C47C66d1C8b9E567Db70c72"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "22875120168861561051713"
+            }
+          },
+          {
+            "txHash": "0x9a3156b049a56fd7c08794b24a898d8645b6324d2b05d6f658e8c3ca94acc11f",
+            "timestamp": 1784334191,
+            "blockNumber": 25555974,
+            "logIndex": 1043,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x3fea56ab83b05840dc83dc6b3d2f2fbd938147cbaa8126bac529e6c820058253",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 24925874692
+            }
+          },
+          {
+            "txHash": "0x9a3156b049a56fd7c08794b24a898d8645b6324d2b05d6f658e8c3ca94acc11f",
+            "timestamp": 1784334191,
+            "blockNumber": 25555974,
+            "logIndex": 1040,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x3fea56ab83b05840dc83dc6b3d2f2fbd938147cbaa8126bac529e6c820058253",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 21658020568,
+              "shares": "21132133225531063"
+            }
+          },
+          {
+            "txHash": "0x9ccf0085e5f651202508c7e520ac4e2aef371ba76f0b5c354a1d4754cbe87519",
+            "timestamp": 1784333903,
+            "blockNumber": 25555950,
+            "logIndex": 99,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x4565ac05d38b19374ccbb04c17cca60ca9353cd41824f0803d0fc7704f60eaed",
+              "collateralAsset": {
+                "symbol": "reUSD",
+                "address": "0x5086bf358635B81D8C47C66d1C8b9E567Db70c72"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 123666321119,
+              "shares": "112774346222232717"
+            }
+          },
+          {
+            "txHash": "0x9ccf0085e5f651202508c7e520ac4e2aef371ba76f0b5c354a1d4754cbe87519",
+            "timestamp": 1784333903,
+            "blockNumber": 25555950,
+            "logIndex": 95,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x4565ac05d38b19374ccbb04c17cca60ca9353cd41824f0803d0fc7704f60eaed",
+              "collateralAsset": {
+                "symbol": "reUSD",
+                "address": "0x5086bf358635B81D8C47C66d1C8b9E567Db70c72"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "130562912421419721929059"
+            }
+          },
+          {
+            "txHash": "0x88fe9a9bf211a14aff81d448d498165771f9d43b22b85dab6f3eb898950d670e",
+            "timestamp": 1784333195,
+            "blockNumber": 25555891,
+            "logIndex": 222,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x3fea56ab83b05840dc83dc6b3d2f2fbd938147cbaa8126bac529e6c820058253",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 142267877520
+            }
+          },
+          {
+            "txHash": "0x88fe9a9bf211a14aff81d448d498165771f9d43b22b85dab6f3eb898950d670e",
+            "timestamp": 1784333195,
+            "blockNumber": 25555891,
+            "logIndex": 220,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x3fea56ab83b05840dc83dc6b3d2f2fbd938147cbaa8126bac529e6c820058253",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 124540410074,
+              "shares": "121516561670141083"
+            }
+          },
+          {
+            "txHash": "0x244c214d15f4531a44ee7aeccbbaa3bf9ba18150b13c94e8dc628567643dbd48",
+            "timestamp": 1784332883,
+            "blockNumber": 25555865,
+            "logIndex": 28,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x4565ac05d38b19374ccbb04c17cca60ca9353cd41824f0803d0fc7704f60eaed",
+              "collateralAsset": {
+                "symbol": "reUSD",
+                "address": "0x5086bf358635B81D8C47C66d1C8b9E567Db70c72"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 74450168214,
+              "shares": "67893039935737153"
+            }
+          },
+          {
+            "txHash": "0x244c214d15f4531a44ee7aeccbbaa3bf9ba18150b13c94e8dc628567643dbd48",
+            "timestamp": 1784332883,
+            "blockNumber": 25555865,
+            "logIndex": 24,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x4565ac05d38b19374ccbb04c17cca60ca9353cd41824f0803d0fc7704f60eaed",
+              "collateralAsset": {
+                "symbol": "reUSD",
+                "address": "0x5086bf358635B81D8C47C66d1C8b9E567Db70c72"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "78602033896205203505712"
+            }
+          },
+          {
+            "txHash": "0xaac6c5b8da22b4dfe81286463789020f051118b7b95c5bd3a6d637859061010c",
+            "timestamp": 1784332571,
+            "blockNumber": 25555839,
+            "logIndex": 70,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9bc98c2f20ac58287ef2c860eea53a2fdc27c17a7817ff1206c0b7840cc7cd79",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 85648706235
+            }
+          },
+          {
+            "txHash": "0xaac6c5b8da22b4dfe81286463789020f051118b7b95c5bd3a6d637859061010c",
+            "timestamp": 1784332571,
+            "blockNumber": 25555839,
+            "logIndex": 67,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9bc98c2f20ac58287ef2c860eea53a2fdc27c17a7817ff1206c0b7840cc7cd79",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 74449617289,
+              "shares": "71106669139086985"
+            }
+          },
+          {
+            "txHash": "0x28f3cd01d92fce6c01fc5694591a790e90859339d64639273e6294b60759cd6a",
+            "timestamp": 1784332463,
+            "blockNumber": 25555830,
+            "logIndex": 284,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x4565ac05d38b19374ccbb04c17cca60ca9353cd41824f0803d0fc7704f60eaed",
+              "collateralAsset": {
+                "symbol": "reUSD",
+                "address": "0x5086bf358635B81D8C47C66d1C8b9E567Db70c72"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 124469100123,
+              "shares": "113506676216369212"
+            }
+          },
+          {
+            "txHash": "0x28f3cd01d92fce6c01fc5694591a790e90859339d64639273e6294b60759cd6a",
+            "timestamp": 1784332463,
+            "blockNumber": 25555830,
+            "logIndex": 280,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x4565ac05d38b19374ccbb04c17cca60ca9353cd41824f0803d0fc7704f60eaed",
+              "collateralAsset": {
+                "symbol": "reUSD",
+                "address": "0x5086bf358635B81D8C47C66d1C8b9E567Db70c72"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "131410373698894140320286"
+            }
+          },
+          {
+            "txHash": "0x033c484fbf391786b12786b64694547e4a5b15fb0a4548960b1de2dc3049cd64",
+            "timestamp": 1784332103,
+            "blockNumber": 25555800,
+            "logIndex": 68,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9bc98c2f20ac58287ef2c860eea53a2fdc27c17a7817ff1206c0b7840cc7cd79",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 143191313701
+            }
+          },
+          {
+            "txHash": "0x033c484fbf391786b12786b64694547e4a5b15fb0a4548960b1de2dc3049cd64",
+            "timestamp": 1784332103,
+            "blockNumber": 25555800,
+            "logIndex": 66,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9bc98c2f20ac58287ef2c860eea53a2fdc27c17a7817ff1206c0b7840cc7cd79",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 124468529191,
+              "shares": "118879639190487173"
+            }
+          },
+          {
+            "txHash": "0x0cd3ca1cdd69b5e5d7137d66fe15b7220be98487f5a22290bf0907524b436709",
+            "timestamp": 1784332031,
+            "blockNumber": 25555794,
+            "logIndex": 209,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x1e9d614631a7df0ec07fb05b2c8cb2491575fd1a63a33bf187a6afb295a4fc64",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-10DEC2026",
+                "address": "0xeCfaFdC7741323a945A163ed068B5a3C43483957"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 124468529191,
+              "shares": "123507209167817290"
+            }
+          },
+          {
+            "txHash": "0x0cd3ca1cdd69b5e5d7137d66fe15b7220be98487f5a22290bf0907524b436709",
+            "timestamp": 1784332031,
+            "blockNumber": 25555794,
+            "logIndex": 205,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x1e9d614631a7df0ec07fb05b2c8cb2491575fd1a63a33bf187a6afb295a4fc64",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-10DEC2026",
+                "address": "0xeCfaFdC7741323a945A163ed068B5a3C43483957"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 148800789423
+            }
+          },
+          {
+            "txHash": "0xa24a20c790f85b627f0c5c4b0378df6fc7c4446067982f884e8d6a049dcf266f",
+            "timestamp": 1784331563,
+            "blockNumber": 25555756,
+            "logIndex": 29,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9bc98c2f20ac58287ef2c860eea53a2fdc27c17a7817ff1206c0b7840cc7cd79",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 143340953306
+            }
+          },
+          {
+            "txHash": "0xa24a20c790f85b627f0c5c4b0378df6fc7c4446067982f884e8d6a049dcf266f",
+            "timestamp": 1784331563,
+            "blockNumber": 25555756,
+            "logIndex": 27,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9bc98c2f20ac58287ef2c860eea53a2fdc27c17a7817ff1206c0b7840cc7cd79",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 122989644667,
+              "shares": "117467183339528960"
+            }
+          },
+          {
+            "txHash": "0xb2b9eaf5e86f023db84176a24f96af4097a547521facb1814245d87453da414c",
+            "timestamp": 1784329883,
+            "blockNumber": 25555616,
+            "logIndex": 280,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 17982199843,
+              "shares": "17538428200097632"
+            }
+          },
+          {
+            "txHash": "0x6f84895b472280d7b8e684659fa77c50048ec8ae45071f61b0702387d8b90aac",
+            "timestamp": 1781795459,
+            "blockNumber": 25345257,
+            "logIndex": 13,
+            "type": "Liquidation",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionLiquidationData"
+            }
+          },
+          {
+            "txHash": "0xf1cf98330e8b46a29dbc44b86a098f87bb11535aebdd4df0d90a2b01b139c829",
+            "timestamp": 1780688015,
+            "blockNumber": 25253293,
+            "logIndex": 397,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 20002945651,
+              "shares": "19782341908498522"
+            }
+          },
+          {
+            "txHash": "0xf92a6f6090d851c273cbc55de6eb8b5408924a8c6733e9918984ced968f24d6a",
+            "timestamp": 1780654103,
+            "blockNumber": 25250483,
+            "logIndex": 245,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9bc98c2f20ac58287ef2c860eea53a2fdc27c17a7817ff1206c0b7840cc7cd79",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 96771831354,
+              "shares": "92963762193288250"
+            }
+          },
+          {
+            "txHash": "0xf92a6f6090d851c273cbc55de6eb8b5408924a8c6733e9918984ced968f24d6a",
+            "timestamp": 1780654103,
+            "blockNumber": 25250483,
+            "logIndex": 241,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9bc98c2f20ac58287ef2c860eea53a2fdc27c17a7817ff1206c0b7840cc7cd79",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 109664630559
+            }
+          },
+          {
+            "txHash": "0x26614c66c2666023d441186335b9dce828e6d28db53dd6741bb3abc2c482756f",
+            "timestamp": 1780643855,
+            "blockNumber": 25249637,
+            "logIndex": 435,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 21817584785,
+              "shares": "21581258398537469"
+            }
+          },
+          {
+            "txHash": "0xd1e6fe110ecda41293f2d0357d2b29c8334dee57bb7e85ac1e2ed720f7d6ba55",
+            "timestamp": 1780535963,
+            "blockNumber": 25240698,
+            "logIndex": 678,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 35096402900,
+              "shares": "34738866381231292"
+            }
+          },
+          {
+            "txHash": "0xeba17acb69143f97b80318299fd1e3b4379da140a366f4ace3053fbc7dde30b5",
+            "timestamp": 1778280683,
+            "blockNumber": 25053451,
+            "logIndex": 384,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9464b3d42133c10c8b216d3d9429b43e98c2f3856a87940ef18b8bdd3e7bd831",
+              "collateralAsset": {
+                "symbol": "PT-USDat-27AUG2026",
+                "address": "0x1D69402390657308C91179aa184bF992908c1e08"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 17643723920,
+              "shares": "17626621848155734"
+            }
+          },
+          {
+            "txHash": "0xeba17acb69143f97b80318299fd1e3b4379da140a366f4ace3053fbc7dde30b5",
+            "timestamp": 1778280683,
+            "blockNumber": 25053451,
+            "logIndex": 380,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9464b3d42133c10c8b216d3d9429b43e98c2f3856a87940ef18b8bdd3e7bd831",
+              "collateralAsset": {
+                "symbol": "PT-USDat-27AUG2026",
+                "address": "0x1D69402390657308C91179aa184bF992908c1e08"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 20864250294
+            }
+          },
+          {
+            "txHash": "0xdf9acdade9317ca70fa68718e18fde0a6d534a2bc0243025b4de10ff5920c310",
+            "timestamp": 1778050307,
+            "blockNumber": 25034307,
+            "logIndex": 278,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9bc98c2f20ac58287ef2c860eea53a2fdc27c17a7817ff1206c0b7840cc7cd79",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 88240803494,
+              "shares": "85264776827295660"
+            }
+          },
+          {
+            "txHash": "0xdf9acdade9317ca70fa68718e18fde0a6d534a2bc0243025b4de10ff5920c310",
+            "timestamp": 1778050307,
+            "blockNumber": 25034307,
+            "logIndex": 274,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9bc98c2f20ac58287ef2c860eea53a2fdc27c17a7817ff1206c0b7840cc7cd79",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 104349881908
+            }
+          },
+          {
+            "txHash": "0xb0aaa6ea2c5d8eeb4b6f77168395ff5746352b163d5d376e823a2dc304ffe4a6",
+            "timestamp": 1778045531,
+            "blockNumber": 25033911,
+            "logIndex": 1463,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "70852346017192633262372"
+            }
+          },
+          {
+            "txHash": "0xb0aaa6ea2c5d8eeb4b6f77168395ff5746352b163d5d376e823a2dc304ffe4a6",
+            "timestamp": 1778045531,
+            "blockNumber": 25033911,
+            "logIndex": 1461,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 75709214352,
+              "shares": "74788609368622238"
+            }
+          },
+          {
+            "txHash": "0xb61b6bf628fcede8da5b5b6cd24947f0d54249b96ef8e4e84a4eaf22128c9cc4",
+            "timestamp": 1778045387,
+            "blockNumber": 25033899,
+            "logIndex": 579,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "90237462595314330945027"
+            }
+          },
+          {
+            "txHash": "0xb61b6bf628fcede8da5b5b6cd24947f0d54249b96ef8e4e84a4eaf22128c9cc4",
+            "timestamp": 1778045387,
+            "blockNumber": 25033899,
+            "logIndex": 577,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 96423120531,
+              "shares": "95250651298727173"
+            }
+          },
+          {
+            "txHash": "0xb53503e0fa93e2b89ffdfa73747d4d3df1702b4b26906d8c9904bb44338be06d",
+            "timestamp": 1778045003,
+            "blockNumber": 25033867,
+            "logIndex": 438,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "78459646353939187289964"
+            }
+          },
+          {
+            "txHash": "0xb53503e0fa93e2b89ffdfa73747d4d3df1702b4b26906d8c9904bb44338be06d",
+            "timestamp": 1778045003,
+            "blockNumber": 25033867,
+            "logIndex": 436,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 83837945976,
+              "shares": "82818534770602953"
+            }
+          },
+          {
+            "txHash": "0x36999f9d1b2e4334c82d035a9feba0b42f1a11c9fca8e9ce4801de9380c62f4d",
+            "timestamp": 1778044703,
+            "blockNumber": 25033842,
+            "logIndex": 596,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "68220371992656982172313"
+            }
+          },
+          {
+            "txHash": "0x36999f9d1b2e4334c82d035a9feba0b42f1a11c9fca8e9ce4801de9380c62f4d",
+            "timestamp": 1778044703,
+            "blockNumber": 25033842,
+            "logIndex": 594,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 72751274896,
+              "shares": "71866688221288374"
+            }
+          },
+          {
+            "txHash": "0x14821e5c47f90d839fc4096c926451d7ed4ab2147b52d8eae47370d55ff332fa",
+            "timestamp": 1778040815,
+            "blockNumber": 25033518,
+            "logIndex": 190,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9bc98c2f20ac58287ef2c860eea53a2fdc27c17a7817ff1206c0b7840cc7cd79",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 2953408174,
+              "shares": 2853857614945917
+            }
+          },
+          {
+            "txHash": "0x14821e5c47f90d839fc4096c926451d7ed4ab2147b52d8eae47370d55ff332fa",
+            "timestamp": 1778040815,
+            "blockNumber": 25033518,
+            "logIndex": 186,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9bc98c2f20ac58287ef2c860eea53a2fdc27c17a7817ff1206c0b7840cc7cd79",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 3492662877
+            }
+          },
+          {
+            "txHash": "0xed5f1de2206fcddee6e6de7a4b6c0609a64b8096a20be16404a9dc42809aaee2",
+            "timestamp": 1778040731,
+            "blockNumber": 25033511,
+            "logIndex": 441,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x3fea56ab83b05840dc83dc6b3d2f2fbd938147cbaa8126bac529e6c820058253",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 3492662877
+            }
+          },
+          {
+            "txHash": "0xed5f1de2206fcddee6e6de7a4b6c0609a64b8096a20be16404a9dc42809aaee2",
+            "timestamp": 1778040731,
+            "blockNumber": 25033511,
+            "logIndex": 439,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x3fea56ab83b05840dc83dc6b3d2f2fbd938147cbaa8126bac529e6c820058253",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 3000009429,
+              "shares": 2979908613543328
+            }
+          },
+          {
+            "txHash": "0x5ad4219693d42fafa230b17999fadcc72a3c07e09889392d379e1f2de842124b",
+            "timestamp": 1778040287,
+            "blockNumber": 25033474,
+            "logIndex": 236,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9bc98c2f20ac58287ef2c860eea53a2fdc27c17a7817ff1206c0b7840cc7cd79",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 72476201554,
+              "shares": "70033322947627344"
+            }
+          },
+          {
+            "txHash": "0x5ad4219693d42fafa230b17999fadcc72a3c07e09889392d379e1f2de842124b",
+            "timestamp": 1778040287,
+            "blockNumber": 25033474,
+            "logIndex": 232,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9bc98c2f20ac58287ef2c860eea53a2fdc27c17a7817ff1206c0b7840cc7cd79",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 85718202268
+            }
+          },
+          {
+            "txHash": "0x827b09f1e21122374f2efc7c2f8b5cd5f2ad03d7ea14899af6cab887b5b5a99d",
+            "timestamp": 1778040227,
+            "blockNumber": 25033469,
+            "logIndex": 195,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x3fea56ab83b05840dc83dc6b3d2f2fbd938147cbaa8126bac529e6c820058253",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 85718202268
+            }
+          },
+          {
+            "txHash": "0x827b09f1e21122374f2efc7c2f8b5cd5f2ad03d7ea14899af6cab887b5b5a99d",
+            "timestamp": 1778040227,
+            "blockNumber": 25033469,
+            "logIndex": 193,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x3fea56ab83b05840dc83dc6b3d2f2fbd938147cbaa8126bac529e6c820058253",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 73627436039,
+              "shares": "73134203401407107"
+            }
+          },
+          {
+            "txHash": "0x6bed50362d0890460ee7fda3204e292c0474a72508915464265e30dc45c07fb4",
+            "timestamp": 1778039891,
+            "blockNumber": 25033441,
+            "logIndex": 833,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9bc98c2f20ac58287ef2c860eea53a2fdc27c17a7817ff1206c0b7840cc7cd79",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 58302878965,
+              "shares": "56337772085945947"
+            }
+          },
+          {
+            "txHash": "0x6bed50362d0890460ee7fda3204e292c0474a72508915464265e30dc45c07fb4",
+            "timestamp": 1778039891,
+            "blockNumber": 25033441,
+            "logIndex": 829,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9bc98c2f20ac58287ef2c860eea53a2fdc27c17a7817ff1206c0b7840cc7cd79",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 68955595630
+            }
+          },
+          {
+            "txHash": "0x029390b2f85d8af730b6e6a6a6d6444f4e1fc4db48857b0a0e82f35bdb5abf3d",
+            "timestamp": 1778039783,
+            "blockNumber": 25033432,
+            "logIndex": 630,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x3fea56ab83b05840dc83dc6b3d2f2fbd938147cbaa8126bac529e6c820058253",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 68955595630
+            }
+          },
+          {
+            "txHash": "0x029390b2f85d8af730b6e6a6a6d6444f4e1fc4db48857b0a0e82f35bdb5abf3d",
+            "timestamp": 1778039783,
+            "blockNumber": 25033432,
+            "logIndex": 628,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x3fea56ab83b05840dc83dc6b3d2f2fbd938147cbaa8126bac529e6c820058253",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 59377256963,
+              "shares": "58979547043287752"
+            }
+          },
+          {
+            "txHash": "0x5e18d0a86f36631dd686f5311244aca2fa88bed5edd178db2b8ff347634d43c5",
+            "timestamp": 1777953851,
+            "blockNumber": 25026292,
+            "logIndex": 552,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x3fea56ab83b05840dc83dc6b3d2f2fbd938147cbaa8126bac529e6c820058253",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 59376281552,
+              "shares": "58986362718879711"
+            }
+          },
+          {
+            "txHash": "0x5e18d0a86f36631dd686f5311244aca2fa88bed5edd178db2b8ff347634d43c5",
+            "timestamp": 1777953851,
+            "blockNumber": 25026292,
+            "logIndex": 548,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x3fea56ab83b05840dc83dc6b3d2f2fbd938147cbaa8126bac529e6c820058253",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 69095042839
+            }
+          },
+          {
+            "txHash": "0x09841a7d6e65ea185d5943763678b1500821e54e36e2c6b759e0c980ecfcce7d",
+            "timestamp": 1777944203,
+            "blockNumber": 25025492,
+            "logIndex": 555,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x3fea56ab83b05840dc83dc6b3d2f2fbd938147cbaa8126bac529e6c820058253",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 104699575439,
+              "shares": "104013007218481405"
+            }
+          },
+          {
+            "txHash": "0x09841a7d6e65ea185d5943763678b1500821e54e36e2c6b759e0c980ecfcce7d",
+            "timestamp": 1777944203,
+            "blockNumber": 25025492,
+            "logIndex": 551,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x3fea56ab83b05840dc83dc6b3d2f2fbd938147cbaa8126bac529e6c820058253",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 121846650554
+            }
+          },
+          {
+            "txHash": "0x918e75678aaf47466fce6b3e68db721c47af299dd5202443d46b1ddbe4a7a30f",
+            "timestamp": 1777940411,
+            "blockNumber": 25025178,
+            "logIndex": 398,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x3fea56ab83b05840dc83dc6b3d2f2fbd938147cbaa8126bac529e6c820058253",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 115499959763,
+              "shares": "114742984016549217"
+            }
+          },
+          {
+            "txHash": "0x918e75678aaf47466fce6b3e68db721c47af299dd5202443d46b1ddbe4a7a30f",
+            "timestamp": 1777940411,
+            "blockNumber": 25025178,
+            "logIndex": 394,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x3fea56ab83b05840dc83dc6b3d2f2fbd938147cbaa8126bac529e6c820058253",
+              "collateralAsset": {
+                "symbol": "PT-reUSD-25JUN2026",
+                "address": "0x3EAA0F0f0A5d3D595ae4e4b0D27f439d01c3E7b2"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": 134418519594
+            }
+          },
+          {
+            "txHash": "0x11e922137efc55b3a4686405f870c62d7ff702581684357eaece67a4b25707cc",
+            "timestamp": 1777541027,
+            "blockNumber": 24992004,
+            "logIndex": 233,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 22899940304,
+              "shares": "22631916761944989"
+            }
+          },
+          {
+            "txHash": "0x11e922137efc55b3a4686405f870c62d7ff702581684357eaece67a4b25707cc",
+            "timestamp": 1777541027,
+            "blockNumber": 24992004,
+            "logIndex": 229,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "21450193198442108272839"
+            }
+          },
+          {
+            "txHash": "0xfaaef691228da2fbbc63734fdb50062273b334d9051add669019ad039f0f1c65",
+            "timestamp": 1777540787,
+            "blockNumber": 24991984,
+            "logIndex": 372,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 36349637442,
+              "shares": "35924205264108507"
+            }
+          },
+          {
+            "txHash": "0xfaaef691228da2fbbc63734fdb50062273b334d9051add669019ad039f0f1c65",
+            "timestamp": 1777540787,
+            "blockNumber": 24991984,
+            "logIndex": 368,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "34048499974335231686998"
+            }
+          },
+          {
+            "txHash": "0x3a3d13185387c5817c6091e1dc32bd6aab2538affb551757d11c453e0f7e9375",
+            "timestamp": 1777540643,
+            "blockNumber": 24991972,
+            "logIndex": 358,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 41827433250,
+              "shares": "41337895189439277"
+            }
+          },
+          {
+            "txHash": "0x3a3d13185387c5817c6091e1dc32bd6aab2538affb551757d11c453e0f7e9375",
+            "timestamp": 1777540643,
+            "blockNumber": 24991972,
+            "logIndex": 354,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "39179499777480128343995"
+            }
+          },
+          {
+            "txHash": "0xcbd7ab0f6896a1b6d725c32eb3a00cc87ba14c4fde38b1c30fdd300e4a040e42",
+            "timestamp": 1777540403,
+            "blockNumber": 24991952,
+            "logIndex": 342,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 48127645898,
+              "shares": "47564382479152918"
+            }
+          },
+          {
+            "txHash": "0xcbd7ab0f6896a1b6d725c32eb3a00cc87ba14c4fde38b1c30fdd300e4a040e42",
+            "timestamp": 1777540403,
+            "blockNumber": 24991952,
+            "logIndex": 338,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "45176011195415606395212"
+            }
+          },
+          {
+            "txHash": "0x5b1f8e6cf5c9db58a41507a57d795e57230de5b518712e3d180c472c28b627b6",
+            "timestamp": 1777448027,
+            "blockNumber": 24984275,
+            "logIndex": 169,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "78936101598100044171873"
+            }
+          },
+          {
+            "txHash": "0x5b1f8e6cf5c9db58a41507a57d795e57230de5b518712e3d180c472c28b627b6",
+            "timestamp": 1777448027,
+            "blockNumber": 24984275,
+            "logIndex": 167,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 72178784528,
+              "shares": "70843576781732427"
+            }
+          },
+          {
+            "txHash": "0x9e15f692cbdb144b6b6073efd0461fb8d2998ad0c902181d37c45afca55855f6",
+            "timestamp": 1777353311,
+            "blockNumber": 24976402,
+            "logIndex": 298,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "103452176165899955828127"
+            }
+          },
+          {
+            "txHash": "0x9e15f692cbdb144b6b6073efd0461fb8d2998ad0c902181d37c45afca55855f6",
+            "timestamp": 1777353311,
+            "blockNumber": 24976402,
+            "logIndex": 296,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 94583507351,
+              "shares": "92870333795843353"
+            }
+          },
+          {
+            "txHash": "0x2e2b71421406fa0ead2ec14cb4bd95414e63a957c82411b90bf6e84f814a478b",
+            "timestamp": 1777177271,
+            "blockNumber": 24961764,
+            "logIndex": 380,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 83389789194,
+              "shares": "82442798475885685"
+            }
+          },
+          {
+            "txHash": "0x2e2b71421406fa0ead2ec14cb4bd95414e63a957c82411b90bf6e84f814a478b",
+            "timestamp": 1777177271,
+            "blockNumber": 24961764,
+            "logIndex": 376,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "78094066083907336822357"
+            }
+          },
+          {
+            "txHash": "0x5f5a3aea99550ef5ab5ee66f7f289cff8f261756c47a5ea62f200fc0803e81e4",
+            "timestamp": 1777176947,
+            "blockNumber": 24961737,
+            "logIndex": 506,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 95912457166,
+              "shares": "94823285488709362"
+            }
+          },
+          {
+            "txHash": "0x5f5a3aea99550ef5ab5ee66f7f289cff8f261756c47a5ea62f200fc0803e81e4",
+            "timestamp": 1777176947,
+            "blockNumber": 24961737,
+            "logIndex": 502,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x90ef0c5a0dc7c4de4ad4585002d44e9d411d212d2f6258e94948beecf8b4c0d5",
+              "collateralAsset": {
+                "symbol": "sUSDe",
+                "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497"
+              },
+              "loanAsset": {
+                "symbol": "PYUSD",
+                "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "89821556729522722148275"
+            }
+          },
+          {
+            "txHash": "0xf920ef5ed3f723acb0489ae9dcbf1bc210677ec33b90ed4aac8839fb17d25029",
+            "timestamp": 1777127279,
+            "blockNumber": 24957611,
+            "logIndex": 383,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 51661723838,
+              "shares": "51571748955860738"
+            }
+          },
+          {
+            "txHash": "0xf920ef5ed3f723acb0489ae9dcbf1bc210677ec33b90ed4aac8839fb17d25029",
+            "timestamp": 1777127279,
+            "blockNumber": 24957611,
+            "logIndex": 379,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "63139312851341936780806"
+            }
+          },
+          {
+            "txHash": "0x217f20c438f338d9b358daaac4507795f65631ccd9f9615de22c76c4caa00dd5",
+            "timestamp": 1777099391,
+            "blockNumber": 24955287,
+            "logIndex": 192,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xfd039edc69eac5eaab4a10463fdbcaca75d6eddb1f0e00248d73fc977fb2554b",
+              "collateralAsset": {
+                "symbol": "PT-cUSD-23JUL2026",
+                "address": "0x928FB6ED39100a92B2480f5cbB93453f98D9F4cE"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 17269257650,
+              "shares": "17098472626980260"
+            }
+          },
+          {
+            "txHash": "0x217f20c438f338d9b358daaac4507795f65631ccd9f9615de22c76c4caa00dd5",
+            "timestamp": 1777099391,
+            "blockNumber": 24955287,
+            "logIndex": 188,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xfd039edc69eac5eaab4a10463fdbcaca75d6eddb1f0e00248d73fc977fb2554b",
+              "collateralAsset": {
+                "symbol": "PT-cUSD-23JUL2026",
+                "address": "0x928FB6ED39100a92B2480f5cbB93453f98D9F4cE"
+              },
+              "loanAsset": {
+                "symbol": "USDT",
+                "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "20489328454195151218270"
+            }
+          },
+          {
+            "txHash": "0x97f6a5c8a25792073714edfd68e48d29f3b5e51ed47ddfacc2f2c999ae9b317c",
+            "timestamp": 1777068011,
+            "blockNumber": 24952677,
+            "logIndex": 486,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 142632344018,
+              "shares": "142392762072803495"
+            }
+          },
+          {
+            "txHash": "0x97f6a5c8a25792073714edfd68e48d29f3b5e51ed47ddfacc2f2c999ae9b317c",
+            "timestamp": 1777068011,
+            "blockNumber": 24952677,
+            "logIndex": 482,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "174439424358819778094505"
+            }
+          },
+          {
+            "txHash": "0x778e0d78ebde65d74d80152c2af4b315163dfe5cea6697f4a233d209f76ba06d",
+            "timestamp": 1776972155,
+            "blockNumber": 24944708,
+            "logIndex": 261,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 83272479223,
+              "shares": "83151350614200804"
+            }
+          },
+          {
+            "txHash": "0x778e0d78ebde65d74d80152c2af4b315163dfe5cea6697f4a233d209f76ba06d",
+            "timestamp": 1776972155,
+            "blockNumber": 24944708,
+            "logIndex": 257,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "101844798565000971758334"
+            }
+          },
+          {
+            "txHash": "0xf49af0e7910ac9a07fe48d27c1ca042cbcd7a75c2b840dbc1e453d5460a790e3",
+            "timestamp": 1776890183,
+            "blockNumber": 24937897,
+            "logIndex": 226,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 30855976878,
+              "shares": "30818122539164026"
+            }
+          },
+          {
+            "txHash": "0xf49af0e7910ac9a07fe48d27c1ca042cbcd7a75c2b840dbc1e453d5460a790e3",
+            "timestamp": 1776890183,
+            "blockNumber": 24937897,
+            "logIndex": 222,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "37788791593821272457340"
+            }
+          },
+          {
+            "txHash": "0x7aea22a330d2df3fda7b8fb94415524516567adc58d09e9595f7437e0111bc95",
+            "timestamp": 1776889811,
+            "blockNumber": 24937866,
+            "logIndex": 288,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 37772587869,
+              "shares": "37132485439148414"
+            }
+          },
+          {
+            "txHash": "0x7aea22a330d2df3fda7b8fb94415524516567adc58d09e9595f7437e0111bc95",
+            "timestamp": 1776889811,
+            "blockNumber": 24937866,
+            "logIndex": 284,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "41369163708000000000000"
+            }
+          },
+          {
+            "txHash": "0x71b3a2f7beaaae6f8a9ce84e9d7a0d1e45a371a1fb8689d9868b891b3771dda0",
+            "timestamp": 1776887459,
+            "blockNumber": 24937673,
+            "logIndex": 271,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 39614244737,
+              "shares": "39566059174597850"
+            }
+          },
+          {
+            "txHash": "0x71b3a2f7beaaae6f8a9ce84e9d7a0d1e45a371a1fb8689d9868b891b3771dda0",
+            "timestamp": 1776887459,
+            "blockNumber": 24937673,
+            "logIndex": 267,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x582fdc4176da0ab5c65e086603ab9ecd9188e889e16efef6e35854cf14e15065",
+              "collateralAsset": {
+                "symbol": "sUSDat",
+                "address": "0xD166337499E176bbC38a1FBd113Ab144e5bd2Df7"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "48515149810324494361320"
+            }
+          },
+          {
+            "txHash": "0x703282c687026922461129b2e63e5e550145ab6a5f6c80502a4c7a043cbd6959",
+            "timestamp": 1776886943,
+            "blockNumber": 24937630,
+            "logIndex": 457,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 33932655733,
+              "shares": "33357878861774675"
+            }
+          },
+          {
+            "txHash": "0x703282c687026922461129b2e63e5e550145ab6a5f6c80502a4c7a043cbd6959",
+            "timestamp": 1776886943,
+            "blockNumber": 24937630,
+            "logIndex": 453,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "37159604750297657204258"
+            }
+          },
+          {
+            "txHash": "0x11c2b81415ac2389c667a2002700d939f9d03aa81c38118cfb64aa83335b7f45",
+            "timestamp": 1776825587,
+            "blockNumber": 24932537,
+            "logIndex": 286,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "118187716766851534671030"
+            }
+          },
+          {
+            "txHash": "0x11c2b81415ac2389c667a2002700d939f9d03aa81c38118cfb64aa83335b7f45",
+            "timestamp": 1776825587,
+            "blockNumber": 24932537,
+            "logIndex": 284,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 107896708032,
+              "shares": "106086453577726848"
+            }
+          },
+          {
+            "txHash": "0x8b217a95051940cd0f4814646211accc4013418acc47644b9dced7683edd4efa",
+            "timestamp": 1776824027,
+            "blockNumber": 24932407,
+            "logIndex": 496,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "111715219538755913079571"
+            }
+          },
+          {
+            "txHash": "0x8b217a95051940cd0f4814646211accc4013418acc47644b9dced7683edd4efa",
+            "timestamp": 1776824027,
+            "blockNumber": 24932407,
+            "logIndex": 494,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 102000000560,
+              "shares": "100289719275108584"
+            }
+          },
+          {
+            "txHash": "0x72d602046e4186056744f07ba36d36af964a8d3b8454088cd8e3b8eec13a5c2d",
+            "timestamp": 1776815807,
+            "blockNumber": 24931727,
+            "logIndex": 166,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "92805657688793846927336"
+            }
+          },
+          {
+            "txHash": "0x72d602046e4186056744f07ba36d36af964a8d3b8454088cd8e3b8eec13a5c2d",
+            "timestamp": 1776815807,
+            "blockNumber": 24931727,
+            "logIndex": 164,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 84724936418,
+              "shares": "83308225295528563"
+            }
+          },
+          {
+            "txHash": "0x6a355f1d5ff94e52b130c22852112080fdf821b67beb92dfb70326daf2c65b29",
+            "timestamp": 1775237363,
+            "blockNumber": 24800604,
+            "logIndex": 185,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "70838976508896362526321"
+            }
+          },
+          {
+            "txHash": "0x6a355f1d5ff94e52b130c22852112080fdf821b67beb92dfb70326daf2c65b29",
+            "timestamp": 1775237363,
+            "blockNumber": 24800604,
+            "logIndex": 183,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 64438348345,
+              "shares": "63565038589083968"
+            }
+          },
+          {
+            "txHash": "0x9ec478f71a5c70b0696e0cc2b76a8223d734d8b8e39b28f8d9d4f25abf5d8a1a",
+            "timestamp": 1775235671,
+            "blockNumber": 24800464,
+            "logIndex": 184,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 68982580035,
+              "shares": "68072946670325282"
+            }
+          },
+          {
+            "txHash": "0x9ec478f71a5c70b0696e0cc2b76a8223d734d8b8e39b28f8d9d4f25abf5d8a1a",
+            "timestamp": 1775235671,
+            "blockNumber": 24800464,
+            "logIndex": 180,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "75865562176109806499428"
+            }
+          },
+          {
+            "txHash": "0x98c63a1c8ff3fd0f3fa176c8b7783cdb47e27e71b3431a6086113326553792fa",
+            "timestamp": 1775235275,
+            "blockNumber": 24800431,
+            "logIndex": 199,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "75865562176109806499428"
+            }
+          },
+          {
+            "txHash": "0x98c63a1c8ff3fd0f3fa176c8b7783cdb47e27e71b3431a6086113326553792fa",
+            "timestamp": 1775235275,
+            "blockNumber": 24800431,
+            "logIndex": 197,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 69026276141,
+              "shares": "68090968799739438"
+            }
+          },
+          {
+            "txHash": "0x7a2d3a045b5e1f9cb4d6d4f68e7845719ea9d2badb990c869dadae07e868d996",
+            "timestamp": 1775208995,
+            "blockNumber": 24798247,
+            "logIndex": 282,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 69026275452,
+              "shares": "68122071866665669"
+            }
+          },
+          {
+            "txHash": "0x7a2d3a045b5e1f9cb4d6d4f68e7845719ea9d2badb990c869dadae07e868d996",
+            "timestamp": 1775208995,
+            "blockNumber": 24798247,
+            "logIndex": 278,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "75884976116499204113986"
+            }
+          },
+          {
+            "txHash": "0x4122939c1c65286b82f690291ed3e533aa34cbec737bff9d02e32f3a62b69afe",
+            "timestamp": 1775208863,
+            "blockNumber": 24798236,
+            "logIndex": 484,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "75884976116499204113986"
+            }
+          },
+          {
+            "txHash": "0x4122939c1c65286b82f690291ed3e533aa34cbec737bff9d02e32f3a62b69afe",
+            "timestamp": 1775208863,
+            "blockNumber": 24798236,
+            "logIndex": 482,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 68996213729,
+              "shares": "68069359182872167"
+            }
+          },
+          {
+            "txHash": "0x787986366f717f123c4b796e51a4818eb74978d7dd5a9c6a5e0aff87b67f3c80",
+            "timestamp": 1775206271,
+            "blockNumber": 24798021,
+            "logIndex": 314,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 68995711426,
+              "shares": "68092485539209824"
+            }
+          },
+          {
+            "txHash": "0x787986366f717f123c4b796e51a4818eb74978d7dd5a9c6a5e0aff87b67f3c80",
+            "timestamp": 1775206271,
+            "blockNumber": 24798021,
+            "logIndex": 310,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "75817904012553839061679"
+            }
+          },
+          {
+            "txHash": "0x4d2b81085907ac494d9a03641fd6798e109be64344cb822b8ed9a9b9248bec8c",
+            "timestamp": 1775206151,
+            "blockNumber": 24798011,
+            "logIndex": 716,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "75817904012553839061679"
+            }
+          },
+          {
+            "txHash": "0x4d2b81085907ac494d9a03641fd6798e109be64344cb822b8ed9a9b9248bec8c",
+            "timestamp": 1775206151,
+            "blockNumber": 24798011,
+            "logIndex": 714,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 68958247569,
+              "shares": "68032214336755701"
+            }
+          },
+          {
+            "txHash": "0xb09915d71f4634ce2a0cf7b147244741726fcbebfd6b1ccbaf2024e0e6c466d6",
+            "timestamp": 1775204603,
+            "blockNumber": 24797882,
+            "logIndex": 176,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 68957552140,
+              "shares": "68055121100719733"
+            }
+          },
+          {
+            "txHash": "0xb09915d71f4634ce2a0cf7b147244741726fcbebfd6b1ccbaf2024e0e6c466d6",
+            "timestamp": 1775204603,
+            "blockNumber": 24797882,
+            "logIndex": 172,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "75820311037369268538522"
+            }
+          },
+          {
+            "txHash": "0x01718faf2986eb800282ccad6d4a8e0cfdc538ec5857880ecb032abf16430a29",
+            "timestamp": 1775204483,
+            "blockNumber": 24797872,
+            "logIndex": 229,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "15675255037369268538522"
+            }
+          },
+          {
+            "txHash": "0x01718faf2986eb800282ccad6d4a8e0cfdc538ec5857880ecb032abf16430a29",
+            "timestamp": 1775204483,
+            "blockNumber": 24797872,
+            "logIndex": 227,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 13954731060,
+              "shares": "13767454713590464"
+            }
+          },
+          {
+            "txHash": "0x315dab8c92dd85fbcf4271e833cf9b7238e9ccb2fbef32e5db379a336440c1d3",
+            "timestamp": 1775202155,
+            "blockNumber": 24797678,
+            "logIndex": 302,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 70994749117,
+              "shares": "70066016632010729"
+            }
+          },
+          {
+            "txHash": "0x315dab8c92dd85fbcf4271e833cf9b7238e9ccb2fbef32e5db379a336440c1d3",
+            "timestamp": 1775202155,
+            "blockNumber": 24797678,
+            "logIndex": 298,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "78059897000000000000000"
+            }
+          },
+          {
+            "txHash": "0xd425b2cc9407d4f0f08764f63362594ba5da26bda05407a8f73bc4fcd7852e6e",
+            "timestamp": 1775198627,
+            "blockNumber": 24797384,
+            "logIndex": 39,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 19454463997,
+              "shares": "19200083021308233"
+            }
+          },
+          {
+            "txHash": "0xd425b2cc9407d4f0f08764f63362594ba5da26bda05407a8f73bc4fcd7852e6e",
+            "timestamp": 1775198627,
+            "blockNumber": 24797384,
+            "logIndex": 35,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "21390528000000000000000"
+            }
+          },
+          {
+            "txHash": "0x4b4f314aa349c978d84d54b9b2e944b0a25a9a1b4d94935e5bba159f753a0613",
+            "timestamp": 1775195915,
+            "blockNumber": 24797159,
+            "logIndex": 268,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 21581313167,
+              "shares": "21299219594777216"
+            }
+          },
+          {
+            "txHash": "0x4b4f314aa349c978d84d54b9b2e944b0a25a9a1b4d94935e5bba159f753a0613",
+            "timestamp": 1775195915,
+            "blockNumber": 24797159,
+            "logIndex": 264,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "23728924957571519260064"
+            }
+          },
+          {
+            "txHash": "0xe82aa5365bbd9776a5b30483accf9b50bf98310ba303350b86f62a36826712a8",
+            "timestamp": 1772131259,
+            "blockNumber": 24542946,
+            "logIndex": 219,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "116291257977849955091727"
+            }
+          },
+          {
+            "txHash": "0xe82aa5365bbd9776a5b30483accf9b50bf98310ba303350b86f62a36826712a8",
+            "timestamp": 1772131259,
+            "blockNumber": 24542946,
+            "logIndex": 217,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 105045150225,
+              "shares": "104237367902415404"
+            }
+          },
+          {
+            "txHash": "0x2401e616ceab0e522ae8fdbdaf52d01de89330b1606b4cdfbd4febbfbdad1aca",
+            "timestamp": 1772129711,
+            "blockNumber": 24542817,
+            "logIndex": 410,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "62902697170721564168337"
+            }
+          },
+          {
+            "txHash": "0x2401e616ceab0e522ae8fdbdaf52d01de89330b1606b4cdfbd4febbfbdad1aca",
+            "timestamp": 1772129711,
+            "blockNumber": 24542817,
+            "logIndex": 408,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 48591365930,
+              "shares": "48217801041599346"
+            }
+          },
+          {
+            "txHash": "0x0a431d4944dcaf5d9cfbd365502d21af6e16aa0aef7c5a0f1a4134edffb8e047",
+            "timestamp": 1772129471,
+            "blockNumber": 24542798,
+            "logIndex": 404,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "47241236809000000000000"
+            }
+          },
+          {
+            "txHash": "0x0a431d4944dcaf5d9cfbd365502d21af6e16aa0aef7c5a0f1a4134edffb8e047",
+            "timestamp": 1772129471,
+            "blockNumber": 24542798,
+            "logIndex": 402,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 41283412328,
+              "shares": "40992402571927493"
+            }
+          },
+          {
+            "txHash": "0xa882c7c79047f32aef3774482a6699c2204c58171e10065c1106822895c3d4ce",
+            "timestamp": 1772125511,
+            "blockNumber": 24542470,
+            "logIndex": 109,
+            "type": "WithdrawCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "61000000000000000000000"
+            }
+          },
+          {
+            "txHash": "0xa882c7c79047f32aef3774482a6699c2204c58171e10065c1106822895c3d4ce",
+            "timestamp": 1772125511,
+            "blockNumber": 24542470,
+            "logIndex": 107,
+            "type": "Repay",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 49897213449,
+              "shares": "49545762164424896"
+            }
+          },
+          {
+            "txHash": "0x7343ac3991ec125d22f985839376ae5bdcdf5bfe82eff0c064e0ed1f96108ea1",
+            "timestamp": 1771769363,
+            "blockNumber": 24512914,
+            "logIndex": 403,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 17000000000,
+              "shares": "16877120291693384"
+            }
+          },
+          {
+            "txHash": "0x7343ac3991ec125d22f985839376ae5bdcdf5bfe82eff0c064e0ed1f96108ea1",
+            "timestamp": 1771769363,
+            "blockNumber": 24512914,
+            "logIndex": 399,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "24396929000000000000000"
+            }
+          },
+          {
+            "txHash": "0xd58d43342c3887b489e0f3806f6b97314fe6b1305d310060218eefa5c65f288d",
+            "timestamp": 1771741907,
+            "blockNumber": 24510634,
+            "logIndex": 69,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 78410833711,
+              "shares": "77846757805674165"
+            }
+          },
+          {
+            "txHash": "0xd58d43342c3887b489e0f3806f6b97314fe6b1305d310060218eefa5c65f288d",
+            "timestamp": 1771741907,
+            "blockNumber": 24510634,
+            "logIndex": 65,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "88000000000000000000000"
+            }
+          },
+          {
+            "txHash": "0x91b5a47dda931edf7a91752e0eb7357525a38f3a739eada9dbfd3477501dfa5b",
+            "timestamp": 1771737371,
+            "blockNumber": 24510256,
+            "logIndex": 788,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 81215938706,
+              "shares": "80632139781092602"
+            }
+          },
+          {
+            "txHash": "0x91b5a47dda931edf7a91752e0eb7357525a38f3a739eada9dbfd3477501dfa5b",
+            "timestamp": 1771737371,
+            "blockNumber": 24510256,
+            "logIndex": 784,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "89998700000000000000000"
+            }
+          },
+          {
+            "txHash": "0xf134ea13f513eea42dac97df40e412dac12c215b84b8a67f3bf41ad710931ff5",
+            "timestamp": 1771735787,
+            "blockNumber": 24510124,
+            "logIndex": 132,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 86534101592,
+              "shares": "85912242818449010"
+            }
+          },
+          {
+            "txHash": "0xf134ea13f513eea42dac97df40e412dac12c215b84b8a67f3bf41ad710931ff5",
+            "timestamp": 1771735787,
+            "blockNumber": 24510124,
+            "logIndex": 128,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "97000000000000000000000"
+            }
+          },
+          {
+            "txHash": "0xbc6dc7bc9242eec07a0b347740287b3597c752f5b91f5d1bba457de6fee992f4",
+            "timestamp": 1771733819,
+            "blockNumber": 24509960,
+            "logIndex": 102,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 88959142243,
+              "shares": "88320069345670347"
+            }
+          },
+          {
+            "txHash": "0xbc6dc7bc9242eec07a0b347740287b3597c752f5b91f5d1bba457de6fee992f4",
+            "timestamp": 1771733819,
+            "blockNumber": 24509960,
+            "logIndex": 98,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "96881000000000000000000"
+            }
+          },
+          {
+            "txHash": "0xcd2a099cb3262ff1ea400aaed5da41405c3b1d9d05d37a02e002e259f8555bc2",
+            "timestamp": 1771709387,
+            "blockNumber": 24507936,
+            "logIndex": 21,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 85000000000,
+              "shares": "84391874523476980"
+            }
+          },
+          {
+            "txHash": "0xcd2a099cb3262ff1ea400aaed5da41405c3b1d9d05d37a02e002e259f8555bc2",
+            "timestamp": 1771709387,
+            "blockNumber": 24507936,
+            "logIndex": 17,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0x9be0fb56b4d52d3632683b632514a2304f6fe1103e081acc358ded09e8e9a1e7",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "AUSD",
+                "address": "0x00000000eFE302BEAA2b3e6e1b18d08D69a9012a"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "97000000000000000000000"
+            }
+          },
+          {
+            "txHash": "0xb5f87df6b893fbdec7ff0bb79577168e5817a8b84ce7ab11b225b9c7ec0c4c97",
+            "timestamp": 1770764207,
+            "blockNumber": 24429494,
+            "logIndex": 444,
+            "type": "Borrow",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionTransferData",
+              "assets": 91000000000,
+              "shares": "90538164736352389"
+            }
+          },
+          {
+            "txHash": "0xb5f87df6b893fbdec7ff0bb79577168e5817a8b84ce7ab11b225b9c7ec0c4c97",
+            "timestamp": 1770764207,
+            "blockNumber": 24429494,
+            "logIndex": 438,
+            "type": "SupplyCollateral",
+            "user": {
+              "address": "0xa1D9769c9Aa6E76651A9514e6E998767009E930e"
+            },
+            "market": {
+              "marketId": "0xf4e9fb49e95a34320aea8b5e0ef515391a72368c39bdcf8ad8910645fd6eab97",
+              "collateralAsset": {
+                "symbol": "syzUSD",
+                "address": "0x6DFF69eb720986E98Bb3E8b26cb9E02Ec1a35D12"
+              },
+              "loanAsset": {
+                "symbol": "USDC",
+                "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+              }
+            },
+            "data": {
+              "__typename": "MarketTransactionCollateralTransferData",
+              "assets": "108241236809000000000000"
+            }
+          }
+        ],
+        "pageInfo": {
+          "count": 147,
+          "countTotal": 147
+        }
+      }
+    },
+    "extensions": {
+      "complexity": 235000,
+      "maximumComplexity": 1000000
+    }
+  }
+}

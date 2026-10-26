@@ -1,0 +1,5103 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/addresses/0x0d35d950fdb0741f11c4384dad15a07edb26e21a/transactions",
+  "request": null,
+  "observed_utc": "2026-10-26T17:13:47.947740+00:00",
+  "http_status": 200,
+  "body": {
+    "items": [
+      {
+        "priority_fee": "11824900000000",
+        "raw_input": "0x5ceae9c4000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000e8d495cdc00000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x1ee289c3f81723f757309fc12198541a5b36c6cb620fbe04ec5d6285da78323b",
+        "max_fee_per_gas": "1150079352",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "1053170422195900",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 79512,
+        "position": 140,
+        "max_priority_fee_per_gas": "10000000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "1182490",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "repay",
+        "fee": {
+          "type": "actual",
+          "value": "1064995322195900"
+        },
+        "gas_limit": "2199694",
+        "gas_price": "900637910",
+        "decoded_input": {
+          "method_call": "repay(address _asset, uint256 _amount, address _agent)",
+          "method_id": "5ceae9c4",
+          "parameters": [
+            {
+              "name": "_asset",
+              "type": "address",
+              "value": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            {
+              "name": "_amount",
+              "type": "uint256",
+              "value": "999999000000"
+            },
+            {
+              "name": "_agent",
+              "type": "address",
+              "value": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "890637910",
+        "timestamp": "2026-10-15T15:19:59.000000Z",
+        "nonce": 32,
+        "historic_exchange_rate": "2439.96187745067",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 26198771,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "3923316864",
+        "raw_input": "0x095ea7b300000000000000000000000015622c3dbbc5614e6dfa9446603c1779647f01fc000000000000000000000000000000000000000000000000000000e8d495cdc0",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x439da2a8b054ae7ae59f83f7ba31e1e640db8973d2bb1d7a0ce7bf88befc5932",
+        "max_fee_per_gas": "1194875369",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "35513480625870",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 79515,
+        "position": 123,
+        "max_priority_fee_per_gas": "101952",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "38482",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "approve",
+        "fee": {
+          "type": "actual",
+          "value": "35517403942734"
+        },
+        "gas_limit": "46618",
+        "gas_price": "922961487",
+        "decoded_input": {
+          "method_call": "approve(address spender, uint256 value)",
+          "method_id": "095ea7b3",
+          "parameters": [
+            {
+              "name": "spender",
+              "type": "address",
+              "value": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC"
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "value": "999999000000"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "922859535",
+        "timestamp": "2026-10-15T15:19:23.000000Z",
+        "nonce": 31,
+        "historic_exchange_rate": "2439.96187745067",
+        "transaction_types": [
+          "contract_call"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 26198768,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "31513391983360",
+        "raw_input": "0xa9059cbb000000000000000000000000938226907b3b956ff8b15261a568340a9f550b64000000000000000000000000000000000000000000000000000002ba7def3000",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x7eaa11407bfb46ae53cde5608dfe80a92981c0a31dcee53467e238a30c9cbed0",
+        "max_fee_per_gas": "2219492001",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "85862319552128",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 251430,
+        "position": 137,
+        "max_priority_fee_per_gas": "506060380",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "62272",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "transfer",
+        "fee": {
+          "type": "actual",
+          "value": "117375711535488"
+        },
+        "gas_limit": "84000",
+        "gas_price": "1884887454",
+        "decoded_input": {
+          "method_call": "transfer(address to, uint256 value)",
+          "method_id": "a9059cbb",
+          "parameters": [
+            {
+              "name": "to",
+              "type": "address",
+              "value": "0x938226907B3b956fF8B15261A568340a9f550B64"
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "value": "3000000000000"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "1378827074",
+        "timestamp": "2026-09-21T15:43:23.000000Z",
+        "nonce": 30,
+        "historic_exchange_rate": "2775.1686826711957",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 26026853,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "377105400000",
+        "raw_input": "0x6c665a55000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000002ba7def30000000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x8982726eac16d7146f1ea2822d5c9d6be00b8182e410a1ae83c2db897f63e353",
+        "max_fee_per_gas": "1319933036",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "1957883470744509",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 251507,
+        "position": 401,
+        "max_priority_fee_per_gas": "200000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "1885527",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "borrow",
+        "fee": {
+          "type": "actual",
+          "value": "1958260576144509"
+        },
+        "gas_limit": "3438960",
+        "gas_price": "1038574667",
+        "decoded_input": {
+          "method_call": "borrow(address _asset, uint256 _amount, address _receiver)",
+          "method_id": "6c665a55",
+          "parameters": [
+            {
+              "name": "_asset",
+              "type": "address",
+              "value": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            {
+              "name": "_amount",
+              "type": "uint256",
+              "value": "3000000000000"
+            },
+            {
+              "name": "_receiver",
+              "type": "address",
+              "value": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "1038374667",
+        "timestamp": "2026-09-21T15:27:47.000000Z",
+        "nonce": 29,
+        "historic_exchange_rate": "2775.1686826711957",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 26026776,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "2520076349620",
+        "raw_input": "0xa9059cbb000000000000000000000000938226907b3b956ff8b15261a568340a9f550b64000000000000000000000000000000000000000000000000000002ba7e0db480",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x04ccbd6e5cc0173600125fff158aaba34e7f315fcb879d5fb5bb8619f75dfa8f",
+        "max_fee_per_gas": "262248647",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "10827912271292",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 281678,
+        "position": 182,
+        "max_priority_fee_per_gas": "40461055",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "62284",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "transfer",
+        "fee": {
+          "type": "actual",
+          "value": "13347988620912"
+        },
+        "gas_limit": "84000",
+        "gas_price": "214308468",
+        "decoded_input": {
+          "method_call": "transfer(address to, uint256 value)",
+          "method_id": "a9059cbb",
+          "parameters": [
+            {
+              "name": "to",
+              "type": "address",
+              "value": "0x938226907B3b956fF8B15261A568340a9f550B64"
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "value": "3000002000000"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "173847413",
+        "timestamp": "2026-09-17T10:26:47.000000Z",
+        "nonce": 28,
+        "historic_exchange_rate": "2446.143252227872",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25996605,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "188632300000",
+        "raw_input": "0x6c665a55000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000002ba7def30000000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0xd053c03666689eaa7f8bffc5ec059fd35118c9dadbca29587631080a5c2e63e1",
+        "max_fee_per_gas": "139549121",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "244448214646431",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 281889,
+        "position": 220,
+        "max_priority_fee_per_gas": "100000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "1886323",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "borrow",
+        "fee": {
+          "type": "actual",
+          "value": "244636846946431"
+        },
+        "gas_limit": "3271547",
+        "gas_price": "129689797",
+        "decoded_input": {
+          "method_call": "borrow(address _asset, uint256 _amount, address _receiver)",
+          "method_id": "6c665a55",
+          "parameters": [
+            {
+              "name": "_asset",
+              "type": "address",
+              "value": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            {
+              "name": "_amount",
+              "type": "uint256",
+              "value": "3000000000000"
+            },
+            {
+              "name": "_receiver",
+              "type": "address",
+              "value": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "129589797",
+        "timestamp": "2026-09-17T09:44:23.000000Z",
+        "nonce": 27,
+        "historic_exchange_rate": "2446.143252227872",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25996394,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "2610234251520",
+        "raw_input": "0xa9059cbb000000000000000000000000b033a3844ce4bfe19c09af89913c6f5b4cdfe0e1000000000000000000000000000000000000000000000000000002ba7def3000",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x330a47605cb4c255498458d62b11c930913aebdb458555f9796b5e22c629e2e2",
+        "max_fee_per_gas": "320331472",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "13464565797760",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 344787,
+        "position": 413,
+        "max_priority_fee_per_gas": "41916660",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "62272",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "transfer",
+        "fee": {
+          "type": "actual",
+          "value": "16074800049280"
+        },
+        "gas_limit": "84000",
+        "gas_price": "258138490",
+        "decoded_input": {
+          "method_call": "transfer(address to, uint256 value)",
+          "method_id": "a9059cbb",
+          "parameters": [
+            {
+              "name": "to",
+              "type": "address",
+              "value": "0xb033A3844Ce4bFE19C09af89913c6f5B4Cdfe0E1"
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "value": "3000000000000"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "216221830",
+        "timestamp": "2026-09-08T15:19:35.000000Z",
+        "nonce": 26,
+        "historic_exchange_rate": "2485.0697039871584",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25933496,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "2030277000000",
+        "raw_input": "0x6c665a55000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000002ba7def30000000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0xef0b515c0e3cecb21c72c0f5a8f9409030e629b3f462168458937a9e910270eb",
+        "max_fee_per_gas": "257082655",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "407058896891682",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 344809,
+        "position": 273,
+        "max_priority_fee_per_gas": "1000000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "2030277",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "borrow",
+        "fee": {
+          "type": "actual",
+          "value": "409089173891682"
+        },
+        "gas_limit": "3685547",
+        "gas_price": "201494266",
+        "decoded_input": {
+          "method_call": "borrow(address _asset, uint256 _amount, address _receiver)",
+          "method_id": "6c665a55",
+          "parameters": [
+            {
+              "name": "_asset",
+              "type": "address",
+              "value": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            {
+              "name": "_amount",
+              "type": "uint256",
+              "value": "3000000000000"
+            },
+            {
+              "name": "_receiver",
+              "type": "address",
+              "value": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "200494266",
+        "timestamp": "2026-09-08T15:14:47.000000Z",
+        "nonce": 25,
+        "historic_exchange_rate": "2485.0697039871584",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25933474,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "95477424000",
+        "raw_input": "0x",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x73f430351abdb69ba16627f85ed6ba3fe92339e7871a7cd289906896d8fb2216",
+        "max_fee_per_gas": "154977225",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "2560457445000",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 396184,
+        "position": 208,
+        "max_priority_fee_per_gas": "4546544",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "998000000000000000",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xAeA6291CB48d9675B120F74E2F0b0De01dB47a00",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "21000",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": null,
+        "fee": {
+          "type": "actual",
+          "value": "2655934869000"
+        },
+        "gas_limit": "21000",
+        "gas_price": "126473089",
+        "decoded_input": null,
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "121926545",
+        "timestamp": "2026-09-01T11:21:47.000000Z",
+        "nonce": 20038,
+        "historic_exchange_rate": "2417.6758884733536",
+        "transaction_types": [
+          "coin_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25882099,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "223668837000",
+        "raw_input": "0x",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x9309cc85d60833daccf78fd2a1832336290339642b2f635db3037c5e4029d215",
+        "max_fee_per_gas": "148355362",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "2238811722000",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 396362,
+        "position": 161,
+        "max_priority_fee_per_gas": "10650897",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "998000000000000000",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "21000",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xAeA6291CB48d9675B120F74E2F0b0De01dB47a00",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": null,
+        "fee": {
+          "type": "actual",
+          "value": "2462480559000"
+        },
+        "gas_limit": "21000",
+        "gas_price": "117260979",
+        "decoded_input": null,
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "106610082",
+        "timestamp": "2026-09-01T10:46:11.000000Z",
+        "nonce": 24,
+        "historic_exchange_rate": "2417.6758884733536",
+        "transaction_types": [
+          "coin_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25881921,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "3002976075008",
+        "raw_input": "0xa9059cbb000000000000000000000000aea6291cb48d9675b120f74e2f0b0de01db47a0000000000000000000000000000000000000000000000000000000000002191c0",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x08f1bd51b128914672962049f5ad55071b2fd497043f526230fe4270b0dddc8a",
+        "max_fee_per_gas": "212408258",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "4708089940736",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 396363,
+        "position": 198,
+        "max_priority_fee_per_gas": "66531728",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "45136",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "transfer",
+        "fee": {
+          "type": "actual",
+          "value": "7711066015744"
+        },
+        "gas_limit": "45516",
+        "gas_price": "170840704",
+        "decoded_input": {
+          "method_call": "transfer(address to, uint256 value)",
+          "method_id": "a9059cbb",
+          "parameters": [
+            {
+              "name": "to",
+              "type": "address",
+              "value": "0xAeA6291CB48d9675B120F74E2F0b0De01dB47a00"
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "value": "2200000"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "104308976",
+        "timestamp": "2026-09-01T10:45:59.000000Z",
+        "nonce": 23,
+        "historic_exchange_rate": "2417.6758884733536",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25881920,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "5814328108736",
+        "raw_input": "0xa9059cbb000000000000000000000000b033a3844ce4bfe19c09af89913c6f5b4cdfe0e1000000000000000000000000000000000000000000000000000001c6050eac00",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0xd83010e2a8d2263e708ccc4bec78bb7e12c12124718b3fba537636820bd6a2cf",
+        "max_fee_per_gas": "299580339",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "10203760269696",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 424254,
+        "position": 257,
+        "max_priority_fee_per_gas": "93369863",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "62272",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "transfer",
+        "fee": {
+          "type": "actual",
+          "value": "16018088378432"
+        },
+        "gas_limit": "182000",
+        "gas_price": "257227781",
+        "decoded_input": {
+          "method_call": "transfer(address to, uint256 value)",
+          "method_id": "a9059cbb",
+          "parameters": [
+            {
+              "name": "to",
+              "type": "address",
+              "value": "0xb033A3844Ce4bFE19C09af89913c6f5B4Cdfe0E1"
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "value": "1950000000000"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "163857918",
+        "timestamp": "2026-08-28T13:26:35.000000Z",
+        "nonce": 22,
+        "historic_exchange_rate": "2442.407614756763",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25854029,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "952994500000",
+        "raw_input": "0x6c665a55000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000001c6050eac000000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0xf6725bb21ea49eb1ec0e124bacf9b3b63ed2468df53e6bda458c3449db980b2b",
+        "max_fee_per_gas": "229097358",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "359848750501385",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 424283,
+        "position": 153,
+        "max_priority_fee_per_gas": "500000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "1905989",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "borrow",
+        "fee": {
+          "type": "actual",
+          "value": "360801745001385"
+        },
+        "gas_limit": "3558900",
+        "gas_price": "189298965",
+        "decoded_input": {
+          "method_call": "borrow(address _asset, uint256 _amount, address _receiver)",
+          "method_id": "6c665a55",
+          "parameters": [
+            {
+              "name": "_asset",
+              "type": "address",
+              "value": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            {
+              "name": "_amount",
+              "type": "uint256",
+              "value": "1950000000000"
+            },
+            {
+              "name": "_receiver",
+              "type": "address",
+              "value": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "188798965",
+        "timestamp": "2026-08-28T13:20:47.000000Z",
+        "nonce": 21,
+        "historic_exchange_rate": "2442.407614756763",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25854000,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "723533074880",
+        "raw_input": "0xa9059cbb000000000000000000000000b033a3844ce4bfe19c09af89913c6f5b4cdfe0e1000000000000000000000000000000000000000000000000000001d1a94a2000",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0xda084edda3d3de9b6105e7e44771cc8c892127e23e28d757cbcc42637295937e",
+        "max_fee_per_gas": "80779127",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "3463705700672",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 478423,
+        "position": 196,
+        "max_priority_fee_per_gas": "11618915",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "62272",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "transfer",
+        "fee": {
+          "type": "actual",
+          "value": "4187238775552"
+        },
+        "gas_limit": "182000",
+        "gas_price": "67241116",
+        "decoded_input": {
+          "method_call": "transfer(address to, uint256 value)",
+          "method_id": "a9059cbb",
+          "parameters": [
+            {
+              "name": "to",
+              "type": "address",
+              "value": "0xb033A3844Ce4bFE19C09af89913c6f5B4Cdfe0E1"
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "value": "2000000000000"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "55622201",
+        "timestamp": "2026-08-21T00:16:11.000000Z",
+        "nonce": 20,
+        "historic_exchange_rate": "2514.967577695514",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25799860,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "194846900000",
+        "raw_input": "0x6c665a55000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000001d1a94a20000000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x07b8cedf1bb521cdae3992cb01873de466a43a0bff9bf03ef7766023fd0905ca",
+        "max_fee_per_gas": "191149361",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "157453352097626",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 479318,
+        "position": 185,
+        "max_priority_fee_per_gas": "100000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "1948469",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "borrow",
+        "fee": {
+          "type": "actual",
+          "value": "157648198997626"
+        },
+        "gas_limit": "3753640",
+        "gas_price": "80908754",
+        "decoded_input": {
+          "method_call": "borrow(address _asset, uint256 _amount, address _receiver)",
+          "method_id": "6c665a55",
+          "parameters": [
+            {
+              "name": "_asset",
+              "type": "address",
+              "value": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            {
+              "name": "_amount",
+              "type": "uint256",
+              "value": "2000000000000"
+            },
+            {
+              "name": "_receiver",
+              "type": "address",
+              "value": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "80808754",
+        "timestamp": "2026-08-20T21:16:47.000000Z",
+        "nonce": 19,
+        "historic_exchange_rate": "2326.5282334236576",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25798965,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "1591863000",
+        "raw_input": "0x",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x659cd3828d8110463cbb604ed9e1f21a88bbef81d0dcee29f1025fe215cf1cd2",
+        "max_fee_per_gas": "85062947",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "1784730024000",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 547360,
+        "position": 552,
+        "max_priority_fee_per_gas": "5395747",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "1000000000",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x5A0977A3B1c5Ab85F137878877b783A809De6f3a",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "21000",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": null,
+        "fee": {
+          "type": "actual",
+          "value": "1786321887000"
+        },
+        "gas_limit": "21200",
+        "gas_price": "85062947",
+        "decoded_input": null,
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "84987144",
+        "timestamp": "2026-08-11T09:40:35.000000Z",
+        "nonce": 97,
+        "historic_exchange_rate": "1880.4862005694617",
+        "transaction_types": [
+          "coin_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25730923,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "113310687000",
+        "raw_input": "0x",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x8806d3b07760a94e352509bbb08cca61f0457b8ef392415a5cbb567efe7b1383",
+        "max_fee_per_gas": "200015631",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "1625610462000",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 547373,
+        "position": 402,
+        "max_priority_fee_per_gas": "5395747",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "1000000000",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xb033f33FbD53a5B450d0c040F55Ef1C357d5E0e1",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "21000",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": null,
+        "fee": {
+          "type": "actual",
+          "value": "1738921149000"
+        },
+        "gas_limit": "21200",
+        "gas_price": "82805769",
+        "decoded_input": null,
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "77410022",
+        "timestamp": "2026-08-11T09:37:59.000000Z",
+        "nonce": 91,
+        "historic_exchange_rate": "1880.4862005694617",
+        "transaction_types": [
+          "coin_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25730910,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "105000000000",
+        "raw_input": "0x",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x999a6a837a88edd0fc25303d221fb1de161e08613f07413ce4fca7bf10148d83",
+        "max_fee_per_gas": "106289508",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "1899178281000",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 547394,
+        "position": 187,
+        "max_priority_fee_per_gas": "5000000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "1000000000",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xb03379167187EEf9c7E00B353c38e606BB62E0E1",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "21000",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": null,
+        "fee": {
+          "type": "actual",
+          "value": "2004178281000"
+        },
+        "gas_limit": "21200",
+        "gas_price": "95437061",
+        "decoded_input": null,
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "90437061",
+        "timestamp": "2026-08-11T09:33:47.000000Z",
+        "nonce": 0,
+        "historic_exchange_rate": "1880.4862005694617",
+        "transaction_types": [
+          "coin_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25730889,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "41137120235552",
+        "raw_input": "0xa9059cbb000000000000000000000000b033a3844ce4bfe19c09af89913c6f5b4cdfe0e1000000000000000000000000000000000000000000000000000003a36475e300",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0xc9bfa472ae4100580ca2e2cfa9aaa4983c864ffd6c5aee2273e5386763550bb0",
+        "max_fee_per_gas": "1032069743",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "4148498818136",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 547396,
+        "position": 51,
+        "max_priority_fee_per_gas": "910677416",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "45172",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "transfer",
+        "fee": {
+          "type": "actual",
+          "value": "45285619053688"
+        },
+        "gas_limit": "84000",
+        "gas_price": "1002515254",
+        "decoded_input": {
+          "method_call": "transfer(address to, uint256 value)",
+          "method_id": "a9059cbb",
+          "parameters": [
+            {
+              "name": "to",
+              "type": "address",
+              "value": "0xb033A3844Ce4bFE19C09af89913c6f5B4Cdfe0E1"
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "value": "4000300000000"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "91837838",
+        "timestamp": "2026-08-11T09:33:23.000000Z",
+        "nonce": 18,
+        "historic_exchange_rate": "1880.4862005694617",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25730887,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "105000000000",
+        "raw_input": "0x",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x8b9d41a86a412ec56349830f08e33beaf5bb90b6128da151752186f35b7dcfcf",
+        "max_fee_per_gas": "116901210",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "2098147695000",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 547401,
+        "position": 166,
+        "max_priority_fee_per_gas": "5000000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "1000000000",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x5A09bF984CA3344ccaeA7059895D6620e3936F3a",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "21000",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": null,
+        "fee": {
+          "type": "actual",
+          "value": "2203147695000"
+        },
+        "gas_limit": "21200",
+        "gas_price": "104911795",
+        "decoded_input": null,
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "99911795",
+        "timestamp": "2026-08-11T09:32:23.000000Z",
+        "nonce": 0,
+        "historic_exchange_rate": "1880.4862005694617",
+        "transaction_types": [
+          "coin_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25730882,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "45397859954828",
+        "raw_input": "0xa9059cbb0000000000000000000000005a09118f120d8be58d1ad0ddcab81f69d9fa6f3a000000000000000000000000000000000000000000000000000002ba7def3000",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x19cc70a9bc24bf54d5cbbffada0187b6dd63859e46ebc350b18abc12b3b301af",
+        "max_fee_per_gas": "1124481876",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "4443186084548",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 547403,
+        "position": 22,
+        "max_priority_fee_per_gas": "1004999999",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "45172",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "transfer",
+        "fee": {
+          "type": "actual",
+          "value": "49841046039376"
+        },
+        "gas_limit": "84000",
+        "gas_price": "1103361508",
+        "decoded_input": {
+          "method_call": "transfer(address to, uint256 value)",
+          "method_id": "a9059cbb",
+          "parameters": [
+            {
+              "name": "to",
+              "type": "address",
+              "value": "0x5a09118F120d8Be58d1AD0ddCab81f69D9fA6F3a"
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "value": "3000000000000"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "98361509",
+        "timestamp": "2026-08-11T09:31:59.000000Z",
+        "nonce": 17,
+        "historic_exchange_rate": "1880.4862005694617",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25730880,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "8740079211800",
+        "raw_input": "0xa9059cbb000000000000000000000000aea6291cb48d9675b120f74e2f0b0de01db47a000000000000000000000000000000000000000000000000000000015d3ef79800",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x1d0558b4b8f85a0688694667341650191c5e8d41bd3e1a5e3d3286e420dfc9fe",
+        "max_fee_per_gas": "294082185",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "4540672262800",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 548100,
+        "position": 76,
+        "max_priority_fee_per_gas": "200000000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "45160",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "transfer",
+        "fee": {
+          "type": "actual",
+          "value": "13280751474600"
+        },
+        "gas_limit": "45540",
+        "gas_price": "294082185",
+        "decoded_input": {
+          "method_call": "transfer(address to, uint256 value)",
+          "method_id": "a9059cbb",
+          "parameters": [
+            {
+              "name": "to",
+              "type": "address",
+              "value": "0xAeA6291CB48d9675B120F74E2F0b0De01dB47a00"
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "value": "1500000000000"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "100546330",
+        "timestamp": "2026-08-11T07:11:47.000000Z",
+        "nonce": 16,
+        "historic_exchange_rate": "1880.4862005694617",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25730183,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "221200534293160",
+        "raw_input": "0xa9059cbb000000000000000000000000aea6291cb48d9675b120f74e2f0b0de01db47a00000000000000000000000000000000000000000000000000000000e8d4a51000",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0xaf81026e4f38d03d89242aec93b7c82e39e2d38a9cfebb19b8296cf662f0bca0",
+        "max_fee_per_gas": "5000000000",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "4539465706840",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 548100,
+        "position": 10,
+        "max_priority_fee_per_gas": "5000000000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "45148",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "transfer",
+        "fee": {
+          "type": "actual",
+          "value": "225740000000000"
+        },
+        "gas_limit": "84000",
+        "gas_price": "5000000000",
+        "decoded_input": {
+          "method_call": "transfer(address to, uint256 value)",
+          "method_id": "a9059cbb",
+          "parameters": [
+            {
+              "name": "to",
+              "type": "address",
+              "value": "0xAeA6291CB48d9675B120F74E2F0b0De01dB47a00"
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "value": "1000000000000"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "100546330",
+        "timestamp": "2026-08-11T07:11:47.000000Z",
+        "nonce": 15,
+        "historic_exchange_rate": "1880.4862005694617",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25730183,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "2030170000000",
+        "raw_input": "0x6c665a55000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000008a3e42018000000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x98857c1eae06e58527447f842caa48ad4db16b768389529fc02773857966e506",
+        "max_fee_per_gas": "185856360",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "290851986313310",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 551954,
+        "position": 149,
+        "max_priority_fee_per_gas": "1000000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "2030170",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "borrow",
+        "fee": {
+          "type": "actual",
+          "value": "292882156313310"
+        },
+        "gas_limit": "3722448",
+        "gas_price": "144264843",
+        "decoded_input": {
+          "method_call": "borrow(address _asset, uint256 _amount, address _receiver)",
+          "method_id": "6c665a55",
+          "parameters": [
+            {
+              "name": "_asset",
+              "type": "address",
+              "value": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            {
+              "name": "_amount",
+              "type": "uint256",
+              "value": "9500000000000"
+            },
+            {
+              "name": "_receiver",
+              "type": "address",
+              "value": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "143264843",
+        "timestamp": "2026-08-10T18:16:11.000000Z",
+        "nonce": 14,
+        "historic_exchange_rate": "1871.3976551883159",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25726329,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "1988940000000",
+        "raw_input": "0x6c665a55000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000000000000000000000000000000000000005f5e1000000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0xc6cf1483d83b5e44f6824d9ba327f3d12e3e3cb50d5cae322e1650c629a36f7b",
+        "max_fee_per_gas": "265539547",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "389101535267040",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 574981,
+        "position": 400,
+        "max_priority_fee_per_gas": "1000000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "1988940",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "borrow",
+        "fee": {
+          "type": "actual",
+          "value": "391090475267040"
+        },
+        "gas_limit": "3762100",
+        "gas_price": "196632616",
+        "decoded_input": {
+          "method_call": "borrow(address _asset, uint256 _amount, address _receiver)",
+          "method_id": "6c665a55",
+          "parameters": [
+            {
+              "name": "_asset",
+              "type": "address",
+              "value": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            {
+              "name": "_amount",
+              "type": "uint256",
+              "value": "100000000"
+            },
+            {
+              "name": "_receiver",
+              "type": "address",
+              "value": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "195632616",
+        "timestamp": "2026-08-07T13:10:59.000000Z",
+        "nonce": 13,
+        "historic_exchange_rate": "1912.9851571036106",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25703302,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "113310687000",
+        "raw_input": "0x",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x1631bb18ce18147b9efaaa76b487f154fabbf702b9add4526d7b2f8e4887f486",
+        "max_fee_per_gas": "270965006",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "2485461321000",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 677346,
+        "position": 297,
+        "max_priority_fee_per_gas": "5395747",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "1000000000",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xb033EC925cD63231Dd1C4Dfeb609a31E2B76E0e1",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "21000",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": null,
+        "fee": {
+          "type": "actual",
+          "value": "2598772008000"
+        },
+        "gas_limit": "21200",
+        "gas_price": "123751048",
+        "decoded_input": null,
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "118355301",
+        "timestamp": "2026-07-24T06:55:11.000000Z",
+        "nonce": 1176,
+        "historic_exchange_rate": "1860.4425012275274",
+        "transaction_types": [
+          "coin_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25600937,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "105000000000",
+        "raw_input": "0x",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0xb586059a16004ae4b5aa49f75497340617418d9ba512121b8607c7cebd93595d",
+        "max_fee_per_gas": "234690994",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "3968099415000",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 696809,
+        "position": 311,
+        "max_priority_fee_per_gas": "5000000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "1000000000",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xB033F5Dbd05573e9B26816AF50BC694aA36EE0E1",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "21000",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": null,
+        "fee": {
+          "type": "actual",
+          "value": "4073099415000"
+        },
+        "gas_limit": "21200",
+        "gas_price": "193957115",
+        "decoded_input": null,
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "188957115",
+        "timestamp": "2026-07-21T13:43:47.000000Z",
+        "nonce": 0,
+        "historic_exchange_rate": "1928.6558956703082",
+        "transaction_types": [
+          "coin_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25581474,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "225860000000",
+        "raw_input": "0xa9059cbb000000000000000000000000b033a3844ce4bfe19c09af89913c6f5b4cdfe0e10000000000000000000000000000000000000000000000000000032ee841b800",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x89c2945bb1221139f23cc7177590e97618e4aba89482479aea0df29024fbe7c8",
+        "max_fee_per_gas": "262977151",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "9455864607496",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 696815,
+        "position": 187,
+        "max_priority_fee_per_gas": "5000000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "45172",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "transfer",
+        "fee": {
+          "type": "actual",
+          "value": "9681724607496"
+        },
+        "gas_limit": "84000",
+        "gas_price": "214330218",
+        "decoded_input": {
+          "method_call": "transfer(address to, uint256 value)",
+          "method_id": "a9059cbb",
+          "parameters": [
+            {
+              "name": "to",
+              "type": "address",
+              "value": "0xb033A3844Ce4bFE19C09af89913c6f5B4Cdfe0E1"
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "value": "3500000000000"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "209330218",
+        "timestamp": "2026-07-21T13:42:35.000000Z",
+        "nonce": 12,
+        "historic_exchange_rate": "1928.6558956703082",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25581468,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "311360000000",
+        "raw_input": "0xa9059cbb000000000000000000000000b033a3844ce4bfe19c09af89913c6f5b4cdfe0e10000000000000000000000000000000000000000000000000000032ee841b800",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x12a2414bac8156fea1d9ab462f53563ca9772bf86130c4ca0b36c7ba629e4053",
+        "max_fee_per_gas": "262977151",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "13035411335296",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 696815,
+        "position": 184,
+        "max_priority_fee_per_gas": "5000000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "62272",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "transfer",
+        "fee": {
+          "type": "actual",
+          "value": "13346771335296"
+        },
+        "gas_limit": "84000",
+        "gas_price": "214330218",
+        "decoded_input": {
+          "method_call": "transfer(address to, uint256 value)",
+          "method_id": "a9059cbb",
+          "parameters": [
+            {
+              "name": "to",
+              "type": "address",
+              "value": "0xb033A3844Ce4bFE19C09af89913c6f5B4Cdfe0E1"
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "value": "3500000000000"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "209330218",
+        "timestamp": "2026-07-21T13:42:35.000000Z",
+        "nonce": 11,
+        "historic_exchange_rate": "1928.6558956703082",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25581468,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "798450126372",
+        "raw_input": "0x6c665a55000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000e8d4a510000000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x651576707212c14f1218fe9ed29260f743632cd8142742874a608574f4859804",
+        "max_fee_per_gas": "114066996",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "178576566084306",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 698772,
+        "position": 165,
+        "max_priority_fee_per_gas": "432644",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "1845513",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "borrow",
+        "fee": {
+          "type": "actual",
+          "value": "179375016210678"
+        },
+        "gas_limit": "3303716",
+        "gas_price": "97195206",
+        "decoded_input": {
+          "method_call": "borrow(address _asset, uint256 _amount, address _receiver)",
+          "method_id": "6c665a55",
+          "parameters": [
+            {
+              "name": "_asset",
+              "type": "address",
+              "value": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            {
+              "name": "_amount",
+              "type": "uint256",
+              "value": "1000000000000"
+            },
+            {
+              "name": "_receiver",
+              "type": "address",
+              "value": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "96762562",
+        "timestamp": "2026-07-21T07:10:23.000000Z",
+        "nonce": 10,
+        "historic_exchange_rate": "1928.6558956703082",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25579511,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "1161513230193860",
+        "raw_input": "0x6c665a55000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb4800000000000000000000000000000000000000000000000000000574fbde60000000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x16dee65a3069efa2475eea9b4fa3b89c423223116c5521786c4344de9aa8b373",
+        "max_fee_per_gas": "728800000",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "183479881806140",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 700449,
+        "position": 22,
+        "max_priority_fee_per_gas": "728800000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "1845490",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "borrow",
+        "fee": {
+          "type": "actual",
+          "value": "1344993112000000"
+        },
+        "gas_limit": "3111102",
+        "gas_price": "728800000",
+        "decoded_input": {
+          "method_call": "borrow(address _asset, uint256 _amount, address _receiver)",
+          "method_id": "6c665a55",
+          "parameters": [
+            {
+              "name": "_asset",
+              "type": "address",
+              "value": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            {
+              "name": "_amount",
+              "type": "uint256",
+              "value": "6000000000000"
+            },
+            {
+              "name": "_receiver",
+              "type": "address",
+              "value": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "99420686",
+        "timestamp": "2026-07-21T01:33:35.000000Z",
+        "nonce": 9,
+        "historic_exchange_rate": "1928.6558956703082",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25577834,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "21000000000",
+        "raw_input": "0x",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x70b8df99cf0fa66047a6515b68df5570160efd049859df4bf253af12c78305da",
+        "max_fee_per_gas": "109865092",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "1969975434000",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 700462,
+        "position": 510,
+        "max_priority_fee_per_gas": "1000000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "1000000000000000000",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xAeA6291CB48d9675B120F74E2F0b0De01dB47a00",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "21000",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": null,
+        "fee": {
+          "type": "actual",
+          "value": "1990975434000"
+        },
+        "gas_limit": "21000",
+        "gas_price": "94808354",
+        "decoded_input": null,
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "93808354",
+        "timestamp": "2026-07-21T01:30:59.000000Z",
+        "nonce": 19695,
+        "historic_exchange_rate": "1928.6558956703082",
+        "transaction_types": [
+          "coin_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25577821,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "1495323000000",
+        "raw_input": "0x6c665a55000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000bcfcd330000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0xd739ae86489564846d6591e44b8935df20d0c578703394efa5fe5eaa32e8434c",
+        "max_fee_per_gas": "103328512",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "111817184041881",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 744964,
+        "position": 231,
+        "max_priority_fee_per_gas": "1000000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "1495323",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "borrow",
+        "fee": {
+          "type": "actual",
+          "value": "113312507041881"
+        },
+        "gas_limit": "2622158",
+        "gas_price": "75777947",
+        "decoded_input": {
+          "method_call": "borrow(address _asset, uint256 _amount, address _receiver)",
+          "method_id": "6c665a55",
+          "parameters": [
+            {
+              "name": "_asset",
+              "type": "address",
+              "value": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            {
+              "name": "_amount",
+              "type": "uint256",
+              "value": "198167859"
+            },
+            {
+              "name": "_receiver",
+              "type": "address",
+              "value": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "74777947",
+        "timestamp": "2026-07-14T20:38:35.000000Z",
+        "nonce": 8,
+        "historic_exchange_rate": "1890.3093923843837",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25533319,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "601025265831",
+        "raw_input": "0x5ceae9c4000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x32a7ad2a0a34faab3a1f1d44e3bcb7b0049c283a948a0f080cc8de06ba86d053",
+        "max_fee_per_gas": "210443455",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "278710513757658",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 774694,
+        "position": 287,
+        "max_priority_fee_per_gas": "386853",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "1553627",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "repay",
+        "fee": {
+          "type": "actual",
+          "value": "279311539023489"
+        },
+        "gas_limit": "2870276",
+        "gas_price": "179780307",
+        "decoded_input": {
+          "method_call": "repay(address _asset, uint256 _amount, address _agent)",
+          "method_id": "5ceae9c4",
+          "parameters": [
+            {
+              "name": "_asset",
+              "type": "address",
+              "value": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            {
+              "name": "_amount",
+              "type": "uint256",
+              "value": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+            },
+            {
+              "name": "_agent",
+              "type": "address",
+              "value": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "179393454",
+        "timestamp": "2026-07-10T17:08:59.000000Z",
+        "nonce": 7,
+        "historic_exchange_rate": "1795.2394655119474",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25503589,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "785323075370",
+        "raw_input": "0x095ea7b300000000000000000000000015622c3dbbc5614e6dfa9446603c1779647f01fc000000000000000000000000000000000000000000000000000000000d05156a",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0xad1a607794d353e1d0eaa6065685f4fd5373bbb677ea1de814bc9be5a1dfcbcd",
+        "max_fee_per_gas": "229463117",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "10102069021890",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 774696,
+        "position": 232,
+        "max_priority_fee_per_gas": "14132141",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "55570",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "approve",
+        "fee": {
+          "type": "actual",
+          "value": "10887392097260"
+        },
+        "gas_limit": "67647",
+        "gas_price": "195922118",
+        "decoded_input": {
+          "method_call": "approve(address spender, uint256 value)",
+          "method_id": "095ea7b3",
+          "parameters": [
+            {
+              "name": "spender",
+              "type": "address",
+              "value": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC"
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "value": "218436970"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "181789977",
+        "timestamp": "2026-07-10T17:08:35.000000Z",
+        "nonce": 6,
+        "historic_exchange_rate": "1795.2394655119474",
+        "transaction_types": [
+          "contract_call"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25503587,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "149987000000",
+        "raw_input": "0x3593564c000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000a0000000000000000000000000000000000000000000000000000000006a512c8900000000000000000000000000000000000000000000000000000000000000040b000704000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000e0000000000000000000000000000000000000000000000000000000000000024000000000000000000000000000000000000000000000000000000000000002c00000000000000000000000000000000000000000000000000000000000000040000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000071afd498d00000000000000000000000000000000000000000000000000000000000000000140000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000071afd498d0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000002bc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000064a0b86991c6218b36c1d19d4a2e9eb0ce3606eb4800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000060000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb4800000000000000000000000012c280ee47ddf0372b86e29a7065880108895fe70000000000000000000000000000000000000000000000000008e1bc9bf040000000000000000000000000000000000000000000000000000000000000000060000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a0000000000000000000000000000000000000000000000000000000000366c1a756e697800000000001c",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0xce13e46840eef11ee0c190f93af9a912bf5e868b2b1c1d48c641f2e3797bf1d8",
+        "max_fee_per_gas": "149236582",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "17131735620890",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 774728,
+        "position": 186,
+        "max_priority_fee_per_gas": "1000000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "2000000000000000",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "149987",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x4C82D1fBFe28C977cBB58D8C7FF8FCF9F70a2cCA",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Uniswap v4",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x28a20eea279d1e9cfcaf3eb7b6ad64dbcec77eb7e1b5cb036faf041c2e069b95",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "The official Uniswap v4's UniversalRouterV2.1.1 contract on Ethereum",
+                  "tooltipUrl": "https://app.uniswap.org/",
+                  "verifiedDomains": [
+                    "app.uniswap.org"
+                  ]
+                },
+                "name": "UniversalRouterV2.1.1",
+                "ordinal": 10,
+                "slug": "universalrouterv211-1",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": "UniversalRouter",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "execute",
+        "fee": {
+          "type": "actual",
+          "value": "17281722620890"
+        },
+        "gas_limit": "305828",
+        "gas_price": "115221470",
+        "decoded_input": {
+          "method_call": "execute(bytes commands, bytes[] inputs, uint256 deadline)",
+          "method_id": "3593564c",
+          "parameters": [
+            {
+              "name": "commands",
+              "type": "bytes",
+              "value": "0x0b000704"
+            },
+            {
+              "name": "inputs",
+              "type": "bytes[]",
+              "value": [
+                "0x000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000071afd498d0000",
+                "0x000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000071afd498d0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000002bc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000064a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb4800000000000000000000000012c280ee47ddf0372b86e29a7065880108895fe70000000000000000000000000000000000000000000000000008e1bc9bf04000",
+                "0x000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb480000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a0000000000000000000000000000000000000000000000000000000000366c1a"
+              ]
+            },
+            {
+              "name": "deadline",
+              "type": "uint256",
+              "value": "1783704713"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "114221470",
+        "timestamp": "2026-07-10T17:02:11.000000Z",
+        "nonce": 5,
+        "historic_exchange_rate": "1795.2394655119474",
+        "transaction_types": [
+          "coin_transfer",
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 25503555,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "6809984545668",
+        "raw_input": "0x0a8d01da000000000000000000000000bafa91d22c093e42e28d7be417e38244e4153f78000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x62e42c15181b9b689d78ac533ad517d8ac3aae59cbe0ab37bea8daff83f234fb",
+        "max_fee_per_gas": "116185340",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "59974123781472",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 1439975,
+        "position": 91,
+        "max_priority_fee_per_gas": "6161343",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "1105276",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "realizeRestakerInterest",
+        "fee": {
+          "type": "actual",
+          "value": "66784108327140"
+        },
+        "gas_limit": "2067894",
+        "gas_price": "60423015",
+        "decoded_input": {
+          "method_call": "realizeRestakerInterest(address _agent, address _asset)",
+          "method_id": "0a8d01da",
+          "parameters": [
+            {
+              "name": "_agent",
+              "type": "address",
+              "value": "0xbAfa91d22C093E42E28D7Be417e38244E4153f78"
+            },
+            {
+              "name": "_asset",
+              "type": "address",
+              "value": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "54261672",
+        "timestamp": "2026-04-08T23:34:35.000000Z",
+        "nonce": 4,
+        "historic_exchange_rate": "2179.7915700795793",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 24838308,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "170570300000",
+        "raw_input": "0x6c665a55000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb4800000000000000000000000000000000000000000000000000000000067f00860000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0x2f611869f9f6096f079f04ade530e79cbc8b64c0165b450e9b329bc766bc8f2e",
+        "max_fee_per_gas": "198656338",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "279035928184455",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 1440907,
+        "position": 180,
+        "max_priority_fee_per_gas": "100000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "1705703",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "borrow",
+        "fee": {
+          "type": "actual",
+          "value": "279206498484455"
+        },
+        "gas_limit": "3073611",
+        "gas_price": "163689985",
+        "decoded_input": {
+          "method_call": "borrow(address _asset, uint256 _amount, address _receiver)",
+          "method_id": "6c665a55",
+          "parameters": [
+            {
+              "name": "_asset",
+              "type": "address",
+              "value": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            {
+              "name": "_amount",
+              "type": "uint256",
+              "value": "108986502"
+            },
+            {
+              "name": "_receiver",
+              "type": "address",
+              "value": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "163589985",
+        "timestamp": "2026-04-08T20:27:11.000000Z",
+        "nonce": 3,
+        "historic_exchange_rate": "2179.7915700795793",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 24837376,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "81463288803",
+        "raw_input": "0x5ceae9c4000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000632ea000000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0xf13b744fe5a28950b9d1434c9f1ebdb4f1e2b4425753c82c4b7546a45703cb0f",
+        "max_fee_per_gas": "462739960",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "335869666537767",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 1442745,
+        "position": 374,
+        "max_priority_fee_per_gas": "78949",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "1031847",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "repay",
+        "fee": {
+          "type": "actual",
+          "value": "335951129826570"
+        },
+        "gas_limit": "1860356",
+        "gas_price": "325582310",
+        "decoded_input": {
+          "method_call": "repay(address _asset, uint256 _amount, address _agent)",
+          "method_id": "5ceae9c4",
+          "parameters": [
+            {
+              "name": "_asset",
+              "type": "address",
+              "value": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            {
+              "name": "_amount",
+              "type": "uint256",
+              "value": "104000000"
+            },
+            {
+              "name": "_agent",
+              "type": "address",
+              "value": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "325503361",
+        "timestamp": "2026-04-08T14:18:47.000000Z",
+        "nonce": 2,
+        "historic_exchange_rate": "2179.7915700795793",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 24835538,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "55558000000",
+        "raw_input": "0x095ea7b300000000000000000000000015622c3dbbc5614e6dfa9446603c1779647f01fc000000000000000000000000000000000000000000000000000000000632ea00",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0xb50f96fdbdb4cad5f4310aa510cd2dd3a549783185141b0b959dfcc36d0dac2d",
+        "max_fee_per_gas": "448413187",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "20563616370422",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 1442749,
+        "position": 222,
+        "max_priority_fee_per_gas": "1000000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "55558",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "implementations": [
+            {
+              "address_hash": "0x43506849D7C04F9138D1A2050bbF3A0c054402dd",
+              "name": "FiatTokenV2_2"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "projectName": "Circle",
+                  "tagIcon": "https://assets.coingecko.com/coins/images/6319/small/usdc.png?1696506694",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tagUrl": "https://scout-app.kleros.io/single-tags/0x924f91c6a015abb7e7a5f8c7c0989761b4df998abdbd6541365eb3c82132a390",
+                  "textColor": "#C163D4",
+                  "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/Qmc3TH5cPhyh7418kSD83SSBzng1oqbLxjzxfjwA2VAoj8/BccwoeFESYBsv6XiJVRAp5b3pRpvMgdhfZCxV5vSppWbAukhqrBRVRj3jAxHnbfmvg181rcVw9ny4LBLbFdm2S2RRH\",\"token_symbol\":\"USDC\",\"token_name\":\"USD Coin\",\"decimals\":6}",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "USDC is a US dollar-backed stablecoin issued by Circle. USDC is designed to provide a faster, safer, and more efficient way to send, spend, and exchange money around the world.",
+                  "tooltipUrl": "https://www.circle.com/en/usdc"
+                },
+                "name": "USDC Token",
+                "ordinal": 10,
+                "slug": "usdc-token-1",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Token Contract",
+                "ordinal": 0,
+                "slug": "token-contract",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "Stablecoin",
+                "ordinal": 0,
+                "slug": "stablecoin",
+                "tagType": "generic"
+              },
+              {
+                "meta": {},
+                "name": "USDC",
+                "ordinal": 0,
+                "slug": "usdc",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI"
+                },
+                "name": "USD Coin",
+                "ordinal": 0,
+                "slug": "usd-coin",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appID": "circle",
+                  "appMarketplaceURL": "https://app.circle.com/get-started",
+                  "bgColor": "#2775ca",
+                  "tagIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/circle-icon-white.png",
+                  "textColor": "#FFFFFF",
+                  "tooltipUrl": "https://www.circle.com/"
+                },
+                "name": "Circle",
+                "ordinal": 0,
+                "slug": "circle",
+                "tagType": "protocol"
+              },
+              {
+                "meta": {
+                  "data": "ok"
+                },
+                "name": "Credible token",
+                "ordinal": 0,
+                "slug": "credible-token",
+                "tagType": "token_reputation"
+              }
+            ]
+          },
+          "name": "USDC",
+          "private_tags": [],
+          "proxy_type": "eip1967_oz",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "approve",
+        "fee": {
+          "type": "actual",
+          "value": "20619174370422"
+        },
+        "gas_limit": "67633",
+        "gas_price": "371128809",
+        "decoded_input": {
+          "method_call": "approve(address spender, uint256 value)",
+          "method_id": "095ea7b3",
+          "parameters": [
+            {
+              "name": "spender",
+              "type": "address",
+              "value": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC"
+            },
+            {
+              "name": "value",
+              "type": "uint256",
+              "value": "104000000"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "370128809",
+        "timestamp": "2026-04-08T14:17:59.000000Z",
+        "nonce": 1,
+        "historic_exchange_rate": "2179.7915700795793",
+        "transaction_types": [
+          "contract_call"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 24835534,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "1835161500000",
+        "raw_input": "0x6c665a55000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000c70dcd10000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0xb9a2366cf34ddf856795696ceb7a3ae46b52292432dfa92fcdd1ce674cdc5cbd",
+        "max_fee_per_gas": "154855505",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "153382157086916",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 1457315,
+        "position": 236,
+        "max_priority_fee_per_gas": "1500000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "0",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "1223441",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+          "implementations": [
+            {
+              "address_hash": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+              "name": "Lender"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "ERC1967Proxy",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": "borrow",
+        "fee": {
+          "type": "actual",
+          "value": "155217318586916"
+        },
+        "gas_limit": "2082708",
+        "gas_price": "126869476",
+        "decoded_input": {
+          "method_call": "borrow(address _asset, uint256 _amount, address _receiver)",
+          "method_id": "6c665a55",
+          "parameters": [
+            {
+              "name": "_asset",
+              "type": "address",
+              "value": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+            },
+            {
+              "name": "_amount",
+              "type": "uint256",
+              "value": "208723153"
+            },
+            {
+              "name": "_receiver",
+              "type": "address",
+              "value": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A"
+            }
+          ]
+        },
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "125369476",
+        "timestamp": "2026-04-06T13:35:23.000000Z",
+        "nonce": 0,
+        "historic_exchange_rate": "2100.806140265129",
+        "transaction_types": [
+          "contract_call",
+          "token_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 24820968,
+        "has_error_in_internal_transactions": false
+      },
+      {
+        "priority_fee": "21000000000",
+        "raw_input": "0x",
+        "is_pending_update": false,
+        "result": "success",
+        "hash": "0xa0ac2765f2f41810ea1a3e2436001760d73a637aa03f9eaec605f5c88212e028",
+        "max_fee_per_gas": "142211793",
+        "revert_reason": null,
+        "confirmation_duration": [
+          0,
+          12000.0
+        ],
+        "transaction_burnt_fee": "2718946944000",
+        "type": 2,
+        "token_transfers_overflow": null,
+        "confirmations": 1457327,
+        "position": 147,
+        "max_priority_fee_per_gas": "1000000",
+        "transaction_tag": null,
+        "created_contract": null,
+        "value": "5000000000000000",
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x818270917772Bf4270aE8176BB813f0768Dff6E9",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "gas_used": "21000",
+        "status": "ok",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x0D35D950FDb0741F11c4384dAd15A07EdB26E21A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "authorization_list": [],
+        "method": null,
+        "fee": {
+          "type": "actual",
+          "value": "2739946944000"
+        },
+        "gas_limit": "21000",
+        "gas_price": "130473664",
+        "decoded_input": null,
+        "fhe_operations_count": 0,
+        "token_transfers": null,
+        "base_fee_per_gas": "129473664",
+        "timestamp": "2026-04-06T13:32:59.000000Z",
+        "nonce": 225,
+        "historic_exchange_rate": "2100.806140265129",
+        "transaction_types": [
+          "coin_transfer"
+        ],
+        "exchange_rate": "2326.57",
+        "block_number": 24820956,
+        "has_error_in_internal_transactions": false
+      }
+    ],
+    "next_page_params": null
+  }
+}

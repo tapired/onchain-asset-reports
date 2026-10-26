@@ -1,0 +1,3775 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/addresses/0xd362efc75ef1879f37a900823495f402cfdb0986/token-transfers?type=ERC-20",
+  "request": null,
+  "observed_utc": "2026-10-26T17:10:21.228659+00:00",
+  "http_status": 200,
+  "body": {
+    "items": [
+      {
+        "block_hash": "0x6e07b42fba2feddeaeda241fa57019b7f41a8f70cf1ee3ef195273ab318a8a6b",
+        "block_number": 25612473,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 341,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-25T21:27:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "213000000000"
+        },
+        "transaction_hash": "0x8b157242b3484f62532f5beb85f8ff406cc6a76a9b145ff52fca194d392c746d",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x6e07b42fba2feddeaeda241fa57019b7f41a8f70cf1ee3ef195273ab318a8a6b",
+        "block_number": 25612473,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 339,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-25T21:27:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "213000000000"
+        },
+        "transaction_hash": "0x8b157242b3484f62532f5beb85f8ff406cc6a76a9b145ff52fca194d392c746d",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x6e07b42fba2feddeaeda241fa57019b7f41a8f70cf1ee3ef195273ab318a8a6b",
+        "block_number": 25612473,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 337,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-25T21:27:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73722948.52067856",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250490083695375989298821",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "233139461481560505648366"
+        },
+        "transaction_hash": "0x8b157242b3484f62532f5beb85f8ff406cc6a76a9b145ff52fca194d392c746d",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x6e07b42fba2feddeaeda241fa57019b7f41a8f70cf1ee3ef195273ab318a8a6b",
+        "block_number": 25612473,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA1BE7034B2Aa8e72D81E17420B6C6C4f0035Fdd4",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CapUSDExchange",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 336,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-25T21:27:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73722948.52067856",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250490083695375989298821",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "233139461481560505648366"
+        },
+        "transaction_hash": "0x8b157242b3484f62532f5beb85f8ff406cc6a76a9b145ff52fca194d392c746d",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x6e07b42fba2feddeaeda241fa57019b7f41a8f70cf1ee3ef195273ab318a8a6b",
+        "block_number": 25612473,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 327,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-25T21:27:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA1BE7034B2Aa8e72D81E17420B6C6C4f0035Fdd4",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CapUSDExchange",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x8b157242b3484f62532f5beb85f8ff406cc6a76a9b145ff52fca194d392c746d",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x6e07b42fba2feddeaeda241fa57019b7f41a8f70cf1ee3ef195273ab318a8a6b",
+        "block_number": 25612473,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 326,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-25T21:27:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "213000000000"
+        },
+        "transaction_hash": "0x8b157242b3484f62532f5beb85f8ff406cc6a76a9b145ff52fca194d392c746d",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xcfb378e6433aa4f027e92607814dba20cd77d6b1286a9b411456ba3cf821c682",
+        "block_number": 25612458,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x696d02Db93291651ED510704c9b286841d506987",
+          "implementations": [
+            {
+              "address_hash": "0xd8063123BBA3B480569244AE66BFE72B6c84b00d",
+              "name": "Yearn V3 Vault"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "USD yVault",
+          "private_tags": [],
+          "proxy_type": "eip1167",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 103,
+        "method": "0xac9650d8",
+        "timestamp": "2026-07-25T21:24:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "37000000000"
+        },
+        "transaction_hash": "0xcdb8aa45efd51ddb89f1c46bea2067789df789df9c2d8f4a3d1c4e6a53d204a0",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x645f69f48d16b61dd9d1030c7dc02cc7fdc425d12c7c3420f66a02abf500065f",
+        "block_number": 25592673,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1808,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-23T03:13:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x1936a4743a900b346259c42dc6f9230a0a217e4a26731aceeb7b6da985588b51",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x645f69f48d16b61dd9d1030c7dc02cc7fdc425d12c7c3420f66a02abf500065f",
+        "block_number": 25592673,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1806,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-23T03:13:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x1936a4743a900b346259c42dc6f9230a0a217e4a26731aceeb7b6da985588b51",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x645f69f48d16b61dd9d1030c7dc02cc7fdc425d12c7c3420f66a02abf500065f",
+        "block_number": 25592673,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1804,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-23T03:13:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73722948.52067856",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250490083695375989298821",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "233234962828258814292060"
+        },
+        "transaction_hash": "0x1936a4743a900b346259c42dc6f9230a0a217e4a26731aceeb7b6da985588b51",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x645f69f48d16b61dd9d1030c7dc02cc7fdc425d12c7c3420f66a02abf500065f",
+        "block_number": 25592673,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA1BE7034B2Aa8e72D81E17420B6C6C4f0035Fdd4",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CapUSDExchange",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1803,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-23T03:13:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73722948.52067856",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250490083695375989298821",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "233234962828258814292060"
+        },
+        "transaction_hash": "0x1936a4743a900b346259c42dc6f9230a0a217e4a26731aceeb7b6da985588b51",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x645f69f48d16b61dd9d1030c7dc02cc7fdc425d12c7c3420f66a02abf500065f",
+        "block_number": 25592673,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1794,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-23T03:13:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA1BE7034B2Aa8e72D81E17420B6C6C4f0035Fdd4",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CapUSDExchange",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x1936a4743a900b346259c42dc6f9230a0a217e4a26731aceeb7b6da985588b51",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x645f69f48d16b61dd9d1030c7dc02cc7fdc425d12c7c3420f66a02abf500065f",
+        "block_number": 25592673,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 1793,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-23T03:13:11.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x1936a4743a900b346259c42dc6f9230a0a217e4a26731aceeb7b6da985588b51",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xc4b524a4e2ef9eb58666da4788038370fb479602bf303cc5c27fb193f91e6870",
+        "block_number": 25592484,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 605,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-23T02:35:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0xa0e0df68347fd43d1da7b6af663e71a58e95ef32bbf5eb3740cb771292f5c99c",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xc4b524a4e2ef9eb58666da4788038370fb479602bf303cc5c27fb193f91e6870",
+        "block_number": 25592484,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 603,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-23T02:35:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0xa0e0df68347fd43d1da7b6af663e71a58e95ef32bbf5eb3740cb771292f5c99c",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xc4b524a4e2ef9eb58666da4788038370fb479602bf303cc5c27fb193f91e6870",
+        "block_number": 25592484,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 601,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-23T02:35:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73722948.52067856",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250490083695375989298821",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "233235693956018270031086"
+        },
+        "transaction_hash": "0xa0e0df68347fd43d1da7b6af663e71a58e95ef32bbf5eb3740cb771292f5c99c",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xc4b524a4e2ef9eb58666da4788038370fb479602bf303cc5c27fb193f91e6870",
+        "block_number": 25592484,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA1BE7034B2Aa8e72D81E17420B6C6C4f0035Fdd4",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CapUSDExchange",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 600,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-23T02:35:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73722948.52067856",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250490083695375989298821",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "233235693956018270031086"
+        },
+        "transaction_hash": "0xa0e0df68347fd43d1da7b6af663e71a58e95ef32bbf5eb3740cb771292f5c99c",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xc4b524a4e2ef9eb58666da4788038370fb479602bf303cc5c27fb193f91e6870",
+        "block_number": 25592484,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 591,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-23T02:35:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA1BE7034B2Aa8e72D81E17420B6C6C4f0035Fdd4",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CapUSDExchange",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0xa0e0df68347fd43d1da7b6af663e71a58e95ef32bbf5eb3740cb771292f5c99c",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xc4b524a4e2ef9eb58666da4788038370fb479602bf303cc5c27fb193f91e6870",
+        "block_number": 25592484,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 590,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-23T02:35:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0xa0e0df68347fd43d1da7b6af663e71a58e95ef32bbf5eb3740cb771292f5c99c",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x1e726f443f7a12a283e6718f3f1d89ce6e5ba34ccab0f9d6494919d8b145fc6a",
+        "block_number": 25590689,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 459,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T20:35:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x290c26f2dae1045397f26d98943fdff818b3028e736fe45134138a4ded39417e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x1e726f443f7a12a283e6718f3f1d89ce6e5ba34ccab0f9d6494919d8b145fc6a",
+        "block_number": 25590689,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 457,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T20:35:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x290c26f2dae1045397f26d98943fdff818b3028e736fe45134138a4ded39417e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x1e726f443f7a12a283e6718f3f1d89ce6e5ba34ccab0f9d6494919d8b145fc6a",
+        "block_number": 25590689,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 455,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T20:35:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73722948.52067856",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250490083695375989298821",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "233243358473954153843716"
+        },
+        "transaction_hash": "0x290c26f2dae1045397f26d98943fdff818b3028e736fe45134138a4ded39417e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x1e726f443f7a12a283e6718f3f1d89ce6e5ba34ccab0f9d6494919d8b145fc6a",
+        "block_number": 25590689,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA1BE7034B2Aa8e72D81E17420B6C6C4f0035Fdd4",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CapUSDExchange",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 454,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T20:35:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73722948.52067856",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250490083695375989298821",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "233243358473954153843716"
+        },
+        "transaction_hash": "0x290c26f2dae1045397f26d98943fdff818b3028e736fe45134138a4ded39417e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x1e726f443f7a12a283e6718f3f1d89ce6e5ba34ccab0f9d6494919d8b145fc6a",
+        "block_number": 25590689,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 445,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T20:35:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA1BE7034B2Aa8e72D81E17420B6C6C4f0035Fdd4",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CapUSDExchange",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x290c26f2dae1045397f26d98943fdff818b3028e736fe45134138a4ded39417e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x1e726f443f7a12a283e6718f3f1d89ce6e5ba34ccab0f9d6494919d8b145fc6a",
+        "block_number": 25590689,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 444,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T20:35:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x290c26f2dae1045397f26d98943fdff818b3028e736fe45134138a4ded39417e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xed1bf13c5bccfcfe3e0db07de84dbf9cee09a9f09feb13ce5446e7f3fa044fd2",
+        "block_number": 25589573,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 715,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T16:50:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x7b0f11949da741675c474b2188721cf53a32e2e511bfa139771a75b8e2708e19",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xed1bf13c5bccfcfe3e0db07de84dbf9cee09a9f09feb13ce5446e7f3fa044fd2",
+        "block_number": 25589573,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 713,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T16:50:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x7b0f11949da741675c474b2188721cf53a32e2e511bfa139771a75b8e2708e19",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xed1bf13c5bccfcfe3e0db07de84dbf9cee09a9f09feb13ce5446e7f3fa044fd2",
+        "block_number": 25589573,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 711,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T16:50:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73722948.52067856",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250490083695375989298821",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "233248770031693126854867"
+        },
+        "transaction_hash": "0x7b0f11949da741675c474b2188721cf53a32e2e511bfa139771a75b8e2708e19",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xed1bf13c5bccfcfe3e0db07de84dbf9cee09a9f09feb13ce5446e7f3fa044fd2",
+        "block_number": 25589573,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA1BE7034B2Aa8e72D81E17420B6C6C4f0035Fdd4",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CapUSDExchange",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 710,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T16:50:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73722948.52067856",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250490083695375989298821",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "233248770031693126854867"
+        },
+        "transaction_hash": "0x7b0f11949da741675c474b2188721cf53a32e2e511bfa139771a75b8e2708e19",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xed1bf13c5bccfcfe3e0db07de84dbf9cee09a9f09feb13ce5446e7f3fa044fd2",
+        "block_number": 25589573,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 701,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T16:50:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA1BE7034B2Aa8e72D81E17420B6C6C4f0035Fdd4",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CapUSDExchange",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x7b0f11949da741675c474b2188721cf53a32e2e511bfa139771a75b8e2708e19",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xed1bf13c5bccfcfe3e0db07de84dbf9cee09a9f09feb13ce5446e7f3fa044fd2",
+        "block_number": 25589573,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 700,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T16:50:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x7b0f11949da741675c474b2188721cf53a32e2e511bfa139771a75b8e2708e19",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x1301632eb20cb3c9963846348462d938a5060e57437060734875807fc02bdafa",
+        "block_number": 25589213,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 803,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T15:38:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x212db77516004a34396548c5523a6c5a71b8bcf2eacd52519c56d35d036f546e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x1301632eb20cb3c9963846348462d938a5060e57437060734875807fc02bdafa",
+        "block_number": 25589213,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 801,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T15:38:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x212db77516004a34396548c5523a6c5a71b8bcf2eacd52519c56d35d036f546e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x1301632eb20cb3c9963846348462d938a5060e57437060734875807fc02bdafa",
+        "block_number": 25589213,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 799,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T15:38:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73722948.52067856",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250490083695375989298821",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "233250520548075179235941"
+        },
+        "transaction_hash": "0x212db77516004a34396548c5523a6c5a71b8bcf2eacd52519c56d35d036f546e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x1301632eb20cb3c9963846348462d938a5060e57437060734875807fc02bdafa",
+        "block_number": 25589213,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA1BE7034B2Aa8e72D81E17420B6C6C4f0035Fdd4",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CapUSDExchange",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 798,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T15:38:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73722948.52067856",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250490083695375989298821",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "233250520548075179235941"
+        },
+        "transaction_hash": "0x212db77516004a34396548c5523a6c5a71b8bcf2eacd52519c56d35d036f546e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x1301632eb20cb3c9963846348462d938a5060e57437060734875807fc02bdafa",
+        "block_number": 25589213,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 789,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T15:38:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA1BE7034B2Aa8e72D81E17420B6C6C4f0035Fdd4",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CapUSDExchange",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x212db77516004a34396548c5523a6c5a71b8bcf2eacd52519c56d35d036f546e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x1301632eb20cb3c9963846348462d938a5060e57437060734875807fc02bdafa",
+        "block_number": 25589213,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 788,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T15:38:35.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x212db77516004a34396548c5523a6c5a71b8bcf2eacd52519c56d35d036f546e",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x3f0d41ebb6eb06da3f4de61aedefaa65e9682e509fd1cdfc45fda9570f570015",
+        "block_number": 25585375,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 318,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T02:46:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0xdd7b34d6d27c5e4b880954c2948df9009c3b8ba7da6a53ae1e88267956dac418",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x3f0d41ebb6eb06da3f4de61aedefaa65e9682e509fd1cdfc45fda9570f570015",
+        "block_number": 25585375,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 316,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T02:46:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0xdd7b34d6d27c5e4b880954c2948df9009c3b8ba7da6a53ae1e88267956dac418",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x3f0d41ebb6eb06da3f4de61aedefaa65e9682e509fd1cdfc45fda9570f570015",
+        "block_number": 25585375,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 314,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T02:46:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73722948.52067856",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250490083695375989298821",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "233269075472507114652501"
+        },
+        "transaction_hash": "0xdd7b34d6d27c5e4b880954c2948df9009c3b8ba7da6a53ae1e88267956dac418",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x3f0d41ebb6eb06da3f4de61aedefaa65e9682e509fd1cdfc45fda9570f570015",
+        "block_number": 25585375,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA1BE7034B2Aa8e72D81E17420B6C6C4f0035Fdd4",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CapUSDExchange",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 313,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T02:46:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73722948.52067856",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250490083695375989298821",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "233269075472507114652501"
+        },
+        "transaction_hash": "0xdd7b34d6d27c5e4b880954c2948df9009c3b8ba7da6a53ae1e88267956dac418",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x3f0d41ebb6eb06da3f4de61aedefaa65e9682e509fd1cdfc45fda9570f570015",
+        "block_number": 25585375,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 304,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T02:46:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA1BE7034B2Aa8e72D81E17420B6C6C4f0035Fdd4",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CapUSDExchange",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0xdd7b34d6d27c5e4b880954c2948df9009c3b8ba7da6a53ae1e88267956dac418",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x3f0d41ebb6eb06da3f4de61aedefaa65e9682e509fd1cdfc45fda9570f570015",
+        "block_number": 25585375,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 303,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-22T02:46:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0xdd7b34d6d27c5e4b880954c2948df9009c3b8ba7da6a53ae1e88267956dac418",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xedf530a845f241d6c14209d099db8e1f4d47c7f2f9ccd6fe328ea0ec024af276",
+        "block_number": 25584226,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 701,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-21T22:55:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x15a6866f330d3f858a1e85ec27466c2278721f932323d92eca0dee6232711b8b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xedf530a845f241d6c14209d099db8e1f4d47c7f2f9ccd6fe328ea0ec024af276",
+        "block_number": 25584226,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 699,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-21T22:55:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x15a6866f330d3f858a1e85ec27466c2278721f932323d92eca0dee6232711b8b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xedf530a845f241d6c14209d099db8e1f4d47c7f2f9ccd6fe328ea0ec024af276",
+        "block_number": 25584226,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 697,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-21T22:55:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73722948.52067856",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250490083695375989298821",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "233274666717279459819810"
+        },
+        "transaction_hash": "0x15a6866f330d3f858a1e85ec27466c2278721f932323d92eca0dee6232711b8b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xedf530a845f241d6c14209d099db8e1f4d47c7f2f9ccd6fe328ea0ec024af276",
+        "block_number": 25584226,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xA1BE7034B2Aa8e72D81E17420B6C6C4f0035Fdd4",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CapUSDExchange",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 696,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-21T22:55:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x88887bE419578051FF9F4eb6C858A951921D8888",
+          "circulating_market_cap": "73722948.52067856",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "1.087",
+          "holders_count": "292",
+          "icon_url": "https://assets.coingecko.com/coins/images/69060/small/stcUSD_ab_200%C3%97200.png?1757396740",
+          "name": "Staked Cap USD",
+          "reputation": "ok",
+          "symbol": "STCUSD",
+          "total_supply": "69250490083695375989298821",
+          "type": "ERC-20",
+          "volume_24h": "0"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "233274666717279459819810"
+        },
+        "transaction_hash": "0x15a6866f330d3f858a1e85ec27466c2278721f932323d92eca0dee6232711b8b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xedf530a845f241d6c14209d099db8e1f4d47c7f2f9ccd6fe328ea0ec024af276",
+        "block_number": 25584226,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 687,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-21T22:55:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA1BE7034B2Aa8e72D81E17420B6C6C4f0035Fdd4",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "CapUSDExchange",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x15a6866f330d3f858a1e85ec27466c2278721f932323d92eca0dee6232711b8b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0xedf530a845f241d6c14209d099db8e1f4d47c7f2f9ccd6fe328ea0ec024af276",
+        "block_number": 25584226,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 686,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-21T22:55:59.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "250000000000"
+        },
+        "transaction_hash": "0x15a6866f330d3f858a1e85ec27466c2278721f932323d92eca0dee6232711b8b",
+        "type": "token_transfer"
+      },
+      {
+        "block_hash": "0x4b1dbc21ee55e10f15788678b70ea386e2e719826350d22a82bf1144ceba550e",
+        "block_number": 25583387,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0xd362efC75Ef1879f37A900823495f402CfdB0986",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBrokerLooper",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 649,
+        "method": "tendStrategy",
+        "timestamp": "2026-07-21T20:07:23.000000Z",
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "appID": "morpho",
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "An efficient, secure & flexible lending protocol on Base.",
+                  "tooltipUrl": "https://morpho.org/"
+                },
+                "name": "Morpho: Morpho Blue",
+                "ordinal": 10,
+                "slug": "morpho-morpho-blue",
+                "tagType": "name"
+              },
+              {
+                "meta": {
+                  "appActionButtonText": "Morpho Aave App",
+                  "appID": "morpho"
+                },
+                "name": "Morpho",
+                "ordinal": 0,
+                "slug": "morpho",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": "Morpho",
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+          "circulating_market_cap": "71050228486.56879",
+          "circulating_supply": null,
+          "decimals": "6",
+          "exchange_rate": "0.999343",
+          "holders_count": "9532111",
+          "icon_url": "https://raw.githubusercontent.com/ulyanas/frontend-configs/add-usdc-eurc-latest-token-icons/configs/token-icons/USDC_latest.svg",
+          "name": "USDC",
+          "reputation": "ok",
+          "symbol": "USDC",
+          "total_supply": "47517730892715040",
+          "type": "ERC-20",
+          "volume_24h": "11279005030.066793"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "6",
+          "value": "215000000000"
+        },
+        "transaction_hash": "0x5e844ffe2fd61140283f6d52abea5774b234d9413c9540156f738ffbfb111cf7",
+        "type": "token_transfer"
+      }
+    ],
+    "next_page_params": {
+      "index": 649,
+      "block_number": 25583387
+    }
+  }
+}

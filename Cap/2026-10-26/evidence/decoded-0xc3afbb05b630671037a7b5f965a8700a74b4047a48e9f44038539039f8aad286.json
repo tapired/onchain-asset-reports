@@ -1,0 +1,94 @@
+{
+  "hash": "0xc3afbb05b630671037a7b5f965a8700a74b4047a48e9f44038539039f8aad286",
+  "status": "0x1",
+  "block": 25130711,
+  "utc": "2026-05-19T17:17:59+00:00",
+  "from": "0xf1a2ac1e53c00f76192c60c368cf4476fd3acd79",
+  "to": "0x97f478562cfc6e4c88b125bac83f2ad83a203d8e",
+  "logs": [
+    {
+      "logIndex": 156,
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "event": "Approval",
+      "params": {
+        "value": 4500000000000,
+        "owner": "0x97f478562cfc6e4c88b125bac83f2ad83a203d8e",
+        "spender": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc"
+      }
+    },
+    {
+      "logIndex": 157,
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "event": "Transfer",
+      "params": {
+        "value": 4500000000000,
+        "from": "0x97f478562cfc6e4c88b125bac83f2ad83a203d8e",
+        "to": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc"
+      }
+    },
+    {
+      "logIndex": 158,
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "event": "Approval",
+      "params": {
+        "value": 4500000000000,
+        "owner": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+        "spender": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc"
+      }
+    },
+    {
+      "logIndex": 159,
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "event": "Transfer",
+      "params": {
+        "value": 4500000000000,
+        "from": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+        "to": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc"
+      }
+    },
+    {
+      "logIndex": 160,
+      "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "event": "Repay",
+      "params": {
+        "amount": 4500000000000,
+        "repayer": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+        "asset": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+      }
+    },
+    {
+      "logIndex": 161,
+      "address": "0xfa8c6d0b95d9191b5a1d51c868da2bdfd6c04ff9",
+      "event": "Transfer",
+      "params": {
+        "value": 4406961363821,
+        "from": "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d",
+        "to": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "logIndex": 162,
+      "address": "0x15622c3dbbc5614e6dfa9446603c1779647f01fc",
+      "event": "Repay",
+      "params": {
+        "asset": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "agent": "0x3fa0d4ce8c396b03beb3d8411e10b0126a1b913d",
+        "details": {
+          "repaid": 4500000000000,
+          "vaultRepaid": 4500000000000,
+          "restakerRepaid": 0,
+          "interestRepaid": 0
+        }
+      }
+    },
+    {
+      "logIndex": 163,
+      "address": "0x97f478562cfc6e4c88b125bac83f2ad83a203d8e",
+      "topics": [
+        "0x442e715f626346e8c54381002da614f62bee8d27386535b2521ec8540898556e",
+        "0x7846f44d2d86c1782e3f934ebe6532f4bfdd99263a615c074aafdb2c4ec4b0f0"
+      ],
+      "data": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ]
+}

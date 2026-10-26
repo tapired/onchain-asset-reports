@@ -1,0 +1,96 @@
+{
+  "block": "0x2c25bec",
+  "observed_utc": "2026-10-26T17:12:39.572119+00:00",
+  "results": [
+    {
+      "label": "cUSD symbol",
+      "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "signature": "symbol()",
+      "args": [],
+      "block": "0x2c25bec",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 0,
+        "result": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000046355534400000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        "cUSD"
+      ]
+    },
+    {
+      "label": "cUSD decimals",
+      "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "signature": "decimals()",
+      "args": [],
+      "block": "0x2c25bec",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000012"
+      },
+      "decoded": [
+        18
+      ]
+    },
+    {
+      "label": "cUSD totalSupply",
+      "address": "0xcccc62962d17b8914c62d74ffb843d73b2a3cccc",
+      "signature": "totalSupply()",
+      "args": [],
+      "block": "0x2c25bec",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": "0x000000000000000000000000000000000000000000000000217fcf6ec7d74000"
+      },
+      "decoded": [
+        2413876000000000000
+      ]
+    },
+    {
+      "label": "stcUSD symbol",
+      "address": "0x88887be419578051ff9f4eb6c858a951921d8888",
+      "signature": "symbol()",
+      "args": [],
+      "block": "0x2c25bec",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000067374635553440000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        "stcUSD"
+      ]
+    },
+    {
+      "label": "stcUSD decimals",
+      "address": "0x88887be419578051ff9f4eb6c858a951921d8888",
+      "signature": "decimals()",
+      "args": [],
+      "block": "0x2c25bec",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 4,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000012"
+      },
+      "decoded": [
+        18
+      ]
+    },
+    {
+      "label": "stcUSD totalSupply",
+      "address": "0x88887be419578051ff9f4eb6c858a951921d8888",
+      "signature": "totalSupply()",
+      "args": [],
+      "block": "0x2c25bec",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 5,
+        "result": "0x000000000000000000000000000000000000000000001340a147d6175f9e0000"
+      },
+      "decoded": [
+        90917176288000000000000
+      ]
+    }
+  ]
+}

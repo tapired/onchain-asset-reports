@@ -1,0 +1,35 @@
+{
+  "url": "https://raw.githubusercontent.com/symbioticfi/metadata-mainnet/ab506ae68f7e165d460df21244ec3bbe0646e458/vaults/0xFCdaeF4D62b95b585CA5a6C328607E0548563dde/info.json",
+  "request": null,
+  "observed_utc": "2026-10-26T17:12:38.438933+00:00",
+  "http_status": 200,
+  "body": {
+    "description": "Hyperithm Vault delegating WBTC to the Hyperithm Operator for Cap",
+    "links": [
+      {
+        "name": "Website",
+        "type": "website",
+        "url": "https://www.hyperithm.com/"
+      },
+      {
+        "name": "Twitter",
+        "type": "website",
+        "url": "https://x.com/hyperithm"
+      }
+    ],
+    "name": "Hyperithm-Hyperithm-WBTC",
+    "tags": [
+      "Hyperithm",
+      "Cap",
+      "WBTC"
+    ],
+    "rewards": [
+      {
+        "address": "0x83fa2Df437D1ACF9D906d420a7c87Cf5B7CD9E85",
+        "type": "defaultStakingRewardsV2"
+      }
+    ],
+    "curatorId": "hyperithm",
+    "vaultType": "network-exclusive"
+  }
+}

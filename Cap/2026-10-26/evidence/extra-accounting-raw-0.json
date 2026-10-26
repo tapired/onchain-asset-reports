@@ -1,0 +1,77 @@
+{
+  "url": "https://ethereum-rpc.publicnode.com",
+  "request": [
+    {
+      "jsonrpc": "2.0",
+      "id": 0,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6fe7fa90756434645f0b0428fdff78e99dda0fbc",
+          "data": "0x47bd3718"
+        },
+        "0x190f965"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x6fe7fa90756434645f0b0428fdff78e99dda0fbc",
+          "data": "0x01e1d114"
+        },
+        "0x190f965"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+          "data": "0x70a082310000000000000000000000007d7f72d393f242da6e22d3b970491c06742984ff"
+        },
+        "0x190f965"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "data": "0x70a0823100000000000000000000000098c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c"
+        },
+        "0x190f965"
+      ]
+    }
+  ],
+  "observed_utc": "2026-10-26T17:14:16.022698+00:00",
+  "http_status": 200,
+  "body": [
+    {
+      "jsonrpc": "2.0",
+      "id": 0,
+      "result": "0x00000000000000000000000000000000000000000000000000000000000c18db"
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "result": "0x000000000000000000000000000000000000000000000000000000031b8a29c5"
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "result": "0x000000000000000000000000000000000000000000000000000012e04c47cf2b"
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "result": "0x00000000000000000000000000000000000000000000000000009ba6dacc137f"
+    }
+  ]
+}

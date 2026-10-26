@@ -1,0 +1,68 @@
+{
+  "hash": "0xd203465b11dc53437413664246d39e5a1f6f9481a826958489745cea8f1831ac",
+  "status": "0x1",
+  "block": 20748428,
+  "utc": "2026-07-08T21:17:19+00:00",
+  "from": "0x64471d103a7f77262529383d53bdd28b260b1ae8",
+  "to": "0x7e324abc5de01d112afc03a584966ff199741c28",
+  "transaction_fields_source": "eth_getTransactionByHash",
+  "logs": [
+    {
+      "logIndex": 70,
+      "address": "0x6b408d6c479c304794abc60a4693a3ad2d3c2d0d",
+      "event": "Transfer",
+      "params": {
+        "value": 4699995416253973004894935,
+        "from": "0x64471d103a7f77262529383d53bdd28b260b1ae8",
+        "to": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "logIndex": 71,
+      "address": "0x6b408d6c479c304794abc60a4693a3ad2d3c2d0d",
+      "event": "Burn",
+      "params": {
+        "netLpBurned": 4699995416253973004894935,
+        "netSyOut": 4583746026995105064,
+        "netPtOut": 1005226986079526030250468519,
+        "receiverSy": "0x64471d103a7f77262529383d53bdd28b260b1ae8",
+        "receiverPt": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "logIndex": 72,
+      "address": "0x7e324abc5de01d112afc03a584966ff199741c28",
+      "event": "ReserveDataUpdated",
+      "params": {
+        "liquidityRate": 13606768214781012679111982,
+        "stableBorrowRate": 0,
+        "variableBorrowRate": 25921789504204699532947051,
+        "liquidityIndex": 1002994823322253790009960235,
+        "variableBorrowIndex": 1005226986079526030250468519,
+        "reserve": "0xfafddbb3fc7688494971a79cc65dca3ef82079e7"
+      }
+    },
+    {
+      "logIndex": 73,
+      "address": "0xfafddbb3fc7688494971a79cc65dca3ef82079e7",
+      "event": "Transfer",
+      "params": {
+        "value": 4700000000000000000000000,
+        "from": "0x64471d103a7f77262529383d53bdd28b260b1ae8",
+        "to": "0x5df82810cb4b8f3e0da3c031ccc9208ee9cf9500"
+      }
+    },
+    {
+      "logIndex": 74,
+      "address": "0x7e324abc5de01d112afc03a584966ff199741c28",
+      "event": "Repay",
+      "params": {
+        "amount": 4700000000000000000000000,
+        "useATokens": false,
+        "reserve": "0xfafddbb3fc7688494971a79cc65dca3ef82079e7",
+        "user": "0x64471d103a7f77262529383d53bdd28b260b1ae8",
+        "repayer": "0x64471d103a7f77262529383d53bdd28b260b1ae8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "block": "0x2c25bec",
+  "observed_utc": "2026-10-26T17:14:16.021415+00:00",
+  "results": [
+    {
+      "label": "adapter parent",
+      "address": "0xafa6ce7b33dbea40189f195f4642287ae191e1f0",
+      "signature": "parentVault()",
+      "args": [],
+      "block": "0x2c25bec",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 0,
+        "result": "0x0000000000000000000000006a31358e58b8692ce5317181ff3379a5766a7aba"
+      },
+      "decoded": [
+        "0x6a31358e58b8692ce5317181ff3379a5766a7aba"
+      ]
+    },
+    {
+      "label": "adapter morpho",
+      "address": "0xafa6ce7b33dbea40189f195f4642287ae191e1f0",
+      "signature": "MORPHO()",
+      "args": [],
+      "block": "0x2c25bec",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "error": {
+          "code": 3,
+          "message": "execution reverted"
+        }
+      },
+      "decoded": null
+    },
+    {
+      "label": "katana oracle price",
+      "address": "0x832aec697f9031709281e29acb4fb69b1e3a6f7a",
+      "signature": "price()",
+      "args": [],
+      "block": "0x2c25bec",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": "0x00000000000000000000000000000000000000000000e6363d8fa0368d6472d0"
+      },
+      "decoded": [
+        1087144851180312859013840
+      ]
+    },
+    {
+      "label": "katana oracle BASE_VAULT",
+      "address": "0x832aec697f9031709281e29acb4fb69b1e3a6f7a",
+      "signature": "BASE_VAULT()",
+      "args": [],
+      "block": "0x2c25bec",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "decoded": [
+        "0x0000000000000000000000000000000000000000"
+      ]
+    },
+    {
+      "label": "katana oracle BASE_FEED_1",
+      "address": "0x832aec697f9031709281e29acb4fb69b1e3a6f7a",
+      "signature": "BASE_FEED_1()",
+      "args": [],
+      "block": "0x2c25bec",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 4,
+        "result": "0x00000000000000000000000001472042fc37fbf25317718b3e4757339286f4ee"
+      },
+      "decoded": [
+        "0x01472042fc37fbf25317718b3e4757339286f4ee"
+      ]
+    },
+    {
+      "label": "katana oracle BASE_FEED_2",
+      "address": "0x832aec697f9031709281e29acb4fb69b1e3a6f7a",
+      "signature": "BASE_FEED_2()",
+      "args": [],
+      "block": "0x2c25bec",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 5,
+        "result": "0x000000000000000000000000bff97492ed160cae5d8d142f0d6471c0b228b82e"
+      },
+      "decoded": [
+        "0xbff97492ed160cae5d8d142f0d6471c0b228b82e"
+      ]
+    },
+    {
+      "label": "katana oracle QUOTE_FEED_1",
+      "address": "0x832aec697f9031709281e29acb4fb69b1e3a6f7a",
+      "signature": "QUOTE_FEED_1()",
+      "args": [],
+      "block": "0x2c25bec",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 6,
+        "result": "0x000000000000000000000000be5ce90e16b9d9d988d64b0e1f6ed46ebafb9606"
+      },
+      "decoded": [
+        "0xbe5ce90e16b9d9d988d64b0e1f6ed46ebafb9606"
+      ]
+    }
+  ]
+}

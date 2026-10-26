@@ -1,0 +1,43 @@
+{
+  "url": "https://mainnet.unichain.org",
+  "request": [
+    {
+      "jsonrpc": "2.0",
+      "id": 0,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0xb6168f597cd37a232cb7cb94cd1786be20ead156",
+          "data": "0xbb0b6a530000000000000000000000000000000000000000000000000000000000007595"
+        },
+        "0x3b668ad"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x9d9874e867b877dd0a3f1eafb8bb1bc54eecc682",
+          "data": "0xbb0b6a530000000000000000000000000000000000000000000000000000000000007595"
+        },
+        "0x3b668ad"
+      ]
+    }
+  ],
+  "observed_utc": "2026-10-26T17:46:15.131837+00:00",
+  "http_status": 200,
+  "body": [
+    {
+      "jsonrpc": "2.0",
+      "result": "0x000000000000000000000000d5599052632fb7fbcdcd9ff0b6f9b21e64ceed61",
+      "id": 0
+    },
+    {
+      "jsonrpc": "2.0",
+      "result": "0x0000000000000000000000004788d84fe5265f2115dfd039dc4bd5474aeaf7b0",
+      "id": 1
+    }
+  ]
+}

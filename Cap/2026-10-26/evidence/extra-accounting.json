@@ -1,0 +1,70 @@
+{
+  "block": "0x190f965",
+  "observed_utc": "2026-10-26T17:14:16.107576+00:00",
+  "results": [
+    {
+      "label": "Euler alpha USDC borrows",
+      "address": "0x6fe7fa90756434645f0b0428fdff78e99dda0fbc",
+      "signature": "totalBorrows()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 0,
+        "result": "0x00000000000000000000000000000000000000000000000000000000000c18db"
+      },
+      "decoded": [
+        792795
+      ]
+    },
+    {
+      "label": "Euler alpha USDC assets",
+      "address": "0x6fe7fa90756434645f0b0428fdff78e99dda0fbc",
+      "signature": "totalAssets()",
+      "args": [],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 1,
+        "result": "0x000000000000000000000000000000000000000000000000000000031b8a29c5"
+      },
+      "decoded": [
+        13346941381
+      ]
+    },
+    {
+      "label": "Aave strategy actual atoken",
+      "address": "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c",
+      "signature": "balanceOf(address)",
+      "args": [
+        "0x7d7f72d393f242da6e22d3b970491c06742984ff"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 2,
+        "result": "0x000000000000000000000000000000000000000000000000000012e04c47cf2b"
+      },
+      "decoded": [
+        20754561748779
+      ]
+    },
+    {
+      "label": "Aave cash USDC",
+      "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "signature": "balanceOf(address)",
+      "args": [
+        "0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c"
+      ],
+      "block": "0x190f965",
+      "raw": {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": "0x00000000000000000000000000000000000000000000000000009ba6dacc137f"
+      },
+      "decoded": [
+        171140937683839
+      ]
+    }
+  ]
+}

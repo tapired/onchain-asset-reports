@@ -1,0 +1,20 @@
+{
+  "url": "https://api.morpho.org/graphql",
+  "request": {
+    "query": "{marketByUniqueKey(uniqueKey:\"0x64d65c9a2d91c36d56fbc42d69e979335320169b3df63bf92789e2c8883fcc64\",chainId:1){marketId collateralAsset{address symbol decimals} loanAsset{address symbol decimals} lltv oracle{address} state{timestamp blockNumber supplyAssets borrowAssets}}}"
+  },
+  "observed_utc": "2026-10-26T17:17:30.575067+00:00",
+  "http_status": 400,
+  "body": {
+    "errors": [
+      {
+        "message": "Cannot query field \"marketByUniqueKey\" on type \"Query\".",
+        "status": "GRAPHQL_VALIDATION_FAILED",
+        "extensions": {}
+      }
+    ],
+    "extensions": {
+      "maximumComplexity": 1000000
+    }
+  }
+}

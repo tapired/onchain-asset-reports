@@ -1,0 +1,3863 @@
+{
+  "url": "https://eth.blockscout.com/api/v2/addresses/0xe63a2abc24cd9538398d825a4bfe5778d25687df/logs?index=315&block_number=25585375&items_count=50",
+  "request": null,
+  "observed_utc": "2026-10-26T17:11:31.964513+00:00",
+  "http_status": 200,
+  "body": {
+    "items": [
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xedf530a845f241d6c14209d099db8e1f4d47c7f2f9ccd6fe328ea0ec024af276",
+        "block_number": 25584226,
+        "block_timestamp": "2026-07-21T22:55:59.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000000000000003a35294400000000000000000000000000000000000000000000000000000003e2a2de956b",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "250000000000"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "4271929988459"
+            }
+          ]
+        },
+        "index": 700,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0x15a6866f330d3f858a1e85ec27466c2278721f932323d92eca0dee6232711b8b"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xedf530a845f241d6c14209d099db8e1f4d47c7f2f9ccd6fe328ea0ec024af276",
+        "block_number": 25584226,
+        "block_timestamp": "2026-07-21T22:55:59.000000Z",
+        "data": "0x000000000000000000000000000000000000000000003165d8535d361879412200000000000000000000000000000000000000000003f009599db6661dbd9a80",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "233274666717279459819810"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "4760317892947256182413952"
+            }
+          ]
+        },
+        "index": 698,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0x15a6866f330d3f858a1e85ec27466c2278721f932323d92eca0dee6232711b8b"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x4b1dbc21ee55e10f15788678b70ea386e2e719826350d22a82bf1144ceba550e",
+        "block_number": 25583387,
+        "block_timestamp": "2026-07-21T20:07:23.000000Z",
+        "data": "0x000000000000000000000000000000000000000000000000000000320effa600000000000000000000000000000000000000000000000000000003a86a3f7656",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "215000000000"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "4021871933014"
+            }
+          ]
+        },
+        "index": 648,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0x5e844ffe2fd61140283f6d52abea5774b234d9413c9540156f738ffbfb111cf7"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x4b1dbc21ee55e10f15788678b70ea386e2e719826350d22a82bf1144ceba550e",
+        "block_number": 25583387,
+        "block_timestamp": "2026-07-21T20:07:23.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000031660d0e65fcf12b59b900000000000000000000000000000000000000000003bea3814a59300544595e",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "233278466357640209062329"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "4527043226229976722594142"
+            }
+          ]
+        },
+        "index": 646,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0x5e844ffe2fd61140283f6d52abea5774b234d9413c9540156f738ffbfb111cf7"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x7c264a0be6c4ec05e2d693579ede8629f4f214dc3fe7217d09b4d433de5829e8",
+        "block_number": 25582002,
+        "block_timestamp": "2026-07-21T15:29:35.000000Z",
+        "data": "0x000000000000000000000000000000000000000000003166643be4c174c2c2c4000000000000000000000000000000000000000000038d3d743bf3331418ffa5",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "233284748174077947200196"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "4293764759872336513531813"
+            }
+          ]
+        },
+        "index": 658,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0x07f56c73e1827ab932271fe6e359d0a5c2ae269f7ef115128552c63ac8510670"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x08a4d5f8fd43751193eebad1cbd8427fb4590f0cb7236e9a2389309ad7a46a27",
+        "block_number": 25581630,
+        "block_timestamp": "2026-07-21T14:14:59.000000Z",
+        "data": "0x000000000000000000000000000000000000000000000000000001d1a94a2000000000000000000000000000000000000000000000000000000001d09dbba873",
+        "decoded": {
+          "method_call": "Deposit(address indexed caller, address indexed owner, uint256 assets, uint256 shares)",
+          "method_id": "dcbc1c05",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xBe53A109B494E5c9f97b9Cd39Fe969BE68BF6204"
+            },
+            {
+              "indexed": true,
+              "name": "owner",
+              "type": "address",
+              "value": "0xBe53A109B494E5c9f97b9Cd39Fe969BE68BF6204"
+            },
+            {
+              "indexed": false,
+              "name": "assets",
+              "type": "uint256",
+              "value": "2000000000000"
+            },
+            {
+              "indexed": false,
+              "name": "shares",
+              "type": "uint256",
+              "value": "1995511146611"
+            }
+          ]
+        },
+        "index": 106,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x16388463d60FFE0661Cf7F1f31a7D658aC790ff7",
+          "implementations": [
+            {
+              "address_hash": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+              "name": "GnosisSafe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xdcbc1c05240f31ff3ad067ef1ee35ce4997762752e3a095284754544f4c709d7",
+          "0x000000000000000000000000be53a109b494e5c9f97b9cd39fe969be68bf6204",
+          "0x000000000000000000000000be53a109b494e5c9f97b9cd39fe969be68bf6204",
+          null
+        ],
+        "transaction_hash": "0x89fd913938c0b4460e2f3f35c3013a2bc54fd78128d44e6fcc418b318ca8a1f0"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x08a4d5f8fd43751193eebad1cbd8427fb4590f0cb7236e9a2389309ad7a46a27",
+        "block_number": 25581630,
+        "block_timestamp": "2026-07-21T14:14:59.000000Z",
+        "data": "0x000000000000000000000000000000000000000000000000000001d09dbba873",
+        "decoded": {
+          "method_call": "Transfer(address indexed from, address indexed to, uint256 value)",
+          "method_id": "ddf252ad",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "from",
+              "type": "address",
+              "value": "0x0000000000000000000000000000000000000000"
+            },
+            {
+              "indexed": true,
+              "name": "to",
+              "type": "address",
+              "value": "0xBe53A109B494E5c9f97b9Cd39Fe969BE68BF6204"
+            },
+            {
+              "indexed": false,
+              "name": "value",
+              "type": "uint256",
+              "value": "1995511146611"
+            }
+          ]
+        },
+        "index": 105,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x16388463d60FFE0661Cf7F1f31a7D658aC790ff7",
+          "implementations": [
+            {
+              "address_hash": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+              "name": "GnosisSafe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000be53a109b494e5c9f97b9cd39fe969be68bf6204",
+          null
+        ],
+        "transaction_hash": "0x89fd913938c0b4460e2f3f35c3013a2bc54fd78128d44e6fcc418b318ca8a1f0"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x25a5c63fc0bfa056504782e8fb1708aeb7ae553d3835b88dff4e99843c954a3b",
+        "block_number": 25564417,
+        "block_timestamp": "2026-07-19T04:38:35.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000000000000000054067d7f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "decoded": {
+          "method_call": "Reported(uint256 profit, uint256 loss, uint256 protocolFees, uint256 performanceFees)",
+          "method_id": "ecdd072e",
+          "parameters": [
+            {
+              "indexed": false,
+              "name": "profit",
+              "type": "uint256",
+              "value": "1409711487"
+            },
+            {
+              "indexed": false,
+              "name": "loss",
+              "type": "uint256",
+              "value": "0"
+            },
+            {
+              "indexed": false,
+              "name": "protocolFees",
+              "type": "uint256",
+              "value": "0"
+            },
+            {
+              "indexed": false,
+              "name": "performanceFees",
+              "type": "uint256",
+              "value": "0"
+            }
+          ]
+        },
+        "index": 888,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x604e586F17cE106B64185A7a0d2c1Da5bAce711E",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xecdd072e4d5bd913a75a37f02daedcea7e2dc0281f9942c0063cfd1cfe5c4c4f",
+          null,
+          null,
+          null
+        ],
+        "transaction_hash": "0x224824ccc0c6a86361eb98ec6be1e092522bfb3b9b51cfa98f1c88b662292021"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x00111deea9084cc10efb983ca736be8b61b1f1c73c2424d57d2d5cd03050e526",
+        "block_number": 25542848,
+        "block_timestamp": "2026-07-16T04:30:23.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000000000000000053e2b62b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "decoded": {
+          "method_call": "Reported(uint256 profit, uint256 loss, uint256 protocolFees, uint256 performanceFees)",
+          "method_id": "ecdd072e",
+          "parameters": [
+            {
+              "indexed": false,
+              "name": "profit",
+              "type": "uint256",
+              "value": "1407366699"
+            },
+            {
+              "indexed": false,
+              "name": "loss",
+              "type": "uint256",
+              "value": "0"
+            },
+            {
+              "indexed": false,
+              "name": "protocolFees",
+              "type": "uint256",
+              "value": "0"
+            },
+            {
+              "indexed": false,
+              "name": "performanceFees",
+              "type": "uint256",
+              "value": "0"
+            }
+          ]
+        },
+        "index": 461,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x604e586F17cE106B64185A7a0d2c1Da5bAce711E",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xecdd072e4d5bd913a75a37f02daedcea7e2dc0281f9942c0063cfd1cfe5c4c4f",
+          null,
+          null,
+          null
+        ],
+        "transaction_hash": "0x749f915cc9f2565d220a5aa4eef4878d8730cd09b27ce2e8b3e54c91caf3601b"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xd6a20e9e056cfc019a758c78fa75b92d9ab65f6ade90d97b80087308198389ab",
+        "block_number": 25521322,
+        "block_timestamp": "2026-07-13T04:27:47.000000Z",
+        "data": "0x00000000000000000000000000000000000000000000000000000000540575d5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "decoded": {
+          "method_call": "Reported(uint256 profit, uint256 loss, uint256 protocolFees, uint256 performanceFees)",
+          "method_id": "ecdd072e",
+          "parameters": [
+            {
+              "indexed": false,
+              "name": "profit",
+              "type": "uint256",
+              "value": "1409643989"
+            },
+            {
+              "indexed": false,
+              "name": "loss",
+              "type": "uint256",
+              "value": "0"
+            },
+            {
+              "indexed": false,
+              "name": "protocolFees",
+              "type": "uint256",
+              "value": "0"
+            },
+            {
+              "indexed": false,
+              "name": "performanceFees",
+              "type": "uint256",
+              "value": "0"
+            }
+          ]
+        },
+        "index": 1076,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x604e586F17cE106B64185A7a0d2c1Da5bAce711E",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xecdd072e4d5bd913a75a37f02daedcea7e2dc0281f9942c0063cfd1cfe5c4c4f",
+          null,
+          null,
+          null
+        ],
+        "transaction_hash": "0x9dd2825250c56c6fb7983ceb4fea8b790accfb03de08847d1826097d003792ea"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x85fbc6bf37070cbcb283ebadae94e55ed39d0b5148c6685e2890815c55b26ced",
+        "block_number": 25499741,
+        "block_timestamp": "2026-07-10T04:16:35.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000000000000000040a0b6c9000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "decoded": {
+          "method_call": "Reported(uint256 profit, uint256 loss, uint256 protocolFees, uint256 performanceFees)",
+          "method_id": "ecdd072e",
+          "parameters": [
+            {
+              "indexed": false,
+              "name": "profit",
+              "type": "uint256",
+              "value": "1084274377"
+            },
+            {
+              "indexed": false,
+              "name": "loss",
+              "type": "uint256",
+              "value": "0"
+            },
+            {
+              "indexed": false,
+              "name": "protocolFees",
+              "type": "uint256",
+              "value": "0"
+            },
+            {
+              "indexed": false,
+              "name": "performanceFees",
+              "type": "uint256",
+              "value": "0"
+            }
+          ]
+        },
+        "index": 629,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x604e586F17cE106B64185A7a0d2c1Da5bAce711E",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xecdd072e4d5bd913a75a37f02daedcea7e2dc0281f9942c0063cfd1cfe5c4c4f",
+          null,
+          null,
+          null
+        ],
+        "transaction_hash": "0x53c1e0405219c2b76a02f0e22e3c383245197f05c47fd84094a34c0d695e58e1"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x8a7915e14b9fe57fa9675cf8c0cab2f70e8d6c0453046295a2db03e71fc96c3c",
+        "block_number": 25489991,
+        "block_timestamp": "2026-07-08T19:38:23.000000Z",
+        "data": "0x000000000000000000000000000000000000000000000000000000367a62d70200000000000000000000000000000000000000000000000000000374ef5d7365",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "233981531906"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "3800766968677"
+            }
+          ]
+        },
+        "index": 813,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0x5de144bd62f93e384c2c4b7f2cc281e0e837b686b8fcf58b9501cb874eba7748"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x8a7915e14b9fe57fa9675cf8c0cab2f70e8d6c0453046295a2db03e71fc96c3c",
+        "block_number": 25489991,
+        "block_timestamp": "2026-07-08T19:38:23.000000Z",
+        "data": "0x000000000000000000000000000000000000000000002e513bcde9177d871e02000000000000000000000000000000000000000000035bd710000e719f563ce1",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "218727353838679716470274"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "4060480011698258566331617"
+            }
+          ]
+        },
+        "index": 811,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0x5de144bd62f93e384c2c4b7f2cc281e0e837b686b8fcf58b9501cb874eba7748"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xed3279f6644891b2d7244c8319b1a5a6f67b7d8aad0706de103253be0e6bba56",
+        "block_number": 25489981,
+        "block_timestamp": "2026-07-08T19:36:23.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000000000000003a352944000000000000000000000000000000000000000000000000000000033e74f14aa5",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "250000000000"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "3566784826021"
+            }
+          ]
+        },
+        "index": 443,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0x558b7025dd4906dcf85357c6af47411cb4421abab607f0804a56bdae220ff369"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xed3279f6644891b2d7244c8319b1a5a6f67b7d8aad0706de103253be0e6bba56",
+        "block_number": 25489981,
+        "block_timestamp": "2026-07-08T19:36:23.000000Z",
+        "data": "0x00000000000000000000000000000000000000000000317cfc79822c8e36e588000000000000000000000000000000000000000000032d85d432255a21cf1edf",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "233701546641050215835016"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "3841752657859578849861343"
+            }
+          ]
+        },
+        "index": 441,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0x558b7025dd4906dcf85357c6af47411cb4421abab607f0804a56bdae220ff369"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x682db94319130fabd69ef59ee3e6d05b4de9c6c19f566f02ce5d6c50ab1d46cd",
+        "block_number": 25489682,
+        "block_timestamp": "2026-07-08T18:36:35.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000000000000003a35294400000000000000000000000000000000000000000000000000000003043ec4e910",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "250000000000"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "3316767844624"
+            }
+          ]
+        },
+        "index": 1227,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0x73476f98002c3e36091b2e122f6908cd558818a3707bc38c194a68309e02237a"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x682db94319130fabd69ef59ee3e6d05b4de9c6c19f566f02ce5d6c50ab1d46cd",
+        "block_number": 25489682,
+        "block_timestamp": "2026-07-08T18:36:35.000000Z",
+        "data": "0x00000000000000000000000000000000000000000000317d09b1d018f1129e1400000000000000000000000000000000000000000002fc08d7b8a32d93983957",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "233702499238049070882324"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "3608051111218528634026327"
+            }
+          ]
+        },
+        "index": 1225,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0x73476f98002c3e36091b2e122f6908cd558818a3707bc38c194a68309e02237a"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xd0c1d4244ca73534dcdf55107978b3b1b9185cad68696f6390436e494f184aef",
+        "block_number": 25489405,
+        "block_timestamp": "2026-07-08T17:40:59.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000000000000001d91ca3600000000000000000000000000000000000000000000000000000002ca08bce357",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "127000000000"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "3066753246039"
+            }
+          ]
+        },
+        "index": 1189,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0x248f49e4b488c0e8f83d1a6516b0c74983d74ae223c64d1617b9a0a7a92a3e65"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xd0c1d4244ca73534dcdf55107978b3b1b9185cad68696f6390436e494f184aef",
+        "block_number": 25489405,
+        "block_timestamp": "2026-07-08T17:40:59.000000Z",
+        "data": "0x00000000000000000000000000000000000000000000317d16064b62386d1e5500000000000000000000000000000000000000000002ca8bce06d314a2859b43",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "233703387708630229655125"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "3374348611980479563144003"
+            }
+          ]
+        },
+        "index": 1187,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0x248f49e4b488c0e8f83d1a6516b0c74983d74ae223c64d1617b9a0a7a92a3e65"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xfeabd97f041ef1974e10ee7dcff5892eef9cf64233f8bc7cc57b36f6907ae543",
+        "block_number": 25488283,
+        "block_timestamp": "2026-07-08T13:55:23.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000000000000002d95046e85000000000000000000000000000000000000000000000000000002ac739046c1",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "195773623941"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "2939696465601"
+            }
+          ]
+        },
+        "index": 1271,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0x6be9a66910b02dc1c0f3ebf95e141cab0d7fc695d69d680b1e1ecf527aa07817"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xfeabd97f041ef1974e10ee7dcff5892eef9cf64233f8bc7cc57b36f6907ae543",
+        "block_number": 25488283,
+        "block_timestamp": "2026-07-08T13:55:23.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000026c13edc100706e32bf100000000000000000000000000000000000000000002990eb80087b26a187cee",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "183014677468220055825393"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "3140645224271849333488878"
+            }
+          ]
+        },
+        "index": 1269,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0x6be9a66910b02dc1c0f3ebf95e141cab0d7fc695d69d680b1e1ecf527aa07817"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x003c25dd8d8ce5bdfd18ba284907bf51b5da690efccecbdcdcd76efacf678ab8",
+        "block_number": 25487882,
+        "block_timestamp": "2026-07-08T12:34:47.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000000000000003a352944000000000000000000000000000000000000000000000000000000027edd6aec1c",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "250000000000"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "2743903906844"
+            }
+          ]
+        },
+        "index": 479,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0x36217cdb03e031c07b17011279724cf30688b8f90c985517bc341ff871b5de37"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x003c25dd8d8ce5bdfd18ba284907bf51b5da690efccecbdcdcd76efacf678ab8",
+        "block_number": 25487882,
+        "block_timestamp": "2026-07-08T12:34:47.000000Z",
+        "data": "0x00000000000000000000000000000000000000000000317d5a65df83212da1c700000000000000000000000000000000000000000002724d792477ab633550fd",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "233708314528016661062087"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "2957630546803629277663485"
+            }
+          ]
+        },
+        "index": 477,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0x36217cdb03e031c07b17011279724cf30688b8f90c985517bc341ff871b5de37"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xbd76fbc4e4051221f4a6ed6d901021144f15017222a40fcac33729a5ac0bce01",
+        "block_number": 25485532,
+        "block_timestamp": "2026-07-08T04:43:11.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000000000000003a3529440000000000000000000000000000000000000000000000000000000244a24139a5",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "250000000000"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "2493803215269"
+            }
+          ]
+        },
+        "index": 1018,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0xf7045c8d10417b7f25edf15d4ab9ec2f39434f2a8e4037bec23b76c23300ebfc"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xbd76fbc4e4051221f4a6ed6d901021144f15017222a40fcac33729a5ac0bce01",
+        "block_number": 25485532,
+        "block_timestamp": "2026-07-08T04:43:11.000000Z",
+        "data": "0x00000000000000000000000000000000000000000000317dc470bfe8b92dbedb0000000000000000000000000000000000000000000240d01ebe98284207af36",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "233715955694461394992859"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "2723922232275612616601398"
+            }
+          ]
+        },
+        "index": 1016,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0xf7045c8d10417b7f25edf15d4ab9ec2f39434f2a8e4037bec23b76c23300ebfc"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x5a9b83bc2ea9e0d46bff7f689a6587a154a8426a82d3682c22c54e08ba08c2eb",
+        "block_number": 25485512,
+        "block_timestamp": "2026-07-08T04:39:11.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000000000000003a352944000000000000000000000000000000000000000000000000000000020a6d0c3bfc",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "250000000000"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "2243802446844"
+            }
+          ]
+        },
+        "index": 863,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0x9d31c4805317fbb38e248b38a19059dc551bed0818748dbb09fbad24e7a70929"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x5a9b83bc2ea9e0d46bff7f689a6587a154a8426a82d3682c22c54e08ba08c2eb",
+        "block_number": 25485512,
+        "block_timestamp": "2026-07-08T04:39:11.000000Z",
+        "data": "0x00000000000000000000000000000000000000000000317dc553d6cabdd64888000000000000000000000000000000000000000000020f525a4dd83f88d9f05b",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "233716019614441104885896"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "2490206276581151221608539"
+            }
+          ]
+        },
+        "index": 861,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0x9d31c4805317fbb38e248b38a19059dc551bed0818748dbb09fbad24e7a70929"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x8a3e48949d6be9c0c764da9abe382f0c76fc45d9ace726961b717001ebbcaf1c",
+        "block_number": 25485496,
+        "block_timestamp": "2026-07-08T04:35:59.000000Z",
+        "data": "0x000000000000000000000000000000000000000000000000000000176812fd10000000000000000000000000000000000000000000000000000001d037daa235",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "100530322704"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "1993801900597"
+            }
+          ]
+        },
+        "index": 968,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0xeb378eee082b9562ad5793e93e07aedecdb583e763e4a0d761474be7d1e5170b"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x8a3e48949d6be9c0c764da9abe382f0c76fc45d9ace726961b717001ebbcaf1c",
+        "block_number": 25485496,
+        "block_timestamp": "2026-07-08T04:35:59.000000Z",
+        "data": "0x00000000000000000000000000000000000000000000317dc60a0e195da23c8500000000000000000000000000000000000000000001ddd494fa0174cb03a7d3",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "233716070903697694145669"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "2256490256966710116722643"
+            }
+          ]
+        },
+        "index": 966,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0xeb378eee082b9562ad5793e93e07aedecdb583e763e4a0d761474be7d1e5170b"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x242bfca50fffe746b8829dd50b9f4f4b91bd6f3e9e1db0f59ef6c1bedf1d79c4",
+        "block_number": 25485350,
+        "block_timestamp": "2026-07-08T04:06:47.000000Z",
+        "data": "0x000000000000000000000000000000000000000000000000000001ba5f8e8aa2000000000000000000000000000000000000000000000000000001b9ff0d87ce",
+        "decoded": {
+          "method_call": "Deposit(address indexed caller, address indexed owner, uint256 assets, uint256 shares)",
+          "method_id": "dcbc1c05",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xBe53A109B494E5c9f97b9Cd39Fe969BE68BF6204"
+            },
+            {
+              "indexed": true,
+              "name": "owner",
+              "type": "address",
+              "value": "0xBe53A109B494E5c9f97b9Cd39Fe969BE68BF6204"
+            },
+            {
+              "indexed": false,
+              "name": "assets",
+              "type": "uint256",
+              "value": "1899978721954"
+            },
+            {
+              "indexed": false,
+              "name": "shares",
+              "type": "uint256",
+              "value": "1898359654350"
+            }
+          ]
+        },
+        "index": 58,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x16388463d60FFE0661Cf7F1f31a7D658aC790ff7",
+          "implementations": [
+            {
+              "address_hash": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+              "name": "GnosisSafe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xdcbc1c05240f31ff3ad067ef1ee35ce4997762752e3a095284754544f4c709d7",
+          "0x000000000000000000000000be53a109b494e5c9f97b9cd39fe969be68bf6204",
+          "0x000000000000000000000000be53a109b494e5c9f97b9cd39fe969be68bf6204",
+          null
+        ],
+        "transaction_hash": "0x3353c2009d984e15a2dd909d09f56f2833cfa99129fa834ea6eaf9349f14cd60"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x242bfca50fffe746b8829dd50b9f4f4b91bd6f3e9e1db0f59ef6c1bedf1d79c4",
+        "block_number": 25485350,
+        "block_timestamp": "2026-07-08T04:06:47.000000Z",
+        "data": "0x000000000000000000000000000000000000000000000000000001b9ff0d87ce",
+        "decoded": {
+          "method_call": "Transfer(address indexed from, address indexed to, uint256 value)",
+          "method_id": "ddf252ad",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "from",
+              "type": "address",
+              "value": "0x0000000000000000000000000000000000000000"
+            },
+            {
+              "indexed": true,
+              "name": "to",
+              "type": "address",
+              "value": "0xBe53A109B494E5c9f97b9Cd39Fe969BE68BF6204"
+            },
+            {
+              "indexed": false,
+              "name": "value",
+              "type": "uint256",
+              "value": "1898359654350"
+            }
+          ]
+        },
+        "index": 57,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x16388463d60FFE0661Cf7F1f31a7D658aC790ff7",
+          "implementations": [
+            {
+              "address_hash": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+              "name": "GnosisSafe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000be53a109b494e5c9f97b9cd39fe969be68bf6204",
+          null
+        ],
+        "transaction_hash": "0x3353c2009d984e15a2dd909d09f56f2833cfa99129fa834ea6eaf9349f14cd60"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xa67f7c466d484fbece0408bf3562be34b670f8c0dc1b3511f6c1fa1d092ecc11",
+        "block_number": 25478203,
+        "block_timestamp": "2026-07-07T04:12:47.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000000000000000029c97d22000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "decoded": {
+          "method_call": "Reported(uint256 profit, uint256 loss, uint256 protocolFees, uint256 performanceFees)",
+          "method_id": "ecdd072e",
+          "parameters": [
+            {
+              "indexed": false,
+              "name": "profit",
+              "type": "uint256",
+              "value": "701070626"
+            },
+            {
+              "indexed": false,
+              "name": "loss",
+              "type": "uint256",
+              "value": "0"
+            },
+            {
+              "indexed": false,
+              "name": "protocolFees",
+              "type": "uint256",
+              "value": "0"
+            },
+            {
+              "indexed": false,
+              "name": "performanceFees",
+              "type": "uint256",
+              "value": "0"
+            }
+          ]
+        },
+        "index": 712,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x604e586F17cE106B64185A7a0d2c1Da5bAce711E",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xecdd072e4d5bd913a75a37f02daedcea7e2dc0281f9942c0063cfd1cfe5c4c4f",
+          null,
+          null,
+          null
+        ],
+        "transaction_hash": "0x8ad1710504c299a9cfa80b5dfad629a77c2bf4c9efe2e83aa59a9b939cd4c292"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x78fccf3e75dbf47779250d976f233e8913b7a82ab81397dc24a5ba299c128a34",
+        "block_number": 25456657,
+        "block_timestamp": "2026-07-04T04:05:35.000000Z",
+        "data": "0x000000000000000000000000000000000000000000000000000000001e79c0f6000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "decoded": {
+          "method_call": "Reported(uint256 profit, uint256 loss, uint256 protocolFees, uint256 performanceFees)",
+          "method_id": "ecdd072e",
+          "parameters": [
+            {
+              "indexed": false,
+              "name": "profit",
+              "type": "uint256",
+              "value": "511295734"
+            },
+            {
+              "indexed": false,
+              "name": "loss",
+              "type": "uint256",
+              "value": "0"
+            },
+            {
+              "indexed": false,
+              "name": "protocolFees",
+              "type": "uint256",
+              "value": "0"
+            },
+            {
+              "indexed": false,
+              "name": "performanceFees",
+              "type": "uint256",
+              "value": "0"
+            }
+          ]
+        },
+        "index": 1133,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x604e586F17cE106B64185A7a0d2c1Da5bAce711E",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xecdd072e4d5bd913a75a37f02daedcea7e2dc0281f9942c0063cfd1cfe5c4c4f",
+          null,
+          null,
+          null
+        ],
+        "transaction_hash": "0xed5de1a482d9be55127de6d8d96a46cc7f92e0886dd9e814eea087b22f91a6b2"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x0e93896ef57722150b4d8d752685bd4d2578d41a883077c63239dd75372dc5d3",
+        "block_number": 25449080,
+        "block_timestamp": "2026-07-03T02:42:59.000000Z",
+        "data": "0x00000000000000000000000000000000000000000000000000000030e8b50495000000000000000000000000000000000000000000000000000001b88927f5df",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "210062607509"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "1892086707679"
+            }
+          ]
+        },
+        "index": 540,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0x40267eda162ede75f190ded21450866f1ea705021fa9970da1ae5e196aa259e6"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x0e93896ef57722150b4d8d752685bd4d2578d41a883077c63239dd75372dc5d3",
+        "block_number": 25449080,
+        "block_timestamp": "2026-07-03T02:42:59.000000Z",
+        "data": "0x000000000000000000000000000000000000000000002f8e272547c379e4a49e00000000000000000000000000000000000000000001ac56ceeff35b6d616b4e",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "224573483092986588079262"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "2022774186063012422576974"
+            }
+          ]
+        },
+        "index": 538,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0x40267eda162ede75f190ded21450866f1ea705021fa9970da1ae5e196aa259e6"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x50bd845144fcd79ea69da3359ceabebaff9815c79472dbb788ca489e8cef65a5",
+        "block_number": 25447536,
+        "block_timestamp": "2026-07-02T21:32:23.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000000000000000bf727a5b3000000000000000000000000000000000000000000000000000001879dc872a0",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "51391210931"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "1681979372192"
+            }
+          ]
+        },
+        "index": 1290,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0xf5b83faa7e9613a362cea096db1fb1c15c4898ddeb4276eccc860d45b8e732a4"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x50bd845144fcd79ea69da3359ceabebaff9815c79472dbb788ca489e8cef65a5",
+        "block_number": 25447536,
+        "block_timestamp": "2026-07-02T21:32:23.000000Z",
+        "data": "0x000000000000000000000000000000000000000000000a2e3ffdac8e2977ae5b000000000000000000000000000000000000000000017cc8a7caab97f37cc6b0",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "48076826087407169810011"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "1798200702970025834497712"
+            }
+          ]
+        },
+        "index": 1288,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0xf5b83faa7e9613a362cea096db1fb1c15c4898ddeb4276eccc860d45b8e732a4"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xa9d75b120d6fb74fd728ce92cbaceb0bc7454b0458e149ed59064fc0c0a439f6",
+        "block_number": 25447275,
+        "block_timestamp": "2026-07-02T20:39:59.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000000000000003a352944000000000000000000000000000000000000000000000000000000017ba6312da0",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "250000000000"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "1630580845984"
+            }
+          ]
+        },
+        "index": 1324,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0x3d72d3ab4cb2dccdffd60a2815238b4e6956f3f665444f4309427bcd57d40ceb"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xa9d75b120d6fb74fd728ce92cbaceb0bc7454b0458e149ed59064fc0c0a439f6",
+        "block_number": 25447275,
+        "block_timestamp": "2026-07-02T20:39:59.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000031868ec6c1a731d0e8a000000000000000000000000000000000000000000001729a67ccff09ca051855",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "233878109489812309338272"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "1750123876882618664687701"
+            }
+          ]
+        },
+        "index": 1322,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0x3d72d3ab4cb2dccdffd60a2815238b4e6956f3f665444f4309427bcd57d40ceb"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xb0b2be487ac7e355a582082eaa318a46f9f06ab822f182120a51c4f0ff772e07",
+        "block_number": 25446171,
+        "block_timestamp": "2026-07-02T16:58:23.000000Z",
+        "data": "0x0000000000000000000000000000000000000000000000000000003a35294400000000000000000000000000000000000000000000000000000001416f783e56",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "250000000000"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "1380554653270"
+            }
+          ]
+        },
+        "index": 492,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0x964f0f300b9d60772943dcd6016e54a0b9817567c1a0e05e6423adaec7c56bd4"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xb0b2be487ac7e355a582082eaa318a46f9f06ab822f182120a51c4f0ff772e07",
+        "block_number": 25446171,
+        "block_timestamp": "2026-07-02T16:58:23.000000Z",
+        "data": "0x000000000000000000000000000000000000000000003186e232a1665a323848000000000000000000000000000000000000000000014113d9063d6298342fb5",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "233884120633952074610760"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "1516245767392806355349429"
+            }
+          ]
+        },
+        "index": 490,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0x964f0f300b9d60772943dcd6016e54a0b9817567c1a0e05e6423adaec7c56bd4"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xfd854e23d58e0e396b8ec781c055b7edd72c6e6294be1ec47394ae79122ee3d6",
+        "block_number": 25446052,
+        "block_timestamp": "2026-07-02T16:34:35.000000Z",
+        "data": "0x00000000000000000000000000000000000000000000000000000022ecb25c00000000000000000000000000000000000000000000000000000001073a2bd389",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "150000000000"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "1130552349577"
+            }
+          ]
+        },
+        "index": 709,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0xad5928e552e9860550dac8eb69aaa77be0b6df9af2531f9c3fb5b0aaee44d5ae"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xfd854e23d58e0e396b8ec781c055b7edd72c6e6294be1ec47394ae79122ee3d6",
+        "block_number": 25446052,
+        "block_timestamp": "2026-07-02T16:34:35.000000Z",
+        "data": "0x000000000000000000000000000000000000000000003186eb322a2b6c0a5fdf000000000000000000000000000000000000000000010f8cf6d39bfc3e01f76d",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "233884769021203428564959"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "1282361646758854280738669"
+            }
+          ]
+        },
+        "index": 707,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0xad5928e552e9860550dac8eb69aaa77be0b6df9af2531f9c3fb5b0aaee44d5ae"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x78b8eae6bf03d5428ddab228ebc5882b3cf55fb41e7b4730ef5ca84737a9068a",
+        "block_number": 25446009,
+        "block_timestamp": "2026-07-02T16:25:47.000000Z",
+        "data": "0x000000000000000000000000000000000000000000000000000000d2a109d691000000000000000000000000000000000000000000000000000000d29560ff00",
+        "decoded": {
+          "method_call": "Deposit(address indexed caller, address indexed owner, uint256 assets, uint256 shares)",
+          "method_id": "dcbc1c05",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xBe53A109B494E5c9f97b9Cd39Fe969BE68BF6204"
+            },
+            {
+              "indexed": true,
+              "name": "owner",
+              "type": "address",
+              "value": "0xBe53A109B494E5c9f97b9Cd39Fe969BE68BF6204"
+            },
+            {
+              "indexed": false,
+              "name": "assets",
+              "type": "uint256",
+              "value": "904644908689"
+            },
+            {
+              "indexed": false,
+              "name": "shares",
+              "type": "uint256",
+              "value": "904449294080"
+            }
+          ]
+        },
+        "index": 93,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x16388463d60FFE0661Cf7F1f31a7D658aC790ff7",
+          "implementations": [
+            {
+              "address_hash": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+              "name": "GnosisSafe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xdcbc1c05240f31ff3ad067ef1ee35ce4997762752e3a095284754544f4c709d7",
+          "0x000000000000000000000000be53a109b494e5c9f97b9cd39fe969be68bf6204",
+          "0x000000000000000000000000be53a109b494e5c9f97b9cd39fe969be68bf6204",
+          null
+        ],
+        "transaction_hash": "0x91ce77f62c8c730264f8eeaa7cd0c94bdea65bca712f3fca973ba2efb5d91785"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x78b8eae6bf03d5428ddab228ebc5882b3cf55fb41e7b4730ef5ca84737a9068a",
+        "block_number": 25446009,
+        "block_timestamp": "2026-07-02T16:25:47.000000Z",
+        "data": "0x000000000000000000000000000000000000000000000000000000d29560ff00",
+        "decoded": {
+          "method_call": "Transfer(address indexed from, address indexed to, uint256 value)",
+          "method_id": "ddf252ad",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "from",
+              "type": "address",
+              "value": "0x0000000000000000000000000000000000000000"
+            },
+            {
+              "indexed": true,
+              "name": "to",
+              "type": "address",
+              "value": "0xBe53A109B494E5c9f97b9Cd39Fe969BE68BF6204"
+            },
+            {
+              "indexed": false,
+              "name": "value",
+              "type": "uint256",
+              "value": "904449294080"
+            }
+          ]
+        },
+        "index": 92,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x16388463d60FFE0661Cf7F1f31a7D658aC790ff7",
+          "implementations": [
+            {
+              "address_hash": "0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552",
+              "name": "GnosisSafe"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": "master_copy",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000be53a109b494e5c9f97b9cd39fe969be68bf6204",
+          null
+        ],
+        "transaction_hash": "0x91ce77f62c8c730264f8eeaa7cd0c94bdea65bca712f3fca973ba2efb5d91785"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0x70ed64c57868b2f9ac2b3cd5aa590286f6a29574dd4d59d265bb94879015089a",
+        "block_number": 25435140,
+        "block_timestamp": "2026-07-01T04:01:11.000000Z",
+        "data": "0x000000000000000000000000000000000000000000000000000000000ce42d1d000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "decoded": {
+          "method_call": "Reported(uint256 profit, uint256 loss, uint256 protocolFees, uint256 performanceFees)",
+          "method_id": "ecdd072e",
+          "parameters": [
+            {
+              "indexed": false,
+              "name": "profit",
+              "type": "uint256",
+              "value": "216280349"
+            },
+            {
+              "indexed": false,
+              "name": "loss",
+              "type": "uint256",
+              "value": "0"
+            },
+            {
+              "indexed": false,
+              "name": "protocolFees",
+              "type": "uint256",
+              "value": "0"
+            },
+            {
+              "indexed": false,
+              "name": "performanceFees",
+              "type": "uint256",
+              "value": "0"
+            }
+          ]
+        },
+        "index": 1106,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x604e586F17cE106B64185A7a0d2c1Da5bAce711E",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xecdd072e4d5bd913a75a37f02daedcea7e2dc0281f9942c0063cfd1cfe5c4c4f",
+          null,
+          null,
+          null
+        ],
+        "transaction_hash": "0x7320dded202ab84779edc290c64715ae6d39fef0423c1d394b9c21cc4a390b16"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xeff34bfbd97efbe07e6ae194c5fd705ce28932e5b93954ff2a3680c2a9b10805",
+        "block_number": 25431629,
+        "block_timestamp": "2026-06-30T16:16:59.000000Z",
+        "data": "0x00000000000000000000000000000000000000000000000000000010370219f6000000000000000000000000000000000000000000000000000000e43efa66f6",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "69642361334"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "980309141238"
+            }
+          ]
+        },
+        "index": 361,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0x0d86307dbf90ea474a86f5cf330161be3ca44c5200d4a60b58722490690dcc45"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xeff34bfbd97efbe07e6ae194c5fd705ce28932e5b93954ff2a3680c2a9b10805",
+        "block_number": 25431629,
+        "block_timestamp": "2026-06-30T16:16:59.000000Z",
+        "data": "0x000000000000000000000000000000000000000000000dcd0fba764b715389d900000000000000000000000000000000000000000000de060ba171d0d1f7978e",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "65173480160738478885337"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "1048476877737650852173710"
+            }
+          ]
+        },
+        "index": 359,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0x0d86307dbf90ea474a86f5cf330161be3ca44c5200d4a60b58722490690dcc45"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xe528525119f7025e1cd057517b6513a46ffab8b3abc6e4f5b2b921aa3906233e",
+        "block_number": 25431497,
+        "block_timestamp": "2026-06-30T15:50:35.000000Z",
+        "data": "0x00000000000000000000000000000000000000000000000000000030e4f9b400000000000000000000000000000000000000000000000000000000d407d8e491",
+        "decoded": {
+          "method_call": "Borrowed(address indexed caller, address indexed receiver, uint256 amount, uint256 debtAmount)",
+          "method_id": "c14e9e6b",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": true,
+              "name": "receiver",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "210000000000"
+            },
+            {
+              "indexed": false,
+              "name": "debtAmount",
+              "type": "uint256",
+              "value": "910664721553"
+            }
+          ]
+        },
+        "index": 821,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xc14e9e6b4d98a542b05a0f6b64acd5f4cbdb914be88432d87486b664e97071a7",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null
+        ],
+        "transaction_hash": "0xda3ea4bf1f8057c520cbfab04c52c146cb99577aac2355882cce1dfe5875b82e"
+      },
+      {
+        "address": {
+          "ens_domain_name": null,
+          "hash": "0xe63A2aBC24cD9538398d825a4bFe5778D25687dF",
+          "implementations": [
+            {
+              "address_hash": "0xD377919FA87120584B21279a491F82D5265A139c",
+              "name": "TokenizedStrategy"
+            }
+          ],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": "PawnBroker",
+          "private_tags": [],
+          "proxy_type": "eip1967",
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "block_hash": "0xe528525119f7025e1cd057517b6513a46ffab8b3abc6e4f5b2b921aa3906233e",
+        "block_number": 25431497,
+        "block_timestamp": "2026-06-30T15:50:35.000000Z",
+        "data": "0x00000000000000000000000000000000000000000000318ae734e02d5fcd10e200000000000000000000000000000000000000000000d038fbe6fb8560a40db5",
+        "decoded": {
+          "method_call": "CollateralPosted(address indexed caller, uint256 amount, uint256 totalCollateral)",
+          "method_id": "e2277c7a",
+          "parameters": [
+            {
+              "indexed": true,
+              "name": "caller",
+              "type": "address",
+              "value": "0xd362efC75Ef1879f37A900823495f402CfdB0986"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256",
+              "value": "233958268530191569326306"
+            },
+            {
+              "indexed": false,
+              "name": "totalCollateral",
+              "type": "uint256",
+              "value": "983303397576912373288373"
+            }
+          ]
+        },
+        "index": 819,
+        "smart_contract": {
+          "ens_domain_name": null,
+          "hash": "0x706EAcfC476f46547200a73709e2EFE1522c80e3",
+          "implementations": [],
+          "is_contract": true,
+          "is_scam": false,
+          "is_verified": true,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "topics": [
+          "0xe2277c7a5b61630e9f30458dde635895244dfb2d7631e837dca614456021885e",
+          "0x000000000000000000000000d362efc75ef1879f37a900823495f402cfdb0986",
+          null,
+          null
+        ],
+        "transaction_hash": "0xda3ea4bf1f8057c520cbfab04c52c146cb99577aac2355882cce1dfe5875b82e"
+      }
+    ],
+    "next_page_params": {
+      "index": 819,
+      "block_number": 25431497,
+      "items_count": 50
+    }
+  }
+}

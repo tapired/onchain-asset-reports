@@ -1,0 +1,35 @@
+{
+  "url": "https://raw.githubusercontent.com/symbioticfi/metadata-mainnet/ab506ae68f7e165d460df21244ec3bbe0646e458/vaults/0x1274cd7f6eF54e6d3E060C27329314bB8af76F94/info.json",
+  "request": null,
+  "observed_utc": "2026-10-26T17:12:37.770236+00:00",
+  "http_status": 200,
+  "body": {
+    "description": "MEV Capital Vault delegating wstETH to the Pareto Operator for Cap",
+    "links": [
+      {
+        "name": "Website",
+        "type": "website",
+        "url": "https://www.mevcapital.com/"
+      },
+      {
+        "name": "Twitter",
+        "type": "website",
+        "url": "https://x.com/mevcapital"
+      }
+    ],
+    "name": "MEV-Pareto-wstETH",
+    "tags": [
+      "MEV Capital",
+      "Cap",
+      "Pareto"
+    ],
+    "rewards": [
+      {
+        "address": "0x59E9B797d54f02AC1cf9e750d3B76c5B019d5Afa",
+        "type": "defaultStakingRewardsV2"
+      }
+    ],
+    "curatorId": "mev-capital",
+    "vaultType": "network-exclusive"
+  }
+}

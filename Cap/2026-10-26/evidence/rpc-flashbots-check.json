@@ -1,0 +1,25 @@
+{
+  "url": "https://rpc.flashbots.net",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_call",
+    "params": [
+      {
+        "to": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+        "data": "0xdc6d7846000000000000000000000000000000000000000000000000000000000000000f"
+      },
+      "0x190f965"
+    ]
+  },
+  "observed_utc": "2026-10-26T17:29:45.897054+00:00",
+  "http_status": 403,
+  "body": {
+    "jsonrpc": "2.0",
+    "error": {
+      "code": -32601,
+      "message": "rpc method is not whitelisted"
+    },
+    "id": 1
+  }
+}

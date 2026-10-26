@@ -1,0 +1,209 @@
+{
+  "url": "https://eth.drpc.org",
+  "request": [
+    {
+      "jsonrpc": "2.0",
+      "id": 0,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+          "data": "0x062bd3e9000000000000000000000000000000000000000000000000000000000000000e"
+        },
+        "0x190f965"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 1,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+          "data": "0xdc6d7846000000000000000000000000000000000000000000000000000000000000000e"
+        },
+        "0x190f965"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 2,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+          "data": "0x38402762000000000000000000000000000000000000000000000000000000000000000e"
+        },
+        "0x190f965"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 3,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+          "data": "0x07af1568000000000000000000000000000000000000000000000000000000000000000e"
+        },
+        "0x190f965"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 4,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+          "data": "0x5ac7d17c000000000000000000000000000000000000000000000000000000000000000e"
+        },
+        "0x190f965"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 5,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+          "data": "0x062bd3e9000000000000000000000000000000000000000000000000000000000000000f"
+        },
+        "0x190f965"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 6,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+          "data": "0xdc6d7846000000000000000000000000000000000000000000000000000000000000000f"
+        },
+        "0x190f965"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 7,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+          "data": "0x38402762000000000000000000000000000000000000000000000000000000000000000f"
+        },
+        "0x190f965"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 8,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+          "data": "0x07af1568000000000000000000000000000000000000000000000000000000000000000f"
+        },
+        "0x190f965"
+      ]
+    },
+    {
+      "jsonrpc": "2.0",
+      "id": 9,
+      "method": "eth_call",
+      "params": [
+        {
+          "to": "0x003ca23fd5f0ca87d01f6ec6cd14a8ae60c2b97d",
+          "data": "0x5ac7d17c000000000000000000000000000000000000000000000000000000000000000f"
+        },
+        "0x190f965"
+      ]
+    }
+  ],
+  "observed_utc": "2026-10-26T17:30:13.387766+00:00",
+  "http_status": 500,
+  "body": [
+    {
+      "id": 0,
+      "jsonrpc": "2.0",
+      "error": {
+        "message": "Batch of more than 3 requests are not allowed on free plan, to use this feature register paid account at drpc.org",
+        "code": 31
+      }
+    },
+    {
+      "id": 1,
+      "jsonrpc": "2.0",
+      "error": {
+        "message": "Batch of more than 3 requests are not allowed on free plan, to use this feature register paid account at drpc.org",
+        "code": 31
+      }
+    },
+    {
+      "id": 2,
+      "jsonrpc": "2.0",
+      "error": {
+        "message": "Batch of more than 3 requests are not allowed on free plan, to use this feature register paid account at drpc.org",
+        "code": 31
+      }
+    },
+    {
+      "id": 3,
+      "jsonrpc": "2.0",
+      "error": {
+        "message": "Batch of more than 3 requests are not allowed on free plan, to use this feature register paid account at drpc.org",
+        "code": 31
+      }
+    },
+    {
+      "id": 4,
+      "jsonrpc": "2.0",
+      "error": {
+        "message": "Batch of more than 3 requests are not allowed on free plan, to use this feature register paid account at drpc.org",
+        "code": 31
+      }
+    },
+    {
+      "id": 5,
+      "jsonrpc": "2.0",
+      "error": {
+        "message": "Batch of more than 3 requests are not allowed on free plan, to use this feature register paid account at drpc.org",
+        "code": 31
+      }
+    },
+    {
+      "id": 6,
+      "jsonrpc": "2.0",
+      "error": {
+        "message": "Batch of more than 3 requests are not allowed on free plan, to use this feature register paid account at drpc.org",
+        "code": 31
+      }
+    },
+    {
+      "id": 7,
+      "jsonrpc": "2.0",
+      "error": {
+        "message": "Batch of more than 3 requests are not allowed on free plan, to use this feature register paid account at drpc.org",
+        "code": 31
+      }
+    },
+    {
+      "id": 8,
+      "jsonrpc": "2.0",
+      "error": {
+        "message": "Batch of more than 3 requests are not allowed on free plan, to use this feature register paid account at drpc.org",
+        "code": 31
+      }
+    },
+    {
+      "id": 9,
+      "jsonrpc": "2.0",
+      "error": {
+        "message": "Batch of more than 3 requests are not allowed on free plan, to use this feature register paid account at drpc.org",
+        "code": 31
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "url": "https://raw.githubusercontent.com/cap-labs-dev/cap-contracts/main/config/cap-infra.json",
+  "request": null,
+  "observed_utc": "2026-10-26T17:07:02.743004+00:00",
+  "http_status": 200,
+  "body": {
+    "1": {
+      "implems": {
+        "accessControl": "0x6681EB184c876D74eA3ddFaE0eCEE0C9C0f84bc1",
+        "capToken": "0xa76645E15c267b876999bf7689E0b2C1EE29BFE6",
+        "debtToken": "0xaF2084df1Ff172b1D39a94680c9b8bd42b55E20C",
+        "delegation": "0x7e2D738042376BF48bEbC49932869eAC3d7E38b5",
+        "feeAuction": "0x57e1E8e5576c5CFbBB0000Ef3f1aF24E3a452074",
+        "feeReceiver": "0xB61E527D88831f6Cb7a4C2d43be9805438ecc44F",
+        "lender": "0x68c4F03b8640C0393a832987147BaE7A0b27aaa7",
+        "oracle": "0xbFe4D64E61a3a02C4781a65FA343007de7ea9F14",
+        "stakedCap": "0x42c0e0ef7C2F35de073F4d6f9c0e4483429c3D31",
+        "chainlinkPoRAddressList": "0x69a8749544fF825741979D03e33F06edC6a66f3e",
+        "gelatoHarvester": "0x624504E11049EdD5f4754903E75D096AfceE46E3",
+        "gelatoSweeper": "0x307C0C1F1A8b3a7153842922DfF239c66f308238",
+        "vaultAdapter": "0xac9901D26c8B3f2381558BD30b3e2c7963bA471A",
+        "wrapper": "0x7925c2f66fd1Ae8663D56D70CDcc2508b1D25233"
+      },
+      "infra": {
+        "accessControl": "0x7731129a10d51e18cDE607C5C115F26503D2c683",
+        "delegation": "0xF3E3Eae671000612CE3Fd15e1019154C1a4d693F",
+        "lender": "0x15622c3dbbc5614E6DFa9446603c1779647f01FC",
+        "oracle": "0xcD7f45566bc0E7303fB92A93969BB4D3f6e662bb",
+        "harvester": "0xb90dE8357ee4f5c145c159f8e3822bA9b17BE4F1",
+        "chainlinkPoRAddressList": "0x69A22f0fc7b398e637BF830B862C75dd854b2BbF",
+        "gelatoHarvester": "0x1388B2dc1Fe408741E48145F87Fd79f01bca7e16",
+        "gelatoSweeper": "0x51da1eC8dC52F146e644F5F759D399038CCf7aB4",
+        "vaultAdapter": "0xC6504C2c918c8C17eE2F1e01AEFa43b1f27849eC",
+        "fixedPriceOracle": "0xC96d5EC90B07fe2a96253990Dc7eF2df22FDe0b3",
+        "timelock": "0xD8236031d8279d82E615aF2BFab5FC0127A329ab"
+      },
+      "libs": {
+        "aaveAdapter": "0xf4DE2D82904D528E8F0fE9c374218aE6B0A86d7e",
+        "capTokenAdapter": "0xAcc9ce4C15A0F6A2bec49C3F81261d60553D2Faf",
+        "chainlinkAdapter": "0xc850409DC3587039e87930008217B6622CC3B2E2",
+        "stakedCapAdapter": "0xdf48Eb321B38bc19E7F5b2CCA8242Cc6B9a6EcD0",
+        "lbtcAdapter": "0x7aA9896a606314335A09fE66d069d11ab50D40DF"
+      }
+    }
+  }
+}

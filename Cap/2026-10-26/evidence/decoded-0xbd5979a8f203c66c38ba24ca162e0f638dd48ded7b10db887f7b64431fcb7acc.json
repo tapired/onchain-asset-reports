@@ -1,0 +1,151 @@
+{
+  "hash": "0xbd5979a8f203c66c38ba24ca162e0f638dd48ded7b10db887f7b64431fcb7acc",
+  "status": "0x1",
+  "block": 24508330,
+  "utc": "2026-02-21T22:49:11+00:00",
+  "from": "0x444cc947a57f8fc6576abd19837b7df14c4c8e89",
+  "to": "0x888888888889758f76e7103c6cbf23abbf58f946",
+  "logs": [
+    {
+      "logIndex": 813,
+      "address": "0x545a490f9ab534adf409a2e682bc4098f49952e3",
+      "event": "Approval",
+      "params": {
+        "value": 0,
+        "owner": "0x444cc947a57f8fc6576abd19837b7df14c4c8e89",
+        "spender": "0x888888888889758f76e7103c6cbf23abbf58f946"
+      }
+    },
+    {
+      "logIndex": 814,
+      "address": "0x545a490f9ab534adf409a2e682bc4098f49952e3",
+      "event": "Transfer",
+      "params": {
+        "value": 34562847820629200371588,
+        "from": "0x444cc947a57f8fc6576abd19837b7df14c4c8e89",
+        "to": "0x06f946d590010eab6a5556ad29d9979eb1a7fa3a"
+      }
+    },
+    {
+      "logIndex": 815,
+      "address": "0x545a490f9ab534adf409a2e682bc4098f49952e3",
+      "event": "Transfer",
+      "params": {
+        "value": 34562847820629200371588,
+        "from": "0x06f946d590010eab6a5556ad29d9979eb1a7fa3a",
+        "to": "0x0000000000000000000000000000000000000000"
+      }
+    },
+    {
+      "logIndex": 816,
+      "address": "0x06f946d590010eab6a5556ad29d9979eb1a7fa3a",
+      "event": "NewInterestIndex",
+      "params": {
+        "newIndex": 1000000000000000000
+      }
+    },
+    {
+      "logIndex": 817,
+      "address": "0x3eaf6c8425b40c554099beed4dcb9f4601942fcb",
+      "event": "Transfer",
+      "params": {
+        "value": 34562847820629200371588,
+        "from": "0x06f946d590010eab6a5556ad29d9979eb1a7fa3a",
+        "to": "0x30544e00cf296b34a9ee59e5540ae2f9cccd55dd"
+      }
+    },
+    {
+      "logIndex": 818,
+      "address": "0x06f946d590010eab6a5556ad29d9979eb1a7fa3a",
+      "event": "Burn",
+      "params": {
+        "amountPYToRedeem": 34562847820629200371588,
+        "amountSyOut": 34562847820629200371588,
+        "caller": "0x888888888889758f76e7103c6cbf23abbf58f946",
+        "receiver": "0x30544e00cf296b34a9ee59e5540ae2f9cccd55dd"
+      }
+    },
+    {
+      "logIndex": 819,
+      "address": "0x888888888889758f76e7103c6cbf23abbf58f946",
+      "topics": [
+        "0x31af33f80f4b396e3d4e42b38ecd3e022883a9bf689fd63f47afbe1d389cb6e7",
+        "0x000000000000000000000000444cc947a57f8fc6576abd19837b7df14c4c8e89",
+        "0x00000000000000000000000030544e00cf296b34a9ee59e5540ae2f9cccd55dd",
+        "0x00000000000000000000000006f946d590010eab6a5556ad29d9979eb1a7fa3a"
+      ],
+      "data": "0x000000000000000000000000000000000000000000000751a7de3b0bd7847f84000000000000000000000000000000000000000000000751a7de3b0bd7847f84"
+    },
+    {
+      "logIndex": 820,
+      "address": "0x3eaf6c8425b40c554099beed4dcb9f4601942fcb",
+      "event": "Transfer",
+      "params": {
+        "value": 34562847820629200371588,
+        "from": "0x30544e00cf296b34a9ee59e5540ae2f9cccd55dd",
+        "to": "0x9eaaeda23177b7168c55a3a0f937f67919733449"
+      }
+    },
+    {
+      "logIndex": 821,
+      "address": "0x46f963c52d5fa0ad2bd1199cbc6453f0d7b9e7bd",
+      "event": "NewInterestIndex",
+      "params": {
+        "newIndex": 1000000000000000000
+      }
+    },
+    {
+      "logIndex": 822,
+      "address": "0x928fb6ed39100a92b2480f5cbb93453f98d9f4ce",
+      "event": "Transfer",
+      "params": {
+        "value": 35285470554389843990896,
+        "from": "0x9eaaeda23177b7168c55a3a0f937f67919733449",
+        "to": "0x444cc947a57f8fc6576abd19837b7df14c4c8e89"
+      }
+    },
+    {
+      "logIndex": 823,
+      "address": "0x3eaf6c8425b40c554099beed4dcb9f4601942fcb",
+      "event": "Transfer",
+      "params": {
+        "value": 11915153238275074524,
+        "from": "0x9eaaeda23177b7168c55a3a0f937f67919733449",
+        "to": "0x8270400d528c34e1596ef367eedec99080a1b592"
+      }
+    },
+    {
+      "logIndex": 824,
+      "address": "0x9eaaeda23177b7168c55a3a0f937f67919733449",
+      "event": "UpdateImpliedRate",
+      "params": {
+        "lnLastImpliedRate": 51046303057377203,
+        "timestamp": 1771714151
+      }
+    },
+    {
+      "logIndex": 825,
+      "address": "0x9eaaeda23177b7168c55a3a0f937f67919733449",
+      "event": "Swap",
+      "params": {
+        "netPtOut": 35285470554389843990896,
+        "netSyOut": -34562847820609567335621,
+        "netSyFee": 14893941547843843155,
+        "netSyToReserve": 11915153238275074524,
+        "caller": "0x888888888889758f76e7103c6cbf23abbf58f946",
+        "receiver": "0x444cc947a57f8fc6576abd19837b7df14c4c8e89"
+      }
+    },
+    {
+      "logIndex": 826,
+      "address": "0x888888888889758f76e7103c6cbf23abbf58f946",
+      "topics": [
+        "0x3f5e2944826baeaed8eb77f0f74e6088a154a0fc1317f062fd984585607b4739",
+        "0x00000000000000000000000030544e00cf296b34a9ee59e5540ae2f9cccd55dd",
+        "0x0000000000000000000000009eaaeda23177b7168c55a3a0f937f67919733449",
+        "0x000000000000000000000000444cc947a57f8fc6576abd19837b7df14c4c8e89"
+      ],
+      "data": "0x000000000000000000000000000000000000000000000778d445e6c8405ad970fffffffffffffffffffffffffffffffffffffffffffff8ae5821c4f4287b807c"
+    }
+  ]
+}

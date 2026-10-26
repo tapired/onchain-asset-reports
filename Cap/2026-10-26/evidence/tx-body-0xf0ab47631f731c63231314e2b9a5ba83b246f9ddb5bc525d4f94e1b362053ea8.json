@@ -1,0 +1,40 @@
+{
+  "url": "https://ethereum-rpc.publicnode.com",
+  "request": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "eth_getTransactionByHash",
+    "params": [
+      "0xf0ab47631f731c63231314e2b9a5ba83b246f9ddb5bc525d4f94e1b362053ea8"
+    ]
+  },
+  "observed_utc": "2026-10-26T17:11:06.213445+00:00",
+  "http_status": 200,
+  "body": {
+    "jsonrpc": "2.0",
+    "id": 1,
+    "result": {
+      "blockHash": "0xc120253b50e3cfa110fc35ef92476d4e88ee9bc5b4638a0917ed03c84f6505d9",
+      "blockNumber": "0x18fc26d",
+      "blockTimestamp": "0x6ad0e8d7",
+      "from": "0x28c6c06298d514db089934071355e5743bf21d60",
+      "gas": "0x32918",
+      "gasPrice": "0x6e2bee81",
+      "maxFeePerGas": "0x2794ca2400",
+      "maxPriorityFeePerGas": "0x3b9aca00",
+      "hash": "0xf0ab47631f731c63231314e2b9a5ba83b246f9ddb5bc525d4f94e1b362053ea8",
+      "input": "0xb61d27f6000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000044a9059cbb0000000000000000000000000d35d950fdb0741f11c4384dad15a07edb26e21a000000000000000000000000000000000000000000000000000000e8d449828000000000000000000000000000000000000000000000000000000000",
+      "nonce": "0x11dd817",
+      "to": "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055",
+      "transactionIndex": "0x25",
+      "value": "0x0",
+      "type": "0x2",
+      "accessList": [],
+      "chainId": "0x1",
+      "v": "0x1",
+      "r": "0x2b828316cacc2a395de28a7f6e229c1d954f0cd64fa4a7109c37f8d131ca521d",
+      "s": "0x3458ba75b1d03cf27e88fc6a85038290cd1b7bf2ec5ec668090147f6b2f36ede",
+      "yParity": "0x1"
+    }
+  }
+}

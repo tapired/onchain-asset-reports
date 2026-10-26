@@ -1,0 +1,148 @@
+{
+  "block": "0x1cd6433",
+  "observed_utc": "2026-10-26T17:30:34.069038+00:00",
+  "results": [
+    {
+      "label": "description",
+      "address": "0xbbc579ee0a3fd6e9240965c5f57b7e5b3e3809a8",
+      "signature": "description()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": true,
+      "raw": "0x0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000001a43617070656420737463555344202f2055534443202f20555344000000000000",
+      "decoded": [
+        "Capped stcUSD / USDC / USD"
+      ]
+    },
+    {
+      "label": "BASE_TO_USD_AGGREGATOR",
+      "address": "0xbbc579ee0a3fd6e9240965c5f57b7e5b3e3809a8",
+      "signature": "BASE_TO_USD_AGGREGATOR()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": true,
+      "raw": "0x0000000000000000000000009182acce3c6456955877c0bbe56107bc7239fe07",
+      "decoded": [
+        "0x9182acce3c6456955877c0bbe56107bc7239fe07"
+      ]
+    },
+    {
+      "label": "RATIO_PROVIDER",
+      "address": "0xbbc579ee0a3fd6e9240965c5f57b7e5b3e3809a8",
+      "signature": "RATIO_PROVIDER()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": true,
+      "raw": "0x0000000000000000000000007055a15452b19d193fba6ec2ff6bf7b515cf577d",
+      "decoded": [
+        "0x7055a15452b19d193fba6ec2ff6bf7b515cf577d"
+      ]
+    },
+    {
+      "label": "getRatio",
+      "address": "0xbbc579ee0a3fd6e9240965c5f57b7e5b3e3809a8",
+      "signature": "getRatio()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": true,
+      "raw": "0x0000000000000000000000000000000000000000000000000f15f1bcf56c04a8",
+      "decoded": [
+        1087040678953485480
+      ]
+    },
+    {
+      "label": "getSnapshotRatio",
+      "address": "0xbbc579ee0a3fd6e9240965c5f57b7e5b3e3809a8",
+      "signature": "getSnapshotRatio()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": true,
+      "raw": "0x0000000000000000000000000000000000000000000000000ec17c4960f65cdd",
+      "decoded": [
+        1063267641637362909
+      ]
+    },
+    {
+      "label": "getMaxRatio",
+      "address": "0xbbc579ee0a3fd6e9240965c5f57b7e5b3e3809a8",
+      "signature": "getMaxRatio()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": false,
+      "raw": "0x",
+      "decoded": null
+    },
+    {
+      "label": "isCapped",
+      "address": "0xbbc579ee0a3fd6e9240965c5f57b7e5b3e3809a8",
+      "signature": "isCapped()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": true,
+      "raw": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "decoded": [
+        false
+      ]
+    },
+    {
+      "label": "0x8a4aa69f694da05c042c2e59bb9a86f198361799 owners",
+      "address": "0x8a4aa69f694da05c042c2e59bb9a86f198361799",
+      "signature": "getOwners()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": true,
+      "raw": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000005000000000000000000000000e1abbf1a922718f1e2012ffe1ef32eddd466a20800000000000000000000000028b73e18f31fdb6f9b6eef8c0050e9994684b9ad000000000000000000000000c467b03aa487b5661da1a72dee053c26152f8d900000000000000000000000000a383ff8387cf07315f476d1686e95b1a97adc970000000000000000000000002ba59f8cd522ca92cac29aed47d7394d5ffb960a",
+      "decoded": [
+        [
+          "0xe1abbf1a922718f1e2012ffe1ef32eddd466a208",
+          "0x28b73e18f31fdb6f9b6eef8c0050e9994684b9ad",
+          "0xc467b03aa487b5661da1a72dee053c26152f8d90",
+          "0x0a383ff8387cf07315f476d1686e95b1a97adc97",
+          "0x2ba59f8cd522ca92cac29aed47d7394d5ffb960a"
+        ]
+      ]
+    },
+    {
+      "label": "0x8a4aa69f694da05c042c2e59bb9a86f198361799 threshold",
+      "address": "0x8a4aa69f694da05c042c2e59bb9a86f198361799",
+      "signature": "getThreshold()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": true,
+      "raw": "0x0000000000000000000000000000000000000000000000000000000000000003",
+      "decoded": [
+        3
+      ]
+    },
+    {
+      "label": "0xb8fc49402df3ee4f8587268fb89fda4d621a8793 owners",
+      "address": "0xb8fc49402df3ee4f8587268fb89fda4d621a8793",
+      "signature": "getOwners()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": true,
+      "raw": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000005000000000000000000000000dd30a4712e6b34926d4f5aa99c1881573407538c000000000000000000000000df466fa3ddd0042d990fa9a023e040884cbad4390000000000000000000000007c29f6a93df60bcd3b20f03b57a2f9e698fd412800000000000000000000000062d0b3c0a77be77eab2060266a95ffad9e6a3f51000000000000000000000000a62f87a9d4b5ee1f83cb644ea076832a396101b8",
+      "decoded": [
+        [
+          "0xdd30a4712e6b34926d4f5aa99c1881573407538c",
+          "0xdf466fa3ddd0042d990fa9a023e040884cbad439",
+          "0x7c29f6a93df60bcd3b20f03b57a2f9e698fd4128",
+          "0x62d0b3c0a77be77eab2060266a95ffad9e6a3f51",
+          "0xa62f87a9d4b5ee1f83cb644ea076832a396101b8"
+        ]
+      ]
+    },
+    {
+      "label": "0xb8fc49402df3ee4f8587268fb89fda4d621a8793 threshold",
+      "address": "0xb8fc49402df3ee4f8587268fb89fda4d621a8793",
+      "signature": "getThreshold()",
+      "args": [],
+      "block": "0x1cd6433",
+      "success": true,
+      "raw": "0x0000000000000000000000000000000000000000000000000000000000000003",
+      "decoded": [
+        3
+      ]
+    }
+  ]
+}
