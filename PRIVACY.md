@@ -12,6 +12,6 @@ This repository contains reports and supporting public-chain evidence, not the r
 
 `node scripts/privacy-check.mjs` checks Git-visible files, including untracked non-ignored files. `--staged` reads the exact staged blobs used by a commit. The check rejects common private paths, credentials, operational filenames and identifiers from an optional private local denylist. Personal denylist entries are not stored in this repository.
 
-The repository-local Git identity is anonymous and signing is disabled locally to avoid inheriting personal author or signing metadata. No commit or remote was created as part of the privacy cleanup.
+The repository-local Git identity uses the maintainer's chosen public pseudonym. Author and committer names and emails are visible in published commits; the file-content checker does not anonymize Git metadata. Signing remains disabled locally to avoid unintentionally attaching a personal signing identity.
 
 These measures remove detected identifiers, but cannot guarantee anonymity. Publishing through a personal hosting account, reusing an already-public report, screenshots, external links, future commits, or forcibly adding ignored files can still reveal identity. A Git hook is an additional check, not a security boundary.
