@@ -1,6 +1,6 @@
 # Cap cUSD / stcUSD: reserves, borrowing and funding links
 
-**Public observations: October 26, 2026, 17:06:10–17:46:25 UTC / 20:06:10–20:46:25 Europe/Istanbul.** State timestamps: Ethereum: block **26,278,245**, **17:05:59 UTC / 20:05:59 Europe/Istanbul**. MegaETH: block **30,237,747**, **17:12:38 UTC / 20:12:38 Istanbul**. Morpho source states span 17:04:59–17:05:56 UTC; 17:09:59 position queries reconcile within rounding. Retrieval times, other blocks and transaction dates are in the [evidence guide](evidence/README.md).
+**Public observations: October 26, 2026, 17:06:10–17:46:25 UTC.** State timestamps: Ethereum: block **26,278,245**, **17:05:59 UTC**. MegaETH: block **30,237,747**, **17:12:38 UTC**. Morpho source states span 17:04:59–17:05:56 UTC; 17:09:59 position queries reconcile within rounding. Retrieval times, other blocks and transaction dates are in the [evidence guide](evidence/README.md).
 
 **Executive findings.** Leveraged cUSD minting is proven, but **no closed path from Cap reserves into the external loans financing that minting was established**. The main concerns are concentration, liquidity and valuation dependencies:
 

@@ -1,6 +1,6 @@
 # Cap cUSD investigation — complete with stated limitations
 
-Completed and verified: 2026-10-26 17:48:35 UTC / 2026-10-26 20:48:35 Europe/Istanbul.
+Completed and verified: 2026-10-26 17:48:35 UTC.
 
 The bounded public-data investigation is complete. [Report](cap-cusd-investigation-2026-10-26.md), [evidence guide](evidence/README.md), [verification](evidence/validation.json), and [arithmetic checks](evidence/calculation-checks.json) are saved. No onchain transactions, publication, service changes or external messages were performed.
 
@@ -17,6 +17,6 @@ Verification: 36 successful receipts checked for status and ordered decoded logs
 
 Limits: Cap reserve frontend/API HTTP403; no loading-zero balances used. Underlying proprietary/operator credit, FalconX credit, Ondo backing, optional legal guarantees and ultimate beneficial ownership were not independently verified. Largest Aave borrower's Ethereum USDC history is bounded to 1,000 transfers; historical fund tracing is selective, not exhaustive. Dolomite residual debt against cross-collateral was not fully reconstructed. RPC failures are retained and explicitly excluded from balance conclusions. These limits qualify the conclusions; this is not a full solvency audit or proof that no undiscovered reserve loop exists.
 
-Observation blocks: Ethereum 26,278,245 (17:05:59 UTC / 20:05:59 Istanbul); MegaETH 30,237,747 (17:12:38 / 20:12:38). Full network and source times are in the report and evidence guide. Public snapshots were retrieved October 26, 17:06:10–17:46:25 UTC / 20:06:10–20:46:25 Istanbul. The request-date filename is not a substitute for these timestamps.
+Observation blocks: Ethereum 26,278,245 (17:05:59 UTC); MegaETH 30,237,747 (17:12:38 UTC). Full network and source times are in the report and evidence guide. Public snapshots were retrieved October 26, 17:06:10–17:46:25 UTC. The request-date filename is not a substitute for these timestamps.
 
 No research work remains running. Further source-of-funds or off-chain verification would be a separate expanded investigation.

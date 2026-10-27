@@ -30,5 +30,5 @@ for path in [R/'cap-cusd-investigation-2026-10-26.md',P/'README.md']:
  for h in hashes:assert json.loads((P/('decoded-'+h+'.json')).read_text())['status']=='0x1'
  checks.append(dict(file=path.name,words=len(text.split()),successful_receipt_citations=len(hashes)))
 now=datetime.datetime.now(datetime.timezone.utc)
-result=dict(verified_utc=now.isoformat(),verified_istanbul=now.astimezone(datetime.timezone(datetime.timedelta(hours=3))).isoformat(),status='passed',receipt_count=len(receipts),key_sequences='mint/stake/permanent borrowing; actual Aave onBehalf; native repayment agent; PT borrower and paired-mint receiver',documents=checks,arithmetic_file='calculation-checks.json',limitations='Checks validate these public snapshots and selected sequences, not underlying off-chain solvency or exhaustive fund provenance.')
+result=dict(verified_utc=now.isoformat(),status='passed',receipt_count=len(receipts),key_sequences='mint/stake/permanent borrowing; actual Aave onBehalf; native repayment agent; PT borrower and paired-mint receiver',documents=checks,arithmetic_file='calculation-checks.json',limitations='Checks validate these public snapshots and selected sequences, not underlying off-chain solvency or exhaustive fund provenance.')
 (P/'validation.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))

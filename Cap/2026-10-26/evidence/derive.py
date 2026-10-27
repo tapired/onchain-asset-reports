@@ -5,9 +5,10 @@ from decimal import Decimal as D
 P=Path(__file__).resolve().parent
 def read(n): return json.loads((P/(n+'.json')).read_text())
 def rows(n): return read(n)['results']
-def write(n,rs):
+def write(n,rs,lineterminator=None):
     with (P/(n+'.csv')).open('w') as f:
-        w=csv.DictWriter(f,fieldnames=list(rs[0]));w.writeheader();w.writerows(rs)
+        options={} if lineterminator is None else {'lineterminator':lineterminator}
+        w=csv.DictWriter(f,fieldnames=list(rs[0]),**options);w.writeheader();w.writerows(rs)
 def val(n,label): return next(r['decoded'][0] for r in rows(n) if r['label']==label)
 def amount(v,dec=18):return str(D(v)/D(10)**dec)
 cfg={}; agents={}; vaults={}
@@ -63,9 +64,9 @@ mega={json.loads(p.read_text())['body']['result']['transactionHash'] for p in P.
 katana={json.loads(p.read_text())['body']['result']['transactionHash'] for p in P.glob('tx-0x*.json') if 'katana' in json.loads(p.read_text()).get('url','') and json.loads(p.read_text()).get('body',{}).get('result')}
 for p in P.glob('decoded-0x*.json'):
     d=json.loads(p.read_text());assert d['status']=='0x1';assert [l['logIndex'] for l in d['logs']]==sorted(l['logIndex'] for l in d['logs'])
-    dt=datetime.datetime.fromisoformat(d['utc']);chain='MegaETH' if d['hash'] in mega else 'Katana' if d['hash'] in katana else 'Ethereum'
+    chain='MegaETH' if d['hash'] in mega else 'Katana' if d['hash'] in katana else 'Ethereum'
     domain='megaeth.blockscout.com' if chain=='MegaETH' else 'katanascan.com' if chain=='Katana' else 'etherscan.io'
-    txs.append(dict(chain=chain,hash=d['hash'],block=d['block'],utc=d['utc'],istanbul=dt.astimezone(datetime.timezone(datetime.timedelta(hours=3))).isoformat(),status=d['status'],sender=d['from'],to=d['to'],explorer='https://'+domain+'/tx/'+d['hash'],evidence=p.name))
-txs.sort(key=lambda x:x['utc']);write('verified-transactions',txs)
+    txs.append(dict(chain=chain,hash=d['hash'],block=d['block'],utc=d['utc'],status=d['status'],sender=d['from'],to=d['to'],explorer='https://'+domain+'/tx/'+d['hash'],evidence=p.name))
+txs.sort(key=lambda x:x['utc']);write('verified-transactions',txs,lineterminator='\n')
 summary=dict(native_count=len(native),native_total=str(total),native_top1_pct=str(D(native[0]['usdc_debt'])/total*100),native_top3_pct=str(sum(D(r['usdc_debt']) for r in native[:3])/total*100),aave_stc_backed_usdm_debt=str(stcdebt),aave_top_usdm_supplier_pct=str(D('5959189.937666596365153856')/D('6480174.975852717843805137')*100),aave_top_usdm_borrower_pct=str(D('5967570.916531551217216063')/D('5997096.356696706907849542')*100),external_pawn_plus_aave_stc_debt=str(stcdebt+D('6056474.165347')),pawn_parent_exposure_pct=str(D('6038311.770369')/D('18505494.346401')*100),pawn_price_drop_to_lt_pct=str((1-D('0.871488000199616865')/D('0.915'))*100),morpho_markets=len(markets),morpho_small_markets_debt_usd=sum(m['state']['borrowAssetsUsd'] or 0 for m in markets if (m['state']['borrowAssetsUsd'] or 0)<100),verified_receipts=len(txs))
 (P/'calculation-checks.json').write_text(json.dumps(summary,indent=2)+'\n');print(json.dumps(summary,indent=2))

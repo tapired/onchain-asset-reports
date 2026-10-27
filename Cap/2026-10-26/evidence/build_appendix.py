@@ -54,17 +54,17 @@ This appendix supports [the concise report](../cap-cusd-investigation-2026-10-26
 
 **Observation times and source dates**
 
-| State | Block | UTC | Europe/Istanbul |
-|---|---:|---|---|
-| Ethereum reserve, native loans, Pawn, holders | 26,278,245 | 2026-10-26 17:05:59 | 2026-10-26 20:05:59 |
-| MegaETH Aave, remote tokens | 30,237,747 | 2026-10-26 17:12:38 | 2026-10-26 20:12:38 |
-| Katana token/adapter RPC reads | 46,291,948 | 2026-10-26 17:12:39 | 2026-10-26 20:12:39 |
-| Tempo token RPC reads | 46,008,317 | 2026-10-26 17:12:38 | 2026-10-26 20:12:38 |
-| Morpho Katana market state | 46,291,545 | 2026-10-26 17:05:56 | 2026-10-26 20:05:56 |
-| Morpho July PT-cUSD Ethereum | 26,278,244 | 2026-10-26 17:05:47 | 2026-10-26 20:05:47 |
-| Morpho January PT-stcUSD Ethereum | 26,278,240 | 2026-10-26 17:04:59 | 2026-10-26 20:04:59 |
+| State | Block | UTC |
+|---|---:|---|
+| Ethereum reserve, native loans, Pawn, holders | 26,278,245 | 2026-10-26 17:05:59 |
+| MegaETH Aave, remote tokens | 30,237,747 | 2026-10-26 17:12:38 |
+| Katana token/adapter RPC reads | 46,291,948 | 2026-10-26 17:12:39 |
+| Tempo token RPC reads | 46,008,317 | 2026-10-26 17:12:38 |
+| Morpho Katana market state | 46,291,545 | 2026-10-26 17:05:56 |
+| Morpho July PT-cUSD Ethereum | 26,278,244 | 2026-10-26 17:05:47 |
+| Morpho January PT-stcUSD Ethereum | 26,278,240 | 2026-10-26 17:04:59 |
 
-Morpho positions carry timestamp 17:09:59 UTC / 20:09:59 Istanbul; their summed balances match the earlier market states to rounding. They are indexed accounting balances, not a fresh transaction applying interest to every market. Source observation times must not be confused with historical transaction times. The request-date filename does not override these dates.
+Morpho positions carry timestamp 17:09:59 UTC; their summed balances match the earlier market states to rounding. They are indexed accounting balances, not a fresh transaction applying interest to every market. Source observation times must not be confused with historical transaction times. The request-date filename does not override these dates.
 
 Cap documentation was fetched October 26 beginning 17:06 UTC; pages do not supply a reliable revision date. [Yearn's own Cap assessment](https://github.com/yearn/risk-score/blob/master/reports/report/cap-stcusd.md) says updated October 13, 2026; its earlier numbers were leads, not substituted for current calls. Symbiotic metadata was pinned to commit `ab506ae68f7e165d460df21244ec3bbe0646e458`. Aave's address book was fetched October 26 and checked against live deployed state. All primary URL/retrieval metadata are indexed in [source-index.csv](source-index.csv).
 
@@ -141,14 +141,14 @@ The stcUSD holders `0xf0bb20865277abd641a307ece5ee04e79073416c`, `0x5f46d540b6ed
 
 **Verified transaction ledger**
 
-Every row has receipt status `0x1`, an exact block/time and ordered logs. Explorer links contain the complete hash; [verified-transactions.csv](verified-transactions.csv) provides unabridged hashes and UTC/Istanbul dates. `decoded-<hash>.json` identifies actual event caller, borrower/onBehalf/receiver and canonical token emitter. `tx-`, `tx-body-`, and `tx-block-` files retain raw evidence. No zero-value spam is used as a funding link.
+Every row has receipt status `0x1`, an exact block/time and ordered logs. Explorer links contain the complete hash; [verified-transactions.csv](verified-transactions.csv) provides unabridged hashes and UTC dates. `decoded-<hash>.json` identifies actual event caller, borrower/onBehalf/receiver and canonical token emitter. `tx-`, `tx-body-`, and `tx-block-` files retain raw evidence. No zero-value spam is used as a funding link.
 
 '''
 txs=csvread('verified-transactions')
 for r in txs:
  prefix=r['hash'][2:10]
  if prefix not in notes:continue
- text+=f"- **{r['utc']} UTC; {r['istanbul']} Istanbul; {r['chain']} block {int(r['block']):,}.** [{r['hash']}]({r['explorer']}) — {notes[prefix]}\n\n"
+ text+=f"- **{r['utc']} UTC; {r['chain']} block {int(r['block']):,}.** [{r['hash']}]({r['explorer']}) — {notes[prefix]}\n\n"
 text+='''**Funding and ownership limits**
 
 Safe `0x97f478562cfc6e4c88b125bac83f2ad83a203d8e` is currently 2-of-3 and holds 1,971,728.253414 stcUSD. Signer `0x7c29f6a93df60bcd3b20f03b57a2f9e698fd4128` also appears in Cap developer Safe `0xb8fc49402df3ee4f8587268fb89fda4d621a8793` and token-owner Safe `0x80a216738e4e49b262deae6beb6578bdf164c2ea`, each currently 3-of-5. Owner lists were verified both at the May 19 transaction block and at the main snapshot. One signer cannot alone satisfy these thresholds. These facts establish a governance/funding connection, not common control, beneficial ownership or an issuer-financed collateral loan.

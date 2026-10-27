@@ -1,6 +1,6 @@
 # 3Jane USD3 / sUSD3: leverage, borrowers and funding links
 
-**Checked October 23, 2026, Istanbul time.** API observations are approximately October 22, 22:19-22:35 UTC. Current balances and historical transaction examples are distinguished below. Amounts are USDC unless a token quantity is specified.
+**Checked October 22, 2026, 22:19-22:35 UTC.** Current balances and historical transaction examples are distinguished below. Amounts are USDC unless a token quantity is specified.
 
 ## Bottom line
 
