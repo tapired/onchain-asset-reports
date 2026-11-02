@@ -22,6 +22,12 @@ Research requested October 26, 2026: https://cap.app/vault/reserves/cUSD
 - [Evidence guide and transaction ledger](Cap/2026-10-26/evidence/README.md)
 - [Research status and limitations](Cap/2026-10-26/STATUS.md)
 
+## Yearn
+
+- [JOC vault and strategy access-control investigation](yearn/access-control-investigation-strategies.md)
+- [JOC strategy auction investigation](yearn/access-control-investigation-auctions.md)
+- [Evidence notes](yearn/README.md)
+
 ## Privacy and Verification
 
 Reports are dated snapshots, not live monitoring or full solvency audits. Operational logs, machine details and personal download metadata are excluded. Some evidence has been privacy-redacted; see [PRIVACY.md](PRIVACY.md) before treating files as byte-for-byte original API responses.
